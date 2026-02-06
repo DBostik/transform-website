@@ -1,0 +1,155 @@
+---
+/**
+ * PopupForm Component
+ * 
+ * Integrates HighLevel popup form with custom styling
+ * to match the Transform Personal Training design system.
+ */
+---
+
+<!-- Popup Form Container -->
+<div id="popup-form-overlay" class="popup-overlay">
+  <div class="popup-container">
+    <button id="close-popup" class="popup-close" aria-label="Close form">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+    
+    <div class="popup-content">
+      <iframe
+        src="https://api.leadconnectorhq.com/widget/form/qXzxX9rUnMDpX0jgk5RU"
+        class="popup-iframe"
+        id="inline-qXzxX9rUnMDpX0jgk5RU" 
+        data-layout="{'id':'INLINE'}"
+        data-trigger-type="alwaysShow"
+        data-trigger-value=""
+        data-activation-type="alwaysActivated"
+        data-activation-value=""
+        data-deactivation-type="neverDeactivate"
+        data-deactivation-value=""
+        data-form-name="Transform Website Opt-in"
+        data-height="619"
+        data-layout-iframe-id="inline-qXzxX9rUnMDpX0jgk5RU"
+        data-form-id="qXzxX9rUnMDpX0jgk5RU"
+        title="Transform Website Opt-in"
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+<style>
+  .popup-overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    z-index: 9999;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    backdrop-filter: blur(4px);
+  }
+
+  .popup-overlay.active {
+    display: flex;
+  }
+
+  .popup-container {
+    position: relative;
+    background: white;
+    border-radius: 1rem;
+    max-width: 600px;
+    width: 100%;
+    max-height: 90vh;
+    overflow: hidden;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+    animation: slideUp 0.3s ease-out;
+  }
+
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .popup-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    z-index: 10;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--color-black-600);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: all 0.2s;
+  }
+
+  .popup-close:hover {
+    background: var(--color-black-100);
+    color: var(--color-black-900);
+    transform: scale(1.1);
+  }
+
+  .popup-content {
+    padding: 1rem;
+    overflow-y: auto;
+    max-height: calc(90vh - 2rem);
+  }
+
+  .popup-iframe {
+    width: 100%;
+    min-height: 619px;
+    border: none;
+    border-radius: 0.5rem;
+  }
+</style>
+
+<script>
+  // Popup form functionality
+  const popupOverlay = document.getElementById('popup-form-overlay');
+  const closeButton = document.getElementById('close-popup');
+
+  // Show popup after 5 seconds (DISABLED - uncomment to re-enable)
+  // setTimeout(() => {
+  //   if (popupOverlay) {
+  //     popupOverlay.classList.add('active');
+  //   }
+  // }, 5000);
+
+  // Close popup when clicking close button
+  closeButton?.addEventListener('click', () => {
+    if (popupOverlay) {
+      popupOverlay.classList.remove('active');
+    }
+  });
+
+  // Close popup when clicking outside
+  popupOverlay?.addEventListener('click', (e) => {
+    if (e.target === popupOverlay) {
+      popupOverlay.classList.remove('active');
+    }
+  });
+
+  // Close popup on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && popupOverlay?.classList.contains('active')) {
+      popupOverlay.classList.remove('active');
+    }
+  });
+</script>
+
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>

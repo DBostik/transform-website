@@ -1,0 +1,56 @@
+---
+/**
+ * Service Card Component
+ * 
+ * Displays a service offering with icon, title, description, features list, and CTA link.
+ * Features blue gradient icon and blue checkmarks (primary brand color).
+ * 
+ * Props:
+ * - title: Service title
+ * - description: Service description
+ * - features: Array of feature strings
+ * - icon: Icon name or emoji
+ * - linkText: CTA link text (default: "Learn More →")
+ * - linkHref: CTA link URL
+ */
+
+interface Props {
+  title: string;
+  description: string;
+  features: string[];
+  icon: string;
+  linkText?: string;
+  linkHref: string;
+}
+
+const { 
+  title, 
+  description, 
+  features, 
+  icon, 
+  linkText = 'Learn More →', 
+  linkHref 
+} = Astro.props;
+---
+
+<div class="card-service">
+  <div class="card-service-icon">
+    {icon}
+  </div>
+  
+  <h3 class="card-service-title">{title}</h3>
+  
+  <p class="card-service-description">{description}</p>
+  
+  {features && features.length > 0 && (
+    <ul class="card-service-features">
+      {features.map((feature) => (
+        <li>{feature}</li>
+      ))}
+    </ul>
+  )}
+  
+  <a href={linkHref} class="card-service-link">
+    {linkText}
+  </a>
+</div>

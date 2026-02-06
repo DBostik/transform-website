@@ -1,0 +1,366 @@
+---
+/**
+ * Navigation Header Component
+ * 
+ * Main site navigation with logo, menu links, and CTA button.
+ * Features responsive mobile menu, dropdown support, and blue primary color accents.
+ * 
+ * Props:
+ * - currentPath: Current page path for active link highlighting
+ */
+
+interface Props {
+  currentPath?: string;
+}
+
+const { currentPath = '/' } = Astro.props;
+
+interface NavItem {
+  label: string;
+  href: string;
+  children?: { label: string; href: string }[];
+}
+
+const navLinks: NavItem[] = [
+  { label: 'Studio Services', href: '/studio-services' },
+  { label: 'Online Training', href: '/online-training' },
+  { label: 'Success Stories', href: '/success-stories' },
+  { 
+    label: 'Team', 
+    href: '/meet-the-team',
+    children: [
+      { label: 'Meet the Team', href: '/meet-the-team' },
+      { label: 'Join the Team', href: '/join-the-team' }
+    ]
+  },
+  { label: 'Blog', href: '/blog' },
+  { label: 'Contact', href: '/contact' },
+];
+---
+
+<header style="background-color: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); position: sticky; top: 0; z-index: 1000;">
+  <nav class="container" style="display: flex; align-items: center; justify-content: space-between; padding-top: 1rem; padding-bottom: 1rem;">
+    <!-- Logo -->
+    <a href="/" style="display: flex; align-items: center; text-decoration: none;">
+      <img 
+        src="/images/logo.jpg" 
+        alt="Transform Personal Training" 
+        style="height: 4.5rem; width: auto;"
+      />
+    </a>
+    
+    <!-- Desktop Navigation -->
+    <div class="desktop-nav" style="display: none;">
+      <ul style="display: flex; gap: 2rem; list-style: none; margin: 0; padding: 0; align-items: center;">
+        {navLinks.map((link) => (
+          <li class={link.children ? 'dropdown-parent' : ''} style="position: relative;">
+            <a 
+              href={link.href}
+              class="nav-link"
+              style={`
+                font-family: var(--font-heading);
+                font-weight: 600;
+                font-size: 0.9375rem;
+                color: ${currentPath.startsWith(link.href) && link.href !== '/' ? 'var(--color-primary-600)' : 'var(--color-black-700)'};
+                text-decoration: none;
+                transition: color var(--transition-fast);
+                display: flex;
+                align-items: center;
+                gap: 0.25rem;
+                padding: 0.5rem 0;
+              `}
+            >
+              {link.label}
+              {link.children && (
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M6 9l6 6 6-6"/>
+                </svg>
+              )}
+            </a>
+            
+            {link.children && (
+              <ul class="dropdown-menu">
+                {link.children.map((child) => (
+                  <li>
+                    <a href={child.href} class={currentPath === child.href ? 'active' : ''}>
+                      {child.label}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+        <li>
+          <a 
+            href="tel:+13126355139"
+            style="
+              display: inline-flex;
+              align-items: center;
+              gap: 0.5rem;
+              padding: 0.75rem 1.5rem;
+              font-family: var(--font-heading);
+              font-weight: 700;
+              font-size: 0.9375rem;
+              color: white;
+              background-color: var(--color-primary-500);
+              border-radius: 0.5rem;
+              text-decoration: none;
+              transition: all var(--transition-base);
+            "
+            class="call-btn"
+          >
+            📞 (312) 635-5139
+          </a>
+        </li>
+      </ul>
+    </div>
+    
+    <!-- Mobile Menu Button -->
+    <button 
+      id="mobile-menu-button"
+      class="mobile-menu-btn"
+      style="
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 2.5rem;
+        height: 2.5rem;
+        background: none;
+        border: none;
+        color: var(--color-black-900);
+        cursor: pointer;
+      "
+      aria-label="Toggle menu"
+    >
+      <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <line x1="3" y1="6" x2="21" y2="6"></line>
+        <line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+  </nav>
+  
+  <!-- Mobile Menu (Hidden by default) -->
+  <div 
+    id="mobile-menu"
+    class="mobile-menu"
+  >
+    <div class="container">
+      <ul style="list-style: none; margin: 0; padding: 0;">
+        {navLinks.map((link) => (
+          <li style="margin-bottom: 0.5rem;">
+            {link.children ? (
+              <div class="mobile-dropdown">
+                <span 
+                  class="mobile-nav-link dropdown-toggle"
+                  style={`color: ${currentPath.startsWith(link.href) ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
+                >
+                  {link.label}
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M6 9l6 6 6-6"/>
+                  </svg>
+                </span>
+                <ul class="mobile-dropdown-list">
+                  {link.children.map((child) => (
+                    <li>
+                      <a 
+                        href={child.href}
+                        class="mobile-nav-link sub-link"
+                        style={`color: ${currentPath === child.href ? 'var(--color-primary-600)' : 'var(--color-black-600)'}`}
+                      >
+                        {child.label}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            ) : (
+              <a 
+                href={link.href}
+                class="mobile-nav-link"
+                style={`color: ${currentPath === link.href ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
+              >
+                {link.label}
+              </a>
+            )}
+          </li>
+        ))}
+        <li style="margin-top: 1rem; padding: 0 1rem;">
+          <a 
+            href="tel:+13126355139"
+            class="mobile-call-btn"
+          >
+            📞 (312) 635-5139
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<style>
+  /* Dropdown Styles */
+  .dropdown-parent:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%) translateY(10px);
+    background: white;
+    min-width: 200px;
+    padding: 0.5rem 0;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    z-index: 100;
+  }
+
+  .dropdown-menu::before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid white;
+  }
+
+  .dropdown-menu li {
+    display: block;
+  }
+
+  .dropdown-menu a {
+    display: block;
+    padding: 0.75rem 1.5rem;
+    color: var(--color-black-700);
+    text-decoration: none;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    transition: all 0.2s;
+    white-space: nowrap;
+  }
+
+  .dropdown-menu a:hover,
+  .dropdown-menu a.active {
+    background-color: var(--color-primary-50);
+    color: var(--color-primary-600);
+  }
+
+  /* Show desktop nav on larger screens */
+  @media (min-width: 900px) {
+    .desktop-nav {
+      display: block !important;
+    }
+    .mobile-menu-btn {
+      display: none !important;
+    }
+  }
+
+  /* Mobile Styles */
+  .mobile-menu {
+    display: none;
+    background-color: white;
+    border-top: 1px solid var(--color-black-200);
+    padding: 1rem 0;
+  }
+
+  .mobile-nav-link {
+    display: block;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    transition: background-color var(--transition-fast);
+  }
+
+  .mobile-nav-link:hover {
+    background-color: var(--color-black-50);
+  }
+
+  .dropdown-toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .mobile-dropdown-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-black-50);
+    border-radius: 0.5rem;
+    margin: 0 1rem;
+    display: none;
+  }
+
+  .mobile-dropdown.open .mobile-dropdown-list {
+    display: block;
+  }
+
+  .mobile-dropdown.open .dropdown-toggle svg {
+    transform: rotate(180deg);
+  }
+
+  .sub-link {
+    padding-left: 1.5rem;
+    font-size: 0.9375rem;
+  }
+
+  .mobile-call-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: white;
+    background-color: var(--color-primary-500);
+    border-radius: 0.5rem;
+    text-decoration: none;
+  }
+
+  /* Hover Effects */
+  .nav-link:hover {
+    color: var(--color-primary-600) !important;
+  }
+  
+  .call-btn:hover {
+    background-color: var(--color-primary-600);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+</style>
+
+<script>
+  // Mobile menu toggle
+  const menuButton = document.getElementById('mobile-menu-button');
+  const mobileMenu = document.getElementById('mobile-menu');
+  
+  menuButton?.addEventListener('click', () => {
+    const isOpen = mobileMenu?.style.display === 'block';
+    if (mobileMenu) {
+      mobileMenu.style.display = isOpen ? 'none' : 'block';
+    }
+  });
+
+  // Mobile Dropdown Toggle
+  const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
+  dropdownToggles.forEach(toggle => {
+    toggle.addEventListener('click', () => {
+      const parent = toggle.closest('.mobile-dropdown');
+      parent?.classList.toggle('open');
+    });
+  });
+</script>

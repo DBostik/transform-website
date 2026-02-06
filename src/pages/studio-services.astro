@@ -1,0 +1,470 @@
+---
+/**
+ * Transform Personal Training - Studio Services Page
+ * 
+ * Showcases in-person training options with pricing tiers
+ */
+
+import Button from '../components/ui/Button.astro';
+import PricingCard from '../components/ui/PricingCard.astro';
+import FormInput from '../components/ui/FormInput.astro';
+import FormTextarea from '../components/ui/FormTextarea.astro';
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Studio Services - Transform Personal Training";
+const pageDescription = "Private personal training in Lakeview, Chicago. 30-minute customized sessions with flexible pricing. One-on-one, pre-wedding specials, and small group training available.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/src/styles/design-tokens.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/studio-services" />
+  
+  <!-- ===== COMPACT HEADER ===== -->
+  <!-- ===== HERO SECTION ===== -->
+  <section class="services-hero">
+    <div class="services-hero__content container">
+      <span class="services-hero__badge">Studio Training</span>
+      <h1 class="services-hero__title">PRIVATE TRAINING</h1>
+      <p class="services-hero__subtitle">
+        30-minute personalized sessions designed to fit your busy schedule.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== PRICING SECTION ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Choose Your Training Plan</h2>
+        <p class="section-subtitle">
+          Flexible pricing based on your commitment level. All plans include personalized workouts, nutrition guidance, and daily support.
+        </p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 4rem;">
+        <PricingCard
+          title="One-on-One Training"
+          icon="🏋️"
+          tiers={[
+            { frequency: '2x per week', price: '$55/session' },
+            { frequency: '3x per week', price: '$50/session' },
+            { frequency: '4x per week', price: '$45/session' }
+          ]}
+          features={[
+            'Private 1-on-1 attention',
+            'Fully customized workouts',
+            'Flexible scheduling',
+            'Personalized nutrition plan'
+          ]}
+          highlighted={true}
+          badge="Most Popular"
+        />
+        
+        <PricingCard
+          title="Pre-Wedding Special"
+          icon="💍"
+          tiers={[
+            { frequency: '2x per week', price: '$80/session' },
+            { frequency: '3x per week', price: '$70/session' },
+            { frequency: '4x per week', price: '$60/session' }
+          ]}
+          features={[
+            'Accelerated results program',
+            'Wedding-focused goals',
+            'Priority scheduling',
+            'Enhanced nutrition support'
+          ]}
+        />
+        
+        <PricingCard
+          title="Group Max 3"
+          icon="👥"
+          tiers={[
+            { frequency: '2x per week', price: '$42.50/session' },
+            { frequency: '3x per week', price: '$37.50/session' },
+            { frequency: '4x per week', price: '$32.50/session' }
+          ]}
+          features={[
+            'Small group (max 3 people)',
+            'Cost-effective training',
+            'Social motivation',
+            'Personalized within group'
+          ]}
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== KEY FEATURES ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What's Included</h2>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <!-- Feature 1 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            ⏱️
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            30-Minute Sessions
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Efficient, high-intensity workouts designed to maximize results in minimal time. Perfect for busy professionals.
+          </p>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            🎯
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            Private & Personalized
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Every workout is tailored specifically to your fitness level, goals, and any physical limitations or preferences.
+          </p>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            🍎
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            Integrated Nutrition
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Customized meal plans and nutrition guidance included with all programs to accelerate your transformation.
+          </p>
+        </div>
+        
+        <!-- Feature 4 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            📍
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            Lakeview Location
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Conveniently located in Lakeview, right on the border of Lincoln Park. Just minutes from anywhere in the city.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT HAPPENS FIRST ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What Happens First?</h2>
+        <p class="section-subtitle">
+          Come spend about 30 minutes with one of our team members sharing your background, your goals, and what has you interested in working with a personal trainer. Hear about the trainer's experience and how our program might work for you.
+        </p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
+        <!-- Step 1 -->
+        <div style="text-align: center;">
+          <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
+            1
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 0.75rem;">
+            Free Consultation
+          </h3>
+          <p style="color: var(--color-black-600); font-size: 0.9375rem; line-height: 1.5;">
+            Meet with a trainer to discuss your goals and experience
+          </p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div style="text-align: center;">
+          <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
+            2
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 0.75rem;">
+            Custom Plan
+          </h3>
+          <p style="color: var(--color-black-600); font-size: 0.9375rem; line-height: 1.5;">
+            Get a personalized fitness and nutrition plan tailored to you
+          </p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div style="text-align: center;">
+          <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
+            3
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 0.75rem;">
+            Start Training
+          </h3>
+          <p style="color: var(--color-black-600); font-size: 0.9375rem; line-height: 1.5;">
+            Begin your transformation journey with expert guidance
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== IMPORTANT DETAILS ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Important Details</h2>
+        <p class="section-subtitle">
+          Everything you need to know about how our training programs work
+        </p>
+      </div>
+      
+      <div style="max-width: 900px; margin: 3rem auto 0; display: flex; flex-direction: column; gap: 2rem;">
+        <!-- Payment Details -->
+        <div class="card">
+          <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+            <div style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 0.75rem; color: white; font-size: 1.5rem; flex-shrink: 0;">
+              💳
+            </div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-black-900); margin: 0;">
+              Payment Details
+            </h3>
+          </div>
+          <p style="color: var(--color-black-700); line-height: 1.7; font-size: 1rem;">
+            Payment is made in advance on a monthly basis. We accept Visa, MasterCard, and Discover which will be used for auto-debit transactions monthly for amounts determined by the number of sessions in the chosen package.
+          </p>
+        </div>
+
+        <!-- Training Details -->
+        <div class="card">
+          <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+            <div style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 0.75rem; color: white; font-size: 1.5rem; flex-shrink: 0;">
+              📋
+            </div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-black-900); margin: 0;">
+              Training Details
+            </h3>
+          </div>
+          <p style="color: var(--color-black-700); line-height: 1.7; font-size: 1rem;">
+            Each client will choose a Studio Services package for 2, 3, or 4 sessions per week at the current published rates. The client may change the number of sessions prior to each month's credit card debit. Training sessions are 30-minute periods as indicated on our scheduling calendar. Rescheduled sessions must be taken within the same billing cycle and cannot be carried over to the next.
+          </p>
+        </div>
+
+        <!-- Cancellation Policy -->
+        <div class="card">
+          <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
+            <div style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 0.75rem; color: white; font-size: 1.5rem; flex-shrink: 0;">
+              ⚠️
+            </div>
+            <h3 style="font-family: var(--font-heading); font-size: 1.5rem; font-weight: 700; color: var(--color-black-900); margin: 0;">
+              Cancellations
+            </h3>
+          </div>
+          <div style="color: var(--color-black-700); line-height: 1.7; font-size: 1rem;">
+            <ul style="margin: 0; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+              <li><strong>Package Cancellation:</strong> A 30-day notice is required to cancel any training package.</li>
+              <li><strong>Session Cancellation:</strong> A 24-hour notice is required to cancel a training session. Shorter notice periods will result in a charge for the missed session.</li>
+              <li><strong>No-Show Policy:</strong> A 'no-show' missed session will result in a charge.</li>
+              <li><strong>Lateness:</strong> Lateness to any session of more than 10 minutes will result in a cancellation and a charge.</li>
+              <li><strong>Medical Form:</strong> TRANSFORM requires all clients to sign a medical form attesting to their physical condition for personal training.</li>
+              <li><strong>Policy Changes:</strong> TRANSFORM reserves the right to change any of these policies without notice, including rate structures.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONSULTATION FORM ===== -->
+  <section id="consultation" style="position: relative; background-image: url('/images/form-background.png'); background-size: cover; background-position: center; padding: 3rem 0;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.55));"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 600px; margin: 0 auto;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: white; margin-bottom: 0.75rem;">
+            Request a Complimentary Consultation
+          </h2>
+          <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem;">
+            Take the first step towards your fitness goals. We'll respond within 24 hours.
+          </p>
+        </div>
+        
+        <form style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
+          <FormInput
+            label="Full Name"
+            name="name"
+            type="text"
+            placeholder="John Doe"
+            required={true}
+          />
+          
+          <FormInput
+            label="Email Address"
+            name="email"
+            type="email"
+            placeholder="john@example.com"
+            required={true}
+          />
+          
+          <FormInput
+            label="Phone Number"
+            name="phone"
+            type="tel"
+            placeholder="(312) 555-0123"
+            required={true}
+          />
+          
+          <FormTextarea
+            label="Tell us about your fitness goals"
+            name="message"
+            placeholder="I'm interested in..."
+            rows={4}
+          />
+          
+          <div style="margin-bottom: 1.5rem;">
+            <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
+              <input type="checkbox" required style="margin-top: 0.25rem;">
+              <span style="font-size: 0.875rem; color: var(--color-black-600);">
+                I consent to be contacted by Transform Personal Training regarding my inquiry.
+              </span>
+            </label>
+          </div>
+          
+          <Button variant="primary" type="submit" class="w-full" style="width: 100%;">
+            Request Free Consultation
+          </Button>
+          
+          <p style="text-align: center; font-size: 0.875rem; color: var(--color-black-500); margin-top: 1rem;">
+            We'll respond within 24 hours to schedule your free session.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <!-- ===== FOOTER ===== -->
+  <Footer />
+  
+  <!-- ===== POPUP FORM ===== -->
+  <PopupForm />
+</body>
+<style>
+  /* ===== HERO SECTION ===== */
+  .services-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .services-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  
+  .services-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .services-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .services-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .services-hero__subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ===== SECTION STYLES ===== */
+  .section {
+    padding: 5rem 0;
+  }
+  
+  .section-header {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto 3rem;
+  }
+  
+  .section-title {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--color-primary-900);
+    margin-bottom: 1rem;
+  }
+  
+  .section-subtitle {
+    font-size: 1.125rem;
+    color: var(--color-black-600);
+    line-height: 1.6;
+  }
+  
+  .card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+</style>
+</html>

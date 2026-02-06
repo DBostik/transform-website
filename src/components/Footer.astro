@@ -1,0 +1,112 @@
+---
+import FooterLogo from './FooterLogo.astro';
+---
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <!-- Column 1: Logo & Info -->
+      <div>
+        <FooterLogo />
+        <p class="footer-tagline">
+          Chicago's premier personal training studio in Lakeview.
+        </p>
+      </div>
+      
+      <!-- Column 2: Quick Links -->
+      <div>
+        <h4 class="footer-heading">Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="/studio-services">Studio Services</a></li>
+          <li><a href="/online-training">Online Training</a></li>
+          <li><a href="/success-stories">Success Stories</a></li>
+          <li><a href="/meet-the-team">Meet the Team</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 3: Contact Info -->
+      <div>
+        <h4 class="footer-heading">Contact Us</h4>
+        <p class="footer-contact">
+          📍 2900 N Broadway St<br>
+          Chicago, IL 60657
+        </p>
+        <p class="footer-contact">
+          📞 (312) 635-5139
+        </p>
+        <p class="footer-contact">
+          ✉️ contact@transformfitcoach.com
+        </p>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>© 2026 Transform Personal Training. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .footer {
+    background-color: var(--color-black-900);
+    color: white;
+    padding: 3rem 0 1.5rem;
+  }
+  
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .footer-tagline {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    line-height: 1.6;
+  }
+  
+  .footer-heading {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-links a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    font-size: 0.875rem;
+    transition: color 0.2s;
+  }
+  
+  .footer-links a:hover {
+    color: white;
+  }
+  
+  .footer-contact {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 1.5rem;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.875rem;
+  }
+</style>

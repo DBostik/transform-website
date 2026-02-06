@@ -1,0 +1,73 @@
+---
+/**
+ * Form Input Component
+ * 
+ * Reusable form input with label, error state, and helper text.
+ * Features blue focus state (primary brand color).
+ * 
+ * Props:
+ * - label: Input label text
+ * - name: Input name attribute
+ * - type: Input type (default: 'text')
+ * - placeholder: Placeholder text
+ * - required: Whether input is required
+ * - error: Error message to display
+ * - helper: Helper text to display
+ * - value: Input value
+ */
+
+interface Props {
+  label: string;
+  name: string;
+  type?: 'text' | 'email' | 'tel' | 'number' | 'password' | 'url';
+  placeholder?: string;
+  required?: boolean;
+  error?: string;
+  helper?: string;
+  value?: string;
+}
+
+const { 
+  label, 
+  name, 
+  type = 'text', 
+  placeholder, 
+  required = false,
+  error,
+  helper,
+  value
+} = Astro.props;
+
+const inputId = `input-${name}`;
+---
+
+<div class="form-group">
+  <label for={inputId} class="form-label">
+    {label}
+    {required && <span class="text-error">*</span>}
+  </label>
+  
+  <input
+    id={inputId}
+    name={name}
+    type={type}
+    class="form-input"
+    placeholder={placeholder}
+    required={required}
+    value={value}
+    aria-describedby={error ? `${inputId}-error` : helper ? `${inputId}-helper` : undefined}
+    aria-invalid={error ? 'true' : 'false'}
+  />
+  
+  {error && (
+    <span id={`${inputId}-error`} class="form-error" role="alert">
+      {error}
+    </span>
+  )}
+  
+  {!error && helper && (
+    <span id={`${inputId}-helper`} class="form-helper">
+      {helper}
+    </span>
+  )}
+</div>

@@ -1,0 +1,225 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import PopupForm from '../components/PopupForm.astro';
+
+interface Props {
+  post: CollectionEntry<'blog'>;
+}
+
+const { post } = Astro.props;
+const { title, description, image, date, author, category } = post.data;
+const { Content } = await post.render();
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{title} - Transform Blog</title>
+  <meta name="description" content={description}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/src/styles/design-tokens.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+
+<body>
+  <Navigation currentPath="/blog" />
+  
+  <article>
+    <!-- Post Header -->
+    <header class="post-header">
+      <div class="container">
+        <a href="/blog" class="back-link">← Back to Blog</a>
+        <div class="header-content">
+          <span class="category-badge">{category}</span>
+          <h1 class="post-title">{title}</h1>
+          <div class="post-meta">
+            <span class="date">{date}</span>
+            <span class="separator">•</span>
+            <span class="author">By {author}</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-image-wrapper container">
+        <img src={image} alt={title} class="hero-image" />
+      </div>
+    </header>
+
+    <!-- Post Content -->
+    <div class="container">
+      <div class="post-content prose">
+        <Content />
+      </div>
+      
+      <!-- Share/Subscribe (Optional) -->
+      <div class="post-footer">
+        <hr />
+        <p>Ready to start your own transformation? <a href="/contact">Book a free consultation today.</a></p>
+      </div>
+    </div>
+  </article>
+
+  <Footer />
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  .post-header {
+    background: var(--color-black-50);
+    padding-top: 3rem;
+  }
+  
+  .back-link {
+    display: inline-block;
+    color: var(--color-black-600);
+    text-decoration: none;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    transition: color 0.2s;
+  }
+  
+  .back-link:hover {
+    color: var(--color-primary-600);
+  }
+  
+  .header-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .category-badge {
+    display: inline-block;
+    background: var(--color-primary-100);
+    color: var(--color-primary-700);
+    padding: 0.25rem 1rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  
+  .post-title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: var(--color-primary-900);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+  
+  .post-meta {
+    color: var(--color-black-600);
+    font-size: 1rem;
+  }
+  
+  .separator {
+    margin: 0 0.5rem;
+    color: var(--color-black-400);
+  }
+  
+  .hero-image-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    top: 2rem; /* Pull image down to overlap sections slightly */
+  }
+  
+  .hero-image {
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+  }
+  
+  .post-content {
+    max-width: 720px;
+    margin: 5rem auto 3rem; /* Top margin accounts for image overlap */
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-black-800);
+  }
+  
+  /* Typography for Markdown Content */
+  .prose :global(h2) {
+    font-family: var(--font-heading);
+    font-size: 1.875rem;
+    font-weight: 700;
+    color: var(--color-primary-900);
+    margin-top: 3rem !important;
+    margin-bottom: 1.25rem !important;
+    line-height: 1.3;
+  }
+  
+  .prose :global(h3) {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary-800);
+    margin-top: 2.5rem !important;
+    margin-bottom: 1rem !important;
+    line-height: 1.3;
+  }
+  
+  .prose :global(p) {
+    margin-bottom: 1.75rem !important;
+  }
+  
+  .prose :global(ul), .prose :global(ol) {
+    margin-bottom: 1.75rem;
+    padding-left: 1.5rem;
+    list-style-type: disc;
+  }
+
+  .prose :global(ol) {
+    list-style-type: decimal;
+  }
+  
+  .prose :global(li) {
+    margin-bottom: 0.75rem;
+    padding-left: 0.5rem;
+  }
+  
+  .prose :global(strong) {
+    color: var(--color-primary-700);
+    font-weight: 600;
+  }
+
+  /* Specific fix for "wall of text" look */
+  .prose {
+    line-height: 1.85;
+    font-size: 1.125rem;
+  }
+
+  .post-footer {
+    max-width: 720px;
+    margin: 0 auto 4rem;
+    text-align: center;
+    font-style: italic;
+    color: var(--color-black-600);
+  }
+  
+  .post-footer hr {
+    border: 0;
+    border-top: 1px solid var(--color-black-200);
+    margin: 3rem 0;
+  }
+  
+  .post-footer a {
+    color: var(--color-primary-600);
+    font-weight: 600;
+    text-decoration: none;
+  }
+</style>

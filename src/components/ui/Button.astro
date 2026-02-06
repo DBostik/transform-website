@@ -1,0 +1,48 @@
+---
+/**
+ * Button Component
+ * 
+ * Reusable button component with variants:
+ * - primary: Blue (main CTAs)
+ * - secondary: Orange (secondary actions)
+ * - outline: Blue outline (tertiary actions)
+ * 
+ * Props:
+ * - variant: 'primary' | 'secondary' | 'outline' (default: 'primary')
+ * - size: 'sm' | 'md' | 'lg' (default: 'md')
+ * - href: Optional link URL
+ * - type: 'button' | 'submit' | 'reset' (default: 'button')
+ * - class: Additional CSS classes
+ */
+
+interface Props extends astroHTML.JSX.ButtonHTMLAttributes, astroHTML.JSX.AnchorHTMLAttributes {
+  variant?: 'primary' | 'secondary' | 'outline';
+  size?: 'sm' | 'md' | 'lg';
+  href?: string;
+  type?: 'button' | 'submit' | 'reset';
+  class?: string;
+}
+
+const { 
+  variant = 'primary', 
+  size = 'md', 
+  href, 
+  type = 'button',
+  class: className = '',
+  ...rest
+} = Astro.props;
+
+const baseClass = `btn-${variant}`;
+const sizeClass = size !== 'md' ? `btn-${size}` : '';
+const classes = [baseClass, sizeClass, className].filter(Boolean).join(' ');
+---
+
+{href ? (
+  <a href={href} class={classes} {...rest}>
+    <slot />
+  </a>
+) : (
+  <button type={type} class={classes} {...rest}>
+    <slot />
+  </button>
+)}

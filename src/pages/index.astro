@@ -1,0 +1,367 @@
+---
+/**
+ * Transform Personal Training - Homepage
+ * 
+ * Complete homepage layout with:
+ * - Hero section with blue primary CTA
+ * - Services overview (Studio + Online)
+ * - Features section
+ * - Testimonials
+ * - What Happens First
+ * - Founder story
+ * - Consultation form
+ */
+
+import Button from '../components/ui/Button.astro';
+import ServiceCard from '../components/ui/ServiceCard.astro';
+import TestimonialCard from '../components/ui/TestimonialCard.astro';
+import FormInput from '../components/ui/FormInput.astro';
+import FormTextarea from '../components/ui/FormTextarea.astro';
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Transform Personal Training | Chicago's Best Personal Trainers";
+const pageDescription = "Chicago's premier personal training studio in Lakeview. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE!";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/src/styles/design-tokens.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/" />
+  
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" style="background-image: url('/images/hero-background.png');">
+    <div class="hero-overlay"></div>
+    
+    <div class="hero-content">
+      <h1 class="hero-title">
+        Transform Your Life with Chicago's Best Personal Trainers
+      </h1>
+      
+      <p class="hero-subtitle">
+        1-On-1 Customized Fitness Training, Nutrition, And Daily Support With Guaranteed Results!
+      </p>
+      
+      <div class="hero-cta">
+        <Button variant="primary" size="lg" href="/contact">
+          Schedule Free Consultation
+        </Button>
+        <Button variant="secondary" size="lg" href="/online-training">
+          Explore Online Training
+        </Button>
+      </div>
+      
+      <div class="hero-trust-indicators">
+        <div class="hero-trust-indicator">
+          <span>⭐</span>
+          <span>First Session FREE</span>
+        </div>
+        <div class="hero-trust-indicator">
+          <span>✓</span>
+          <span>AFAA Certified</span>
+        </div>
+        <div class="hero-trust-indicator">
+          <span>📍</span>
+          <span>Lakeview</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES OVERVIEW ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">
+          Finally The Personal Training Service You've Been Looking For
+        </h2>
+        <p class="section-subtitle">
+          Located in Lakeview, right on the border of Lincoln Park, we're just a few blocks from you! At TRANSFORM Personal Training, each and every one of your workouts will be personalized to your fitness needs and goals.
+        </p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <ServiceCard
+          title="Private Studio Sessions"
+          description="30-minute personalized training sessions in our Lakeview studio"
+          icon="🏋️"
+          features={[
+            'Customized training sessions',
+            'Personal attention every workout',
+            'Convenient scheduling',
+            'Professional equipment'
+          ]}
+          linkHref="/studio-services"
+        />
+        
+        <ServiceCard
+          title="Online Coaching"
+          description="Train from anywhere with app-based workouts and daily support"
+          icon="📱"
+          features={[
+            'Customized programs',
+            'Track progress on your device',
+            'Daily check-ins',
+            'Nutrition guidance'
+          ]}
+          linkHref="/online-training"
+        />
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY TRANSFORM (FEATURES) ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What Makes Transform Different</h2>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <!-- Feature 1 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            🎯
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            One Size Does NOT Fit All
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Your targets are just that—YOURS. They can be viewed and set by you with help from your trainer.
+          </p>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            🍎
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            Personalized Nutrition Plans
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Meal plans prescribed by your trainer to meet your consumption goals, all in one place.
+          </p>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="card" style="text-align: center;">
+          <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
+            💬
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">
+            Daily Support
+          </h3>
+          <p style="color: var(--color-black-600); line-height: 1.6;">
+            Receive daily check-ins and motivational messages from your own personal trainer.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Guaranteed Results!</h2>
+        <p class="section-subtitle">
+          Many just like you have struggled to achieve their fitness goals—but you've taken the first step to your breakthrough. Join others who have found the boost they needed to TRANSFORM THEIR BODIES AND LIVES.
+        </p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-top: 3rem;">
+        <TestimonialCard
+          quote="My trainer comes up with the craziest, toughest, but fun workouts I have ever done! In addition to the workouts he gives a lot of nutrition advice, and ways to change your mind when it comes to food. He has become my mentor, and my friend, and I am so thankful I had the opportunity to change my life with him!"
+          name="Sarah M."
+          meta="Transform Client since 2020"
+        />
+        
+        <TestimonialCard
+          quote="Working with Transform has completely changed my life. The personalized approach and constant support helped me achieve goals I never thought possible. I've lost 40 pounds and gained so much confidence!"
+          name="Michael T."
+          meta="Transform Client since 2021"
+        />
+        
+        <TestimonialCard
+          quote="The trainers at Transform really care about your success. They push you when you need it and support you every step of the way. Best investment I've ever made in myself!"
+          name="Jennifer L."
+          meta="Transform Client since 2022"
+        />
+      </div>
+      
+      <div style="text-align: center; margin-top: 3rem;">
+        <Button variant="outline" href="/success-stories">
+          Read More Success Stories →
+        </Button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT HAPPENS FIRST ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What Happens First?</h2>
+        <p class="section-subtitle">
+          Come spend about 30 minutes with one of our team members sharing your background, your goals, and what has you interested in working with a personal trainer. Hear about the trainer's experience and how our program might work for you.
+        </p>
+      </div>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
+        <!-- Step 1 -->
+        <div style="text-align: center;">
+          <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
+            1
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 0.75rem;">
+            Free Consultation
+          </h3>
+          <p style="color: var(--color-black-600); font-size: 0.9375rem; line-height: 1.5;">
+            Meet with a trainer to discuss your goals and experience
+          </p>
+        </div>
+        
+        <!-- Step 2 -->
+        <div style="text-align: center;">
+          <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
+            2
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 0.75rem;">
+            Custom Plan
+          </h3>
+          <p style="color: var(--color-black-600); font-size: 0.9375rem; line-height: 1.5;">
+            Get a personalized fitness and nutrition plan tailored to you
+          </p>
+        </div>
+        
+        <!-- Step 3 -->
+        <div style="text-align: center;">
+          <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
+            3
+          </div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.125rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 0.75rem;">
+            Start Training
+          </h3>
+          <p style="color: var(--color-black-600); font-size: 0.9375rem; line-height: 1.5;">
+            Begin your transformation journey with expert guidance
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOUNDER STORY ===== -->
+  <section class="section">
+    <div class="container">
+      <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; max-width: 1000px; margin: 0 auto;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+          <div>
+            <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: var(--color-black-900); margin-bottom: 1.5rem;">
+              Meet Dave Bostik
+            </h2>
+            <p style="color: var(--color-black-700); line-height: 1.7; margin-bottom: 1rem;">
+              Transform Personal Training was founded with one mission: to provide personalized, results-driven fitness training that actually works.
+            </p>
+            <p style="color: var(--color-black-700); line-height: 1.7; margin-bottom: 1.5rem;">
+              With years of experience and AFAA certification, our team is dedicated to helping you achieve your fitness goals through customized training, nutrition guidance, and daily support.
+            </p>
+            <Button variant="primary" href="/meet-the-team">
+              Meet the Team
+            </Button>
+          </div>
+          <div>
+            <img 
+              src="/images/transformation-hero.png" 
+              alt="Dave Bostik Transformation" 
+              style="width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONSULTATION FORM ===== -->
+  <section style="position: relative; background-image: url('/images/form-background.png'); background-size: cover; background-position: center; padding: 3rem 0;">
+    <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.55));"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 600px; margin: 0 auto;">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: white; margin-bottom: 0.75rem;">
+            Ready to Transform Your Life?
+          </h2>
+          <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.125rem;">
+            Schedule your FREE consultation today and take the first step towards your fitness goals.
+          </p>
+        </div>
+        
+        <form style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
+          <FormInput
+            label="Full Name"
+            name="name"
+            type="text"
+            placeholder="John Doe"
+            required={true}
+          />
+          
+          <FormInput
+            label="Email Address"
+            name="email"
+            type="email"
+            placeholder="john@example.com"
+            required={true}
+          />
+          
+          <FormInput
+            label="Phone Number"
+            name="phone"
+            type="tel"
+            placeholder="(312) 555-0123"
+            required={true}
+          />
+          
+          <FormTextarea
+            label="Tell us about your fitness goals"
+            name="message"
+            placeholder="I'm interested in..."
+            rows={4}
+          />
+          
+          <Button variant="primary" type="submit" class="w-full" style="width: 100%; margin-top: 1rem;">
+            Schedule Free Consultation
+          </Button>
+          
+          <p style="text-align: center; font-size: 0.875rem; color: var(--color-black-500); margin-top: 1rem;">
+            We'll respond within 24 hours to schedule your free session.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <Footer />
+  
+  <!-- ===== POPUP FORM ===== -->
+  <PopupForm />
+</body>
+</html>

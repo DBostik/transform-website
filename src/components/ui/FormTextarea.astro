@@ -1,0 +1,72 @@
+---
+/**
+ * Form Textarea Component
+ * 
+ * Reusable textarea with label, error state, and helper text.
+ * Features blue focus state (primary brand color).
+ * 
+ * Props:
+ * - label: Textarea label text
+ * - name: Textarea name attribute
+ * - placeholder: Placeholder text
+ * - required: Whether textarea is required
+ * - error: Error message to display
+ * - helper: Helper text to display
+ * - rows: Number of rows (default: 4)
+ * - value: Textarea value
+ */
+
+interface Props {
+  label: string;
+  name: string;
+  placeholder?: string;
+  required?: boolean;
+  error?: string;
+  helper?: string;
+  rows?: number;
+  value?: string;
+}
+
+const { 
+  label, 
+  name, 
+  placeholder, 
+  required = false,
+  error,
+  helper,
+  rows = 4,
+  value
+} = Astro.props;
+
+const textareaId = `textarea-${name}`;
+---
+
+<div class="form-group">
+  <label for={textareaId} class="form-label">
+    {label}
+    {required && <span class="text-error">*</span>}
+  </label>
+  
+  <textarea
+    id={textareaId}
+    name={name}
+    class="form-textarea"
+    placeholder={placeholder}
+    required={required}
+    rows={rows}
+    aria-describedby={error ? `${textareaId}-error` : helper ? `${textareaId}-helper` : undefined}
+    aria-invalid={error ? 'true' : 'false'}
+  >{value}</textarea>
+  
+  {error && (
+    <span id={`${textareaId}-error`} class="form-error" role="alert">
+      {error}
+    </span>
+  )}
+  
+  {!error && helper && (
+    <span id={`${textareaId}-helper`} class="form-helper">
+      {helper}
+    </span>
+  )}
+</div>

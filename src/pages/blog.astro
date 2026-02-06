@@ -1,0 +1,488 @@
+---
+/**
+ * Transform Personal Training - Blog Page
+ * 
+ * Listing of fitness articles, nutrition tips, and transformer stories.
+ */
+
+import { getCollection } from 'astro:content';
+import Button from '../components/ui/Button.astro';
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Fitness & Nutrition Blog - Transform Personal Training";
+const pageDescription = "Expert fitness advice, nutrition tips, and healthy recipes from Chicago's top personal trainers.";
+
+// Fetch posts from content collection
+const allPosts = await getCollection('blog');
+// Sort by date (descending - newest first)
+const sortedPosts = allPosts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
+
+// Extract unique categories for the filter
+const categories = ['All', ...new Set(allPosts.map(post => post.data.category))];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/src/styles/design-tokens.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/blog" />
+  
+  <!-- ===== HERO SECTION ===== -->
+  <section class="blog-hero">
+    <div class="blog-hero__content container">
+      <span class="blog-hero__badge">Expert Advice</span>
+      <h1 class="blog-hero__title">THE TRANSFORM BLOG</h1>
+      <p class="blog-hero__subtitle">
+        Your resource for fitness tips, nutrition guides, and motivation to keep you on track.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== BLOG LISTING ===== -->
+  <section class="section">
+    <div class="container">
+      
+      <!-- Categories Filter -->
+      <div class="categories-nav" id="category-filters">
+        {categories.map((category) => (
+          <button 
+            class={`cat-btn ${category === 'All' ? 'active' : ''}`}
+            data-category={category}
+          >
+            {category}
+          </button>
+        ))}
+      </div>
+
+      <!-- Posts Grid -->
+      <div class="posts-grid" id="posts-grid">
+        {sortedPosts.map((post) => (
+          <article class="post-card" data-category={post.data.category}>
+            <div class="post-image-wrapper">
+              <img src={post.data.image} alt={post.data.title} class="post-image" loading="lazy" />
+              <span class="post-cat-badge">{post.data.category}</span>
+            </div>
+            <div class="post-content">
+              <div class="post-meta">
+                <span class="post-date">{post.data.date}</span>
+              </div>
+              <h2 class="post-title">
+                <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+              </h2>
+              <p class="post-excerpt">{post.data.excerpt}</p>
+              <a href={`/blog/${post.slug}`} class="read-more">
+                Read Article →
+              </a>
+            </div>
+          </article>
+        ))}
+      </div>
+      
+      <!-- No Results Message -->
+      <div id="no-results" style="display: none; text-align: center; padding: 4rem 0;">
+        <p style="font-size: 1.25rem; color: var(--color-black-600);">No posts found in this category.</p>
+      </div>
+
+      <!-- Load More Button -->
+      <div class="load-more-container" id="load-more-container">
+        <Button variant="outline" id="load-more-btn">Load More Articles</Button>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- ===== NEWSLETTER ===== -->
+  <section class="newsletter-section">
+    <div class="container">
+      <div class="newsletter-box">
+        <div class="newsletter-content">
+          <h2>Stay Inspired</h2>
+          <p>Join our newsletter for weekly fitness tips, recipes, and exclusive offers delivered straight to your inbox.</p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" placeholder="Enter your email address" required />
+          <Button variant="primary" type="submit">Subscribe</Button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <Footer />
+
+  <PopupForm />
+
+  
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    // Selectors
+    const categoryButtons = document.querySelectorAll('.cat-btn');
+    const postCards = Array.from(document.querySelectorAll('.post-card'));
+    const loadMoreBtn = document.getElementById('load-more-btn');
+    const noPostsMessage = document.getElementById('no-results');
+    const loadMoreContainer = document.getElementById('load-more-container');
+    
+    // State
+    let currentCategory = 'All';
+    let visibleCount = 12; // Initial showing
+    const LOAD_INCREMENT = 12;
+
+    function filterAndShowPosts() {
+      // 1. Filter posts based on category
+      const filteredPosts = postCards.filter(card => {
+        const cardCategory = card.getAttribute('data-category');
+        return currentCategory === 'All' || cardCategory === currentCategory;
+      });
+
+      // 2. Hide ALL cards first
+      postCards.forEach(card => card.style.display = 'none');
+
+      // 3. Show only the visible slice of FILTERED cards
+      filteredPosts.forEach((card, index) => {
+        if (index < visibleCount) {
+          card.style.display = 'flex';
+          card.classList.add('fade-in');
+        }
+      });
+
+      // 4. Update UI Messages
+      if (filteredPosts.length === 0) {
+        if (noPostsMessage) noPostsMessage.style.display = 'block';
+        if (loadMoreContainer) loadMoreContainer.style.display = 'none';
+      } else {
+        if (noPostsMessage) noPostsMessage.style.display = 'none';
+        
+        // Show Load More ONLY if we have more to show than currently visible
+        if (filteredPosts.length > visibleCount) {
+          if (loadMoreContainer) loadMoreContainer.style.display = 'flex';
+        } else {
+          if (loadMoreContainer) loadMoreContainer.style.display = 'none';
+        }
+      }
+    }
+
+    // Initial Render
+    filterAndShowPosts();
+
+    // Event Listeners: Categories
+    categoryButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        categoryButtons.forEach(btn => btn.classList.remove('active'));
+        button.classList.add('active');
+        
+        currentCategory = button.getAttribute('data-category');
+        visibleCount = LOAD_INCREMENT; // Reset pagination on filter change
+        filterAndShowPosts();
+      });
+    });
+
+    // Event Listener: Load More
+    if (loadMoreBtn) {
+      loadMoreBtn.addEventListener('click', () => {
+        visibleCount += LOAD_INCREMENT;
+        filterAndShowPosts();
+      });
+    }
+  });
+</script>
+
+<style>
+  /* ===== HERO SECTION ===== */
+  .blog-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .blog-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  
+  .blog-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .blog-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .blog-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .blog-hero__subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+  
+  /* ===== CATEGORIES ===== */
+  .categories-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+  }
+  
+  .cat-btn {
+    background: white;
+    border: 1px solid var(--color-black-200);
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-black-700);
+    cursor: pointer;
+    transition: all 0.2s;
+  }
+  
+  .cat-btn:hover {
+    border-color: var(--color-primary-500);
+    color: var(--color-primary-600);
+  }
+  
+  .cat-btn.active {
+    background: var(--color-primary-600);
+    border-color: var(--color-primary-600);
+    color: white;
+  }
+  
+  /* ===== POSTS GRID ===== */
+  .posts-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+    gap: 2.5rem;
+    margin-bottom: 4rem;
+  }
+  
+  .post-card {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  .post-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  }
+  
+  .post-image-wrapper {
+    height: 240px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .post-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+  
+  .post-card:hover .post-image {
+    transform: scale(1.05);
+  }
+  
+  .post-cat-badge {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(4px);
+    padding: 0.25rem 0.75rem;
+    border-radius: 50px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    color: var(--color-primary-700);
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .post-content {
+    padding: 1.75rem;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .post-date {
+    color: var(--color-black-500);
+  }
+  
+  .post-title {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    line-height: 1.3;
+  }
+  
+  .post-title a {
+    color: var(--color-black-900);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .post-title a:hover {
+    color: var(--color-primary-600);
+  }
+  
+  .post-excerpt {
+    color: var(--color-black-600);
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    flex: 1;
+    font-size: 0.95rem;
+  }
+  
+  .read-more {
+    color: var(--color-primary-600);
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: gap 0.2s;
+    margin-top: auto;
+  }
+  
+  .read-more:hover {
+    gap: 0.25rem;
+  }
+  
+  /* ===== NEWSLETTER ===== */
+  .newsletter-section {
+    background: var(--color-black-50);
+    padding: 4rem 0;
+  }
+  
+  .newsletter-box {
+    background: white;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    align-items: center;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.05);
+  }
+  
+  @media (min-width: 768px) {
+    .newsletter-box {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .newsletter-content h2 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-primary-900);
+    margin-bottom: 0.5rem;
+  }
+  
+  .newsletter-content p {
+    color: var(--color-black-600);
+    line-height: 1.6;
+    }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-black-300);
+    border-radius: 0.5rem;
+    font-family: var(--font-body);
+  }
+  
+  .newsletter-form input:focus {
+    outline: none;
+    border-color: var(--color-primary-500);
+    box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.1);
+  }
+  
+  @media (max-width: 640px) {
+    .newsletter-form {
+      flex-direction: column;
+    }
+  }
+
+  /* Load More */
+  .load-more-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+  }
+  
+  .fade-in {
+    animation: fadeIn 0.5s ease-in;
+  }
+</style>

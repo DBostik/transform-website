@@ -1,0 +1,510 @@
+---
+/**
+ * Transform Personal Training - Contact Page
+ * 
+ * Contact information, map, and inquiry form
+ * Premium design matching the site aesthetic
+ */
+
+import Button from '../components/ui/Button.astro';
+import FormInput from '../components/ui/FormInput.astro';
+import FormTextarea from '../components/ui/FormTextarea.astro';
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Contact Us - Transform Personal Training";
+const pageDescription = "Get in touch with Transform Personal Training in Lincoln Park, Chicago. Scedule your free consultation today.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/src/styles/design-tokens.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/contact" />
+  
+  <!-- ===== HERO SECTION ===== -->
+  <section class="contact-hero">
+    <div class="contact-hero__content container">
+      <span class="contact-hero__badge">Get In Touch</span>
+      <h1 class="contact-hero__title">CONTACT US</h1>
+      <p class="contact-hero__subtitle">
+        Ready to start your transformation? Have questions about our programs?
+        We're here to help you every step of the way.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT CONTENT ===== -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="contact-grid">
+        
+        <!-- INFO COLUMN -->
+        <div class="contact-info">
+          
+          <!-- Locations & Hours -->
+          <div class="info-block">
+            <h2 class="info-title">Location & Hours</h2>
+            <div class="info-card">
+              <div class="info-item">
+                <span class="info-icon">📍</span>
+                <div>
+                  <h3 class="info-label">Studio Address</h3>
+                  <p class="info-value">
+                    2900 N Broadway St<br>
+                    Chicago, IL 60657<br>
+                    <span class="text-sm text-gray-500">(Corner of Broadway & Surf)</span>
+                  </p>
+                  <a href="https://www.google.com/maps/place/2900+N+Broadway+St,+Chicago,+IL+60657" target="_blank" class="info-link">Get Directions →</a>
+                </div>
+              </div>
+              
+              <div class="info-item">
+                <span class="info-icon">🕒</span>
+                <div>
+                  <h3 class="info-label">Studio Hours</h3>
+                  <ul class="hours-list">
+                    <li><span>Mon - Thu:</span> 5:00am - 9:00pm</li>
+                    <li><span>Fri:</span> 5:00am - 8:00pm</li>
+                    <li><span>Sat:</span> 7:00am - 3:00pm</li>
+                    <li><span>Sun:</span> Closed</li>
+                  </ul>
+                  <p class="text-sm mt-2 text-gray-500">*By Appointment Only</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Contact Methods -->
+          <div class="info-block">
+            <h2 class="info-title">Reach Out</h2>
+            <div class="info-card">
+              <div class="info-item">
+                <span class="info-icon">📞</span>
+                <div>
+                  <h3 class="info-label">Phone</h3>
+                  <a href="tel:312-635-5139" class="info-value-link">(312) 635-5139</a>
+                </div>
+              </div>
+              
+              <div class="info-item">
+                <span class="info-icon">✉️</span>
+                <div>
+                  <h3 class="info-label">Email</h3>
+                  <a href="mailto:contact@transformfitcoach.com" class="info-value-link">contact@transformfitcoach.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        
+        <!-- FORM COLUMN -->
+        <div class="contact-form-col">
+          <div class="form-wrapper">
+            <div class="form-header">
+              <h2 class="form-title">Request a Consultation</h2>
+              <p class="form-subtitle">
+                Fill out the form below and we'll get back to you within 24 hours to schedule your complimentary session.
+              </p>
+              
+              <div class="expectation-box">
+                <h4 class="expectation-title">What to expect:</h4>
+                <ul class="expectation-list">
+                  <li>Meet with a team member for ~30 minutes</li>
+                  <li>Share your goals and background</li>
+                  <li>Learn about our programs</li>
+                  <li>Ask any questions you have</li>
+                </ul>
+              </div>
+            </div>
+            
+            <form class="main-contact-form">
+               <div class="form-row">
+                <FormInput
+                  label="Full Name"
+                  name="name"
+                  type="text"
+                  placeholder="John Doe"
+                  required={true}
+                />
+               </div>
+              
+              <div class="form-row-group">
+                <FormInput
+                  label="Email Address"
+                  name="email"
+                  type="email"
+                  placeholder="john@example.com"
+                  required={true}
+                />
+                
+                <FormInput
+                  label="Phone Number"
+                  name="phone"
+                  type="tel"
+                  placeholder="(312) 555-0123"
+                  required={true}
+                />
+              </div>
+              
+              <FormTextarea
+                label="How can we help you?"
+                name="message"
+                placeholder="I'm interested in personal training because..."
+                rows={4}
+              />
+              
+              <div class="form-consent">
+                <label>
+                  <input type="checkbox" required>
+                  <span>
+                    I consent to be contacted by Transform Personal Training regarding my inquiry.
+                  </span>
+                </label>
+              </div>
+              
+              <Button variant="primary" type="submit" class="w-full">
+                Send Message
+              </Button>
+            </form>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+  
+  <!-- ===== MAP SECTION ===== -->
+  <section class="map-section">
+    <iframe 
+      src="https://maps.google.com/maps?q=2900+N+Broadway+St,+Chicago,+IL+60657&t=&z=15&ie=UTF8&iwloc=&output=embed"
+      width="100%" 
+      height="450" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy">
+    </iframe>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <Footer />
+
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  /* ===== HERO SECTION ===== */
+  .contact-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .contact-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  
+  .contact-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contact-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .contact-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .contact-hero__subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ===== CONTACT SECTION ===== */
+  .contact-section {
+    padding: 5rem 0;
+    background: var(--color-black-50);
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .contact-grid {
+      grid-template-columns: 1fr 1.2fr;
+      align-items: start;
+    }
+  }
+  
+  /* Info Column */
+  .info-block {
+    margin-bottom: 3rem;
+  }
+  
+  .info-title {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary-900);
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 1rem;
+    border-left: 4px solid var(--color-accent-500);
+  }
+  
+  .info-card {
+    background: white;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  }
+  
+  .info-item {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+  
+  .info-item:last-child {
+    margin-bottom: 0;
+  }
+  
+  .info-icon {
+    font-size: 1.75rem;
+    background: var(--color-primary-50);
+    width: 3.5rem;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .info-label {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary-900);
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-value {
+    color: var(--color-black-600);
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+  }
+  
+  .info-link {
+    color: var(--color-accent-600);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .info-link:hover {
+    text-decoration: underline;
+  }
+  
+  .info-value-link {
+    color: var(--color-black-700);
+    text-decoration: none;
+    font-size: 1.125rem;
+    transition: color 0.2s;
+  }
+  
+  .info-value-link:hover {
+    color: var(--color-accent-600);
+  }
+  
+  .hours-list {
+    list-style: none;
+    padding: 0;
+    color: var(--color-black-600);
+  }
+  
+  .hours-list li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+    border-bottom: 1px solid var(--color-black-50);
+    padding-bottom: 0.5rem;
+  }
+  
+  .hours-list li:last-child {
+    border-bottom: none;
+  }
+  
+  .hours-list span {
+    font-weight: 600;
+    color: var(--color-primary-800);
+  }
+  
+  /* Form Column */
+  .contact-form-col {
+    position: relative;
+  }
+  
+  .form-wrapper {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    border-top: 6px solid var(--color-accent-500);
+  }
+  
+  .form-title {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--color-primary-900);
+    margin-bottom: 1rem;
+  }
+  
+  .form-subtitle {
+    color: var(--color-black-600);
+    margin-bottom: 2rem;
+    line-height: 1.6;
+  }
+  
+  .expectation-box {
+    background: var(--color-primary-50);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    margin-bottom: 2rem;
+  }
+  
+  .expectation-title {
+    font-weight: 700;
+    color: var(--color-primary-800);
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+  }
+  
+  .expectation-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: var(--color-black-700);
+    font-size: 0.95rem;
+  }
+  
+  .expectation-list li {
+    margin-bottom: 0.25rem;
+  }
+  
+  .form-row-group {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .form-row-group {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .form-consent {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-consent label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+  }
+  
+  .form-consent input[type="checkbox"] {
+    margin-top: 0.25rem;
+    flex-shrink: 0;
+  }
+  
+  .form-consent span {
+    font-size: 0.875rem;
+    color: var(--color-black-600);
+    line-height: 1.5;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  /* ===== MAP SECTION ===== */
+  .map-section {
+    height: 450px;
+    filter: grayscale(100%);
+    transition: filter 0.3s;
+  }
+  
+  .map-section:hover {
+    filter: grayscale(0%);
+  }
+  
+  /* ===== FOOTER ===== */
+  /* Footer styles moved to component */
+  
+  .text-sm {
+    font-size: 0.875rem;
+  }
+  
+  .text-gray-500 {
+    color: #6b7280;
+  }
+  
+  .mt-2 {
+    margin-top: 0.5rem;
+  }
+</style>

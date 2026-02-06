@@ -1,0 +1,45 @@
+---
+/**
+ * Testimonial Card Component
+ * 
+ * Displays a client testimonial with quote, avatar, name, and metadata.
+ * Features blue left border accent (primary brand color).
+ * 
+ * Props:
+ * - quote: Testimonial quote text
+ * - name: Client name
+ * - meta: Additional metadata (e.g., "Transform Client since 2022")
+ * - avatar: Avatar image URL (optional)
+ */
+
+interface Props {
+  quote: string;
+  name: string;
+  meta?: string;
+  avatar?: string;
+}
+
+const { quote, name, meta, avatar } = Astro.props;
+---
+
+<div class="card-testimonial">
+  <blockquote class="card-testimonial-quote">
+    "{quote}"
+  </blockquote>
+  
+  <div class="card-testimonial-author">
+    {avatar && (
+      <img 
+        src={avatar} 
+        alt={name} 
+        class="card-testimonial-avatar"
+        loading="lazy"
+      />
+    )}
+    
+    <div>
+      <div class="card-testimonial-name">{name}</div>
+      {meta && <div class="card-testimonial-meta">{meta}</div>}
+    </div>
+  </div>
+</div>

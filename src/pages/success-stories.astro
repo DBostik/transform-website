@@ -1,0 +1,961 @@
+---
+/**
+ * Transform Personal Training - Success Stories Page
+ * 
+ * Showcases client transformations with before/after photos and testimonials
+ * Premium design matching the site aesthetic
+ */
+
+import Button from '../components/ui/Button.astro';
+import FormInput from '../components/ui/FormInput.astro';
+import FormTextarea from '../components/ui/FormTextarea.astro';
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+
+const pageTitle = "Success Stories - Transform Personal Training";
+const pageDescription = "Real transformations from real clients. See the incredible results our clients have achieved with Transform Personal Training in Chicago.";
+
+// Featured transformations for the hero grid
+const featuredTransformations = [
+  { name: "Annette E.", image: "/images/transformations/Annette-E-29.6lbs-4.2bf.png", result: "Lost 29.6 lbs & 4.2% Body Fat" },
+  { name: "Andrew G.", image: "/images/transformations/Andrew-G-96lb-13bf-1.png", result: "Lost 96 lbs & 13% Body Fat" },
+  { name: "Beto M.", image: "/images/transformations/Beto-M-28.3lbs-and-6.1bf-in-6-weeks-copy.png", result: "Lost 28.3 lbs in 6 Weeks" },
+];
+
+// All transformations grid
+const transformations = [
+  { name: "Kristin D.", image: "/images/transformations/Kristin-50lbs-copy.png", result: "Lost 50 lbs" },
+  { name: "Jesse K.", image: "/images/transformations/Jesse-K-43lbs-13.6bf-copy.png", result: "Lost 43 lbs & 13.6% BF" },
+  { name: "Christine P.", image: "/images/transformations/Christine-P-58lb-7bf-copy.png", result: "Lost 58 lbs & 7% BF" },
+  { name: "Rebecca H.", image: "/images/transformations/Rebecca-H-38.2lbs-7.1bf-copy.png", result: "Lost 38.2 lbs & 7.1% BF" },
+  { name: "Ozlem", image: "/images/transformations/Ozlem-33.5lbs-7.2bf-copy.png", result: "Lost 33.5 lbs & 7.2% BF" },
+  { name: "Lori K.", image: "/images/transformations/Lori-K-30lbs-copy-1.png", result: "Lost 30 lbs" },
+  { name: "Derek B.", image: "/images/transformations/Derek-B-30lbs-3.3bf-in-6wks-copy.png", result: "Lost 30 lbs in 6 Weeks" },
+  { name: "Sara P.", image: "/images/transformations/Sara-P-28.2lbs-6.1bf-1-copy.png", result: "Lost 28.2 lbs & 6.1% BF" },
+  { name: "Jill G.", image: "/images/transformations/Jill-G-28.6lbs-2.7bf-copy.png", result: "Lost 28.6 lbs & 2.7% BF" },
+  { name: "John", image: "/images/transformations/John-28.8lbs-6.8bf-copy.png", result: "Lost 28.8 lbs & 6.8% BF" },
+  { name: "Cortney W.", image: "/images/transformations/Cortney-W-27lbs-4bf-20in-in-6wk-copy.png", result: "Lost 27 lbs in 6 Weeks" },
+  { name: "Ivy A.", image: "/images/transformations/Ivy-A-23.4lbs-13bf-copy.png", result: "Lost 23.4 lbs & 13% BF" },
+  { name: "Alex S.", image: "/images/transformations/Alex-S-22lbs-7bf-in-6-wk-copy.png", result: "Lost 22 lbs in 6 Weeks" },
+  { name: "Carly T.", image: "/images/transformations/Carly-T-20lbs-2.3bf-in-6-wks-copy.png", result: "Lost 20 lbs in 6 Weeks" },
+  { name: "Nina", image: "/images/transformations/Nina-20lbs-7.7bf-copy.png", result: "Lost 20 lbs & 7.7% BF" },
+  { name: "Holly", image: "/images/transformations/Holly-18lbs-6bf.png", result: "Lost 18 lbs & 6% BF" },
+  { name: "Rebecca G.", image: "/images/transformations/Rebecca-G-18lbs-1bf-12in-in-6wks-copy.png", result: "Lost 18 lbs in 6 Weeks" },
+  { name: "Scott B.", image: "/images/transformations/Scott-B-17lbs-3bf-in-6wks-copy.png", result: "Lost 17 lbs in 6 Weeks" },
+  { name: "Maggie H.", image: "/images/transformations/Maggie-Heim-side-16.5lbs-4.2bf-in-6wks-copy.png", result: "Lost 16.5 lbs in 6 Weeks" },
+  { name: "Pamela Q.", image: "/images/transformations/Pamela-Q-15.4lb-2.9bf-8.25in-in-6wks-1-copy.png", result: "Lost 15.4 lbs in 6 Weeks" },
+  { name: "Paul G.", image: "/images/transformations/Paul-G-15lbs-3.5bf-9in-in-6wks-copy.png", result: "Lost 15 lbs in 6 Weeks" },
+  { name: "Natasha T.", image: "/images/transformations/Natasha-T-14lbs-2bf-13in-in-6wks-copy.png", result: "Lost 14 lbs in 6 Weeks" },
+  { name: "Sarah B.", image: "/images/transformations/Sarah-B-13lbs-2bf-7in-in-6wks-copy.png", result: "Lost 13 lbs in 6 Weeks" },
+  { name: "Melissa H.", image: "/images/transformations/Melissa-H-11lbs-4bf-4in-in-6wks-copy.png", result: "Lost 11 lbs in 6 Weeks" },
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/src/styles/design-tokens.css">
+  <link rel="stylesheet" href="/src/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/success-stories" />
+  
+  <!-- ===== HERO SECTION ===== -->
+  <section class="success-hero">
+    <div class="success-hero__content container">
+      <span class="success-hero__badge">Real Results</span>
+      <h1 class="success-hero__title">SUCCESS STORIES</h1>
+      <p class="success-hero__subtitle">
+        Since 2010, we've helped over 500+ clients transform their bodies and lives. 
+        These are their stories.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== FEATURED TRANSFORMATIONS ===== -->
+  <section class="featured-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">FEATURED TRANSFORMATIONS</h2>
+        <p class="section-subtitle">
+          Incredible results achieved through dedication, hard work, and expert guidance
+        </p>
+      </div>
+      
+      <div class="featured-grid">
+        {featuredTransformations.map((transformation) => (
+          <div class="transformation-card transformation-card--featured">
+            <div class="transformation-card__image">
+              <img src={transformation.image} alt={`${transformation.name} transformation`} loading="lazy" />
+            </div>
+            <div class="transformation-card__info">
+              <h3 class="transformation-card__name">{transformation.name}</h3>
+              <p class="transformation-card__result">{transformation.result}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIAL CAROUSEL ===== -->
+  <section class="quote-section">
+    <div class="container">
+      <div class="testimonial-carousel" id="testimonialCarousel">
+        <div class="quote-icon">❝</div>
+        
+        <div class="testimonial-slides">
+          <!-- Slide 1: Arne W. -->
+          <div class="testimonial-slide active">
+            <blockquote class="quote-text">
+              Dave has a confident and seasoned grasp of all of the technical aspects of high-level training. But, in addition and, perhaps more important for his clients, he possesses that critical instinct for those moments in a workout where effort meets resistance in the most productive way possible. Dave is keenly attuned to the "Zen" of the training session. To work with him is to experience intense focus – one's own and also his. Plus, I grew some better-than-average guns.
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Arne W.</span>
+            </div>
+          </div>
+          
+          <!-- Slide 2: Kristen L. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I worked with both Miriam and ET in preparation for my wedding. Both did an excellent job! They made sure my nutrition was on point and they pushed me hard at every training session. They clearly have been in the fitness industry for quite some time and know their stuff! In addition, ET and Miriam made the entire process fun, something I'd never experienced before when working out.
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Kristen L.</span>
+            </div>
+          </div>
+          
+          <!-- Slide 3: Brittany -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I have been very fortunate to have had Eric-Todd as a personal trainer. I worked with Eric-Todd for well over a year, and I can truly say that without him I never would have achieved my weight loss goals, and have kept the weight off. Eric-Todd is so inspiring, and he truly cares about your goals. I have become a stronger person, physically and mentally, all because I was pushed to places I never knew I could go!
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Brittany</span>
+            </div>
+          </div>
+          
+          <!-- Slide 4: Andrew W. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I once hired a trainer a couple years ago from another group and I quit after the first session. I figured I would fizzle out quickly here as well. I am happy to announce I was wrong. I was lucky to meet and work with Miriam. The workouts are challenging but Miriam makes the session fun and the time move quickly. I now actually look forward to coming in and doing my workout. I was hoping to tone my 47 year old body and I am happy to say its working!
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Andrew W.</span>
+            </div>
+          </div>
+          
+          <!-- Slide 5: Steve B. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I have been training with Gerri Clark at Transform Personal Training for three and a half years. The photo shows me, at age 73, deadlifting 225 pounds — a direct result of Gerri's unfailing patience, enthusiasm, and encouragement. Whatever your goal may be, I can unhesitatingly recommend training with Gerri. She will work with you to figure out your goals, and then she will be with you every step of the way.
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Steve B.</span>
+              <span class="quote-author__result">Age 73, Deadlifting 225 lbs</span>
+            </div>
+          </div>
+          
+          <!-- Slide 6: Bart H. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              Eric Todd is a TOP notch trainer!! He takes the time with his clients and definitely makes sure you are getting the best workout possible!! He made me aware of my full potential with a workout and how to use my time wisely!! Definitely recommend him if you want to get fit!!
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Bart H.</span>
+            </div>
+          </div>
+          
+          <!-- Slide 7: Abha B. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I was at my highest weight last year during the pandemic and needed help. I reached out to Transform and they worked with me every step of the way. Coach Kristen did a phenomenal job. I felt satisfied with the meal plan and the overall results – lost 35 pounds over a 6 month period.
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Abha B.</span>
+              <span class="quote-author__result">Lost 35 lbs in 6 Months</span>
+            </div>
+          </div>
+          
+          <!-- Slide 8: Sally J. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I've been working with Gerri Clark at Transform for over a year, and her program designed for seniors has worked wonders for me. I'm much stronger and can now do many of the little things whose loss made me despair at the prospect of getting old. In fact between that and the slow weight loss I've been working on, a lot of people don't believe my chronological age. Thanks, Gerri!
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Sally J.</span>
+            </div>
+          </div>
+          
+          <!-- Slide 9: Katie K. -->
+          <div class="testimonial-slide">
+            <blockquote class="quote-text">
+              I worked with Eric for 2-3 months on learning how to lift weights. He changed my whole outlook on weight training, I used to be afraid and embarrassed lifting weights but now I look forward to the challenge! I feel so much more confident and stronger! Thank you Eric and Transform!
+            </blockquote>
+            <div class="quote-author">
+              <span class="quote-author__name">— Katie K.</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Navigation dots -->
+        <div class="testimonial-dots">
+          <button class="testimonial-dot active" data-slide="0" aria-label="View testimonial 1"></button>
+          <button class="testimonial-dot" data-slide="1" aria-label="View testimonial 2"></button>
+          <button class="testimonial-dot" data-slide="2" aria-label="View testimonial 3"></button>
+          <button class="testimonial-dot" data-slide="3" aria-label="View testimonial 4"></button>
+          <button class="testimonial-dot" data-slide="4" aria-label="View testimonial 5"></button>
+          <button class="testimonial-dot" data-slide="5" aria-label="View testimonial 6"></button>
+          <button class="testimonial-dot" data-slide="6" aria-label="View testimonial 7"></button>
+          <button class="testimonial-dot" data-slide="7" aria-label="View testimonial 8"></button>
+          <button class="testimonial-dot" data-slide="8" aria-label="View testimonial 9"></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <script>
+    // Testimonial Carousel Auto-rotation
+    document.addEventListener('DOMContentLoaded', () => {
+      const slides = document.querySelectorAll('.testimonial-slide');
+      const dots = document.querySelectorAll('.testimonial-dot');
+      let currentSlide = 0;
+      let autoPlayInterval;
+      
+      function showSlide(index) {
+        // Hide all slides
+        slides.forEach((slide, i) => {
+          slide.classList.remove('active');
+          dots[i].classList.remove('active');
+        });
+        
+        // Show current slide
+        slides[index].classList.add('active');
+        dots[index].classList.add('active');
+        currentSlide = index;
+      }
+      
+      function nextSlide() {
+        const next = (currentSlide + 1) % slides.length;
+        showSlide(next);
+      }
+      
+      function startAutoPlay() {
+        autoPlayInterval = setInterval(nextSlide, 8000); // Change every 8 seconds
+      }
+      
+      function resetAutoPlay() {
+        clearInterval(autoPlayInterval);
+        startAutoPlay();
+      }
+      
+      // Click handlers for dots
+      dots.forEach((dot, index) => {
+        dot.addEventListener('click', () => {
+          showSlide(index);
+          resetAutoPlay();
+        });
+      });
+      
+      // Start auto-play
+      startAutoPlay();
+    });
+  </script>
+
+  <!-- ===== ALL TRANSFORMATIONS GRID ===== -->
+  <section class="transformations-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">MORE SUCCESS STORIES</h2>
+        <p class="section-subtitle">
+          Every transformation is unique. Every client's journey is different. 
+          But they all share one thing: real, lasting results.
+        </p>
+      </div>
+      
+      <div class="transformations-grid">
+        {transformations.map((transformation) => (
+          <div class="transformation-card">
+            <div class="transformation-card__image">
+              <img src={transformation.image} alt={`${transformation.name} transformation`} loading="lazy" />
+            </div>
+            <div class="transformation-card__info">
+              <h3 class="transformation-card__name">{transformation.name}</h3>
+              <p class="transformation-card__result">{transformation.result}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== STATS SECTION ===== -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item">
+          <span class="stat-item__number">500+</span>
+          <span class="stat-item__label">Clients Transformed</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__number">15+</span>
+          <span class="stat-item__label">Years Experience</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__number">10,000+</span>
+          <span class="stat-item__label">Pounds Lost</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-item__number">5★</span>
+          <span class="stat-item__label">Average Rating</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA SECTION ===== -->
+  <section class="cta-section">
+    <div class="container">
+      <div class="cta-content">
+        <h2 class="cta-title">Ready to Write Your Success Story?</h2>
+        <p class="cta-description">
+          Join the hundreds of clients who have transformed their bodies and lives. 
+          Your journey starts with a free consultation.
+        </p>
+        <a href="#consultation" class="btn-cta btn-cta--large">
+          Start Your Transformation
+          <span class="btn-cta__value">Free Consultation</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONSULTATION FORM ===== -->
+  <section id="consultation" class="consultation-section">
+    <div class="consultation-overlay"></div>
+    <div class="container consultation-container">
+      <div class="consultation-wrapper">
+        <div class="consultation-header">
+          <h2>Request a Complimentary Consultation</h2>
+          <p>Take the first step towards your fitness goals. We'll respond within 24 hours.</p>
+        </div>
+        
+        <form class="consultation-form">
+          <FormInput
+            label="Full Name"
+            name="name"
+            type="text"
+            placeholder="John Doe"
+            required={true}
+          />
+          
+          <FormInput
+            label="Email Address"
+            name="email"
+            type="email"
+            placeholder="john@example.com"
+            required={true}
+          />
+          
+          <FormInput
+            label="Phone Number"
+            name="phone"
+            type="tel"
+            placeholder="(312) 555-0123"
+            required={true}
+          />
+          
+          <FormTextarea
+            label="Tell us about your fitness goals"
+            name="message"
+            placeholder="I'm interested in..."
+            rows={4}
+          />
+          
+          <div class="form-consent">
+            <label>
+              <input type="checkbox" required>
+              <span>
+                I consent to be contacted by Transform Personal Training regarding my inquiry.
+              </span>
+            </label>
+          </div>
+          
+          <Button variant="primary" type="submit" class="form-submit-btn">
+            Request Free Consultation
+          </Button>
+          
+          <p class="form-note">
+            We'll respond within 24 hours to schedule your free session.
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <!-- ===== FOOTER ===== -->
+  <Footer />
+
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  /* ===== HERO SECTION ===== */
+  .success-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .success-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  
+  .success-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .success-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .success-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .success-hero__subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ===== SECTION STYLES ===== */
+  .featured-section {
+    padding: 5rem 0;
+    background: white;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .section-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--color-black-900);
+    margin-bottom: 1rem;
+  }
+  
+  .section-title--accent {
+    color: var(--color-accent-500);
+  }
+  
+  .section-subtitle {
+    font-size: 1.125rem;
+    color: var(--color-black-600);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ===== FEATURED GRID ===== */
+  .featured-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .featured-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  /* ===== TRANSFORMATION CARDS ===== */
+  .transformation-card {
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .transformation-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  .transformation-card--featured {
+    border: 3px solid var(--color-accent-500);
+  }
+  
+  .transformation-card__image {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .transformation-card__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .transformation-card__info {
+    padding: 1.25rem;
+    background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+    text-align: center;
+  }
+  
+  .transformation-card__name {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.25rem;
+  }
+  
+  .transformation-card__result {
+    font-size: 0.875rem;
+    color: var(--color-accent-400);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  /* ===== QUOTE SECTION & TESTIMONIAL CAROUSEL ===== */
+  .quote-section {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    padding: 5rem 0;
+  }
+  
+  .testimonial-carousel {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+  }
+  
+  .quote-icon {
+    font-size: 4rem;
+    color: var(--color-accent-500);
+    line-height: 1;
+    margin-bottom: 1.5rem;
+  }
+  
+  .testimonial-slides {
+    position: relative;
+    min-height: 280px;
+  }
+  
+  .testimonial-slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+    pointer-events: none;
+  }
+  
+  .testimonial-slide.active {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+    position: relative;
+  }
+  
+  .quote-text {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.8;
+    font-style: italic;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+  }
+  
+  @media (min-width: 768px) {
+    .quote-text {
+      font-size: 1.35rem;
+    }
+  }
+  
+  .quote-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  
+  .quote-author__name {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .quote-author__result {
+    font-size: 0.875rem;
+    color: var(--color-accent-400);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  /* Navigation Dots */
+  .testimonial-dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+  }
+  
+  .testimonial-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 0;
+  }
+  
+  .testimonial-dot:hover {
+    border-color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .testimonial-dot.active {
+    background: var(--color-accent-500);
+    border-color: var(--color-accent-500);
+  }
+
+  /* ===== TRANSFORMATIONS GRID SECTION ===== */
+  .transformations-section {
+    padding: 5rem 0;
+    background: var(--color-black-50);
+  }
+  
+  .transformations-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .transformations-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .transformations-grid {
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2rem;
+    }
+  }
+
+  /* ===== STATS SECTION ===== */
+  .stats-section {
+    background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+    padding: 4rem 0;
+  }
+  
+  .stats-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .stats-grid {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+  
+  .stat-item {
+    text-align: center;
+  }
+  
+  .stat-item__number {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-item__label {
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.8);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* ===== CTA SECTION ===== */
+  .cta-section {
+    padding: 5rem 0;
+    background: white;
+  }
+  
+  .cta-content {
+    text-align: center;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .cta-title {
+    font-family: var(--font-heading);
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    color: var(--color-black-900);
+    margin-bottom: 1rem;
+  }
+  
+  .cta-description {
+    font-size: 1.125rem;
+    color: var(--color-black-600);
+    line-height: 1.7;
+    margin-bottom: 2rem;
+  }
+  
+  .btn-cta {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    background: var(--color-accent-500);
+    color: white;
+    padding: 1.25rem 3rem;
+    border-radius: 12px;
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    box-shadow: 0 8px 30px rgba(249, 115, 22, 0.4);
+  }
+  
+  .btn-cta:hover {
+    background: var(--color-accent-600);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 40px rgba(249, 115, 22, 0.5);
+  }
+  
+  .btn-cta__value {
+    font-size: 0.75rem;
+    font-weight: 500;
+    opacity: 0.9;
+    text-transform: none;
+    letter-spacing: 0;
+  }
+  
+  .btn-cta--large {
+    padding: 1.5rem 4rem;
+    font-size: 1.25rem;
+  }
+
+  /* ===== CONSULTATION SECTION ===== */
+  .consultation-section {
+    position: relative;
+    background-image: url('/images/form-background.png');
+    background-size: cover;
+    background-position: center;
+    padding: 5rem 0;
+  }
+  
+  .consultation-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(135deg, rgba(2, 132, 199, 0.95) 0%, rgba(30, 41, 59, 0.95) 100%);
+  }
+  
+  .consultation-container {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .consultation-wrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 1.5rem;
+    padding: 3rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+  }
+  
+  .consultation-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .consultation-header h2 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin-bottom: 0.5rem;
+  }
+  
+  .consultation-header p {
+    color: var(--color-black-600);
+  }
+  
+  .consultation-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+  }
+  
+  .form-consent {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+  
+  .form-consent label {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    cursor: pointer;
+  }
+  
+  .form-consent input[type="checkbox"] {
+    margin-top: 0.25rem;
+    width: 1rem;
+    height: 1rem;
+    accent-color: var(--color-primary-500);
+  }
+  
+  .form-consent span {
+    font-size: 0.875rem;
+    color: var(--color-black-600);
+    line-height: 1.5;
+  }
+  
+  .form-note {
+    text-align: center;
+    font-size: 0.875rem;
+    color: var(--color-black-500);
+    margin-top: 0.5rem;
+  }
+
+  /* ===== FOOTER ===== */
+  .footer {
+    background: #0f172a;
+    padding: 4rem 0 2rem;
+    color: rgba(255, 255, 255, 0.7);
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin-bottom: 3rem;
+  }
+  
+  @media (min-width: 768px) {
+    .footer-content {
+      grid-template-columns: 1.5fr 2fr;
+    }
+  }
+  
+  .footer-tagline {
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .footer-links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+  
+  .footer-column h4 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-column li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-column a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  .footer-column a:hover {
+    color: var(--color-accent-400);
+  }
+  
+  .footer-bottom {
+    padding-top: 2rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+    font-size: 0.875rem;
+  }
+</style>
