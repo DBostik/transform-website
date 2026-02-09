@@ -3,9 +3,13 @@ title: "10 Diet Myths That Are Keeping You From Losing Weight"
 excerpt: "Have you been following all the latest diet advice but have yet to drop a pound?  We’ve all been there: you think you’re following the best (or fastes..."
 date: "April 7, 2023"
 category: "Fitness Advice"
-image: "/images/blog/deadlift.png"
+image: "/images/blog/blog_jump_rope_1770342200549.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Have you been following all the latest diet advice but have yet to drop a pound?
 

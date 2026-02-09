@@ -3,9 +3,13 @@ title: "Techniques For Building Muscle With Your Personal Trainer"
 excerpt: "In the same way that a healthy lifestyle comes down to a conscious decision to live healthy, building muscle really relies on a decision to put in the..."
 date: "February 27, 2023"
 category: "Fitness Advice"
-image: "/images/blog/green_smoothie.png"
+image: "/images/blog/blog_kettlebell_swing_1770429076780.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 In the same way that a healthy lifestyle comes down to a conscious decision to live healthy, building muscle really relies on a decision to put in the necessary effort. But, where do you begin this quest?
 

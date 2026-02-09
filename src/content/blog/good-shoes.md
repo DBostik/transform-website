@@ -3,9 +3,13 @@ title: "Good Shoes"
 excerpt: "## An Incentive To Workout  Having a hard time getting motivated to workout? Then, treat yourself to new gym gear to get you going! I don’t know about..."
 date: "September 14, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_hamstring_stretch_1770342221568.png"
+image: "/images/blog/blog_grilled_chicken_salad_1770342114405.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Having a hard time getting motivated to workout? Then, treat yourself to new gym gear to get you going! I don’t know about you, but donning a new pair of leggings, top, or workout shoes always seems to give me a boost of self-esteem and get my pumped to go get my sweat on. Of all my workout gear, I make sure to keep my gym shoes up to date.
 

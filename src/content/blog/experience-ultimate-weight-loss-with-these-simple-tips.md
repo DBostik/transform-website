@@ -3,9 +3,13 @@ title: "Experience ULTIMATE Weight Loss With These Simple Tips!"
 excerpt: "You’ve been trying and trying, but you just can’t seem to shed those pesky pounds. Perhaps you can’t stay motivated? Maybe you can’t stick to a diet?..."
 date: "August 15, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_meal_prep_containers_1770429029168.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 You’ve been trying and trying, but you just can’t seem to shed those pesky pounds. Perhaps you can’t stay motivated? Maybe you can’t stick to a diet?
 

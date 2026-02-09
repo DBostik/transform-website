@@ -3,9 +3,13 @@ title: "How To Lead a More Healthy and Fit Life"
 excerpt: "If truth be told, most of us want to be a lot fitter than we are. It is something we should all be aiming for, a better level of fitness.  So, where..."
 date: "August 10, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 If truth be told, most of us want to be a lot fitter than we are. It is something we should all be aiming for, a better level of fitness.
 

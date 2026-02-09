@@ -3,9 +3,13 @@ title: "Benefits of Having a Personal Trainer"
 excerpt: "Starting an exercise program will bring the best results when you are guided by a professional personal trainer. A personal trainer can help you get..."
 date: "November 11, 2023"
 category: "Fitness Advice"
-image: "/images/blog/oatmeal_bowl.png"
+image: "/images/blog/blog_plank_variation_1770342187455.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Starting an exercise program will bring the best results when you are guided by a professional personal trainer. A personal trainer can help you get the most out of your fitness goals and can help you figure out where you should go next when it comes to working out.
 

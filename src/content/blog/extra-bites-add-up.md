@@ -3,9 +3,13 @@ title: "Extra Bites Add Up"
 excerpt: "## All Those Extras  But I’m only eating 1,500 calories per day…  LOOK! ⁠You may or may not track everything  you consume but just know, your body DOE..."
 date: "January 6, 2022"
 category: "Fitness Advice"
-image: "/images/blog/yoga_stretch.png"
+image: "/images/blog/blog_nature_walk_1770394559199.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 But I’m only eating 1,500 calories per day…  LOOK! ⁠You may or may not track everything  you consume but just know, your body DOES. Just imagine… you are working your butt off. However, after hitting wall after wall, failure after failure, you realize the thing that is holding you back from SUCCESS is those “little” extra bites. THAT SUCKS!
 

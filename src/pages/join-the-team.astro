@@ -11,6 +11,7 @@ import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
+import StyledGHLApplication from '../components/integration/StyledGHLApplication.astro';
 
 const pageTitle = "Join the Team - Transform Personal Training";
 const pageDescription = "Become a personal trainer at Chicago's premier fitness studio. We are looking for passionate, certified trainers to join our team.";
@@ -93,53 +94,13 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
         <!-- Application Form -->
         <div class="form-col">
           <div class="form-wrapper">
-            <h3 class="form-title">Apply Now</h3>
-            <p class="form-subtitle">Fill out the form below to start the conversation.</p>
+            <div class="form-header">
+              <h3 class="form-title">Apply Now</h3>
+              <p class="form-subtitle">Fill out the form below to start the conversation.</p>
+            </div>
             
-            <form class="application-form">
-              <FormInput
-                label="Full Name"
-                name="name"
-                type="text"
-                placeholder="Jane Smith"
-                required={true}
-              />
-              
-              <FormInput
-                label="Email Address"
-                name="email"
-                type="email"
-                placeholder="jane@example.com"
-                required={true}
-              />
-              
-              <FormInput
-                label="Phone Number"
-                name="phone"
-                type="tel"
-                placeholder="(312) 555-0123"
-                required={true}
-              />
-              
-              <FormTextarea
-                label="Why do you want to join Transform?"
-                name="cover_letter"
-                placeholder="Tell us a bit about yourself and your experience..."
-                rows={5}
-                required={true}
-              />
-              
-              <FormInput
-                label="LinkedIn Profile (Optional)"
-                name="linkedin"
-                type="url"
-                placeholder="https://linkedin.com/in/janesmith"
-              />
-              
-              <Button variant="primary" type="submit" class="w-full mt-4">
-                Submit Application
-              </Button>
-            </form>
+            <!-- HighLevel Application Form -->
+            <StyledGHLApplication />
           </div>
         </div>
         
@@ -303,12 +264,17 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
   /* Form Styles */
   .form-wrapper {
     background: white;
-    padding: 2rem;
+    padding: 0; /* Removed padding completely to let form fill space */
     border-radius: 1.5rem;
+    overflow: hidden; /* Ensure form doesn't spill out of rounded corners */
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
     border: 1px solid var(--color-black-100);
     position: sticky;
     top: 6rem;
+  }
+  
+  .form-header {
+    padding: 2rem 2rem 0 2rem;
   }
   
   .form-title {
@@ -321,7 +287,7 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
   
   .form-subtitle {
     color: var(--color-black-600);
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
   
   .w-full { width: 100%; }

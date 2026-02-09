@@ -222,12 +222,14 @@ Based on current branding, likely incorporating:
 <meta name="twitter:image" content="/images/twitter-card.jpg">
 ```
 
-#### 2. Header Hierarchy (Every Page)
-- **One H1 per page**: Primary keyword-rich headline
-- **H2s**: Major section headings (services, testimonials, etc.)
-- **H3s**: Subsections within H2s
-- **H4-H6**: Further detail as needed
-- **Keyword Strategy**: Natural inclusion of "personal training Chicago", "Lincoln Park gym", "online fitness coaching"
+#### 2. Header Hierarchy & Keyword Strategy (Every Page)
+- **Primary Keywords:** "Personal Trainer Chicago", "Personal Training Lincoln Park", "Private Gym Lakeview", "Online Fitness Coach"
+- **Secondary Keywords:** "Weight Loss Chicago", "Strength Training", "Nutrition Coaching", "Best Personal Trainers"
+- **Implementation Rules:**
+    - **H1:** Must include primary location-based keyword (e.g., "Chicago's Best Personal Training Studio")
+    - **H2:** Use semantic keywords for sections (e.g., "Our Personal Training Services in Lincoln Park")
+    - **Alt Text:** Descriptive, including keywords where natural (e.g., "Client performing deadlift at Transform Personal Training Lakeview")
+    - **Internal Linking:** Link service pages to each other using descriptive anchor text.
 
 #### 3. Schema Markup (JSON-LD)
 
@@ -377,28 +379,31 @@ Based on current branding, likely incorporating:
 ### Phase 1: Foundation & Setup ⏳
 **Goal:** Establish project structure and development environment
 
-- [ ] 1.1 Initialize Astro project with Tailwind CSS
-- [ ] 1.2 Set up Git repository and version control
-- [ ] 1.3 Configure Hostinger deployment (manual FTP or GitHub Actions automation)
-- [ ] 1.4 Install essential dependencies (image optimization, SEO tools)
-- [ ] 1.5 Create base layout structure and component architecture
-- [ ] 1.6 Set up environment variables for HighLevel integration
-- [ ] 1.7 Test deployment to Hostinger staging area
+- [x] 1.1 Initialize Astro project with Tailwind CSS
+- [x] 1.2 Set up Git repository and version control
+- [x] 1.3 Configure Hostinger deployment:
+    - [x] Create `.github/workflows/deploy.yml` for auto-deployment
+    - [x] Add `FTP_USERNAME` and `FTP_PASSWORD` to GitHub Secrets
+- [x] 1.4 Install essential dependencies (image optimization, SEO tools)
+- [x] 1.5 Create base layout structure and component architecture
+- [x] 1.6 Set up environment variables for HighLevel integration
+- [x] 1.7 Create a staging subdomain on Hostinger (e.g., `staging.transformpersonaltraining.com` or a subfolder `public_html/v2`)
+- [x] 1.8 Deploy built site to staging for live server verification
 
-**Deliverable:** Working development environment with Hostinger deployment process
+**Deliverable:** Working development environment with verified Staging site on Hostinger
 
 ---
 
 ### Phase 2: Brand & Design System 🎨
 **Goal:** Extract current branding and create modern design system
 
-- [ ] 2.1 Analyze current website for brand colors, fonts, imagery style
-- [ ] 2.2 Create Tailwind config with custom color palette
-- [ ] 2.3 Define typography scale and font loading strategy
-- [ ] 2.4 Design component library (buttons, cards, forms, sections)
-- [ ] 2.5 Create responsive grid system and breakpoint strategy
-- [ ] 2.6 Design hero section variations
-- [ ] 2.7 Create icon set for services/features
+- [x] 2.1 Analyze current website for brand colors, fonts, imagery style
+- [x] 2.2 Create Tailwind config with custom color palette
+- [x] 2.3 Define typography scale and font loading strategy
+- [x] 2.4 Design component library (buttons, cards, forms, sections)
+- [x] 2.5 Create responsive grid system and breakpoint strategy
+- [x] 2.6 Design hero section variations
+- [x] 2.7 Create icon set for services/features
 
 **Deliverable:** Complete design system documentation and Tailwind configuration
 
@@ -408,75 +413,75 @@ Based on current branding, likely incorporating:
 **Goal:** Build all main pages with SEO optimization
 
 #### 3.1 Homepage
-- [ ] Hero section with primary CTA
-- [ ] Services overview (Studio + Online)
-- [ ] Social proof section (testimonials)
-- [ ] "What Happens First" section
-- [ ] Founder story snippet
-- [ ] Consultation form integration
-- [ ] Schema markup (LocalBusiness, FAQ)
+- [x] Hero section with primary CTA
+- [x] Services overview (Studio + Online)
+- [x] Social proof section (testimonials)
+- [x] "What Happens First" section
+- [x] Founder story snippet
+- [x] Consultation form integration
+- [x] Schema markup (LocalBusiness, FAQ)
 
 #### 3.2 Studio Services Page
-- [ ] Service details and benefits
-- [ ] Pricing/packages (if applicable)
-- [ ] Location and hours
-- [ ] Booking CTA
-- [ ] Schema markup (Service, Offer)
+- [x] Service details and benefits
+- [x] Pricing/packages (if applicable)
+- [x] Location and hours
+- [x] Booking CTA
+- [x] Schema markup (Service, Offer)
 
 #### 3.3 Online Training Page
-- [ ] Online program features
-- [ ] Technology/app details
-- [ ] Pricing comparison
-- [ ] Sign-up CTA
-- [ ] Schema markup (Service)
+- [x] Online program features
+- [x] Technology/app details
+- [x] Pricing comparison
+- [x] Sign-up CTA
+- [x] Schema markup (Service)
 
 #### 3.4 Success Stories Page
-- [ ] Testimonial grid/carousel
-- [ ] Before/after transformations
-- [ ] Client quotes with photos
-- [ ] Video testimonials (if available)
-- [ ] Schema markup (Review)
+- [x] Testimonial grid/carousel
+- [x] Before/after transformations
+- [x] Client quotes with photos
+- [x] Video testimonials (if available)
+- [x] Schema markup (Review)
 
 #### 3.5 Meet the Team Page
-- [ ] Trainer profiles with photos
-- [ ] Credentials and certifications
-- [ ] Personal stories
-- [ ] Schema markup (Person)
+- [x] Trainer profiles with photos
+- [x] Credentials and certifications
+- [x] Personal stories
+- [x] Schema markup (Person)
 
 #### 3.6 Join the Team Page
-- [ ] Career opportunities
-- [ ] Application form/process
-- [ ] Company culture
+- [x] Career opportunities
+- [x] Application form/process
+- [x] Company culture
 
 #### 3.7 Contact Page
-- [ ] Contact form (HighLevel)
-- [ ] Location map (Google Maps embed)
-- [ ] Hours and contact info
-- [ ] Directions link
+- [x] Contact form (HighLevel)
+- [x] Location map (Google Maps embed)
+- [x] Hours and contact info
+- [x] Directions link
 
 #### 3.8 Blog Structure
-- [ ] Blog listing page
-- [ ] Blog post template
-- [ ] Migrate existing blog posts from current site
-- [ ] Optimize migrated posts for SEO (meta tags, schema)
-- [ ] Schema markup (Article, BlogPosting)
-- [ ] RSS feed
-- [ ] Set up weekly blog posting workflow
+- [x] Blog listing page
+- [x] Blog post template
+- [x] Migrate existing blog posts from current site
+- [x] Optimize migrated posts for SEO (meta tags, schema)
+- [x] Schema markup (Article, BlogPosting)
+- [x] RSS feed
+- [x] Set up weekly blog posting workflow
 
 **Deliverable:** All pages built, responsive, and SEO-optimized (including migrated blog content)
 
 ---
 
-### Phase 4: HighLevel Integration 🔗
+### Phase 4: HighLevel Integration 🔗 (COMPLETED) ✅
 **Goal:** Connect all forms and CTAs to HighLevel CRM
 
-- [ ] 4.1 Set up HighLevel webhook endpoints
-- [ ] 4.2 Integrate consultation form (homepage)
-- [ ] 4.3 Integrate contact form (contact page)
-- [ ] 4.4 Configure pop-up opt-in forms
-- [ ] 4.5 Test form submissions and data flow
-- [ ] 4.6 Set up confirmation emails/thank you pages
-- [ ] 4.7 Implement form validation and error handling
+- [x] 4.1 Set up HighLevel webhook endpoints
+- [x] 4.2 Integrate consultation form (homepage)
+- [x] 4.3 Integrate contact form (contact page)
+- [x] 4.4 Configure pop-up opt-in forms
+- [x] 4.5 Test form submissions and data flow
+- [x] 4.6 Set up confirmation emails/thank you pages
+- [x] 4.7 Implement form validation and error handling
 
 **Deliverable:** Fully functional form integration with HighLevel
 
@@ -535,13 +540,15 @@ Based on current branding, likely incorporating:
 ### Phase 8: Launch & Migration 🚀
 **Goal:** Go live with new website
 
-- [ ] 8.1 Final content review and approval
+- [ ] 8.1 Final content review and approval on Staging (see Phase 1.7)
 - [ ] 8.2 Verify domain DNS settings (already configured with Hostinger)
 - [ ] 8.3 Verify SSL certificate (should be active via Hostinger)
 - [ ] 8.4 Build production site: `npm run build`
-- [ ] 8.5 Upload `dist` folder contents to Hostinger `public_html`
+- [ ] 8.5 **Zero-Downtime Swap**:
+    - Rename current `public_html` to `public_html_backup` (instant backup)
+    - Rename `public_html_staging` (or upload new files) to `public_html`
 - [ ] 8.6 Set up 301 redirects (if needed via .htaccess)
-- [ ] 8.7 Test all functionality on live domain
+- [ ] 8.7 Test all functionality on live domain (www)
 - [ ] 8.8 Submit sitemap to Google Search Console
 - [ ] 8.9 Monitor for errors and issues
 - [ ] 8.10 Announce launch (email, social media)

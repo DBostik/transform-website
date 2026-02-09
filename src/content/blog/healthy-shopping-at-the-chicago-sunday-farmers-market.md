@@ -3,9 +3,13 @@ title: "Healthy Shopping At the Chicago Sunday Farmers Market"
 excerpt: "Taking your fitness journey seriously goes beyond the work you put in with a trainer or at the gym.  It requires dedication and discipline in many a..."
 date: "May 22, 2022"
 category: "Fitness Advice"
-image: "/images/blog/smoothie_bowl.png"
+image: "/images/blog/blog_meal_prep_containers_1770429029168.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Taking your fitness journey seriously goes beyond the work you put in with a trainer or at the gym.
 

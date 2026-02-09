@@ -3,9 +3,13 @@ title: "A Perfectly Refreshing Lunch Salad"
 excerpt: "##   ## A Secret to Success on A Fitness Journey  Listen carefully. I’m going to share with you one of the secrets to success on a fitness journey tow..."
 date: "November 17, 2023"
 category: "Fitness Advice"
-image: "/images/blog/chickpeas.jpg"
+image: "/images/blog/blog_boxing_bag_1770429127510.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Listen carefully. I’m going to share with you one of the secrets to success on a fitness journey towards improved health…. It’s VARIETY. Switching up your mix of healthy recipes is super important. Over the years we’ve noticed that the people who tend to fall off the wagon get bored with what they are eating.
 

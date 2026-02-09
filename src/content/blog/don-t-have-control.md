@@ -3,9 +3,13 @@ title: "Don’t Have Control"
 excerpt: "## Sound Familiar?  Constantly second-guessing. Indecision. Changing course. Flip-flopping. Putting things off. Wanting something but acting in ways..."
 date: "June 22, 2023"
 category: "Fitness Advice"
-image: "/images/blog/group_class.png"
+image: "/images/blog/blog_medicine_ball_1770662409018.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Constantly second-guessing. Indecision. Changing course. Flip-flopping. Putting things off. Wanting something but acting in ways that make it impossible to have. Scrolling through emotions. Believing and not believing at the same time. You don’t feel in control of your life and wondering why.
 

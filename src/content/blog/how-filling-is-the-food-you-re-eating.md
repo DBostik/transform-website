@@ -3,9 +3,13 @@ title: "How Filling Is the Food You’re Eating?"
 excerpt: "## A Dance Party in Your Stomach  Ever find yourself frustrated in feeling full and killing cravings? Wonder how filling is the food you’re eating? Le..."
 date: "November 24, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_hydration_1770342039072.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Ever find yourself frustrated in feeling full and killing cravings? Wonder how filling is the food you’re eating? Let’s back track real quick … Why do we eat? We eat to live, right? Right! Now I think it’s fair to say (on behalf of the human experience) we also eat to have a dance party in our stomach. Can I get a hell freakin’ yeah on that?
 

@@ -3,9 +3,13 @@ title: "It's Not Your Fault"
 excerpt: "It's not your fault if you don't know what a healthy snack is. The education system doesn't teach much about it. Let us teach you!"
 date: "September 21, 2022"
 category: "Mindset"
-image: "/images/blog/mindset.jpg"
+image: "/images/blog/blog_spin_class_1770342237110.png"
 author: "Kristen Bostik"
 ---
+
+
+
+
 
 Follow me @TransformFitCoach for daily nutrition tips, fitness motivation, recipes, and more!
 

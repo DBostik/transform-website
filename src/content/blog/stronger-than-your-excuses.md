@@ -3,9 +3,13 @@ title: "Stronger Than Your Excuses"
 excerpt: "Especially around the holidays, you’ll see pictures on social media of people look in a state of utopic happiness donned in matching outfits with th..."
 date: "August 14, 2021"
 category: "Fitness Advice"
-image: "/images/blog/runner_track.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Especially around the holidays, you’ll see pictures on social media of people look in a state of utopic happiness donned in matching outfits with their pets, kids, and/or significant others. If you’re one of those, won’t lie, I’m a little envious. I don’t have it together enough or maybe I just don’t have the energy anymore to make that amount of effort.
 

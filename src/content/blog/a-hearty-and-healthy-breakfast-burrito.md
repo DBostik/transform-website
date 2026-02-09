@@ -3,9 +3,13 @@ title: "A Hearty and Healthy Breakfast Burrito"
 excerpt: "## Food as Fuel and Medicine  As I’ve mentioned in my previous posts, fueling your body with the right kind of food makes all the difference. As Jilli..."
 date: "May 1, 2023"
 category: "Fitness Advice"
-image: "/images/blog/latkes.jpg"
+image: "/images/blog/blog_protein_pancakes_1770342147430.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 As I’ve mentioned in my previous posts, fueling your body with the right kind of food makes all the difference. As Jillian Kubala from Healthline outlines, “Research shows that dietary habits influence disease risk. While certain foods may trigger chronic health conditions, others offer strong medicinal and protective qualities… Food does much more than simply provide you with fuel.
 

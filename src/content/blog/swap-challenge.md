@@ -3,9 +3,13 @@ title: "SWAP Challenge"
 excerpt: "## Is Your Tank Running on E?  Is your motivation tank running on E, right now? Can’t find direction or a little lost on what to do next. Right now yo..."
 date: "January 5, 2021"
 category: "Fitness Advice"
-image: "/images/blog/chickpeas.jpg"
+image: "/images/blog/blog_chia_pudding_1770429041023.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Is your motivation tank running on E, right now? Can’t find direction or a little lost on what to do next. Right now you just need some small wins to get back into momentum and feeling great and positive about yourself and your capabilities. One of the best way to do that is to SWAP. SWAPPING is an easy way to get wins.
 

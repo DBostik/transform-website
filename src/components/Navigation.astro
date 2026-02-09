@@ -22,8 +22,14 @@ interface NavItem {
 }
 
 const navLinks: NavItem[] = [
-  { label: 'Studio Services', href: '/studio-services' },
-  { label: 'Online Training', href: '/online-training' },
+  { 
+    label: 'Services', 
+    href: '/studio-services', // Provide a default or '#' if purely toggle
+    children: [
+      { label: 'Studio Services', href: '/studio-services' },
+      { label: 'Online Training', href: '/online-training' }
+    ]
+  },
   { label: 'Success Stories', href: '/success-stories' },
   { 
     label: 'Team', 
@@ -34,6 +40,7 @@ const navLinks: NavItem[] = [
     ]
   },
   { label: 'Blog', href: '/blog' },
+  { label: 'Members', href: 'https://clients.mindbodyonline.com/classic/ws?studioid=13171&stype=-2&subTab=info' },
   { label: 'Contact', href: '/contact' },
 ];
 ---

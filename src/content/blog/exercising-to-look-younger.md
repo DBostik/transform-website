@@ -3,9 +3,13 @@ title: "Exercising to Look Younger"
 excerpt: "There are countless benefits to working out with a personal trainer or going for a jog several times each week. Better health, a trimmer waistline and..."
 date: "August 24, 2022"
 category: "Fitness Advice"
-image: "/images/blog/salmon_dish.png"
+image: "/images/blog/blog_goal_setting_1770394545928.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 There are countless benefits to working out with a personal trainer or going for a jog several times each week. Better health, a trimmer waistline and longer life expectancy are all a direct result of regular physical activity. But can routinely exercising result in a more youthful appearance? Scientific research and common sense says yes.
 

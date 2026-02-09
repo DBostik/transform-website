@@ -3,9 +3,13 @@ title: "Zinc’s Importance"
 excerpt: "## What is Zinc?  Do you consider zinc in your diet? Zinc is an important element which contributes to many functions within the body. It plays a role..."
 date: "October 25, 2022"
 category: "Fitness Advice"
-image: "/images/blog/latkes.jpg"
+image: "/images/blog/blog_alarm_clock_1770394531654.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Do you consider zinc in your diet? Zinc is an important element which contributes to many functions within the body. It plays a role in immunity, wound healing, and energy metabolism. The environment of your gastrointestinal tract can also influence how much zinc is actually absorbed and utilized in the body.
 

@@ -3,9 +3,13 @@ title: "Focus on Yourself"
 excerpt: "## The Characters At The Gym  Ever find yourself scanning the gym and judging the people you see? We’ve all done it at some point or other. Before the..."
 date: "December 21, 2021"
 category: "Fitness Advice"
-image: "/images/blog/green_smoothie.png"
+image: "/images/blog/blog_protein_pancakes_1770342147430.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Ever find yourself scanning the gym and judging the people you see? We’ve all done it at some point or other. Before the pandemic it was probably just out of curiosity or jealousy. Nowadays it might be to make sure that everyone is taking the proper safety measures to prevent the spread of COVID-19.
 

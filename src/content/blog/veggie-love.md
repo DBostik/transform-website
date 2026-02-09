@@ -3,9 +3,13 @@ title: "Veggie Love"
 excerpt: "## Lovers and Haters    Some people love them, while some people hate them. What am I talking about? Vegetables. We have both types in our house. I lo..."
 date: "January 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/yoga_stretch.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Some people love them, while some people hate them. What am I talking about? Vegetables. We have both types in our house. I love veggies, but my husband can’t stand them, especially green ones; it’s pretty ironic seeing the industry we’re in. Despite his dislike of veggies, my hubby eats them. Why? It’s simple, we know it’s good for our health.
 

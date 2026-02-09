@@ -3,9 +3,13 @@ title: "A Healthy, Easy Meal Prep Guide to Help You Lose Weight"
 excerpt: "You work hard to keep in shape and look as good as you can. But what about the food you put into your body? A simple meal prep guide might be all you..."
 date: "November 14, 2022"
 category: "Fitness Advice"
-image: "/images/blog/deadlift.png"
+image: "/images/blog/blog_vegetable_chopping_1770429018287.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 You work hard to keep in shape and look as good as you can. But what about the food you put into your body? A simple meal prep guide might be all you need to go to get started on your weight loss goals.
 

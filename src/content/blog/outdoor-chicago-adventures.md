@@ -3,9 +3,13 @@ title: "Outdoor Chicago Adventures"
 excerpt: "Its summer time, so going out for a run in the Windy City is back on the menu for the workout happy citizens of Chicago. The Second City has some of..."
 date: "August 6, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_avocado_toast_1770342100825.png"
+image: "/images/blog/blog_greek_yogurt_parfait_1770394607542.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Its summer time, so going out for a run in the Windy City is back on the menu for the workout happy citizens of Chicago. The Second City has some of the most scenic and enjoyable outdoor landscapes of any major metropolitan city in the U.S.
 

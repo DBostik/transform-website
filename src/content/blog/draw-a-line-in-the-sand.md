@@ -3,9 +3,13 @@ title: "Draw a Line in the Sand"
 excerpt: "## Breaking Shackles  My job as a coach is to interrupt what you’ve done up until this point. I think we can both agree, what got you here won’t get y..."
 date: "March 13, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_healthy_snacks_1770342052534.png"
+image: "/images/blog/blog_running_shoes_1770342175041.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 My job as a coach is to interrupt what you’ve done up until this point. I think we can both agree, what got you here won’t get you any further. It’s my job to help break shackles. Sometimes that requires tough love. Things I say will be tough to read, even harsh at times. Exercises I give you will be difficult to do and feel painful.
 

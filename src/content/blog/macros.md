@@ -3,9 +3,13 @@ title: "Macros"
 excerpt: "Do you consider macronutrients (a.k.a. macros) distribution in all of your meals? The good news is it’s incredibly easy to follow macro splits or simp..."
 date: "January 24, 2023"
 category: "Fitness Advice"
-image: "/images/blog/cardio.jpg"
+image: "/images/blog/blog_meditation_indoors_1770394571681.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Do you consider macronutrients (a.k.a. macros) distribution in all of your meals? The good news is it’s incredibly easy to follow macro splits or simply make sure you are eating the right amount of each on a plant based diet. Macros are an energy source that provide valuable nutrients to support everyday bodily functions.
 

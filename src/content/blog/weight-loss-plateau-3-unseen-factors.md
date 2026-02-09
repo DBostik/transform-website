@@ -3,9 +3,13 @@ title: "Weight Loss Plateau? 3 Unseen Factors"
 excerpt: "Struggling with a weight loss plateau? Discover 3 unseen factors like sleep and stress that might be hindering your progress."
 date: "February 3, 2026"
 category: "Fitness Advice"
-image: "/images/blog/blog_squat_rack_1770342078284.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
 author: "David Bostik"
 ---
+
+
+
+
 
 You’ve been crushing your workouts, eating clean, and tracking your macros… but the scale won’t budge. We’ve all been there. It’s frustrating, discouraging, and can make you want to throw in the towel.
 

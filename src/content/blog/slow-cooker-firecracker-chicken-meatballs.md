@@ -3,9 +3,13 @@ title: "Slow Cooker Firecracker Chicken Meatballs"
 excerpt: "Struggling to find recipes that everyone in your household will enjoy? No worries, we've got you covered."
 date: "October 10, 2022"
 category: "Recipes"
-image: "/images/blog/latkes.jpg"
+image: "/images/blog/blog_grilled_chicken_salad_1770342114405.png"
 author: "Kristen Bostik"
 ---
+
+
+
+
 
 Struggling to find recipes that everyone in your household will enjoy? No worries, we've got you covered. Co-owner of Transform, Kristen Bostik, knows exactly what you're going through and has made it her mission to find recipes that are healthy, easy to make, and everyone will enjoy. Give this recipe for Slow Cooker Firecracker Chicken Meatballs a try! You won't be disappointed ;)
 

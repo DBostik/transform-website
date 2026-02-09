@@ -3,9 +3,13 @@ title: "Simple Changes You Can Make To Lose Weight"
 excerpt: "Making small changes to your diet can surprisingly add up quick to calorie reduction when trying to achieve and maintain a goal weight.  Preparation..."
 date: "November 18, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_kettlebell_swing_1770429076780.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Making small changes to your diet can surprisingly add up quick to calorie reduction when trying to achieve and maintain a goal weight.
 

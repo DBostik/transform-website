@@ -3,9 +3,13 @@ title: "The Health Roller Coaster"
 excerpt: "The journey to a healthier self is like a roller coaster. It has it’s ups and downs. Starting a fitness routine is worth it."
 date: "January 15, 2023"
 category: "Mindset"
-image: "/images/blog/yoga_stretch.png"
+image: "/images/blog/blog_plank_variation_1770342187455.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 The journey to a healthier self is like a roller coaster. It has it’s ups and downs. Starting a fitness routine is worth it.
 

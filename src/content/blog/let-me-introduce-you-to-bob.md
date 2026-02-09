@@ -3,9 +3,13 @@ title: "Let me introduce you to Bob"
 excerpt: "Bob is 75 years young and joined the Transform family in February. Bob has diabetes and came to us looking to lose a little weight, increase strength,..."
 date: "June 21, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_squat_rack_1770342078284.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Bob is 75 years young and joined the Transform family in February. Bob has diabetes and came to us looking to lose a little weight, increase strength, relieve some aches and pains, and improve his general health. Bob has been working with Gerri Clark 2 times a week and just finished up his 2nd month with us.
 

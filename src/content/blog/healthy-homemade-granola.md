@@ -3,9 +3,13 @@ title: "Healthy Homemade Granola"
 excerpt: "##   ## A Tasty Vegan Breakfast Recipe  As promised in previous posts, I will continue to send healthy recipes your direction. Building up a library f..."
 date: "December 5, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_plank_variation_1770342187455.png"
+image: "/images/blog/blog_protein_pancakes_1770342147430.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 As promised in previous posts, I will continue to send healthy recipes your direction. Building up a library filled with nutritious options is an important part of living a healthy lifestyle. Fueling your body with the right types of food will make you look and feel amazing. Today I’m passing along a healthy homemade granola breakfast recipe.
 

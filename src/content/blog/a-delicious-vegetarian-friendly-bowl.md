@@ -3,9 +3,13 @@ title: "A Delicious Vegetarian-Friendly Bowl"
 excerpt: "## GRITS BOWL WITH AVOCADO AND BAKED TOFU STRIPS  Check out this yummy vegetarian-friendly bowl recipe for a Grits with Avocado and Baked Tofu Strips...."
 date: "January 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_alarm_clock_1770394531654.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Check out this yummy vegetarian-friendly bowl recipe for a Grits with Avocado and Baked Tofu Strips. This grits bowl is almost like a deconstructed breakfast sandwich. Eggy baked tofu, fresh avocado, and creamy, steamy grits. It tastes so delicious! We had this the other day. Not only is it healthy and tasty, but it is super easy to make too!
 

@@ -3,9 +3,13 @@ title: "Protein Basics"
 excerpt: "## INTRO TO PROTEIN  Not going to pull out my science teacher hat and start diving into protein too deep, but rather, I want to cover some protein bas..."
 date: "May 7, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_avocado_toast_1770342100825.png"
+image: "/images/blog/blog_jump_rope_1770342200549.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Not going to pull out my science teacher hat and start diving into protein too deep, but rather, I want to cover some protein basics so you can understand why so much emphasis is put on protein consumption. Let’s start with two of the most common myths about protein, however, before doing so, please know that there is no judgement if you thought either of these to be true.
 

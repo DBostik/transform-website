@@ -10,8 +10,8 @@ import Button from '../components/ui/Button.astro';
 import FormInput from '../components/ui/FormInput.astro';
 import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
-import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
+import StyledGHLContactForm from '../components/integration/StyledGHLContactForm.astro';
 
 const pageTitle = "Contact Us - Transform Personal Training";
 const pageDescription = "Get in touch with Transform Personal Training in Lincoln Park, Chicago. Scedule your free consultation today.";
@@ -136,55 +136,8 @@ const pageDescription = "Get in touch with Transform Personal Training in Lincol
               </div>
             </div>
             
-            <form class="main-contact-form">
-               <div class="form-row">
-                <FormInput
-                  label="Full Name"
-                  name="name"
-                  type="text"
-                  placeholder="John Doe"
-                  required={true}
-                />
-               </div>
-              
-              <div class="form-row-group">
-                <FormInput
-                  label="Email Address"
-                  name="email"
-                  type="email"
-                  placeholder="john@example.com"
-                  required={true}
-                />
-                
-                <FormInput
-                  label="Phone Number"
-                  name="phone"
-                  type="tel"
-                  placeholder="(312) 555-0123"
-                  required={true}
-                />
-              </div>
-              
-              <FormTextarea
-                label="How can we help you?"
-                name="message"
-                placeholder="I'm interested in personal training because..."
-                rows={4}
-              />
-              
-              <div class="form-consent">
-                <label>
-                  <input type="checkbox" required>
-                  <span>
-                    I consent to be contacted by Transform Personal Training regarding my inquiry.
-                  </span>
-                </label>
-              </div>
-              
-              <Button variant="primary" type="submit" class="w-full">
-                Send Message
-              </Button>
-            </form>
+            <!-- HighLevel Contact Form -->
+            <StyledGHLContactForm />
           </div>
         </div>
         
@@ -206,8 +159,6 @@ const pageDescription = "Get in touch with Transform Personal Training in Lincol
 
   <!-- ===== FOOTER ===== -->
   <Footer />
-
-  <PopupForm />
 </body>
 </html>
 

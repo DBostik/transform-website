@@ -3,9 +3,13 @@ title: "Super Duper Workout Juice"
 excerpt: "Before busting your moves out with the best personal trainer in Chicago, it’s a good idea to feed your body with nutrients to provide your mind an..."
 date: "September 23, 2023"
 category: "Fitness Advice"
-image: "/images/blog/green_smoothie.png"
+image: "/images/blog/blog_meditation_indoors_1770394571681.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Before busting your moves out with the best personal trainer in Chicago, it’s a good idea to feed your body with nutrients to provide your mind and muscles the energy it needs for the workout ahead.  Never mind the intensity of the iron pumping or the treadmill running, juice will cure hunger pangs and keep you full for the duration of your session.
 

@@ -3,9 +3,13 @@ title: "Curb Those Junk Food Cravings!"
 excerpt: "## When we overindulge in too much junk food, the results leave us wanting one thing, you guessed it, more junk food!  Be it a salty or sweet crav..."
 date: "May 13, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_hamstring_stretch_1770342221568.png"
+image: "/images/blog/blog_healthy_snacks_1770342052534.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 To begin breaking the vicious cycle of junk food cravings we should eliminate all things refined and avoid high fructose corn syrup that is found in food that has been highly processed. Read all of your nutrition labels to make sure you aren’t consuming added sugar and sodium, which can make junk food cravings even more powerful.
 

@@ -3,9 +3,13 @@ title: "Put Yourself First"
 excerpt: "#####   ##### Kicking off today’s blog with a quote, “Don’t tell me the sky’s the limit when there are footprints on the moon.” —Paul Brandt.  ## What..."
 date: "January 15, 2022"
 category: "Fitness Advice"
-image: "/images/blog/salmon_dish.png"
+image: "/images/blog/blog_spin_class_1770342237110.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 What would you do if you knew you couldn’t fail? How would it feel to love yourself unconditionally and break the chains of fear, regret, and self-sabotage?
 

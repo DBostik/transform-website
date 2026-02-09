@@ -3,9 +3,13 @@ title: "Learn How to Get a Nice Lean Body for Summer"
 excerpt: "As temperatures rise and more revealing clothing starts getting pulled from the closet, you may be thinking towards summer and all that comes with it...."
 date: "May 25, 2023"
 category: "Fitness Advice"
-image: "/images/blog/healthy_food.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 As temperatures rise and more revealing clothing starts getting pulled from the closet, you may be thinking towards summer and all that comes with it. If you’re getting ready to strut your stuff at the beach, pool, or elsewhere, the time to start preparing is now.
 

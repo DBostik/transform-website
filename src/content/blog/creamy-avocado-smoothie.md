@@ -3,9 +3,13 @@ title: "Creamy Avocado Smoothie"
 excerpt: "# My New Favorite!  Finding time to prepare a healthy meal, especially when you’re on the go in the morning, can be challenging. Instead of spending t..."
 date: "July 23, 2021"
 category: "Fitness Advice"
-image: "/images/blog/green_smoothie.png"
+image: "/images/blog/blog_hydration_1770342039072.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Finding time to prepare a healthy meal, especially when you’re on the go in the morning, can be challenging. Instead of spending the extra cash and waiting in line at your local coffee shop, opt for something healthier like this new vegan friendly Creamy Avocado Smoothie recipe (Thanks toJeanine Donofrio over at @LoveandLemons for providing).
 

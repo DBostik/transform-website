@@ -3,9 +3,13 @@ title: "Weight-Loss-Friendly Foods"
 excerpt: "## Your Food Discoveries  What foods have you discovered since starting your weight loss journey? When you’re looking to jumpstart weight loss, siftin..."
 date: "January 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_meal_prep_containers_1770429029168.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 What foods have you discovered since starting your weight loss journey? When you’re looking to jumpstart weight loss, sifting through online advice and narrowing a plan of attack down to several actionable steps can be the hardest part. That’s why I’m sharing with you the 4 most weight-loss-friendly foods on earth that are supported by science! You ready? Cool! Let’s go!
 

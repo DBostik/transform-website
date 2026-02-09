@@ -3,9 +3,13 @@ title: "Calories Are NOT Enough"
 excerpt: "# How is That Possible?  🤯  When it comes to truly changing the composition of your body and trading fat for muscle- watching your calories are NOT en..."
 date: "February 20, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_spin_class_1770342237110.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 When it comes to truly changing the composition of your body and trading fat for muscle- watching your calories are NOT enough. ⠀⁠⠀⁠⠀
 

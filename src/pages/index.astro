@@ -18,8 +18,8 @@ import TestimonialCard from '../components/ui/TestimonialCard.astro';
 import FormInput from '../components/ui/FormInput.astro';
 import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
-import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
 
 const pageTitle = "Transform Personal Training | Chicago's Best Personal Trainers";
 const pageDescription = "Chicago's premier personal training studio in Lakeview. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE!";
@@ -61,7 +61,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
       </p>
       
       <div class="hero-cta">
-        <Button variant="primary" size="lg" href="/contact">
+        <Button variant="primary" size="lg" href="#consultation-form">
           Schedule Free Consultation
         </Button>
         <Button variant="secondary" size="lg" href="/online-training">
@@ -76,7 +76,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
         </div>
         <div class="hero-trust-indicator">
           <span>✓</span>
-          <span>AFAA Certified</span>
+          <span>Nationally Certified</span>
         </div>
         <div class="hero-trust-indicator">
           <span>📍</span>
@@ -301,7 +301,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   </section>
 
   <!-- ===== CONSULTATION FORM ===== -->
-  <section style="position: relative; background-image: url('/images/form-background.png'); background-size: cover; background-position: center; padding: 3rem 0;">
+  <section id="consultation-form" style="position: relative; background-image: url('/images/form-background.png'); background-size: cover; background-position: center; padding: 3rem 0;">
     <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.55));"></div>
     <div class="container" style="position: relative; z-index: 1;">
       <div style="max-width: 600px; margin: 0 auto;">
@@ -314,54 +314,19 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
           </p>
         </div>
         
-        <form style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
-          <FormInput
-            label="Full Name"
-            name="name"
-            type="text"
-            placeholder="John Doe"
-            required={true}
-          />
-          
-          <FormInput
-            label="Email Address"
-            name="email"
-            type="email"
-            placeholder="john@example.com"
-            required={true}
-          />
-          
-          <FormInput
-            label="Phone Number"
-            name="phone"
-            type="tel"
-            placeholder="(312) 555-0123"
-            required={true}
-          />
-          
-          <FormTextarea
-            label="Tell us about your fitness goals"
-            name="message"
-            placeholder="I'm interested in..."
-            rows={4}
-          />
-          
-          <Button variant="primary" type="submit" class="w-full" style="width: 100%; margin-top: 1rem;">
-            Schedule Free Consultation
-          </Button>
+        <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
+          <!-- HighLevel Quick Lead Form -->
+          <StyledGHLQuickLead />
           
           <p style="text-align: center; font-size: 0.875rem; color: var(--color-black-500); margin-top: 1rem;">
             We'll respond within 24 hours to schedule your free session.
           </p>
-        </form>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
   <Footer />
-  
-  <!-- ===== POPUP FORM ===== -->
-  <PopupForm />
 </body>
 </html>

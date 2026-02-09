@@ -3,9 +3,13 @@ title: "Monday Mindset"
 excerpt: "Monday: new week, new day, new chance to do something amazing.  Didn’t eat as healthy 🍔 as you had planned or get in all your workouts last week 😬?  I..."
 date: "January 26, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_morning_routine_1770342248479.png"
+image: "/images/blog/blog_squat_rack_1770342078284.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Monday: new week, new day, new chance to do something amazing.
 

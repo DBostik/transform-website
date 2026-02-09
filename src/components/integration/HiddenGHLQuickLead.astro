@@ -1,0 +1,113 @@
+---
+/**
+ * HighLevel Quick Lead Form Handler - CLEAN VERSION
+ * 
+ * No iframes, no embeds - just pure form submission to HighLevel.
+ * This avoids all cross-origin issues and HighLevel JavaScript errors.
+ * 
+ * Used for: Homepage consultation form, pop-ups, team page booking
+ * Fields: Name, Phone, Email
+ */
+---
+
+<script is:inline>
+  (function() {
+    'use strict';
+    
+    // HighLevel form endpoint
+    const FORM_ID = 'qXzxX9rUnMDpX0jgk5RU';
+    const FORM_ENDPOINT = `https://api.leadconnectorhq.com/widget/form/${FORM_ID}`;
+    
+    console.log('[GHL] Quick Lead handler loaded');
+
+    function setupQuickLeadForm() {
+      const formIds = ['homepage-consultation-form', 'team-page-booking-form'];
+      
+      formIds.forEach(formId => {
+        const form = document.getElementById(formId);
+        
+        if (!form) {
+          console.log(`[GHL] Form ${formId} not found on this page`);
+          return;
+        }
+
+        console.log(`[GHL] Setting up ${formId}`);
+
+        form.addEventListener('submit', async function(e) {
+          e.preventDefault();
+          console.log('[GHL] Form submitted, processing...');
+
+          const submitBtn = form.querySelector('button[type="submit"]');
+          const nameInput = form.querySelector('input[name="name"]');
+          const emailInput = form.querySelector('input[name="email"]');
+          const phoneInput = form.querySelector('input[name="phone"]');
+
+          if (!nameInput || !emailInput || !phoneInput) {
+            alert('Form error. Please refresh the page and try again.');
+            return;
+          }
+
+          const name = nameInput.value.trim();
+          const email = emailInput.value.trim();
+          const phone = phoneInput.value.trim();
+
+          // Validation
+          if (!name || !email || !phone) {
+            alert('Please fill out all fields.');
+            return;
+          }
+
+          if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+            alert('Please enter a valid email address.');
+            return;
+          }
+
+          console.log('[GHL] Data validated, submitting...');
+
+          // Update button
+          const btnText = submitBtn?.textContent;
+          if (submitBtn) {
+            submitBtn.disabled = true;
+            submitBtn.textContent = 'Sending...';
+          }
+
+          try {
+            // Create form data
+            const formData = new FormData();
+            formData.append('name', name);
+            formData.append('email', email);
+            formData.append('phone', phone);
+
+            // Submit to HighLevel
+            await fetch(FORM_ENDPOINT, {
+              method: 'POST',
+              body: formData,
+              mode: 'no-cors'
+            });
+
+            console.log('[GHL] Submission complete');
+            alert('Thank you! We\'ll contact you within 24 hours to schedule your free consultation.');
+            form.reset();
+
+          } catch (error) {
+            console.error('[GHL] Error:', error);
+            alert('Thank you for your interest! We\'ll be in touch soon. If you don\'t hear from us, please call (312) 635-5139.');
+            form.reset();
+          } finally {
+            if (submitBtn) {
+              submitBtn.disabled = false;
+              submitBtn.textContent = btnText || 'Schedule Free Consultation';
+            }
+          }
+        });
+      });
+    }
+
+    // Initialize when ready
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', setupQuickLeadForm);
+    } else {
+      setupQuickLeadForm();
+    }
+  })();
+</script>

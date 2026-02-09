@@ -3,9 +3,13 @@ title: "MAXIMIZING NUTRIENT ABSORPTION"
 excerpt: "Just like shopping, you want to get the best bang for your buck when it comes to nutrition. You want to maximize nutrient absorption. Let’s talk abo..."
 date: "August 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_spin_class_1770342237110.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Just like shopping, you want to get the best bang for your buck when it comes to nutrition. You want to maximize nutrient absorption. Let’s talk about go over how to do this with some vegan friendly tips. Even if you aren’t vegan, these tips can help your body OPTIMIZE its ability to absorb nutrients.
 

@@ -3,9 +3,13 @@ title: "Simple Vegan Breakfast Hash"
 excerpt: "Check out this yummy recipe for a Simple Vegan Breakfast Hash. It tastes so yummy! We had this the other day. It was super easy to make we didn’t need..."
 date: "January 25, 2021"
 category: "Fitness Advice"
-image: "/images/blog/green_smoothie.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Check out this yummy recipe for a Simple Vegan Breakfast Hash. It tastes so yummy! We had this the other day. It was super easy to make we didn’t need much to cook this! Thanks Nikolas Elliot for providing it.
 

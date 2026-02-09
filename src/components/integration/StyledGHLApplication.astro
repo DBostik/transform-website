@@ -1,0 +1,51 @@
+---
+/**
+ * StyledGHLApplication.astro
+ * 
+ * Embeds HighLevel "Join Our Team" form (with resume upload) and attempts to 
+ * apply custom styling to match the website's design.
+ * 
+ * Note: Styling is primarily handled within HighLevel's form builder due to CORS,
+ * but we include the injection script as a fallback/enhancement where possible.
+ */
+
+const formId = 'jMe8mTMQ9KAzjuVH570a';
+const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
+---
+
+<div class="ghl-application-wrapper">
+  <iframe
+    src={formUrl}
+    style="width:100%;height:100%;border:none;border-radius:3px"
+    id={`inline-${formId}`}
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Join Our Team Website Form"
+    data-height="685"
+    data-layout-iframe-id={`inline-${formId}`}
+    data-form-id={formId}
+    title="Join Our Team Website Form"
+  ></iframe>
+</div>
+
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+
+<style>
+  .ghl-application-wrapper {
+    width: 100%;
+    /* Let HighLevel control the height */
+    min-height: 100px; 
+    background: transparent;
+  }
+  
+  /* Force HighLevel iframe to be full width */
+  .ghl-application-wrapper iframe {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+</style>

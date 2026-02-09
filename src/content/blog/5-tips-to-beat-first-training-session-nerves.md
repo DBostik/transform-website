@@ -3,9 +3,13 @@ title: "5 Tips to Beat First Training Session Nerves"
 excerpt: "Nervous about your first Chicago personal training session?  Don’t be!  Here are some tips that will help center your mind and calm you down before..."
 date: "October 1, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Nervous about your first Chicago personal training session?  Don’t be!  Here are some tips that will help center your mind and calm you down before it finally arrives.
 

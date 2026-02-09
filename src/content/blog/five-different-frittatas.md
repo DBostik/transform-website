@@ -3,9 +3,13 @@ title: "Five Different Frittatas"
 excerpt: "As you’ve heard me tell you in posts prior to this, fueling your body with healthy, nutritious food is crucial and so is keeping what you eat varied..."
 date: "January 17, 2023"
 category: "Fitness Advice"
-image: "/images/blog/meditation.png"
+image: "/images/blog/blog_sweet_potato_fries_1770394632528.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 As you’ve heard me tell you in posts prior to this, fueling your body with healthy, nutritious food is crucial and so is keeping what you eat varied. With that being said, today I have for you five different frittatas. They’re all super easy to make and taste great!
 

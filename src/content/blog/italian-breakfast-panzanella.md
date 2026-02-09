@@ -3,9 +3,13 @@ title: "Italian Breakfast Panzanella"
 excerpt: "## An Italian Inspired Delight  I’m always on the lookout for new recipes that healthy and easy to make,  but I also find variety to be important. Usu..."
 date: "January 15, 2022"
 category: "Fitness Advice"
-image: "/images/blog/latkes.jpg"
+image: "/images/blog/blog_hard_boiled_eggs_1770394703757.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 I’m always on the lookout for new recipes that healthy and easy to make,  but I also find variety to be important. Usually I explore all types of cuisine to find what I’m looking for: American, Indian, Asian, Mexican, etc.
 

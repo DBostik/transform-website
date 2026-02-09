@@ -3,9 +3,13 @@ title: "Why Am I Gaining Weight? The Guide to Putting on Muscle and How it Helps
 excerpt: "Maybe you’ve just started your fitness journey. And you’ve been good about it–you’ve maintained a routine, you’re eating well, and you’re doing what y..."
 date: "February 26, 2023"
 category: "Fitness Advice"
-image: "/images/blog/deadlift.png"
+image: "/images/blog/blog_dumbbell_row_1770342065458.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Maybe you’ve just started your fitness journey. And you’ve been good about it–you’ve maintained a routine, you’re eating well, and you’re doing what your trainer tells you to do.
 

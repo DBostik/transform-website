@@ -3,9 +3,13 @@ title: "Cinnamon Coffee Smoothie"
 excerpt: "Check out this yummy Cinnamon Coffee Smoothie recipe.Made with dates and almond butter, this Cinnamon Coffee Smoothie is the perfect healthy breakfast..."
 date: "February 19, 2022"
 category: "Fitness Advice"
-image: "/images/blog/oatmeal_bowl.png"
+image: "/images/blog/blog_morning_routine_1770342248479.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Check out this yummy Cinnamon Coffee Smoothie recipe.Made with dates and almond butter, this Cinnamon Coffee Smoothie is the perfect healthy breakfast or snack. It’s vegan and gluten-free! Plus, it tastes so yummy! Even better, this smoothie can be made in less than five minutes and only needs a handful of ingredients! Thanks for sharing Jeanine Donofrio over at @LoveandLemons.
 

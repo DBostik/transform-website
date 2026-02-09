@@ -1,0 +1,151 @@
+---
+/**
+ * Styled HighLevel Quick Lead Form
+ * 
+ * Embeds the actual HighLevel form with custom CSS to match site design.
+ * This is the most reliable approach - HighLevel handles submission,
+ * we just make it look beautiful.
+ */
+
+const formId = 'DePsF4xxRYG8Xte6IjhU';
+const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
+---
+
+<div class="ghl-form-wrapper">
+  <iframe
+    src={formUrl}
+    style="width:100%;height:100%;border:none;border-radius:3px"
+    id={`inline-${formId}`}
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Quick Lead Form"
+    data-height="519"
+    data-layout-iframe-id={`inline-${formId}`}
+    data-form-id={formId}
+    title="Quick Lead Form"
+  ></iframe>
+</div>
+
+<!-- HighLevel form embed script -->
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+
+<style>
+  .ghl-form-wrapper {
+    width: 100%;
+    position: relative;
+  }
+
+  .ghl-form-wrapper iframe {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    min-height: 450px;
+    background: transparent;
+  }
+
+  /* Custom CSS to style HighLevel form fields */
+  /* These styles will be injected via JavaScript to override HighLevel's defaults */
+</style>
+
+<script is:inline>
+  (function() {
+    'use strict';
+    
+    console.log('[GHL Styled] Quick Lead form initializing...');
+    
+    // Wait for iframe to load
+    const iframe = document.getElementById('ghl-quick-lead-iframe');
+    if (!iframe) {
+      console.error('[GHL Styled] Iframe not found');
+      return;
+    }
+
+    iframe.addEventListener('load', function() {
+      console.log('[GHL Styled] Iframe loaded, attempting to style...');
+      
+      // Try to inject custom styles into the iframe
+      try {
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+        
+        if (!iframeDoc) {
+          console.log('[GHL Styled] Cannot access iframe document (expected due to CORS)');
+          return;
+        }
+
+        // If we can access it, inject our custom CSS
+        const style = iframeDoc.createElement('style');
+        style.textContent = `
+          /* Match your site's form styling */
+          body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+            background: transparent !important;
+          }
+          
+          .form-group,
+          .hl_form-group {
+            margin-bottom: 1.5rem !important;
+          }
+          
+          label {
+            display: block !important;
+            font-weight: 600 !important;
+            color: #1f2937 !important;
+            margin-bottom: 0.5rem !important;
+            font-size: 0.875rem !important;
+          }
+          
+          input[type="text"],
+          input[type="email"],
+          input[type="tel"] {
+            width: 100% !important;
+            padding: 0.75rem 1rem !important;
+            border: 2px solid #e5e7eb !important;
+            border-radius: 0.5rem !important;
+            font-size: 1rem !important;
+            transition: all 0.2s !important;
+            background: white !important;
+            color: #1f2937 !important;
+          }
+          
+          input:focus {
+            outline: none !important;
+            border-color: #0ea5e9 !important;
+            box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1) !important;
+          }
+          
+          button[type="submit"],
+          .submit-button {
+            width: 100% !important;
+            padding: 0.875rem 1.5rem !important;
+            background: linear-gradient(135deg, #0ea5e9, #0284c7) !important;
+            color: white !important;
+            border: none !important;
+            border-radius: 0.5rem !important;
+            font-weight: 600 !important;
+            font-size: 1rem !important;
+            cursor: pointer !important;
+            transition: all 0.2s !important;
+            margin-top: 1rem !important;
+          }
+          
+          button[type="submit"]:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 10px 25px -5px rgba(14, 165, 233, 0.4) !important;
+          }
+        `;
+        
+        iframeDoc.head.appendChild(style);
+        console.log('[GHL Styled] Custom styles injected successfully!');
+        
+      } catch (error) {
+        console.log('[GHL Styled] Cannot style iframe due to CORS:', error.message);
+        console.log('[GHL Styled] Form will use HighLevel\'s default styling');
+      }
+    });
+  })();
+</script>

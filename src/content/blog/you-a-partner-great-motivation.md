@@ -3,9 +3,13 @@ title: "You + A Partner = Great Motivation!"
 excerpt: "There is no better way to create a bond with your special someone than by focusing on your fitness goals together.  Research has shown that couples wh..."
 date: "July 5, 2021"
 category: "Fitness Advice"
-image: "/images/blog/cycling_path.png"
+image: "/images/blog/blog_morning_routine_1770342248479.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 There is no better way to create a bond with your special someone than by focusing on your fitness goals together.
 

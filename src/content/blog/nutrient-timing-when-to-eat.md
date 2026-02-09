@@ -3,9 +3,13 @@ title: "Nutrient Timing: When to Eat"
 excerpt: "In previous blogs, I’ve touched upon what to eat to meet your health and fitness goals. But did you know nutrient timing is just as important? Nutrien..."
 date: "March 15, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_dumbbell_row_1770342065458.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 In previous blogs, I’ve touched upon what to eat to meet your health and fitness goals. But did you know nutrient timing is just as important? Nutrient timing strategies are based on how the body handles different types of food at different times.
 

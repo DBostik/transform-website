@@ -3,9 +3,13 @@ title: "How to Avoid Food Cravings"
 excerpt: "## CRAVINGS  Pizza, potato chips, pretzels, cookies, ice cream, candy… the list of foods people crave goes on and on.We hear about pregnant women havi..."
 date: "June 12, 2022"
 category: "Fitness Advice"
-image: "/images/blog/smoothie_bowl.png"
+image: "/images/blog/blog_protein_shaker_1770394724895.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Pizza, potato chips, pretzels, cookies, ice cream, candy… the list of foods people crave goes on and on.We hear about pregnant women having crazy cravings at all hours of the night. Personally, I craved ice cream as well as peanut butter and jelly sandwiches throughout my pregnancy (Halo Top’s PB&J ice cream was HEAVENLY).
 

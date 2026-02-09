@@ -3,9 +3,13 @@ title: "Healthy Breakfast Smoothies"
 excerpt: "## Food in AM  Not sure about you, but I’m the type of person who NEEDS something to eat first thing in the morning. Ever heard of hangry (a.k.a when..."
 date: "April 21, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_morning_routine_1770342248479.png"
+image: "/images/blog/blog_black_coffee_1770429053230.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Not sure about you, but I’m the type of person who NEEDS something to eat first thing in the morning. Ever heard of hangry (a.k.a when someone gets angry because they’re super hungry)? Yep, it’s a real thing. Just ask my relatives. It isn’t pretty. With that said, I don’t like spending tons of time prepping things for their sake or mine.
 

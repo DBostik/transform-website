@@ -3,9 +3,13 @@ title: "Fix How You Fuel Your Body"
 excerpt: "## Breakfast, The Most Important Meal of the Day  Breakfast is the most important meal of the day, right? It lights our inner fire and gets us ready t..."
 date: "January 19, 2022"
 category: "Fitness Advice"
-image: "/images/blog/green_smoothie.png"
+image: "/images/blog/blog_hydration_1770342039072.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Breakfast is the most important meal of the day, right? It lights our inner fire and gets us ready to tackle the day ahead. How many of us are currently on a weight-loss journey and the breakfast shown on the right in this picture is our regular? ⁠If it is, STOP.⁠ Fix how you fuel your body.⁠
 

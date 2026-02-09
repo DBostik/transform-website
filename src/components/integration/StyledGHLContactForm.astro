@@ -1,0 +1,158 @@
+---
+/**
+ * Styled HighLevel Contact Us Form
+ * 
+ * Embeds the actual HighLevel form with custom CSS to match site design.
+ * This is the most reliable approach - HighLevel handles submission,
+ * we just make it look beautiful.
+ */
+
+const formId = 'TTPaX8eoout8rttFXD1e';
+const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
+---
+
+<div class="ghl-contact-form-wrapper">
+  <iframe
+    src={formUrl}
+    style="width:100%;height:100%;border:none;border-radius:3px"
+    id={`inline-${formId}`}
+    data-layout="{'id':'INLINE'}"
+    data-trigger-type="alwaysShow"
+    data-trigger-value=""
+    data-activation-type="alwaysActivated"
+    data-activation-value=""
+    data-deactivation-type="neverDeactivate"
+    data-deactivation-value=""
+    data-form-name="Contact Us Form - New Website"
+    data-height="668"
+    data-layout-iframe-id={`inline-${formId}`}
+    data-form-id={formId}
+    title="Contact Us Form - New Website"
+  ></iframe>
+</div>
+
+<!-- HighLevel form embed script -->
+<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+
+<style>
+  .ghl-contact-form-wrapper {
+    width: 100%;
+    position: relative;
+    background: white;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .ghl-contact-form-wrapper iframe {
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    min-height: 550px;
+    background: transparent;
+  }
+</style>
+
+<script is:inline>
+  (function() {
+    'use strict';
+    
+    console.log('[GHL Styled] Contact form initializing...');
+    
+    const iframe = document.getElementById('ghl-contact-iframe');
+    if (!iframe) {
+      console.error('[GHL Styled] Contact iframe not found');
+      return;
+    }
+
+    iframe.addEventListener('load', function() {
+      console.log('[GHL Styled] Contact iframe loaded, attempting to style...');
+      
+      try {
+        const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
+        
+        if (!iframeDoc) {
+          console.log('[GHL Styled] Cannot access iframe document (expected due to CORS)');
+          return;
+        }
+
+        // Inject custom styles
+        const style = iframeDoc.createElement('style');
+        style.textContent = `
+          body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+            background: transparent !important;
+            padding: 0 !important;
+            margin: 0 !important;
+          }
+          
+          .form-group,
+          .hl_form-group {
+            margin-bottom: 1.5rem !important;
+          }
+          
+          label {
+            display: block !important;
+            font-weight: 600 !important;
+            color: #1f2937 !important;
+            margin-bottom: 0.5rem !important;
+            font-size: 0.875rem !important;
+          }
+          
+          input[type="text"],
+          input[type="email"],
+          input[type="tel"],
+          textarea {
+            width: 100% !important;
+            padding: 0.75rem 1rem !important;
+            border: 2px solid #e5e7eb !important;
+            border-radius: 0.5rem !important;
+            font-size: 1rem !important;
+            transition: all 0.2s !important;
+            background: white !important;
+            color: #1f2937 !important;
+            font-family: 'Inter', sans-serif !important;
+          }
+          
+          textarea {
+            min-height: 120px !important;
+            resize: vertical !important;
+          }
+          
+          input:focus,
+          textarea:focus {
+            outline: none !important;
+            border-color: #0ea5e9 !important;
+            box-shadow: 0 0 0 3px rgba(14, 165, 233, 0.1) !important;
+          }
+          
+          button[type="submit"],
+          .submit-button {
+            width: 100% !important;
+            padding: 0.875rem 1.5rem !important;
+            background: linear-gradient(135deg, #0ea5e9, #0284c7) !important;
+            color: white !important;
+            border: none !important;
+            border-radius: 0.5rem !important;
+            font-weight: 600 !important;
+            font-size: 1rem !important;
+            cursor: pointer !important;
+            transition: all 0.2s !important;
+            margin-top: 1rem !important;
+          }
+          
+          button[type="submit"]:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 10px 25px -5px rgba(14, 165, 233, 0.4) !important;
+          }
+        `;
+        
+        iframeDoc.head.appendChild(style);
+        console.log('[GHL Styled] Contact form styles injected successfully!');
+        
+      } catch (error) {
+        console.log('[GHL Styled] Cannot style iframe due to CORS:', error.message);
+        console.log('[GHL Styled] Form will use HighLevel\'s default styling');
+      }
+    });
+  })();
+</script>

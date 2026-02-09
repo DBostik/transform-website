@@ -3,9 +3,13 @@ title: "It’s Not Your Fault"
 excerpt: "Follow me @TransformFitCoach for daily nutrition tips, fitness motivation, recipes, and more!  ## It’s Not Your Fault  Baked potatoes are healthier to..."
 date: "August 22, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_avocado_toast_1770342100825.png"
+image: "/images/blog/blog_box_jump_1770429088867.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Follow me @TransformFitCoach for daily nutrition tips, fitness motivation, recipes, and more!
 

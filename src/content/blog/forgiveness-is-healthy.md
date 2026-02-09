@@ -3,9 +3,13 @@ title: "Forgiveness is Healthy"
 excerpt: "##### “To forgive is the highest, most beautiful form of love. In return, you will receive untold peace and happiness.”—Robert Muller  ## One of THOSE..."
 date: "June 25, 2023"
 category: "Fitness Advice"
-image: "/images/blog/kettlebell_swing.png"
+image: "/images/blog/blog_alarm_clock_1770394531654.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 This is not one of those religious blogs where we’re going to try to persuade you to following something or someone. However, we’re bringing up forgiveness for a good reason. Forgiveness is for you (and everyone else too). Forgiveness is healthy. Actually, it is beneficial to multiple components of our health: mental, emotional, psychological, social, and physical.
 

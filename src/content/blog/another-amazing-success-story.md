@@ -3,9 +3,13 @@ title: "Another Amazing Success Story"
 excerpt: "How would you like to lose 22lbs in 7 weeks? Well one of our clients did it and she is not stopping!"
 date: "July 8, 2013"
 category: "Fitness Advice"
-image: "/images/blog/runner_track.png"
+image: "/images/blog/blog_kettlebell_swing_1770429076780.png"
 author: "David Bostik"
 ---
+
+
+
+
 
 How would you like to lose 22lbs in 7 weeks? Well one of our clients did it and she is not stopping!
 Meg has only been with Transform Personal Training for 7 weeks yet she is having amazing success.  Her accomplishments are just another of the many examples of what the amazing personal trainers here at Transform can do.

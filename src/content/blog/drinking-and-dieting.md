@@ -3,9 +3,13 @@ title: "Drinking and Dieting"
 excerpt: "# Is It Possible?  Many of our clients ask the question, “Is it possible to drink and diet at the same time?” Before answering you, let’s set the reco..."
 date: "October 16, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_hydration_1770342039072.png"
+image: "/images/blog/blog_squat_rack_1770342078284.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Many of our clients ask the question, “Is it possible to drink and diet at the same time?” Before answering you, let’s set the record straight about dieting. Dieting is restrictive. It cuts things out from your life and is not sustainable. Often times people hop on diets, lose weight, then eventually gain all that weight back and sometimes more.
 

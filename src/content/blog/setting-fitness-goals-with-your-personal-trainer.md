@@ -3,9 +3,13 @@ title: "Setting Fitness Goals With Your Personal Trainer"
 excerpt: "You may not be overweight or malnourished, but that in no way means that you’re physically fit. Find out what you don’t know about fitness as shared b..."
 date: "November 2, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_grilled_chicken_salad_1770342114405.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 You may not be overweight or malnourished, but that in no way means that you’re physically fit. Find out what you don’t know about fitness as shared by personal trainers in Chicago from Transform Personal Training . The tips in this article will turn you on to many different tactics you can use to achieve your ultimate goal of being fit.
 

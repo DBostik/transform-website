@@ -3,9 +3,13 @@ title: "5 tips for getting FIT"
 excerpt: "Fitness can be a very enjoyable and fulfilling activity that anyone can enjoy. However, for a beginner, that piece of equipment or that exercise can b..."
 date: "March 8, 2021"
 category: "Fitness Advice"
-image: "/images/blog/latkes.jpg"
+image: "/images/blog/blog_greek_yogurt_parfait_1770394607542.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Fitness can be a very enjoyable and fulfilling activity that anyone can enjoy. However, for a beginner, that piece of equipment or that exercise can be very intimidating to figure out. So, what should a novice do to learn how to use it properly?
 

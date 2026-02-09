@@ -3,9 +3,13 @@ title: "Why Wait Until NYE?"
 excerpt: "##   ## Why Talk About 2021 Now?  Why talk about 2021 when all we want to do is get through the rest of 2020. We can wait until NYE to prep for the ne..."
 date: "January 1, 2022"
 category: "Fitness Advice"
-image: "/images/blog/yoga_stretch.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
 author: "Transform Team"
 ---
+
+
+
+
 
 Why talk about 2021 when all we want to do is get through the rest of 2020. We can wait until NYE to prep for the new year. 2020 has been a rough year for everyone so we get it; everyone wants to enjoy the festivities of the season as much as possible. It’s one of the few joys we’ve had all year and quite frankly we don’t blame anyone for wanting to savor those precious moments.
 
