@@ -2,8 +2,8 @@ import fs from 'fs';
 import path from 'path';
 
 const SITE = 'https://transformpersonaltraining.com';
-const DIST_DIR = './dist';
-const SITEMAP_FILE = path.join(DIST_DIR, 'sitemap-index.xml');
+const DIST_DIR = 'dist';
+const SITEMAP_FILE = path.join(DIST_DIR, 'sitemap.xml');
 
 function getFiles(dir, allFiles = []) {
     const files = fs.readdirSync(dir);
@@ -25,9 +25,10 @@ try {
     const files = getFiles(DIST_DIR);
 
     const urls = files.map(file => {
+        // Normalize path and remove 'dist' prefix
         let urlPath = file
-            .replace(DIST_DIR, '')
             .replace(/\\/g, '/')
+            .replace(/^dist\//, '/')
             .replace(/\/index\.html$/, '/')
             .replace(/\.html$/, '');
 
