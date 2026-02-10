@@ -3,7 +3,7 @@ title: "Healthy Breakfast Smoothies"
 excerpt: "## Food in AM  Not sure about you, but I’m the type of person who NEEDS something to eat first thing in the morning. Ever heard of hangry (a.k.a when..."
 date: "April 21, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_black_coffee_1770429053230.png"
+image: "/images/blog/blog_black_coffee_1770429053230.webp"
 author: "Transform Team"
 ---
 

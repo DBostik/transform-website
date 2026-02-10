@@ -3,7 +3,7 @@ title: "Fitting an exercise program into a daily routine"
 excerpt: "The first step in starting an exercise program is getting up the nerve to get going. For those that have had a lapse in working out it can be hard to..."
 date: "August 9, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_morning_routine_1770342248479.png"
+image: "/images/blog/blog_morning_routine_1770342248479.webp"
 author: "Transform Team"
 ---
 

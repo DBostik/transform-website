@@ -10,7 +10,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 
 ### Primary Keywords (High Priority)
 1. **personal training chicago** - High volume, high intent
-2. **personal trainer lincoln park** - Local, high intent
+2. **personal trainer lakeview** - Local, high intent
 3. **personal trainer lakeview chicago** - Local, high intent
 4. **online personal training** - Growing market
 5. **chicago personal trainers** - High volume
@@ -24,7 +24,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 
 ### Long-Tail Keywords (Lower Competition, High Intent)
 11. **best personal trainer near me chicago**
-12. **personal training lincoln park 60614**
+12. **personal training lakeview 60657**
 13. **30 minute personal training sessions**
 14. **guaranteed results personal training**
 15. **online fitness coaching with nutrition**
@@ -61,13 +61,13 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 #### Homepage
 ```html
 <title>Transform Personal Training | Chicago's Best Personal Trainers</title>
-<meta name="description" content="Chicago's premier personal training studio in Lincoln Park. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE! Call (312) 635-5139.">
+<meta name="description" content="Chicago's premier personal training studio in Lakeview. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE! Call (312) 635-5139.">
 ```
 
 #### Studio Services Page
 ```html
 <title>Studio Personal Training Services | Transform Chicago</title>
-<meta name="description" content="Private 30-minute personal training sessions in Lincoln Park, Chicago. Customized workouts, nutrition guidance, and daily support. Book your free consultation today!">
+<meta name="description" content="Private 30-minute personal training sessions in Lakeview, Chicago. Customized workouts, nutrition guidance, and daily support. Book your free consultation today!">
 ```
 
 #### Online Training Page
@@ -90,8 +90,8 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 
 #### Contact Page
 ```html
-<title>Contact Transform Personal Training | Lincoln Park Chicago</title>
-<meta name="description" content="Schedule your free consultation at Transform Personal Training. Located at 2727 N Lehmann Ct, Chicago, IL 60614. Call (312) 635-5139 or fill out our contact form.">
+<title>Contact Transform Personal Training | Lakeview Chicago</title>
+<meta name="description" content="Schedule your free consultation at Transform Personal Training. Located at 2900 N Broadway St, Chicago, IL 60657. Call (312) 635-5139 or fill out our contact form.">
 ```
 
 ### 3. Heading Hierarchy Examples
@@ -100,7 +100,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 ```html
 <h1>Transform Your Life with Chicago's Best Personal Trainers</h1>
 
-<h2>Customized Personal Training in Lincoln Park</h2>
+<h2>Customized Personal Training in Lakeview</h2>
   <h3>1-on-1 Private Sessions</h3>
   <h3>Personalized Nutrition Plans</h3>
   <h3>Daily Support & Accountability</h3>
@@ -126,7 +126,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
   "@id": "https://www.transformpersonaltraining.com/#organization",
   "name": "Transform Personal Training",
   "alternateName": "Transform Fitness Chicago",
-  "description": "Premier personal training studio in Lincoln Park, Chicago offering customized 1-on-1 fitness training, nutrition coaching, and online training programs with guaranteed results.",
+  "description": "Premier personal training studio in Lakeview, Chicago offering customized 1-on-1 fitness training, nutrition coaching, and online training programs with guaranteed results.",
   "url": "https://www.transformpersonaltraining.com",
   "logo": {
     "@type": "ImageObject",
@@ -141,10 +141,10 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
   ],
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "2727 N Lehmann Ct",
+    "streetAddress": "2900 N Broadway St",
     "addressLocality": "Chicago",
     "addressRegion": "IL",
-    "postalCode": "60614",
+    "postalCode": "60657",
     "addressCountry": "US"
   },
   "geo": {
@@ -267,7 +267,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
       "name": "Where is Transform Personal Training located?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Transform Personal Training is located at 2727 N Lehmann Ct, Chicago, IL 60614, on the edge of Lakeview and Lincoln Park, just a few blocks from most Chicago neighborhoods. We're easily accessible and offer convenient appointment times from 5:00am to 9:00pm Monday through Thursday."
+        "text": "Transform Personal Training is located at 2900 N Broadway St, Chicago, IL 60657, in Lakeview, just a few blocks from most Chicago neighborhoods. We're easily accessible and offer convenient appointment times from 5:00am to 9:00pm Monday through Thursday."
       }
     },
     {
@@ -358,7 +358,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 
 **Best Practices:**
 - **Alt Text**: Descriptive, keyword-rich (naturally)
-  - ✅ `alt="Personal trainer David Bostik working with client in Lincoln Park Chicago studio"`
+  - ✅ `alt="Personal trainer David Bostik working with client in Lakeview Chicago studio"`
   - ❌ `alt="image1.jpg"`
 - **File Names**: Descriptive, hyphenated
   - ✅ `personal-training-session-chicago.jpg`
@@ -455,7 +455,7 @@ Build consistent NAP (Name, Address, Phone) across:
 ### Blog Topics (SEO-Focused)
 1. **"How to Choose the Best Personal Trainer in Chicago"** - Target: informational keyword
 2. **"30-Minute Workouts: Why Shorter Sessions Work Better"** - Unique selling point
-3. **"Lincoln Park Fitness: Your Complete Guide to Staying Fit in the Neighborhood"** - Local SEO
+3. **"Lakeview Fitness: Your Complete Guide to Staying Fit in the Neighborhood"** - Local SEO
 4. **"Online Personal Training vs. In-Person: Which is Right for You?"** - Service comparison
 5. **"Weight Loss Success Stories: Real Transformations from Chicago Clients"** - Social proof + local
 6. **"Nutrition Tips from Chicago's Top Personal Trainers"** - Expertise + local
@@ -524,7 +524,7 @@ Build consistent NAP (Name, Address, Phone) across:
 ## Competitive Analysis
 
 ### Top Competitors to Monitor
-1. Other Lincoln Park/Lakeview personal training studios
+1. Other Lakeview personal training studios
 2. Chicago-based online training programs
 3. National fitness franchises in Chicago
 

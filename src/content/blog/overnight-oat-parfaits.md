@@ -3,7 +3,7 @@ title: "Overnight Oat Parfaits"
 excerpt: "## “I Don’t Have Time to Make Breakfast…“  ## Problem Solved: Overnight Oat Parfaits    Overnight oat parfaits are an easy yet healthy way to ensure y..."
 date: "June 5, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_jump_rope_1770342200549.png"
+image: "/images/blog/blog_jump_rope_1770342200549.webp"
 author: "Transform Team"
 ---
 

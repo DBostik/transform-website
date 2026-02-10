@@ -3,7 +3,7 @@ title: "Exercising to Look Younger"
 excerpt: "There are countless benefits to working out with a personal trainer or going for a jog several times each week. Better health, a trimmer waistline and..."
 date: "August 24, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_goal_setting_1770394545928.png"
+image: "/images/blog/blog_goal_setting_1770394545928.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "Focus on Yourself"
 excerpt: "## The Characters At The Gym  Ever find yourself scanning the gym and judging the people you see? We’ve all done it at some point or other. Before the..."
 date: "December 21, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_protein_pancakes_1770342147430.png"
+image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
 author: "Transform Team"
 ---
 

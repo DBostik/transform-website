@@ -3,7 +3,7 @@ title: "Strawberry Banana Smoothie"
 excerpt: "Check out this yummy vegan friendly strawberry banana smoothie recipe by Jeanine Donofrio over at @LoveAndLemons for providing. It tastes so yummy! We..."
 date: "December 24, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_morning_routine_1770342248479.png"
+image: "/images/blog/blog_morning_routine_1770342248479.webp"
 author: "Transform Team"
 ---
 

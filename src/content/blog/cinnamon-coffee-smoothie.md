@@ -3,7 +3,7 @@ title: "Cinnamon Coffee Smoothie"
 excerpt: "Check out this yummy Cinnamon Coffee Smoothie recipe.Made with dates and almond butter, this Cinnamon Coffee Smoothie is the perfect healthy breakfast..."
 date: "February 19, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_morning_routine_1770342248479.png"
+image: "/images/blog/blog_morning_routine_1770342248479.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "Drinking and Dieting"
 excerpt: "# Is It Possible?  Many of our clients ask the question, “Is it possible to drink and diet at the same time?” Before answering you, let’s set the reco..."
 date: "October 16, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_squat_rack_1770342078284.png"
+image: "/images/blog/blog_squat_rack_1770342078284.webp"
 author: "Transform Team"
 ---
 

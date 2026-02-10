@@ -3,7 +3,7 @@ title: "Put Yourself First"
 excerpt: "#####   ##### Kicking off today’s blog with a quote, “Don’t tell me the sky’s the limit when there are footprints on the moon.” —Paul Brandt.  ## What..."
 date: "January 15, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_spin_class_1770342237110.png"
+image: "/images/blog/blog_spin_class_1770342237110.webp"
 author: "Transform Team"
 ---
 

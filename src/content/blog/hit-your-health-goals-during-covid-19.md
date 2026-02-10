@@ -3,7 +3,7 @@ title: "Hit Your Health Goals During COVID-19"
 excerpt: "##   ## Common NYE Resolutions  Let’s be honest, the majority of NYE resolutions revolve around health and fitness. Whether you want to lose weight, f..."
 date: "July 22, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.webp"
 author: "Transform Team"
 ---
 

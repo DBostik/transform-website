@@ -3,7 +3,7 @@ title: "Curb Those Junk Food Cravings!"
 excerpt: "## When we overindulge in too much junk food, the results leave us wanting one thing, you guessed it, more junk food!  Be it a salty or sweet crav..."
 date: "May 13, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_healthy_snacks_1770342052534.png"
+image: "/images/blog/blog_healthy_snacks_1770342052534.webp"
 author: "Transform Team"
 ---
 

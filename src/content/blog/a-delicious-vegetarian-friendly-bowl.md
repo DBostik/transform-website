@@ -3,7 +3,7 @@ title: "A Delicious Vegetarian-Friendly Bowl"
 excerpt: "## GRITS BOWL WITH AVOCADO AND BAKED TOFU STRIPS  Check out this yummy vegetarian-friendly bowl recipe for a Grits with Avocado and Baked Tofu Strips...."
 date: "January 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_alarm_clock_1770394531654.png"
+image: "/images/blog/blog_alarm_clock_1770394531654.webp"
 author: "Transform Team"
 ---
 

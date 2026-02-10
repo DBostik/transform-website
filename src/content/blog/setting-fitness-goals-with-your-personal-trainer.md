@@ -3,7 +3,7 @@ title: "Setting Fitness Goals With Your Personal Trainer"
 excerpt: "You may not be overweight or malnourished, but that in no way means that you’re physically fit. Find out what you don’t know about fitness as shared b..."
 date: "November 2, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.webp"
 author: "Transform Team"
 ---
 

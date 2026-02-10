@@ -3,7 +3,7 @@ title: "What Is the Best Protein Powder for Women?"
 excerpt: "Protein powder isn’t just for bodybuilding bros and buff gym rats with bulging biceps and linebacker traps. This misconception makes some women think..."
 date: "May 23, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_sweet_potato_fries_1770394632528.png"
+image: "/images/blog/blog_sweet_potato_fries_1770394632528.webp"
 author: "Transform Team"
 ---
 

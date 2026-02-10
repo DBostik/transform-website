@@ -3,7 +3,7 @@ title: "Super Duper Workout Juice"
 excerpt: "Before busting your moves out with the best personal trainer in Chicago, it’s a good idea to feed your body with nutrients to provide your mind an..."
 date: "September 23, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_meditation_indoors_1770394571681.png"
+image: "/images/blog/blog_meditation_indoors_1770394571681.webp"
 author: "Transform Team"
 ---
 

@@ -63,7 +63,7 @@ Transform Personal Training
 
 **SEO Meta:**
 - **Title:** Transform Personal Training | Chicago's Best Personal Trainers
-- **Description:** Chicago's premier personal training studio in Lincoln Park. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE! Call (312) 635-5139.
+- **Description:** Chicago's premier personal training studio in Lakeview. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE! Call (312) 635-5139.
 - **H1:** Transform Your Life with Chicago's Best Personal Trainers
 
 **Sections:**
@@ -81,14 +81,14 @@ Transform Personal Training
 
 #### 2. Services Overview
 - **Heading (H2):** Finally The Personal Training Service You've Been Looking For
-- **Intro Text:** Located on the edge of Lakeview/Lincoln Park, we're just a few blocks from you! At TRANSFORM Personal Training, each and every one of your workouts will be personalized to your fitness needs and goals.
+- **Intro Text:** Located in Lakeview, we're just a few blocks from you! At TRANSFORM Personal Training, each and every one of your workouts will be personalized to your fitness needs and goals.
 
 **Two-Column Layout:**
 
 **Column 1: Studio Training**
 - **Icon:** Dumbbell or gym icon
 - **Heading (H3):** Private Studio Sessions
-- **Description:** 30-minute personalized training sessions in our Lincoln Park studio
+- **Description:** 30-minute personalized training sessions in our Lakeview studio
 - **Benefits:**
   - ✓ Customized training sessions
   - ✓ Personal attention every workout
@@ -183,7 +183,7 @@ Transform Personal Training
   - Blog
   - Privacy Policy
 - **Contact Info:**
-  - 2727 N Lehmann Ct, Chicago, IL 60614
+  - 2900 N Broadway St, Chicago, IL 60657
   - (312) 635-5139
   - contact@email.transformfitcoach.com
 - **Hours:**
@@ -203,13 +203,13 @@ Transform Personal Training
 
 **SEO Meta:**
 - **Title:** Studio Personal Training Services | Transform Chicago
-- **Description:** Private 30-minute personal training sessions in Lincoln Park, Chicago. Customized workouts, nutrition guidance, and daily support. Book your free consultation today!
-- **H1:** Studio Personal Training in Lincoln Park
+- **Description:** Private 30-minute personal training sessions in Lakeview, Chicago. Customized workouts, nutrition guidance, and daily support. Book your free consultation today!
+- **H1:** Studio Personal Training in Lakeview
 
 **Sections:**
 
 #### 1. Hero
-- **Heading (H1):** Studio Personal Training in Lincoln Park
+- **Heading (H1):** Studio Personal Training in Lakeview
 - **Subheading:** Private, Personal, Progressive 30-Minute Sessions
 - **CTA:** Schedule Free Consultation
 
@@ -241,8 +241,8 @@ Transform Personal Training
 - **CTA:** Book Your Free Consultation
 
 #### 5. Location & Studio
-- **Heading (H2):** Our Lincoln Park Studio
-- **Address:** 2727 N Lehmann Ct, Chicago, IL 60614
+- **Heading (H2):** Our Lakeview Studio
+- **Address:** 2900 N Broadway St, Chicago, IL 60657
 - **Map:** Google Maps embed
 - **Hours:** Listed
 - **Directions Link:** Get Directions
@@ -460,8 +460,8 @@ Each trainer card:
 ### 📧 Contact (/contact/)
 
 **SEO Meta:**
-- **Title:** Contact Transform Personal Training | Lincoln Park Chicago
-- **Description:** Schedule your free consultation at Transform Personal Training. Located at 2727 N Lehmann Ct, Chicago, IL 60614. Call (312) 635-5139 or fill out our contact form.
+- **Title:** Contact Transform Personal Training | Lakeview Chicago
+- **Description:** Schedule your free consultation at Transform Personal Training. Located at 2900 N Broadway St, Chicago, IL 60657. Call (312) 635-5139 or fill out our contact form.
 - **H1:** Contact Transform Personal Training
 
 **Sections:**
@@ -473,7 +473,7 @@ Each trainer card:
 #### 2. Contact Methods (3-column)
 - **Phone:** (312) 635-5139 (click-to-call on mobile)
 - **Email:** contact@email.transformfitcoach.com
-- **Visit:** 2727 N Lehmann Ct, Chicago, IL 60614
+- **Visit:** 2900 N Broadway St, Chicago, IL 60657
 
 #### 3. Contact Form
 - **Heading (H2):** Send Us a Message
@@ -489,7 +489,7 @@ Each trainer card:
 #### 4. Location & Hours
 - **Heading (H2):** Visit Our Studio
 - **Map:** Google Maps embed
-- **Address:** 2727 N Lehmann Ct, Chicago, IL 60614
+- **Address:** 2900 N Broadway St, Chicago, IL 60657
 - **Get Directions:** Link to Google Maps
 - **Hours:**
   - Mon-Thu: 5:00am - 9:00pm

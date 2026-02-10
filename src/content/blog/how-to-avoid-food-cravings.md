@@ -3,7 +3,7 @@ title: "How to Avoid Food Cravings"
 excerpt: "## CRAVINGS  Pizza, potato chips, pretzels, cookies, ice cream, candy… the list of foods people crave goes on and on.We hear about pregnant women havi..."
 date: "June 12, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_protein_shaker_1770394724895.png"
+image: "/images/blog/blog_protein_shaker_1770394724895.webp"
 author: "Transform Team"
 ---
 

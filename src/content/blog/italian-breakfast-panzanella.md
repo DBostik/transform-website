@@ -3,7 +3,7 @@ title: "Italian Breakfast Panzanella"
 excerpt: "## An Italian Inspired Delight  I’m always on the lookout for new recipes that healthy and easy to make,  but I also find variety to be important. Usu..."
 date: "January 15, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_hard_boiled_eggs_1770394703757.png"
+image: "/images/blog/blog_hard_boiled_eggs_1770394703757.webp"
 author: "Transform Team"
 ---
 

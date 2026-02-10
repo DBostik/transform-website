@@ -3,7 +3,7 @@ title: "Stronger Than Your Excuses"
 excerpt: "Especially around the holidays, you’ll see pictures on social media of people look in a state of utopic happiness donned in matching outfits with th..."
 date: "August 14, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.webp"
 author: "Transform Team"
 ---
 

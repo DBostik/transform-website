@@ -3,7 +3,7 @@ title: "Weight Loss Plateau? 3 Unseen Factors"
 excerpt: "Struggling with a weight loss plateau? Discover 3 unseen factors like sleep and stress that might be hindering your progress."
 date: "February 3, 2026"
 category: "Fitness Advice"
-image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.webp"
 author: "David Bostik"
 ---
 

@@ -3,7 +3,7 @@ title: "Why Wait Until NYE?"
 excerpt: "##   ## Why Talk About 2021 Now?  Why talk about 2021 when all we want to do is get through the rest of 2020. We can wait until NYE to prep for the ne..."
 date: "January 1, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_scale_tape_measure_1770394585571.png"
+image: "/images/blog/blog_scale_tape_measure_1770394585571.webp"
 author: "Transform Team"
 ---
 

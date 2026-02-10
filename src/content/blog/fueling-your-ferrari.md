@@ -3,7 +3,7 @@ title: "Fueling Your Ferrari"
 excerpt: "## A High Performance Machine  Food is fuel for our bodies. It gives us the energy we need to survive and perform daily activities. Think of your body..."
 date: "August 27, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_alarm_clock_1770394531654.png"
+image: "/images/blog/blog_alarm_clock_1770394531654.webp"
 author: "Transform Team"
 ---
 

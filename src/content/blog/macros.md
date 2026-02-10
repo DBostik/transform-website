@@ -3,7 +3,7 @@ title: "Macros"
 excerpt: "Do you consider macronutrients (a.k.a. macros) distribution in all of your meals? The good news is it’s incredibly easy to follow macro splits or simp..."
 date: "January 24, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_meditation_indoors_1770394571681.png"
+image: "/images/blog/blog_meditation_indoors_1770394571681.webp"
 author: "Transform Team"
 ---
 

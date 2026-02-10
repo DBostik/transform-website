@@ -3,7 +3,7 @@ title: "The Importance of Me Time"
 excerpt: "## Y2K on a 20 Year Delay?  Let’s face it, the 2020 COVID-19 pandemic rocked the boat for most people in so many ways. Personally it turned my world u..."
 date: "February 17, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_chia_pudding_1770429041023.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.webp"
 author: "Transform Team"
 ---
 

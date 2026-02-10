@@ -3,7 +3,7 @@ title: "Why We Defeat Ourselves"
 excerpt: "##### “All forms of self-defeating behavior are unseen and unconscious, which is why their existence is denied.”—Vernon Howard  ## Self-Defeating Beha..."
 date: "May 6, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_squat_rack_1770342078284.png"
+image: "/images/blog/blog_squat_rack_1770342078284.webp"
 author: "Transform Team"
 ---
 

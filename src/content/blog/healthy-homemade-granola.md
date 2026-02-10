@@ -3,7 +3,7 @@ title: "Healthy Homemade Granola"
 excerpt: "##   ## A Tasty Vegan Breakfast Recipe  As promised in previous posts, I will continue to send healthy recipes your direction. Building up a library f..."
 date: "December 5, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_protein_pancakes_1770342147430.png"
+image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "5 tips for getting FIT"
 excerpt: "Fitness can be a very enjoyable and fulfilling activity that anyone can enjoy. However, for a beginner, that piece of equipment or that exercise can b..."
 date: "March 8, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_greek_yogurt_parfait_1770394607542.png"
+image: "/images/blog/blog_greek_yogurt_parfait_1770394607542.webp"
 author: "Transform Team"
 ---
 

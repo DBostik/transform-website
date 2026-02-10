@@ -3,7 +3,7 @@ title: "Creamy Avocado Smoothie"
 excerpt: "# My New Favorite!  Finding time to prepare a healthy meal, especially when you’re on the go in the morning, can be challenging. Instead of spending t..."
 date: "July 23, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_hydration_1770342039072.png"
+image: "/images/blog/blog_hydration_1770342039072.webp"
 author: "Transform Team"
 ---
 

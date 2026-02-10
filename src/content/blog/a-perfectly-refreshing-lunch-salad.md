@@ -3,7 +3,7 @@ title: "A Perfectly Refreshing Lunch Salad"
 excerpt: "##   ## A Secret to Success on A Fitness Journey  Listen carefully. I’m going to share with you one of the secrets to success on a fitness journey tow..."
 date: "November 17, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_boxing_bag_1770429127510.png"
+image: "/images/blog/blog_boxing_bag_1770429127510.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "How To Make a Road Bike Purchase"
 excerpt: "## Have you been yearning to own a bike of your own to help you achieve your physical fitness goals but don’t know what to look for?    If so, the..."
 date: "March 21, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_box_jump_1770429088867.png"
+image: "/images/blog/blog_box_jump_1770429088867.webp"
 author: "Transform Team"
 ---
 

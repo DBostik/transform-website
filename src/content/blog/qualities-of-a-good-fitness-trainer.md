@@ -3,7 +3,7 @@ title: "Qualities of a Good Fitness Trainer"
 excerpt: "The search for the right fitness trainer is more like looking for a professional to hire to work with you directly. A trainer that is recommended by a..."
 date: "September 22, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_nature_walk_1770394559199.png"
+image: "/images/blog/blog_nature_walk_1770394559199.webp"
 author: "Transform Team"
 ---
 

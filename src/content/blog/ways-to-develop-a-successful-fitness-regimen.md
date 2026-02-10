@@ -3,7 +3,7 @@ title: "Ways To Develop A Successful Fitness Regimen"
 excerpt: "There are a lot of great ways to develop a successful fitness regimen. A great way is to seek help from Transform Personal Training which can provid..."
 date: "August 13, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.webp"
 author: "Transform Team"
 ---
 

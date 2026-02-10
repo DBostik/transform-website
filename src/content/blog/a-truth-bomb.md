@@ -3,7 +3,7 @@ title: "A Truth Bomb"
 excerpt: "Here’s a truth bomb (and trust me, I’m saying this out of love)… YOU are the reason for why you haven’t reached your goals. Was that hard to digest? L..."
 date: "August 10, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_protein_shaker_1770394724895.png"
+image: "/images/blog/blog_protein_shaker_1770394724895.webp"
 author: "Transform Team"
 ---
 

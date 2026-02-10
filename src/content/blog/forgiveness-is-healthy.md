@@ -3,7 +3,7 @@ title: "Forgiveness is Healthy"
 excerpt: "##### “To forgive is the highest, most beautiful form of love. In return, you will receive untold peace and happiness.”—Robert Muller  ## One of THOSE..."
 date: "June 25, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_alarm_clock_1770394531654.png"
+image: "/images/blog/blog_alarm_clock_1770394531654.webp"
 author: "Transform Team"
 ---
 

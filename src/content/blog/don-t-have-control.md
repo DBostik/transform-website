@@ -3,7 +3,7 @@ title: "Don’t Have Control"
 excerpt: "## Sound Familiar?  Constantly second-guessing. Indecision. Changing course. Flip-flopping. Putting things off. Wanting something but acting in ways..."
 date: "June 22, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_medicine_ball_1770662409018.png"
+image: "/images/blog/blog_medicine_ball_1770662409018.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "Veggie Love"
 excerpt: "## Lovers and Haters    Some people love them, while some people hate them. What am I talking about? Vegetables. We have both types in our house. I lo..."
 date: "January 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_chia_pudding_1770429041023.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.webp"
 author: "Transform Team"
 ---
 

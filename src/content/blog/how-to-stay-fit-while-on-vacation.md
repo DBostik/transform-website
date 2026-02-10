@@ -3,7 +3,7 @@ title: "How to Stay Fit While on Vacation"
 excerpt: "Are you worried about gaining weight while on vacation? One study finds that 29% of vacationers gain weight while traveling.  Knowing a few simple tip..."
 date: "April 10, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_box_jump_1770429088867.png"
+image: "/images/blog/blog_box_jump_1770429088867.webp"
 author: "Transform Team"
 ---
 

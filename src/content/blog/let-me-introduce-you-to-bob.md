@@ -3,7 +3,7 @@ title: "Let me introduce you to Bob"
 excerpt: "Bob is 75 years young and joined the Transform family in February. Bob has diabetes and came to us looking to lose a little weight, increase strength,..."
 date: "June 21, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "The Top 7 Healthy Restaurants in Chicago"
 excerpt: "Loving to go out to eat doesn’t have to lead to unhealthy decisions. You can still enjoy fun meals out without the greasy temptations offered by som..."
 date: "February 25, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_medicine_ball_1770662409018.png"
+image: "/images/blog/blog_medicine_ball_1770662409018.webp"
 author: "Transform Team"
 ---
 

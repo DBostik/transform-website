@@ -3,7 +3,7 @@ title: "MAXIMIZING NUTRIENT ABSORPTION"
 excerpt: "Just like shopping, you want to get the best bang for your buck when it comes to nutrition. You want to maximize nutrient absorption. Let’s talk abo..."
 date: "August 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_spin_class_1770342237110.png"
+image: "/images/blog/blog_spin_class_1770342237110.webp"
 author: "Transform Team"
 ---
 

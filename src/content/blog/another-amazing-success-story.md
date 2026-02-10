@@ -3,7 +3,7 @@ title: "Another Amazing Success Story"
 excerpt: "How would you like to lose 22lbs in 7 weeks? Well one of our clients did it and she is not stopping!"
 date: "July 8, 2013"
 category: "Fitness Advice"
-image: "/images/blog/blog_kettlebell_swing_1770429076780.png"
+image: "/images/blog/blog_kettlebell_swing_1770429076780.webp"
 author: "David Bostik"
 ---
 

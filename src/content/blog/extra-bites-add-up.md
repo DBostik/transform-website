@@ -3,7 +3,7 @@ title: "Extra Bites Add Up"
 excerpt: "## All Those Extras  But I’m only eating 1,500 calories per day…  LOOK! ⁠You may or may not track everything  you consume but just know, your body DOE..."
 date: "January 6, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_nature_walk_1770394559199.png"
+image: "/images/blog/blog_nature_walk_1770394559199.webp"
 author: "Transform Team"
 ---
 

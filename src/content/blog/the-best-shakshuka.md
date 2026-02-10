@@ -3,7 +3,7 @@ title: "The Best Shakshuka!"
 excerpt: "Check out this delicious and healthy vegetarian breakfast recipe for Shakshuka! It's loaded with flavor, healthy, & easy to make."
 date: "November 5, 2022"
 category: "Recipes"
-image: "/images/blog/blog_tofu_stir_fry_1770394619960.png"
+image: "/images/blog/blog_tofu_stir_fry_1770394619960.webp"
 author: "Transform Team"
 ---
 

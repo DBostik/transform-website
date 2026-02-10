@@ -3,7 +3,7 @@ title: "Weight-Loss-Friendly Foods"
 excerpt: "## Your Food Discoveries  What foods have you discovered since starting your weight loss journey? When you’re looking to jumpstart weight loss, siftin..."
 date: "January 19, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_meal_prep_containers_1770429029168.png"
+image: "/images/blog/blog_meal_prep_containers_1770429029168.webp"
 author: "Transform Team"
 ---
 

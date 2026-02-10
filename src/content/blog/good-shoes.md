@@ -3,7 +3,7 @@ title: "Good Shoes"
 excerpt: "## An Incentive To Workout  Having a hard time getting motivated to workout? Then, treat yourself to new gym gear to get you going! I don’t know about..."
 date: "September 14, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_grilled_chicken_salad_1770342114405.png"
+image: "/images/blog/blog_grilled_chicken_salad_1770342114405.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "Protein Basics"
 excerpt: "## INTRO TO PROTEIN  Not going to pull out my science teacher hat and start diving into protein too deep, but rather, I want to cover some protein bas..."
 date: "May 7, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_jump_rope_1770342200549.png"
+image: "/images/blog/blog_jump_rope_1770342200549.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "How Filling Is the Food You’re Eating?"
 excerpt: "## A Dance Party in Your Stomach  Ever find yourself frustrated in feeling full and killing cravings? Wonder how filling is the food you’re eating? Le..."
 date: "November 24, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.webp"
 author: "Transform Team"
 ---
 

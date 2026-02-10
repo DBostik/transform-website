@@ -3,7 +3,7 @@ title: "Do the Work"
 excerpt: "“Stop leaving and you will arrive. Stop searching and you will see. Stop running away and you will be found.”—Lao Tzu  ## COMMIT TO IT  It’s sad knowi..."
 date: "April 9, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_morning_routine_1770342248479.png"
+image: "/images/blog/blog_morning_routine_1770342248479.webp"
 author: "Transform Team"
 ---
 

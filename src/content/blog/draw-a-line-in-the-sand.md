@@ -3,7 +3,7 @@ title: "Draw a Line in the Sand"
 excerpt: "## Breaking Shackles  My job as a coach is to interrupt what you’ve done up until this point. I think we can both agree, what got you here won’t get y..."
 date: "March 13, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_running_shoes_1770342175041.png"
+image: "/images/blog/blog_running_shoes_1770342175041.webp"
 author: "Transform Team"
 ---
 

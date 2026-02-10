@@ -3,7 +3,7 @@ title: "Girls Lifting Weights: 9 Reasons Why Women Should Lift"
 excerpt: "Women often skip straight past the weights at the gym out of fear of ripping muscles like an amazon woman. But girls lifting weights experience the sa..."
 date: "December 26, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_vegetable_chopping_1770429018287.png"
+image: "/images/blog/blog_vegetable_chopping_1770429018287.webp"
 author: "Transform Team"
 ---
 

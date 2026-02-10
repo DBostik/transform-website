@@ -3,7 +3,7 @@ title: "Simply Delicious Pancakes"
 excerpt: "Variety is the spice of life! Stay on track with your health and fitness goals, but switching things up a bit from time to time, especially when it..."
 date: "November 23, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_dark_chocolate_1770429064831.png"
+image: "/images/blog/blog_dark_chocolate_1770429064831.webp"
 author: "Transform Team"
 ---
 

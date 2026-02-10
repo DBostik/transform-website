@@ -3,7 +3,7 @@ title: "Developing a Strength Training Program"
 excerpt: "For a powerful upper body and developed arms, the pull up is one of the more effective exercises. Use good form for as long as you can then rest and d..."
 date: "July 14, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_kettlebell_swing_1770429076780.png"
+image: "/images/blog/blog_kettlebell_swing_1770429076780.webp"
 author: "Transform Team"
 ---
 

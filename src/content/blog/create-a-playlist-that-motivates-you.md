@@ -3,7 +3,7 @@ title: "Create A Playlist That Motivates You!"
 excerpt: "##### This chart approximates what beats per minute (BPM ) corresponds to your walking, jogging or running speed.  The chart is based off of average..."
 date: "August 14, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_fresh_fruit_platter_1770342130993.png"
+image: "/images/blog/blog_fresh_fruit_platter_1770342130993.webp"
 author: "Transform Team"
 ---
 

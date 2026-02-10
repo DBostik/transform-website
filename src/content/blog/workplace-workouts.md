@@ -3,7 +3,7 @@ title: "Workplace Workouts"
 excerpt: "There are a number of professions that allow for all-day exercise made essential by the nature of the work. Construction workers, fishermen and frei..."
 date: "October 4, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_jump_rope_1770342200549.png"
+image: "/images/blog/blog_jump_rope_1770342200549.webp"
 author: "Transform Team"
 ---
 

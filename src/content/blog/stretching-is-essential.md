@@ -3,7 +3,7 @@ title: "Stretching is Essential"
 excerpt: "## Feeling a Bit Stiff?  Let’s face it, as we age, certain things seem to become harder and harder to do. Squatting down to pick up something off the..."
 date: "March 24, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_spin_class_1770342237110.png"
+image: "/images/blog/blog_spin_class_1770342237110.webp"
 author: "Transform Team"
 ---
 

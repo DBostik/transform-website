@@ -3,7 +3,7 @@ title: "A Hearty and Healthy Breakfast Burrito"
 excerpt: "## Food as Fuel and Medicine  As I’ve mentioned in my previous posts, fueling your body with the right kind of food makes all the difference. As Jilli..."
 date: "May 1, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_protein_pancakes_1770342147430.png"
+image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "SWAP Challenge"
 excerpt: "## Is Your Tank Running on E?  Is your motivation tank running on E, right now? Can’t find direction or a little lost on what to do next. Right now yo..."
 date: "January 5, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_chia_pudding_1770429041023.png"
+image: "/images/blog/blog_chia_pudding_1770429041023.webp"
 author: "Transform Team"
 ---
 

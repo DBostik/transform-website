@@ -3,7 +3,7 @@ title: "Benefits of Having a Personal Trainer"
 excerpt: "Starting an exercise program will bring the best results when you are guided by a professional personal trainer. A personal trainer can help you get..."
 date: "November 11, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_plank_variation_1770342187455.png"
+image: "/images/blog/blog_plank_variation_1770342187455.webp"
 author: "Transform Team"
 ---
 

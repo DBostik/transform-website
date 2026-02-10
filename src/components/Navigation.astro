@@ -19,6 +19,7 @@ interface NavItem {
   label: string;
   href: string;
   children?: { label: string; href: string }[];
+  target?: string;
 }
 
 const navLinks: NavItem[] = [
@@ -40,7 +41,7 @@ const navLinks: NavItem[] = [
     ]
   },
   { label: 'Blog', href: '/blog' },
-  { label: 'Members', href: 'https://clients.mindbodyonline.com/classic/ws?studioid=13171&stype=-2&subTab=info' },
+  { label: 'Members', href: 'https://clients.mindbodyonline.com/classic/ws?studioid=13171&stype=-2&subTab=info', target: '_blank' },
   { label: 'Contact', href: '/contact' },
 ];
 ---
@@ -63,6 +64,8 @@ const navLinks: NavItem[] = [
           <li class={link.children ? 'dropdown-parent' : ''} style="position: relative;">
             <a 
               href={link.href}
+              target={link.target}
+              rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
               class="nav-link"
               style={`
                 font-family: var(--font-heading);
@@ -185,6 +188,8 @@ const navLinks: NavItem[] = [
             ) : (
               <a 
                 href={link.href}
+                target={link.target}
+                rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
                 class="mobile-nav-link"
                 style={`color: ${currentPath === link.href ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
               >

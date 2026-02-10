@@ -3,7 +3,7 @@ title: "What Are Macros?"
 excerpt: "## ⁠The Covid 19⠀  Have you heard of The Covid 19? I’m not talking about the virus. I’m talking about the 19 pounds or more that so many people gained..."
 date: "January 10, 2023"
 category: "Fitness Advice"
-image: "/images/blog/blog_sweet_potato_fries_1770394632528.png"
+image: "/images/blog/blog_sweet_potato_fries_1770394632528.webp"
 author: "Transform Team"
 ---
 

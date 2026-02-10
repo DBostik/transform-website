@@ -3,7 +3,7 @@ title: "Your Personal Training Studio and Developing A Training Plan"
 excerpt: "If you have already spent an enormous amount of time looking into getting fit, then you know that there is a near-endless stream of advice about the b..."
 date: "August 6, 2022"
 category: "Fitness Advice"
-image: "/images/blog/blog_dark_chocolate_1770429064831.png"
+image: "/images/blog/blog_dark_chocolate_1770429064831.webp"
 author: "Transform Team"
 ---
 

@@ -3,7 +3,7 @@ title: "Sweet Potato & Apple Latkes"
 excerpt: "Did you know eating healthy doesn’t have to be complicated or require tons of ingredients? Check out this yummy vegan recipe for Sweet Potato & Apple..."
 date: "October 24, 2021"
 category: "Fitness Advice"
-image: "/images/blog/blog_dark_chocolate_1770429064831.png"
+image: "/images/blog/blog_dark_chocolate_1770429064831.webp"
 author: "Transform Team"
 ---
 
