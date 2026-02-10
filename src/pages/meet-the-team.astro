@@ -10,7 +10,7 @@ import Button from '../components/ui/Button.astro';
 import FormInput from '../components/ui/FormInput.astro';
 import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
-import PopupForm from '../components/PopupForm.astro';
+import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "Meet the Team - Transform Personal Training";
@@ -222,18 +222,16 @@ const teamMembers = [
         <p class="cta-description">
           Schedule your free consultation today and let us match you with the perfect trainer for your goals and personality.
         </p>
-        <button id="open-popup-btn" class="btn-cta btn-cta--large js-trigger-popup" style="border: none; cursor: pointer;">
+        <a href="/contact" class="btn-cta btn-cta--large" style="text-decoration: none;">
           Book Free Consultation
           <span class="btn-cta__value">Zero Obligation</span>
-        </button>
+        </a>
       </div>
     </div>
   </section>
 
   <!-- ===== FOOTER ===== -->
   <Footer />
-
-  <PopupForm />
 </body>
 </html>
 
