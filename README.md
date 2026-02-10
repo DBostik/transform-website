@@ -5,7 +5,7 @@
 This is a complete rebuild of the Transform Personal Training website (www.transformpersonaltraining.com) to create a modern, fast, SEO-optimized, and mobile-responsive experience.
 
 **Business:** Transform Personal Training  
-**Location:** 2727 N Lehmann Ct, Chicago, IL 60614  
+**Location:** 2900 N Broadway St, Chicago, IL 60657  
 **Services:** In-studio personal training, online coaching, nutrition guidance  
 **Current Site:** https://www.transformpersonaltraining.com
 
@@ -162,7 +162,7 @@ npm run preview
 **Business Owner**: Dave Bostik  
 **Business Phone**: (312) 635-5139  
 **Business Email**: contact@email.transformfitcoach.com  
-**Studio Address**: 2727 N Lehmann Ct, Chicago, IL 60614
+**Studio Address**: 2900 N Broadway St, Chicago, IL 60657
 
 ---
 
@@ -181,3 +181,4 @@ npm run preview
 
 Refer to `PLAN.md` for detailed specifications. If you need clarification on any aspect of the project, ask the Architect (`@architect` skill) to update the plan.
 
+ 
