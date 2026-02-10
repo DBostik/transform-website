@@ -1,0 +1,1 @@
+const o=document.getElementById("mobile-menu-button"),n=document.getElementById("mobile-menu");o?.addEventListener("click",()=>{const e=n?.style.display==="block";n&&(n.style.display=e?"none":"block")});const t=document.querySelectorAll(".dropdown-toggle");t.forEach(e=>{e.addEventListener("click",()=>{e.closest(".mobile-dropdown")?.classList.toggle("open")})});
