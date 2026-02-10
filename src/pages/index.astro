@@ -414,10 +414,9 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   <!-- ===== FOUNDER STORY ===== -->
   <section class="section">
     <div class="container">
-      <div class="max-w-5xl mx-auto">
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <!-- Text Content -->
-          <div class="order-2 md:order-1">
+      <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; max-width: 1000px; margin: 0 auto;">
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
+          <div>
             <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: var(--color-black-900); margin-bottom: 1.5rem;">
               Meet Dave Bostik
             </h2>
@@ -425,15 +424,13 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
               Transform Personal Training was founded with one mission: to provide personalized, results-driven fitness training that actually works.
             </p>
             <p style="color: var(--color-black-700); line-height: 1.7; margin-bottom: 1.5rem;">
-              With years of experience and AFAA certification, our team is dedicated to helping you achieve your fitness goals through customized training, nutrition guidance, and daily support.
+              With years of experience and nationally recognized certifications, our team is dedicated to helping you achieve your fitness goals through customized training, nutrition guidance, and daily support.
             </p>
             <Button variant="primary" href="/meet-the-team">
               Meet the Team
             </Button>
           </div>
-          
-          <!-- Image -->
-          <div class="order-1 md:order-2">
+          <div>
             <img 
               src="/images/transformation-hero.webp" 
               alt="Dave Bostik Transformation" 

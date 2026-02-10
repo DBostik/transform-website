@@ -14,17 +14,17 @@ import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 
 const pageTitle = "Meet the Team - Transform Personal Training";
-const pageDescription = "Meet the expert trainers at Transform Personal Training. Our certified coaches are dedicated to helping you achieve your fitness goals in Lincoln Park, Chicago.";
+const pageDescription = "Meet the expert trainers at Transform Personal Training. Our certified coaches are dedicated to helping you achieve your fitness goals in Lakeview, Chicago.";
 
 // Team Members Data
 const teamMembers = [
   {
     name: "David Bostik",
     role: "Owner & Founder",
-    image: "/images/team/David-Bostik.jpg",
+    image: "/images/team/David-Bostik.webp",
     bio: [
       "David's journey began in 2003 when he weighed 346 lbs. struggling with his own weight and health issues. Through dedicated personal training, he lost 140 lbs and completely transformed his life.",
-      "This personal transformation inspired him to pursue a career in fitness to help others achieve similar results. He opened Transform Personal Training in Lincoln Park to create a supportive, non-judgmental environment where clients can feel comfortable embarking on their own fitness journeys.",
+      "This personal transformation inspired him to pursue a career in fitness to help others achieve similar results. He opened Transform Personal Training in Lakeview to create a supportive, non-judgmental environment where clients can feel comfortable embarking on their own fitness journeys.",
       "David brings deep empathy and understanding to his coaching, knowing firsthand the physical and mental challenges of significant weight loss."
     ],
     certifications: ["NASM Certified Personal Trainer", "Weight Loss Specialist", "Corrective Exercise Specialist"]
@@ -32,7 +32,7 @@ const teamMembers = [
   {
     name: "Gerri Bushkovski",
     role: "Fitness Coach",
-    image: "/images/team/Gerri-coach.jpeg",
+    image: "/images/team/Gerri-coach.webp",
     bio: [
       "A fitness enthusiast since age 19 and a competitive bodybuilder since 1996, Gerri brings decades of experience to her training. She was the Overall Winner at the 1998 Prairie State Classic.",
       "As a mother of two, she understands the balance between family life and personal health. Her training philosophy focuses on strength, holistic fitness, and building a body that functions as well as it looks.",
@@ -43,7 +43,7 @@ const teamMembers = [
   {
     name: "Miriam Plotkin",
     role: "Fitness Coach",
-    image: "/images/team/Miriam-coach.jpeg",
+    image: "/images/team/Miriam-coach.webp",
     bio: [
       "An athlete since age 6 and a professional trainer since 2001, Miriam combines rigorous training with an infectious sense of humor. With a background in professional comedy (trained at Second City and iO Theater), she makes even the toughest workouts enjoyable.",
       "She is a circuit training specialist who keeps sessions dynamic and engaging. Miriam believes that fitness should be fun, not a chore, and uses her unique background to keep clients motivated and smiling while they sweat."
@@ -53,7 +53,7 @@ const teamMembers = [
   {
     name: "Eric-Todd Rushing",
     role: "Fitness Coach",
-    image: "/images/team/Eric-Todd-Coach.png",
+    image: "/images/team/Eric-Todd-Coach.webp",
     bio: [
       "A former professional dancer of 25 years, Eric-Todd brings a unique focus on body awareness, movement quality, and functional training. He emphasizes training movements, not just muscles.",
       "He believes in functional training over machine-based exercises to build bodies that are capable and resilient in the real world. His coaching style blends the discipline of dance with the science of modern fitness.",
@@ -64,7 +64,7 @@ const teamMembers = [
   {
     name: "Kristen",
     role: "Accountability Coach",
-    image: "/images/team/Kristen-coach.jpg",
+    image: "/images/team/Kristen-coach.webp",
     bio: [
       "A former teacher and working parent who joined Transform in 2014, Kristen shifted her career from education to fitness to help others build sustainable healthy lifestyles.",
       "She understands the challenges of juggling work, family, and health. Her approach focuses on small, manageable daily shifts rather than drastic, unsustainable changes.",
@@ -89,8 +89,44 @@ const teamMembers = [
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
   <!-- Design System Styles -->
-  <link rel="stylesheet" href="/src/styles/design-tokens.css">
-  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "David Bostik",
+      "jobTitle": "Founder & Head Personal Trainer",
+      "description": "AFAA and ISSA Certified Personal Trainer who lost 150lbs and founded Transform Personal Training to help others achieve their fitness goals.",
+      "image": "https://www.transformpersonaltraining.com/images/david-bostik.jpg",
+      "url": "https://www.transformpersonaltraining.com/meet-the-team/",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Transform Personal Training",
+        "@id": "https://www.transformpersonaltraining.com/#organization"
+      },
+      "hasCredential": [
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "AFAA Certified Personal Trainer"
+        },
+        {
+          "@type": "EducationalOccupationalCredential",
+          "credentialCategory": "certification",
+          "name": "ISSA Certified Personal Trainer"
+        }
+      ],
+      "knowsAbout": [
+        "Personal Training",
+        "Weight Loss",
+        "Nutrition Coaching",
+        "Fitness Programming"
+      ]
+    }
+  </script>
 </head>
 
 <body>
@@ -101,7 +137,7 @@ const teamMembers = [
   <section class="team-hero">
     <div class="team-hero__content container">
       <span class="team-hero__badge">Expert Guidance</span>
-      <h1 class="team-hero__title">MEET THE TEAM</h1>
+      <h1 class="team-hero__title">MEET OUR CHICAGO TEAM</h1>
       <p class="team-hero__subtitle">
         We are a team of dedicated professionals passionate about helping you transform your life. 
         With decades of combined experience, we're here to guide you every step of the way.
@@ -186,10 +222,10 @@ const teamMembers = [
         <p class="cta-description">
           Schedule your free consultation today and let us match you with the perfect trainer for your goals and personality.
         </p>
-        <a href="#consultation" class="btn-cta btn-cta--large">
+        <button id="open-popup-btn" class="btn-cta btn-cta--large" style="border: none; cursor: pointer;">
           Book Free Consultation
           <span class="btn-cta__value">Zero Obligation</span>
-        </a>
+        </button>
       </div>
     </div>
   </section>
@@ -198,6 +234,15 @@ const teamMembers = [
   <Footer />
 
   <PopupForm />
+
+  <script>
+    const openBtn = document.getElementById('open-popup-btn');
+    const popup = document.getElementById('popup-form-overlay');
+    
+    openBtn?.addEventListener('click', () => {
+      popup?.classList.add('active');
+    });
+  </script>
 </body>
 </html>
 

@@ -13,42 +13,42 @@ import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 
-const pageTitle = "Success Stories - Transform Personal Training";
-const pageDescription = "Real transformations from real clients. See the incredible results our clients have achieved with Transform Personal Training in Chicago.";
+const pageTitle = "Client Success Stories & Transformations | Transform Personal Training";
+const pageDescription = "Real transformations from real clients. See before/after photos and read testimonials from people who achieved their fitness goals with Transform Personal Training.";
 
 // Featured transformations for the hero grid
 const featuredTransformations = [
-  { name: "Annette E.", image: "/images/transformations/Annette-E-29.6lbs-4.2bf.png", result: "Lost 29.6 lbs & 4.2% Body Fat" },
-  { name: "Andrew G.", image: "/images/transformations/Andrew-G-96lb-13bf-1.png", result: "Lost 96 lbs & 13% Body Fat" },
-  { name: "Beto M.", image: "/images/transformations/Beto-M-28.3lbs-and-6.1bf-in-6-weeks-copy.png", result: "Lost 28.3 lbs in 6 Weeks" },
+  { name: "Annette E.", image: "/images/transformations/Annette-E-29.6lbs-4.2bf.webp", result: "Lost 29.6 lbs & 4.2% Body Fat" },
+  { name: "Andrew G.", image: "/images/transformations/Andrew-G-96lb-13bf-1.webp", result: "Lost 96 lbs & 13% Body Fat" },
+  { name: "Beto M.", image: "/images/transformations/Beto-M-28.3lbs-and-6.1bf-in-6-weeks-copy.webp", result: "Lost 28.3 lbs in 6 Weeks" },
 ];
 
 // All transformations grid
 const transformations = [
-  { name: "Kristin D.", image: "/images/transformations/Kristin-50lbs-copy.png", result: "Lost 50 lbs" },
-  { name: "Jesse K.", image: "/images/transformations/Jesse-K-43lbs-13.6bf-copy.png", result: "Lost 43 lbs & 13.6% BF" },
-  { name: "Christine P.", image: "/images/transformations/Christine-P-58lb-7bf-copy.png", result: "Lost 58 lbs & 7% BF" },
-  { name: "Rebecca H.", image: "/images/transformations/Rebecca-H-38.2lbs-7.1bf-copy.png", result: "Lost 38.2 lbs & 7.1% BF" },
-  { name: "Ozlem", image: "/images/transformations/Ozlem-33.5lbs-7.2bf-copy.png", result: "Lost 33.5 lbs & 7.2% BF" },
-  { name: "Lori K.", image: "/images/transformations/Lori-K-30lbs-copy-1.png", result: "Lost 30 lbs" },
-  { name: "Derek B.", image: "/images/transformations/Derek-B-30lbs-3.3bf-in-6wks-copy.png", result: "Lost 30 lbs in 6 Weeks" },
-  { name: "Sara P.", image: "/images/transformations/Sara-P-28.2lbs-6.1bf-1-copy.png", result: "Lost 28.2 lbs & 6.1% BF" },
-  { name: "Jill G.", image: "/images/transformations/Jill-G-28.6lbs-2.7bf-copy.png", result: "Lost 28.6 lbs & 2.7% BF" },
-  { name: "John", image: "/images/transformations/John-28.8lbs-6.8bf-copy.png", result: "Lost 28.8 lbs & 6.8% BF" },
-  { name: "Cortney W.", image: "/images/transformations/Cortney-W-27lbs-4bf-20in-in-6wk-copy.png", result: "Lost 27 lbs in 6 Weeks" },
-  { name: "Ivy A.", image: "/images/transformations/Ivy-A-23.4lbs-13bf-copy.png", result: "Lost 23.4 lbs & 13% BF" },
-  { name: "Alex S.", image: "/images/transformations/Alex-S-22lbs-7bf-in-6-wk-copy.png", result: "Lost 22 lbs in 6 Weeks" },
-  { name: "Carly T.", image: "/images/transformations/Carly-T-20lbs-2.3bf-in-6-wks-copy.png", result: "Lost 20 lbs in 6 Weeks" },
-  { name: "Nina", image: "/images/transformations/Nina-20lbs-7.7bf-copy.png", result: "Lost 20 lbs & 7.7% BF" },
-  { name: "Holly", image: "/images/transformations/Holly-18lbs-6bf.png", result: "Lost 18 lbs & 6% BF" },
-  { name: "Rebecca G.", image: "/images/transformations/Rebecca-G-18lbs-1bf-12in-in-6wks-copy.png", result: "Lost 18 lbs in 6 Weeks" },
-  { name: "Scott B.", image: "/images/transformations/Scott-B-17lbs-3bf-in-6wks-copy.png", result: "Lost 17 lbs in 6 Weeks" },
-  { name: "Maggie H.", image: "/images/transformations/Maggie-Heim-side-16.5lbs-4.2bf-in-6wks-copy.png", result: "Lost 16.5 lbs in 6 Weeks" },
-  { name: "Pamela Q.", image: "/images/transformations/Pamela-Q-15.4lb-2.9bf-8.25in-in-6wks-1-copy.png", result: "Lost 15.4 lbs in 6 Weeks" },
-  { name: "Paul G.", image: "/images/transformations/Paul-G-15lbs-3.5bf-9in-in-6wks-copy.png", result: "Lost 15 lbs in 6 Weeks" },
-  { name: "Natasha T.", image: "/images/transformations/Natasha-T-14lbs-2bf-13in-in-6wks-copy.png", result: "Lost 14 lbs in 6 Weeks" },
-  { name: "Sarah B.", image: "/images/transformations/Sarah-B-13lbs-2bf-7in-in-6wks-copy.png", result: "Lost 13 lbs in 6 Weeks" },
-  { name: "Melissa H.", image: "/images/transformations/Melissa-H-11lbs-4bf-4in-in-6wks-copy.png", result: "Lost 11 lbs in 6 Weeks" },
+  { name: "Kristin D.", image: "/images/transformations/Kristin-50lbs-copy.webp", result: "Lost 50 lbs" },
+  { name: "Jesse K.", image: "/images/transformations/Jesse-K-43lbs-13.6bf-copy.webp", result: "Lost 43 lbs & 13.6% BF" },
+  { name: "Christine P.", image: "/images/transformations/Christine-P-58lb-7bf-copy.webp", result: "Lost 58 lbs & 7% BF" },
+  { name: "Rebecca H.", image: "/images/transformations/Rebecca-H-38.2lbs-7.1bf-copy.webp", result: "Lost 38.2 lbs & 7.1% BF" },
+  { name: "Ozlem", image: "/images/transformations/Ozlem-33.5lbs-7.2bf-copy.webp", result: "Lost 33.5 lbs & 7.2% BF" },
+  { name: "Lori K.", image: "/images/transformations/Lori-K-30lbs-copy-1.webp", result: "Lost 30 lbs" },
+  { name: "Derek B.", image: "/images/transformations/Derek-B-30lbs-3.3bf-in-6wks-copy.webp", result: "Lost 30 lbs in 6 Weeks" },
+  { name: "Sara P.", image: "/images/transformations/Sara-P-28.2lbs-6.1bf-1-copy.webp", result: "Lost 28.2 lbs & 6.1% BF" },
+  { name: "Jill G.", image: "/images/transformations/Jill-G-28.6lbs-2.7bf-copy.webp", result: "Lost 28.6 lbs & 2.7% BF" },
+  { name: "John", image: "/images/transformations/John-28.8lbs-6.8bf-copy.webp", result: "Lost 28.8 lbs & 6.8% BF" },
+  { name: "Cortney W.", image: "/images/transformations/Cortney-W-27lbs-4bf-20in-in-6wk-copy.webp", result: "Lost 27 lbs in 6 Weeks" },
+  { name: "Ivy A.", image: "/images/transformations/Ivy-A-23.4lbs-13bf-copy.webp", result: "Lost 23.4 lbs & 13% BF" },
+  { name: "Alex S.", image: "/images/transformations/Alex-S-22lbs-7bf-in-6-wk-copy.webp", result: "Lost 22 lbs in 6 Weeks" },
+  { name: "Carly T.", image: "/images/transformations/Carly-T-20lbs-2.3bf-in-6-wks-copy.webp", result: "Lost 20 lbs in 6 Weeks" },
+  { name: "Nina", image: "/images/transformations/Nina-20lbs-7.7bf-copy.webp", result: "Lost 20 lbs & 7.7% BF" },
+  { name: "Holly", image: "/images/transformations/Holly-18lbs-6bf.webp", result: "Lost 18 lbs & 6% BF" },
+  { name: "Rebecca G.", image: "/images/transformations/Rebecca-G-18lbs-1bf-12in-in-6wks-copy.webp", result: "Lost 18 lbs in 6 Weeks" },
+  { name: "Scott B.", image: "/images/transformations/Scott-B-17lbs-3bf-in-6wks-copy.webp", result: "Lost 17 lbs in 6 Weeks" },
+  { name: "Maggie H.", image: "/images/transformations/Maggie-Heim-side-16.5lbs-4.2bf-in-6wks-copy.webp", result: "Lost 16.5 lbs in 6 Weeks" },
+  { name: "Pamela Q.", image: "/images/transformations/Pamela-Q-15.4lb-2.9bf-8.25in-in-6wks-1-copy.webp", result: "Lost 15.4 lbs in 6 Weeks" },
+  { name: "Paul G.", image: "/images/transformations/Paul-G-15lbs-3.5bf-9in-in-6wks-copy.webp", result: "Lost 15 lbs in 6 Weeks" },
+  { name: "Natasha T.", image: "/images/transformations/Natasha-T-14lbs-2bf-13in-in-6wks-copy.webp", result: "Lost 14 lbs in 6 Weeks" },
+  { name: "Sarah B.", image: "/images/transformations/Sarah-B-13lbs-2bf-7in-in-6wks-copy.webp", result: "Lost 13 lbs in 6 Weeks" },
+  { name: "Melissa H.", image: "/images/transformations/Melissa-H-11lbs-4bf-4in-in-6wks-copy.webp", result: "Lost 11 lbs in 6 Weeks" },
 ];
 ---
 
@@ -66,8 +66,31 @@ const transformations = [
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
   <!-- Design System Styles -->
-  <link rel="stylesheet" href="/src/styles/design-tokens.css">
-  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Review",
+      "itemReviewed": {
+        "@type": "LocalBusiness",
+        "name": "Transform Personal Training",
+        "@id": "https://www.transformpersonaltraining.com/#organization"
+      },
+      "reviewRating": {
+        "@type": "Rating",
+        "ratingValue": "5",
+        "bestRating": "5"
+      },
+      "author": {
+        "@type": "Person",
+        "name": "Arne W."
+      },
+      "reviewBody": "Dave has a confident and seasoned grasp of all of the technical aspects of high-level training. To work with him is to experience intense focus – one's own and also his. Plus, I grew some better-than-average guns."
+    }
+  </script>
 </head>
 
 <body>
@@ -80,7 +103,7 @@ const transformations = [
       <span class="success-hero__badge">Real Results</span>
       <h1 class="success-hero__title">SUCCESS STORIES</h1>
       <p class="success-hero__subtitle">
-        Since 2010, we've helped over 500+ clients transform their bodies and lives. 
+        Since 2010, we've helped over 1000+ clients transform their bodies and lives. 
         These are their stories.
       </p>
     </div>
@@ -308,11 +331,11 @@ const transformations = [
     <div class="container">
       <div class="stats-grid">
         <div class="stat-item">
-          <span class="stat-item__number">500+</span>
+          <span class="stat-item__number">1000+</span>
           <span class="stat-item__label">Clients Transformed</span>
         </div>
         <div class="stat-item">
-          <span class="stat-item__number">15+</span>
+          <span class="stat-item__number">50+</span>
           <span class="stat-item__label">Years Experience</span>
         </div>
         <div class="stat-item">
