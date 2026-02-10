@@ -39,8 +39,150 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
   <!-- Design System Styles -->
-  <link rel="stylesheet" href="/src/styles/design-tokens.css">
-  <link rel="stylesheet" href="/src/styles/components.css">
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+
+  <!-- Schema Markup -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HealthAndBeautyBusiness",
+      "@id": "https://www.transformpersonaltraining.com/#organization",
+      "name": "Transform Personal Training",
+      "alternateName": "Transform Fitness Chicago",
+      "description": "Premier personal training studio in Lakeview, Chicago offering customized 1-on-1 fitness training, nutrition coaching, and online training programs with guaranteed results.",
+      "url": "https://www.transformpersonaltraining.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.transformpersonaltraining.com/images/logo.png",
+        "width": 600,
+        "height": 200
+      },
+      "image": [
+        "https://www.transformpersonaltraining.com/images/studio-1.jpg",
+        "https://www.transformpersonaltraining.com/images/studio-2.jpg",
+        "https://www.transformpersonaltraining.com/images/training-session.jpg"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "2900 N Broadway St",
+        "addressLocality": "Chicago",
+        "addressRegion": "IL",
+        "postalCode": "60657",
+        "addressCountry": "US"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 41.9324653,
+        "longitude": -87.6433894
+      },
+      "telephone": "+13126355139",
+      "email": "contact@email.transformfitcoach.com",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "05:00",
+          "closes": "21:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Friday",
+          "opens": "05:00",
+          "closes": "20:00"
+        },
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": "Saturday",
+          "opens": "07:00",
+          "closes": "15:00"
+        }
+      ],
+      "areaServed": {
+        "@type": "City",
+        "name": "Chicago",
+        "containedInPlace": {
+          "@type": "State",
+          "name": "Illinois"
+        }
+      },
+      "sameAs": [
+        "https://www.facebook.com/transformpersonaltraining",
+        "https://www.instagram.com/transformpersonaltraining"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Personal Training Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Studio Personal Training",
+              "description": "Private 30-minute personalized training sessions"
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "name": "Online Personal Training",
+              "description": "Remote fitness coaching with app-based tracking"
+            }
+          }
+        ]
+      }
+    }
+  </script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What happens in the first personal training session?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Your first 30-minute consultation is completely FREE! You'll spend time with one of our certified trainers discussing your fitness background, goals, and what has you interested in working with a personal trainer. You'll learn about the trainer's experience and how our customized program can work specifically for you. We encourage questions so you know exactly what to expect as you get started on your transformation journey."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where is Transform Personal Training located?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Transform Personal Training is located at 2900 N Broadway St, Chicago, IL 60657, in Lakeview, just a few blocks from most Chicago neighborhoods. We're easily accessible and offer convenient appointment times from 5:00am to 9:00pm Monday through Thursday."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer online personal training?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes! We offer comprehensive online personal training that you can access from anywhere. Using your smartphone, smartwatch, and the latest fitness technology, you receive customized training tailored to your goals, personalized nutrition plans, daily check-ins, and motivational support from your dedicated trainer."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long are personal training sessions?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our personal training sessions are 30 minutes each. This efficient format is designed to fit easily into your work day while providing a challenging, engaging, and effective workout that's completely personalized to your fitness needs and goals."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What makes Transform Personal Training different?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "At Transform Personal Training, every workout is 100% personalized to your specific fitness needs and goals. We combine customized training sessions with personalized nutrition guidance and daily support to keep you motivated and accountable. Our trainers treat each person as an individual, and we guarantee results. Plus, your first session is completely free!"
+          }
+        }
+      ]
+    }
+  </script>
 </head>
 
 <body>
@@ -48,7 +190,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   <Navigation currentPath="/" />
   
   <!-- ===== HERO SECTION ===== -->
-  <section class="hero" style="background-image: url('/images/hero-background.png');">
+  <section class="hero" style="background-image: url('/images/hero-background.webp');">
     <div class="hero-overlay"></div>
     
     <div class="hero-content">
@@ -94,7 +236,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
           Finally The Personal Training Service You've Been Looking For
         </h2>
         <p class="section-subtitle">
-          Located in Lakeview, right on the border of Lincoln Park, we're just a few blocks from you! At TRANSFORM Personal Training, each and every one of your workouts will be personalized to your fitness needs and goals.
+          Located in Lakeview, we're just a few blocks from you! At TRANSFORM Personal Training, each and every one of your workouts will be personalized to your fitness needs and goals.
         </p>
       </div>
       
@@ -272,9 +414,10 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   <!-- ===== FOUNDER STORY ===== -->
   <section class="section">
     <div class="container">
-      <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; max-width: 1000px; margin: 0 auto;">
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; align-items: center;">
-          <div>
+      <div class="max-w-5xl mx-auto">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+          <!-- Text Content -->
+          <div class="order-2 md:order-1">
             <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: var(--color-black-900); margin-bottom: 1.5rem;">
               Meet Dave Bostik
             </h2>
@@ -288,10 +431,15 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
               Meet the Team
             </Button>
           </div>
-          <div>
+          
+          <!-- Image -->
+          <div class="order-1 md:order-2">
             <img 
-              src="/images/transformation-hero.png" 
+              src="/images/transformation-hero.webp" 
               alt="Dave Bostik Transformation" 
+              width="420"
+              height="291"
+              loading="lazy"
               style="width: 100%; height: auto; border-radius: 1rem; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.15);"
             />
           </div>
@@ -301,7 +449,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   </section>
 
   <!-- ===== CONSULTATION FORM ===== -->
-  <section id="consultation-form" style="position: relative; background-image: url('/images/form-background.png'); background-size: cover; background-position: center; padding: 3rem 0;">
+  <section id="consultation-form" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
     <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.55));"></div>
     <div class="container" style="position: relative; z-index: 1;">
       <div style="max-width: 600px; margin: 0 auto;">
