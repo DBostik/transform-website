@@ -182,4 +182,3 @@ npm run preview
 Refer to `PLAN.md` for detailed specifications. If you need clarification on any aspect of the project, ask the Architect (`@architect` skill) to update the plan.
 
  
- 
