@@ -1,1 +1,0 @@
-const e=document.getElementById("popup-form-overlay"),c=document.getElementById("close-popup");c?.addEventListener("click",()=>{e&&e.classList.remove("active")});e?.addEventListener("click",t=>{t.target===e&&e.classList.remove("active")});document.addEventListener("keydown",t=>{t.key==="Escape"&&e?.classList.contains("active")&&e.classList.remove("active")});

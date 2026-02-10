@@ -150,6 +150,14 @@
       popupOverlay.classList.remove('active');
     }
   });
+
+  // Handle all trigger buttons
+  document.querySelectorAll('.js-trigger-popup').forEach(button => {
+    button.addEventListener('click', (e) => {
+      e.preventDefault();
+      popupOverlay?.classList.add('active');
+    });
+  });
 </script>
 
 <script src="https://link.msgsndr.com/js/form_embed.js"></script>

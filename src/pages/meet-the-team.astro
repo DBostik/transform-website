@@ -222,7 +222,7 @@ const teamMembers = [
         <p class="cta-description">
           Schedule your free consultation today and let us match you with the perfect trainer for your goals and personality.
         </p>
-        <button id="open-popup-btn" class="btn-cta btn-cta--large" style="border: none; cursor: pointer;">
+        <button id="open-popup-btn" class="btn-cta btn-cta--large js-trigger-popup" style="border: none; cursor: pointer;">
           Book Free Consultation
           <span class="btn-cta__value">Zero Obligation</span>
         </button>
@@ -234,15 +234,6 @@ const teamMembers = [
   <Footer />
 
   <PopupForm />
-
-  <script>
-    const openBtn = document.getElementById('open-popup-btn');
-    const popup = document.getElementById('popup-form-overlay');
-    
-    openBtn?.addEventListener('click', () => {
-      popup?.classList.add('active');
-    });
-  </script>
 </body>
 </html>
 
