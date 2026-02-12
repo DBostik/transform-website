@@ -1,7 +1,20 @@
-<IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # 1. Redirect /dist/foo to /foo (Remove /dist prefix if visible)
+  RewriteCond %{THE_REQUEST} \s/dist/ [NC]
+  RewriteRule ^dist/(.*)$ /$1 [R=301,L]
+
+  # 2. Add trailing slash to directories (Prevent mod_dir exposing /dist)
+  # If request doesn't end in slash, and it exists as a directory in /dist
+  RewriteCond %{REQUEST_URI} !/$
+  RewriteCond %{DOCUMENT_ROOT}/dist/$1 -d
+  RewriteRule ^(.*)$ /$1/ [R=301,L]
+
+  # 3. Serve root from dist/index.html
   RewriteRule ^$ dist/index.html [L]
+
+  # 4. Rewrite everything else to /dist/ folder internally
   RewriteCond %{REQUEST_FILENAME} !-f
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !^/dist/
