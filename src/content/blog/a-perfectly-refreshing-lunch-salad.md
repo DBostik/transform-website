@@ -20,24 +20,19 @@ This vegetarian meal is easy to make, packs great flavor, and can be served eith
 Ideal time to have it is lunch for couple different reasons: it’s refreshing and aligns with the way we time our meals and food groups with our clients. Not sure what I meant by that last part? Send me a message. I’m happy to explain further to clear up any confusion.
 
 
-#
-
-#
 
 
-#
 
-# Pesto Spaghetti Squash Salad
+
+## Pesto Spaghetti Squash Salad
 
 SERVES: 8
 
 
-#
-
-#
 
 
-# INGREDIENTS
+
+## INGREDIENTS
 
 - 1 spaghetti squash
 
@@ -58,12 +53,10 @@ SERVES: 8
 - 2 pounds Cherry Tomat
 
 
-#
-
-#
 
 
-# INSTRUCTIONS
+
+## INSTRUCTIONS
 
 1. Cut the spaghetti squash in half, and scoop out the seeds. Run water over the insides of the squash.
 
@@ -84,19 +77,14 @@ SERVES: 8
 9. Taste the salad, and use another dash of salt if needed.
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
 
-# NUTRITIONAL FACTS (per serving)
+
+
+## NUTRITIONAL FACTS (per serving)
 
 - Calories: 80
 

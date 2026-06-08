@@ -22,19 +22,16 @@ Thankfully, eating healthy doesn’t mean eating a bland, dry salad, or somethin
 With all of these options, there’s no excuse to stay on track with your healthy diet while living in or visiting Chicago.
 
 
-#
 
-# 7 Can’t Miss Healthy Restaurants in Chicago
+## 7 Can’t Miss Healthy Restaurants in Chicago
 
 We’ve broken down our top 7 healthy restaurants in Chicago into convenient categories for you to easily digest (pun intended). Price information (listed as How Much) based on Yelp.
 
 
-#
-
-#
 
 
-# 1. True Food Kitchen
+
+## 1. True Food Kitchen
 
 Where: 1 W Erie St Chicago, IL 60654 (Near North Side)
 
@@ -49,12 +46,10 @@ True Food Kitchen is a quickly growing chain that started in Phoenix, AZ. It is 
 They offer plenty of vegetarian, vegan, gluten-free, and organic options that are delicious and filling. Even their desserts are committed to health with several anti-oxidant packed options.
 
 
-#
-
-#
 
 
-# 2. Green Zebra
+
+## 2. Green Zebra
 
 Where: 1460 W Chicago Ave Chicago, IL 60642 (North Square, West Town)
 
@@ -67,12 +62,10 @@ Highlights: Vegetarian (with clearly marked vegan options as well), emphasis on 
 Winner of Food Network’s Iron Chef, Shawn McClain is a force to be reckoned with. Green Zebra is not the place to come if you’re on a tight budget, but if you’re looking for a delicious dining experience worthy of dropping some cash, look no further than this small plates, veggie-loving restaurant.
 
 
-#
-
-#
 
 
-# 3. Sweetgreen
+
+## 3. Sweetgreen
 
 Where: 623 N State St Chicago, IL 60654 (River North)
 
@@ -85,12 +78,10 @@ Highlights: supportive of sustainable, local farming, calories listed for every 
 This expanding chain started in 2007 and has seen success in providing seasonal, healthy food. Sweetgreen’s mouthwatering menu is as transparent as it is delicious: with calorie counts provided so you won’t be playing a guessing game in your health food needs. The warm bowls are a great option for those tough Chicago winter months.
 
 
-#
-
-#
 
 
-# 4. Protein Bar
+
+## 4. Protein Bar
 
 Where: 13 locations all over Chicago! Check the website for location information.
 
@@ -103,12 +94,10 @@ Highlights: Bowls, salads, wraps, protein smoothies, vegan and gluten free optio
 This grab and go menu offers healthy and filling breakfast, bowls, soups, wraps, salads, and more. Great for the days you are on the go but still want something healthy to fill you up. This restaurant is carb conscious and lists calorie information on the website as well.
 
 
-#
-
-#
 
 
-# 5. EMA
+
+## 5. EMA
 
 Where: 74 W Illinois St Chicago, IL 60654 (River North)
 
@@ -121,12 +110,10 @@ Highlights: Several flavors of delicious hummus and other dips/spreads, cocktail
 Run by Top Chef Allstar’s winner Chef CJ Jacobsen, this Mediterranean meets California fresh restaurant brings a deliciously inventive set of dishes to Chicago. This restaurant is great for a special night out or a healthy business lunch. The well plated dishes and nutrition packed veggies incorporated into the dishes will leave you full without the guilt.
 
 
-#
-
-#
 
 
-# 6. LYFE Kitchen
+
+## 6. LYFE Kitchen
 
 Where: Four locations across Chicago. Check them out here.
 
@@ -139,12 +126,10 @@ Highlights: Happy hour 4-6pm Monday-Friday, delicious alcoholic and non-alcoholi
 This chain emphasizes fresh ingredients, a Rewards program for frequent diners, and flavorful food and drinks. The casual dining experience and reasonable prices make this one of the most accessible healthy restaurants in Chicago. If you’re a meat eater, try the unfried chicken: juicy chicken breast pieces are breaded in panko and then seared. Healthy and delicious.
 
 
-#
-
-#
 
 
-# 7. Doc B’s Fresh Kitchen
+
+## 7. Doc B’s Fresh Kitchen
 
 Where: 100 E Walton St, Chicago, IL 60611 (Gold Coast) & 55 E Grand Ave, Chicago, IL 60611 (River North)
 
@@ -159,9 +144,8 @@ Founder and president Craig Bernstein’s named this growing chain after his lat
 Come here to exercise your everything in moderation clause and try a tuna salad with ginger dressing and avocado, a beet juice cocktail, or a kale and goat cheese pizza. You’ll leave full and satisfied, and as long as you can exercise some restraint against the fries, you’ll leave feeling proud of your healthy choices.
 
 
-#
 
-# That’s All Folks!
+## That’s All Folks!
 
 Now let’s be clear, not everything on every one of these menus can be considered healthy. But they are a heck of a lot better than eating some of the Chicago “classic” food that typical tourists may identify with the city.
 

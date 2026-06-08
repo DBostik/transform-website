@@ -1,0 +1,45 @@
+---
+/**
+ * BaseHead.astro
+ *
+ * Adds canonical + Open Graph + Twitter Card tags to a page <head>.
+ * Purely additive: it does not render <title> or <meta name="description">
+ * (each page already sets those), so it cannot create duplicates.
+ *
+ * Usage in a page <head>:
+ *   <BaseHead title={pageTitle} description={pageDescription} />
+ * For an article/blog post:
+ *   <BaseHead title={...} description={...} image={image} type="article" />
+ */
+const SITE = 'https://transformpersonaltraining.com';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  type?: string;
+}
+
+const {
+  title,
+  description,
+  image = '/images/hero-background.png',
+  type = 'website',
+} = Astro.props;
+
+const canonical = new URL(Astro.url.pathname, SITE).href;
+const ogImage = new URL(image, SITE).href;
+---
+<link rel="canonical" href={canonical} />
+
+<meta property="og:type" content={type} />
+<meta property="og:title" content={title} />
+<meta property="og:description" content={description} />
+<meta property="og:url" content={canonical} />
+<meta property="og:image" content={ogImage} />
+<meta property="og:site_name" content="Transform Personal Training" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content={title} />
+<meta name="twitter:description" content={description} />
+<meta name="twitter:image" content={ogImage} />

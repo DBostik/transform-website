@@ -14,9 +14,8 @@ author: "Transform Team"
 Just like shopping, you want to get the best bang for your buck when it comes to nutrition. You want to maximize nutrient absorption. Let’s talk about go over how to do this with some vegan friendly tips. Even if you aren’t vegan, these tips can help your body OPTIMIZE its ability to absorb nutrients.
 
 
-#
 
-# PAIRING FOODS
+## PAIRING FOODS
 
 Pairing certain foods with others helps the food’s nutrients absorb more effectively. This is key since the nutrients in these foods on their own aren’t as readily available. On their own, there aren’t as readily available, but if you pair them with another, they can actually be enhanced.
 
@@ -31,16 +30,14 @@ Here we will focus on three key pairings: iron and vitamin C, unsaturated fats a
 Did you know about these nutrient pairings? If you’re still unsure about how to best maximize nutrient absorption, reach out. Our team of seasoned fitness professionals can help you not just hit your goals in the gym, but also aid you in picking out healthy foods that will assist you in reaching your ultimate fitness goals.
 
 
-#
 
-# MORE FROM TRANSFORM
+## MORE FROM TRANSFORM
 
 Check out our blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for additional fit tips, recipes and more. Speaking of Facebook, join our FREE Facebook group and your other Fit Family brother/sisters for MORE exclusive content and daily coaching on the regular (search Your Fit and Healthy Life on Facebook)
 
 
-#
 
-# NEED HELP?
+## NEED HELP?
 
 Time to put yourself first. If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your complimentary breakthrough coaching call. That’s where we’ll get crystal clear on your vision, identify challenges, motivate the heck out of you, as well as provide you a roadmap to achieve your goals.
 

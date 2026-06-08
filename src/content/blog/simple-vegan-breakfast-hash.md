@@ -16,12 +16,10 @@ Check out this yummy recipe for a Simple Vegan Breakfast Hash. It tastes so yum
 PREP & COOK TIME: 1 hour
 
 
-#
-
-#
 
 
-# INGREDIENTS
+
+## INGREDIENTS
 
 For the Potatoes:
 
@@ -52,12 +50,10 @@ For the skillet mixture:
 - sprinkle of sea salt & pepper
 
 
-#
-
-#
 
 
-# INSTRUCTIONS
+
+## INSTRUCTIONS
 
 1. Combine diced potatoes with spices and 1/4 cup of olive oil, mix well. Bake in a glass casserole dish at 450 degrees for 40-50 minutes, checking and stirring ever 20 minutes, until crispy
 
@@ -72,9 +68,8 @@ For the skillet mixture:
 Let me your thoughts on this Simple Vegan Breakfast Hash and feel free to share with your friends.
 
 
-#
 
-# MORE HEALTHY RECIPES
+## MORE HEALTHY RECIPES
 
 Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare.
 
@@ -113,14 +108,11 @@ Check back with our blog for more to come so you have a nice stockpile of health
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
-
-#
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
 

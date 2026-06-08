@@ -16,16 +16,13 @@ Check out this yummy vegan friendly strawberry banana smoothie recipe by Jeanine
 Perfect for hot summer afternoons or as a healthy breakfast.
 
 
-#
 
-# Strawberry Banana Smoothie
+## Strawberry Banana Smoothie
 
 PREP TIME: 5 mins.
 
 
-#
 
-#
 
 
 ## INGREDIENTS:
@@ -45,9 +42,7 @@ PREP TIME: 5 mins.
 - Handful of mint or basil, optional
 
 
-#
 
-#
 
 
 ## DIRECTIONS:
@@ -59,9 +54,8 @@ PREP TIME: 5 mins.
 NOTES: An optional step is to strain it to remove seeds. Blend all ingredients except ice, and then strain the liquid to remove strawberry seeds. Afterwards, return to blender, add ice and pulse until combined.
 
 
-#
 
-# RECIPES & MORE
+## RECIPES & MORE
 
 Keeping variety in your meals and snacks is important. Besides this healthy Strawberry Banana Smoothie recipe, I have included below a couple other healthy recipes I’ve shared. The don’t require a ton of time or expertise to prepare.
 
@@ -90,9 +84,8 @@ Check back with our blog for more to come so you have a nice stockpile of health
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your free breakthrough coaching call where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
 

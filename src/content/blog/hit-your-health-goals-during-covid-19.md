@@ -18,9 +18,8 @@ With so many uncomfortable going back to big box gyms (such as LA Fitness, XSpor
 You could build a gym at home or in your garage as some people have done. But, what if you don’t have the space or funds to do so?
 
 
-#
 
-# Good News!
+## Good News!
 
 You don’t need a gym membership, loads of equipment, or a ton of space to get in shape. Also, you don’t need to lift weights for hours upon hours every day to reap the benefits. Two or three 20 to 30-minute strength training sessions a week using bodyweight exercises is all it takes.
 
@@ -37,9 +36,8 @@ Here are a few bodyweight exercises you can do at home:
 - Follow here for more bodyweight exercises
 
 
-#
 
-# 2 Important Keys
+## 2 Important Keys
 
 There are two important keys to reaching your goals and staying safe while doing do:
 
@@ -50,14 +48,11 @@ There are two important keys to reaching your goals and staying safe while doing
 So what are you waiting for? It’s totally possible to hit your health goals during COVID-19. Pick a few off of this list of the best bodyweight exercises and give them a shot!
 
 
-#
-
-#
 
 
-#
 
-# Need Help?
+
+## Need Help?
 
 If you think you’re ready to take your workouts up a notch and would benefit from a personal trainer and/or accountability coach to keep you on track, contact us today to see how we can can you achieve your goals.
 

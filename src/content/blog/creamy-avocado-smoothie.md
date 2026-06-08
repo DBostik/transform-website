@@ -16,12 +16,10 @@ Finding time to prepare a healthy meal, especially when you’re on the go in th
 It tastes so yummy! We had these the other day. It was super easy to make we only needed a few things,  it took only 5 minutes to make, and the best part about it is that it packs a powerful healthy punch.
 
 
-#
-
-#
 
 
-# INGREDIENTS
+
+## INGREDIENTS
 
 - 1/2 cup cubed frozen pineapple
 
@@ -44,19 +42,17 @@ It tastes so yummy! We had these the other day. It was super easy to make we onl
 - 2 scoops vanilla protein powder*, optional (need a recommendation, ask us!)
 
 
-#
-
-#
 
 
-# INSTRUCTIONS
+
+## INSTRUCTIONS
 
 1. Combine the pineapple, spinach, avocado, banana, coconut milk, lime juice, maple syrup, salt, ice, and protein powder, if using, in a blender. Blend until creamy.
 
 2. Taste and adjust the sweetness to your liking. If you prefer a sweeter smoothie, add more maple syrup. If the consistency is too thick, add more coconut milk, and blend again.
 
 
-# RECIPES & MORE
+## RECIPES & MORE
 
 Keeping variety in your meals and snacks is important. Besides this healthy Strawberry Banana Smoothie recipe, I have included below a couple other healthy recipes I’ve shared. The don’t require a ton of time or expertise to prepare.
 
@@ -87,7 +83,7 @@ Check back with our blog for more to come so you have a nice stockpile of health
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-# NEED HELP? WE’RE HERE FOR YOU
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your free breakthrough coaching call where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
 

@@ -14,9 +14,8 @@ author: "Transform Team"
 Constantly second-guessing. Indecision. Changing course. Flip-flopping. Putting things off. Wanting something but acting in ways that make it impossible to have. Scrolling through emotions. Believing and not believing at the same time. You don’t feel in control of your life and wondering why.
 
 
-#
 
-# Trust
+## Trust
 
 Not trusting yourself is the hallmark of low self-esteem, thinking small, overindulging and why those challenged by it don’t feel in control of their lives. Trustworthiness is an abiding character state. A trustworthy person is someone who is reliable, consistent, and truthful in their actions across the board. It isn’t that they are perfect.
 
@@ -27,9 +26,8 @@ When a person sees themselves as untrustworthy to themselves and to others, they
 This ensures they never run out of whips to crack over their own back. It’s why they feel like they can’t escape their “problems,” why they weirdly plateau at the place where it’s “just barely enough,” and why they persistently dwell on worries.
 
 
-#
 
-# Your Rights
+## Your Rights
 
 The mind is such a powerful instrument. It’s time you retune yours, trust yourself, and allow in the things you’ve always wanted and deserve. You have the right to:
 
@@ -54,23 +52,20 @@ The mind is such a powerful instrument. It’s time you retune yours, trust you
 - be happy
 
 
-#
 
-# Trust Yourself
+## Trust Yourself
 
 None of that can happen if you don’t trust yourself enough to allow yourself to have those rights and live by those rights. Time to steer your life in the direction you want it to go. No more feeling like you don’t have control. Where do you need improvement? Sit down and really think about it. Then, develop a plan and take action. You’ve got this!
 
 
-#
 
-# Resources
+## Resources
 
 Check out our blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for fit tips, recipes, and more so you can reach your goals. Also, don’t forget to join our FREE Facebook group for MORE exclusive content and daily coaching. Search “Your Fit and Healthy Life” on Facebook or just click this link.
 
 
-#
 
-# Ready to Get Results
+## Ready to Get Results
 
 Not sure where to start? Let us help you take things to the next level and crush all of your health goals. Book your free breakthrough coaching call with us today. That’s where we’ll get crystal clear on your vision, identify challenges, and motivate the heck out of you.
 

@@ -14,39 +14,30 @@ author: "Transform Team"
 Overnight oat parfaits are an easy yet healthy way to ensure your stay on track with your health and fitness goals without causing you to spend hours upon hours in the kitchen meal prepping. There are so many variations of overnight oats that you don’t have to worry about getting bored. Today I’ll share one of my favorites. Be on the lookout for more to come 😉
 
 
-#
-
-#
 
 
-# Strawberry Rhubarb Chia Overnight Oats Parfait
+
+## Strawberry Rhubarb Chia Overnight Oats Parfait
 
 Check out this yummy Vegan Breakfast for Strawberry Rhubarb Chia Overnight Oat Parfaits recipe. Super tasty, easy to make and good for your waistline 😉 Thanks @JeanineDonofrio for providing this!
 
 COOK TIME 10 mins.   PREP TIME: 6 hoursSERVINGS: 2
 
 
-#
-
-#
 
 
-#
-
-# INGREDIENTS
 
 
-#
-
-#
+## INGREDIENTS
 
 
-# Overnight Oats
-
-#
 
 
-#
+
+## Overnight Oats
+
+
+
 
 ### (makes 2 servings)
 
@@ -59,24 +50,17 @@ COOK TIME 10 mins.   PREP TIME: 6 hoursSERVINGS: 2
 - Drizzle of maple syrup, optional for sweeter oats
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
-
-# Strawberry Rhubarb Chia Jam
 
 
-#
 
-#
+## Strawberry Rhubarb Chia Jam
+
+
+
 
 
 ## (makes almost 2 cups)
@@ -94,17 +78,12 @@ COOK TIME 10 mins.   PREP TIME: 6 hoursSERVINGS: 2
 - 2 tablespoons chia seeds
 
 
-#
-
-#
 
 
-##
-
-#
 
 
-#
+
+
 
 ## For serving (optional)
 
@@ -115,14 +94,11 @@ COOK TIME 10 mins.   PREP TIME: 6 hoursSERVINGS: 2
 - Coconut Cream (from this recipe)
 
 
-#
-
-#
 
 
-#
 
-# INSTRUCTIONS
+
+## INSTRUCTIONS
 
 1. Make the jam. In a small saucepan over medium heat, simmer the strawberries, rhubarb, lemon juice, and salt for 10 minutes, stirring often so that the fruit doesn’t burn to the bottom of the pot. Remove from the heat and stir in the maple syrup and chia seeds. Let cool to room temperature, 20 to 30 minutes (the rhubarb will continue to soften). Transfer to a jar and chill for at least an hour.
 

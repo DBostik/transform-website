@@ -12,8 +12,10 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@astrojs/check": "^0.9.6",
     "@astrojs/sitemap": "^3.7.0",
-    "astro": "4.16.x"
+    "astro": "4.16.x",
+    "typescript": "^5.9.3"
   },
   "devDependencies": {
     "@astrojs/tailwind": "^5.0.0",

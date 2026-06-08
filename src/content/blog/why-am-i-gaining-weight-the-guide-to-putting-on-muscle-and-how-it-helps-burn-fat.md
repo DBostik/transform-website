@@ -20,9 +20,8 @@ Here’s the truth: you might be doing everything right and still gain weight. T
 Here, we’re breaking down why you’re gaining weight, how your metabolism makes that happen, and why you should take muscle gains as a big win.
 
 
-#
 
-# Why Am I Gaining Weight?
+## Why Am I Gaining Weight?
 
 First, let’s answer the basic question: why are you gaining weight?
 
@@ -37,12 +36,10 @@ This can result from one of three things:
 Ideally, you would be dealing with the third option.
 
 
-#
-
-#
 
 
-# Why the Initial Weight Gain?
+
+## Why the Initial Weight Gain?
 
 When you first begin a workout program, your body goes through a lot of changes. You’re basically recalibrating your body to work differently, sort of like programming a computer to approach a problem differently.
 
@@ -63,21 +60,18 @@ The healing response, in particular, will cause water retention, since your body
 While you might be tempted to cut back food to compensate for weight gain, don’t. This is when it’s most important to feed your muscles properly–otherwise, they won’t be able to heal and get stronger.
 
 
-#
 
-# How Your Metabolism Works
+## How Your Metabolism Works
 
 With this in mind, let’s talk about how your metabolism works.
 
 Basically, your metabolism is the engine that keeps you going. It’s what converts the food you eat into energy your body can use to run, think, and keep your heart beating.
 
 
-#
-
-#
 
 
-# Converting Food to Energy
+
+## Converting Food to Energy
 
 Metabolism is a complex biochemical process, and it’s not as simple as energy in, energy out. It’s also not limited to when you’re working out.
 
@@ -88,12 +82,10 @@ The amount of calories you need to maintain these basic functions at rest is kno
 There’s not much you can do to change your BMR. You can, however, have some effect on how your body burns calories at rest through physical activity.
 
 
-#
-
-#
 
 
-# Physical Activity
+
+## Physical Activity
 
 Outside of food processing and automatic body functions, physical activity accounts for the rest of the calories you burn in the course of a day. Here, the math is pretty basic.
 
@@ -104,9 +96,8 @@ However, to be abundantly clear: the goal of strength training is not simply to 
 As we said, your body is in flux when you start a new workout regimen. The point of this regimen is to get your body to settle into a pattern that’s better equipped to handle frequent physical activity, and thus healthier for you in the long run.
 
 
-#
 
-# Why Gaining Muscle is a Must
+## Why Gaining Muscle is a Must
 
 Part of this process is gaining muscle.
 
@@ -117,12 +108,10 @@ More to the point, there are different types of strength training and weightlift
 There are a variety of reasons why it’s important to gain muscle on your fitness journey. Here, we’re breaking down two big ones.
 
 
-#
-
-#
 
 
-# Skeletal Muscle is Metabolically Active
+
+## Skeletal Muscle is Metabolically Active
 
 For starters, muscle is actually metabolically active.
 
@@ -131,12 +120,10 @@ You see, both muscle and fat burn calories in the course of a day. A pound of fa
 So it’s not that many extra calories in the course of a day, but a slightly elevated metabolism (and a healthier body composition) works in favor of your overall wellbeing.
 
 
-#
-
-#
 
 
-# Muscle Helps Prevent Injury
+
+## Muscle Helps Prevent Injury
 
 Now, there’s more to strength training than just muscle building, and muscle does more for you than just burn calories.
 
@@ -145,9 +132,8 @@ Building your muscle mass (even when you’re building lean muscle) helps streng
 Pretty awesome, right?
 
 
-#
 
-# Strengthening from the Inside Out
+## Strengthening from the Inside Out
 
 Now that you’ve answered the question, “Why am I gaining weight?” are you ready to use your new knowledge to your advantage?
 

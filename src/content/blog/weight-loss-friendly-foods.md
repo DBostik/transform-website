@@ -14,14 +14,11 @@ author: "Transform Team"
 What foods have you discovered since starting your weight loss journey? When you’re looking to jumpstart weight loss, sifting through online advice and narrowing a plan of attack down to several actionable steps can be the hardest part. That’s why I’m sharing with you the 4 most weight-loss-friendly foods on earth that are supported by science! You ready? Cool! Let’s go!
 
 
-#
-
-#
 
 
-#
 
-# Weight-Loss-Friendly Foods
+
+## Weight-Loss-Friendly Foods
 
 1. WHOLE EGGS — Although a high intake of eggs raises the levels of “bad” LDL-cholesterol in some people, they are one of the best foods to eat if you need to lose weight. They are high in protein and fat, and are very satiating.
 
@@ -32,9 +29,8 @@ What foods have you discovered since starting your weight loss journey? When you
 4. LEAN BEEF AND CHICKEN BREAST — Meat has been unfairly demonized. It has been blamed for various health problems despite a lack of good evidence to back up these negative claims.
 
 
-#
 
-# HEALTHY RECIPES
+## HEALTHY RECIPES
 
 Eating healthy is key to weight-loss and keeping your choices varied is important too. People that switch things up don’t get bored with eating right and stay on track longer. Below are several recipes our team and clients like. Give them a try. Then, add the ones you like to your recipe arsenal. Feel free to share this with your friends.
 
@@ -73,14 +69,11 @@ Make sure to come back to our blog to check out the new recipes.
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
-
-#
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
 

@@ -20,9 +20,7 @@ It is easy to make and packed with flavor. Hope you enjoy it as much as I do!
 Servings: 4-6  / Time: 30 mins
 
 
-#
 
-#
 
 
 ## INGREDIENTS
@@ -58,9 +56,7 @@ Servings: 4-6  / Time: 30 mins
 - sliced fresh basil
 
 
-#
 
-#
 
 
 ## DIRECTIONS
@@ -86,9 +82,8 @@ Servings: 4-6  / Time: 30 mins
 I want to thank Jeanine Donofrio at Love And Lemons for providing this tasty breakfast dish.
 
 
-#
 
-# More Healthy Recipes
+## More Healthy Recipes
 
 Keeping variety in your meals and snacks is important. Besides this healthy Italian Breakfast Panzanella, I have included below a couple other healthy recipes I’ve shared. Check back with our blog for more to come so you have a nice stockpile of healthy meal options readily available and you can stay on track to reaching your health and fitness goals.
 
@@ -111,8 +106,7 @@ Keeping variety in your meals and snacks is important. Besides this healthy Ital
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
 
-# Need Help?
+## Need Help?
 
 Also, if you’re struggling and need some help making progress on your fitness journey, contact us. Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist because we want to see you live a happy and healthy lifestyle!

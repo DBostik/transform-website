@@ -20,12 +20,10 @@ This is another easy recipe to make. Also, it’s a nice way to switch things up
 - COOK TIME: 30 minutes
 
 
-#
-
-#
 
 
-# INGREDIENTS
+
+## INGREDIENTS
 
 - 2 cups whole rolled oats
 
@@ -46,12 +44,10 @@ This is another easy recipe to make. Also, it’s a nice way to switch things up
 - 1/3 cup dried cranberries, optional
 
 
-#
-
-#
 
 
-# INSTRUCTIONS
+
+## INSTRUCTIONS
 
 1. Preheat the oven to 300°F and line a baking sheet with parchment paper.
 
@@ -66,14 +62,11 @@ This is another easy recipe to make. Also, it’s a nice way to switch things up
 I have a feeling that this one will go over well. Let me know your thoughts on it. As usual, I’m always looking for feedback. Also, feel free to share this recipe with your friends.
 
 
-#
-
-#
 
 
-#
 
-# Other Healthy Recipes
+
+## Other Healthy Recipes
 
 Having lots of options is super important. People tend to fall off the wagon when they get bored with eating the same food. With that said, it’s important to rotate your healthy recipes to keep things fresh to keep you on track so you can get results and ultimately reach your goals. Besides today’s healthy homemade granola recipe, here are a few other healthy recipes to add to your repertoire:
 
@@ -90,8 +83,7 @@ Having lots of options is super important. People tend to fall off the wagon whe
 For additional healthy recipes, fitness tips, and more, follow us on Facebook, Instagram, and check out our website.
 
 
-#
 
-# Feeling Stuck?
+## Feeling Stuck?
 
 It’s totally okay if you are. There is so much conflicting information out there about exercise and eating right. If you are struggling to make progress on your fitness goals, reach out. Where you need help with the exercise piece or the nutrition or both, we’re here for you.

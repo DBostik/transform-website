@@ -14,14 +14,11 @@ author: "Transform Team"
 When it comes to truly changing the composition of your body and trading fat for muscle- watching your calories are NOT enough. ⠀⁠⠀⁠⠀
 
 
-#
-
-#
 
 
-#
 
-# Why?⁠⠀
+
+## Why?⁠⠀
 
 Because if ALL of your calories come from carbohydrates and fats, you will NOT be giving your lean muscle tissue the “building blocks” it needs! ⁠
 
@@ -32,9 +29,8 @@ Most people are WAYYYYYY under-eating the ONE macronutrient that is quite litera
 ⁠And what IS that one macronutrient?⁠⠀
 
 
-#
 
-# PROTEIN!!!⠀⁠⠀
+## PROTEIN!!!⠀⁠⠀
 
 There are three reasons why protein is the MOST important macronutrient when it comes to FAT LOSS..⁠⠀
 
@@ -45,16 +41,14 @@ There are three reasons why protein is the MOST important macronutrient when it 
 3. Protein is extremely satiating – which when you are working towards your fat loss goal is SO important because ain’t nobody like to feel hangry!⠀⁠⠀
 
 
-#
 
-# How Much Protein?⠀⁠⠀
+## How Much Protein?⠀⁠⠀
 
 💖 There are many opinions on how much protein is necessary when in a calorie deficit/working towards body recomposition. I typically like to keep protein on the higher side for myself and clients so I aim for 0.8g-1g per lb of bodyweight!
 
 
-#
 
-# Help!
+## Help!
 
 If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your free breakthrough coaching call where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved.
 

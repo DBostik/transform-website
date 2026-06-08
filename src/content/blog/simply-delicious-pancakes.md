@@ -16,17 +16,14 @@ Variety is the spice of life! Stay on track with your health and fitness goals, 
 Check out this yummy Vegan Breakfast recipe for Apple Buckwheat Pancakes with Coconut Caramel Apples. Thanks to Nicholas Elliot for providing this awesomeness! It tastes so yummy and it was super easy to make.
 
 
-#
 
-# APPLE BUCKWHEAT PANCAKES WITH COCONUT CARAMEL APPLES
-
-
-#
-
-#
+## APPLE BUCKWHEAT PANCAKES WITH COCONUT CARAMEL APPLES
 
 
-# INGREDIENTS
+
+
+
+## INGREDIENTS
 
 - 1 3/4 cups | 210 gr. buckwheat flour
 
@@ -59,19 +56,15 @@ Check out this yummy Vegan Breakfast recipe for Apple Buckwheat Pancakes with Co
 - 1 Royal Gala apple, peeled and cut into wedges
 
 
-#
-
-#
 
 
-# DIRECTIONS
+
+## DIRECTIONS
 
 Start by gathering, preparing and measuring all of the ingredients. This will improve your dynamic in the kitchen.
 
 
-#
 
-#
 
 
 ## PANCAKE BATTER
@@ -87,9 +80,7 @@ Start by gathering, preparing and measuring all of the ingredients. This will im
 5. Once the batter has rested for 15 minutes, fold in an additional 2 tbsp almond milk, the melted coconut oil and the chopped apple.
 
 
-#
 
-#
 
 
 ## TO MAKE THE PANCAKES
@@ -103,9 +94,7 @@ Start by gathering, preparing and measuring all of the ingredients. This will im
 4. Flip the pancake over with a spatula and cook for about 2 more minutes.
 
 
-#
 
-#
 
 
 ## COCONUT CARAMEL APPLES
@@ -119,9 +108,8 @@ Start by gathering, preparing and measuring all of the ingredients. This will im
 Serve the caramel apples over the pancakes and enjoy! If you’ve got leftover pancakes don’t worry, just store them in an airtight container in the fridge and reheat them later. They will taste just as great.
 
 
-#
 
-# MORE HEALTHY RECIPES
+## MORE HEALTHY RECIPES
 
 Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare.
 
@@ -158,14 +146,11 @@ Check back with our blog for more to come so you have a nice stockpile of health
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
-
-#
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
 

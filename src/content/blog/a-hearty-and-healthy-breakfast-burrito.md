@@ -22,19 +22,14 @@ PREP TIME: 15 mins
 COOK TIME: 30 mins
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
 
-# INGREDIENTS
+
+
+## INGREDIENTS
 
 - 1 pound small round yellow potatoes, cut into ½ inch pieces
 
@@ -69,19 +64,14 @@ COOK TIME: 30 mins
 - Cilantro Lime Dressing, for dipping
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
 
-# DIRECTIONS
+
+
+## DIRECTIONS
 
 1. Preheat the oven to 425°F and line a large baking sheet with parchment paper. Place the potatoes onto the sheet, drizzle with olive oil, and sprinkle generously with salt and pepper, the smoked paprika, and pinches of red pepper flakes. Toss to coat, spread evenly on the pan, and bake for 30 minutes or until golden brown and crisp around the edges.
 
@@ -92,9 +82,7 @@ COOK TIME: 30 mins
 4. Assemble the burritos: Divide the spinach leaves and red cabbage, if using, among the tortillas. Top with the eggs, red pepper strips, black beans, pico de gallo, potatoes, avocado, and cilantro. Sprinkle with salt and pepper and a squeeze of lime. Fold the left and right sides of the tortilla over the filling. Fold the bottom flap of the burrito up and over the filling, tucking the sides and the filling as you roll the burrito. Wrap in foil, slice, and serve with Cilantro Lime Dressing for dipping.
 
 
-#
 
-#
 
 
 ## NOTES
@@ -104,14 +92,11 @@ COOK TIME: 30 mins
 - To make these burritos in advance, I recommend wrapping them in foil and storing them in the fridge for 1 to 2 days. Or better yet, make the components in advance and wrap them as you’re ready to eat. I personally don’t enjoy frozen/thawed eggs, so I don’t suggest freezing these.
 
 
-#
-
-#
 
 
-#
 
-# MORE HEALTHY RECIPES
+
+## MORE HEALTHY RECIPES
 
 Keeping variety in your meals and snacks is important. Besides this hearty and healthy breakfast burrito, I’ve included below a couple other healthy recipes I’ve shared. Check back with our blog for more to come. That way you have a nice stockpile of healthy meal options readily available so you can stay on track to reaching your health and fitness goals.
 
@@ -130,16 +115,13 @@ Keeping variety in your meals and snacks is important. Besides this hearty and h
 For additional tasty recipes, tips, and more, visit our website, Facebook page, and Instagram!
 
 
-#
 
-# NEED HELP?
+## NEED HELP?
 
 Also, if you’re struggling and need some help making progress on your fitness journey, contact us. Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!
 
 
-#
 
-#
 
 
 ### SOURCES

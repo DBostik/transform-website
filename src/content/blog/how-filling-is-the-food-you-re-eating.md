@@ -16,9 +16,8 @@ Ever find yourself frustrated in feeling full and killing cravings? Wonder how f
 So how do we solve this eat for a dance party while feeling satisfied to the max problem? What is the secret to filling ourselves like a bucket of water all while hosting a dance party in our stomachs (haha)?
 
 
-#
 
-# The Secret = Protein
+## The Secret = Protein
 
 Protein is a godsend for satiation. In fact, it’s not only integral for feeling full, it also helps melt fat, build lean muscle, and increase your sex game. If you’re on the go turkey wraps, beef jerky, healthy protein bars with fiber are an AWESOME option vs. your muffin, doughnut, cake bite, or pastry. Those are high in calories, non fulfilling and aid fat storage in the midsection.
 
@@ -65,23 +64,19 @@ In an ideal world, we would all be eating at least 100 grams of protein per day.
 - trail mix (WITHOUT dried fruits, but has a little dark chocolate)
 
 
-#
 
-# Filling Carbs
+## Filling Carbs
 
 I get it, protein might not make your heart leap. But chances are if I say the word carbs, that’s a different story! However, we need to work on getting the right kind of carbs in and the wrong ones out. As delicious as some may be (I’m looking at you cookies, cakes, chips, etc), they simply just don’t serve your body well.
 
 Those types of carbs are not healthy or filling because of all the processed and refined sugars. If you LOVE carbs then homemade oil-free popcorn is a great option! Fruits are awesome, but most of the time fruits won’t help you to feel full. Try adding in a grain or healthy nut for maximum satisfaction and fullness.
 
 
-#
-
-#
 
 
-#
 
-# Where to Start?
+
+## Where to Start?
 
 Feeling a bit overwhelmed? Don’t worry, let’s break it down to make it more manageable. Firstly, it is ideal to have protein at every meal and snack while limiting carbs to just your breakfast and lunch; however, nutrient timing takes practice. Start by making some small adjustments. When sitting down for dinner try to avoid white refined bread, pasta, or potato chips.
 
@@ -90,16 +85,14 @@ While they may start a dance in your belly they won’t help you feel full and t
 What is ONE change you can make starting today?
 
 
-#
 
-# RESOURCES
+## RESOURCES
 
 Check out our blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for fit tips, recipes, and more so you can reach your goals. Also, don’t forget to join our FREE Facebook group for MORE exclusive content and daily coaching. Search “Your Fit and Healthy Life” on Facebook or just click this link.
 
 
-#
 
-# READY TO GET RESULTS?
+## READY TO GET RESULTS?
 
 If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call with us today. That’s where we’ll get crystal clear on your vision, identify challenges, and motivate the heck out of you. Then we’ll provide you a roadmap to reach your goals… Or maybe you’ve been a little stuck lately and don’t know how to get back in a groove.
 

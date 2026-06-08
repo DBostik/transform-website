@@ -22,9 +22,8 @@ In fact, it can all begin at your city’s local Sunday farmers market.
 Chicago has over 60 markets around the city, and we have all the tricks you need to know to best navigate whichever one you choose.
 
 
-#
 
-# 1. Have a Plan
+## 1. Have a Plan
 
 Like any big goal you have in mind, you have to make a plan.
 
@@ -37,9 +36,8 @@ Maybe if you had Italian-inspired meals the week before, you want to take a Span
 Planning the kind of meals you want to prep can help when temptation comes your way. There are many sweets and delicious delights at a farmers market, but sticking to your list will help significantly.
 
 
-#
 
-# 2. Walk the Market First
+## 2. Walk the Market First
 
 Although your list is important, don’t just start shopping at the first vendor you see.
 
@@ -52,9 +50,8 @@ It’s kind of like the rule of not going to the grocery store when you’re hun
 Scope out the best places (and prices) to buy what is on your list for the upcoming week. Then, start shopping and do your best not to nibble on a free sample from the local baker.
 
 
-#
 
-# 3. Ask Questions and Get to Know Your Vendors
+## 3. Ask Questions and Get to Know Your Vendors
 
 As you shop, make note of getting to know your local vendors.
 
@@ -69,9 +66,8 @@ This will be of great benefit later on, because sometimes sticking to healthy ea
 Vendors can give you new recipes to try or even just produce you may have never noticed before. You’ll be surprised how just one simple change can completely transform a meal or a routine in general.
 
 
-#
 
-# 4. Buy in Bulk
+## 4. Buy in Bulk
 
 While it is important to try new types of produce and healthy food recipes, there are some things you can buy in bulk.
 
@@ -92,9 +88,8 @@ Buying in bulk also means you will always have something in your freezer for las
 It is very common for people to turn to dining out or fast food when they are on a tight schedule. Instead, stay ahead of the game and use bulk buys to prep easily frozen, healthy meals like vegetable soups or simple stir-fry.
 
 
-#
 
-# 5. Make the Sunday Farmers Market Part of Your Routine
+## 5. Make the Sunday Farmers Market Part of Your Routine
 
 The best way to reach your fitness goals in the kitchen is with small changes in your daily life. Add going to the Sunday farmers market to your weekly routine and watch how much better the rest of the week goes.
 
@@ -105,9 +100,8 @@ It all works together while you are hard at work to achieve the looks and streng
 Remember, much of your fitness journey starts in the kitchen, and your kitchen habits can get a serious upgrade from the Sunday farmers market.
 
 
-#
 
-# Transform Your Fitness Journey
+## Transform Your Fitness Journey
 
 At the end of the day, you need both exercise and diet to transform your body.
 

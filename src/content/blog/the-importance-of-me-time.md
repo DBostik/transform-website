@@ -20,28 +20,22 @@ Between March to August we closed down and cleared out two fitness facilities, s
 To say the least, it was mass chaos and super stressful. I know my husband and I aren’t the only ones who’ve been to hell and back within the last year. Though, I will say that as rough as that was, it forced me to learn and understand the importance of Me Time.
 
 
-#
-
-#
 
 
-#
 
-# More Than Physical
+
+## More Than Physical
 
 Health is so much more is than just a physical thing. There are many forms of health: physical, social, emotional, mental spiritual, financial, etc. The pandemic has put a strain on most of those for so many people, myself included. It has caused a lot of burn out. How do we stop that from continuing to happen to ourselves?
 
 Well, one way is to make your health a priority. Spend a little time on and for yourself each and everyday.
 
 
-#
 
-# Mass Burn Out
+## Mass Burn Out
 
 
-#
 
-#
 
 
 ## The Teacher
@@ -57,9 +51,7 @@ Another colleague shared with me that her principal makes her and her fellow edu
 This year for teacher appreciation day, send your kid’s/kids’ teachers wine or a gift card. They sure deserve it.
 
 
-#
 
-#
 
 
 ## The Parents
@@ -75,9 +67,7 @@ And then there’s the parents who go into work. They are trying to figure out c
 Those that do still work have added stress of being concerned they could possibly contract COVID-19 and bring it home to their families. Neither situation is ideal.
 
 
-#
 
-#
 
 
 ## The Kids
@@ -89,9 +79,8 @@ Imagine being a kid who struggles or an individual with special needs. How on ea
 Lol). I looked forward to going to school to see my friends. Folks, the kids are even burnt out and struggling. We all need to learn and understand the importance of Me Time just so we can survive at this point.
 
 
-#
 
-# Your Me Time
+## Your Me Time
 
 Everyone is burned out and we don’t know when things will “return to normal.” With that being said, we can’t control everything, but we are in control of our own lives and what we do with them. It’s time to take care of yourself. Understand the importance of Me Time. Take at least 30 minutes each and everyday to do something for yourself.
 
@@ -136,23 +125,18 @@ I’m not saying you have to book a weekend at the spa (that’d be nice, wouldn
 Do not underestimate the importance of Me Time. Use your Me Time to recharge. You can’t run on empty for an extended period of time. Add it into your schedule somehow. You can do your 30 minutes all at once or you can break it up. Doesn’t matter which one. Just get the importance of Me Time in your head and take action. It’s for your overall health.
 
 
-#
-
-#
 
 
-# Make It A Priority
+
+## Make It A Priority
 
 This is important. Schedule it in your calendar on your phone with an alert if you need to do so. Just make sure you get it done daily. Remember what they say on flights about safety masks, always put yours on before helping others. Your health, my friends, is like that safety mask. It’s not unreasonable to take time out for yourself.
 
 Don’t feel guilty. Do it. You DESERVE it! If you’re not at your best, then how can you help others be their best?
 
 
-#
-
-#
 
 
-#
 
-# Need Help?
+
+## Need Help?

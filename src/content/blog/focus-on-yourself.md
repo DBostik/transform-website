@@ -32,9 +32,8 @@ Look and you’ll find them all. They are at the gym for one reason or another. 
 Doesn’t matter. What matters is that you are there to focus on yourself.
 
 
-#
 
-# My Focus Shift
+## My Focus Shift
 
 When you focus on yourself and stop putting everything and everyone else around you to first, magical things happen. I can tell you this from personal experience. December 2019 I made a commitment to myself to run the Soldier Field 10 miler in Chicago that spring on 5/23/2020 (something that’s been on my bucket list for the last decade).
 
@@ -47,39 +46,31 @@ This meant planning; I wrote out a workout schedule, planned my meals, and carv
 It was a win/win situation all around.
 
 
-#
-
-#
 
 
-#
 
-# Your Focus
+
+## Your Focus
 
 We all have goals and  want to get results. Whether new to working out or a seasoned athlete, everyone is somewhere en route to a happier, healthier, and better version of themselves. However, where you might be on your fitness journey could be very different than the person next to you.
 
 It doesn’t matter if you can’t do the same thing as the person next to you or vice versa. You’re there. That’s what matters. You’re there to improve yourself. With that being said, focus on yourself not on what everyone else around you is doing. You’d be surprised how much better is when you shift your focus.
 
 
-#
-
-#
 
 
-#
 
-# What Should I Do?
+
+## What Should I Do?
 
 We all have to start somewhere. I will be honest, it takes a shift in mindset to make the transition to focus on yourself. Be patient with yourself. All good things take time.
 
 Strive to be a little better everyday. Along the way, encourage those around you and they’ll do the same for you. Soon, you’ll have your own army of cheerleaders egging you on and holding you accountable!
 
 
-#
 
-# I’m Lost, Help!
+## I’m Lost, Help!
 
 
-#
 
-# Helpful Resources
+## Helpful Resources

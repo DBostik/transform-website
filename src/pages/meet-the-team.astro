@@ -10,9 +10,9 @@ import Button from '../components/ui/Button.astro';
 import FormInput from '../components/ui/FormInput.astro';
 import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
-import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 
+import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Meet the Team - Transform Personal Training";
 const pageDescription = "Meet the expert trainers at Transform Personal Training. Our certified coaches are dedicated to helping you achieve your fitness goals in Lakeview, Chicago.";
 
@@ -81,6 +81,7 @@ const teamMembers = [
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
   <!-- Google Fonts -->

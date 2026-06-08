@@ -16,9 +16,8 @@ In previous blogs, I’ve touched upon what to eat to meet your health and fitne
 One of the most important nutrient timing principles is that it’s best to eat most non-fruit and veggie carbohydrates during and after exercise (typically earlier in the day).
 
 
-#
 
-# TIMING BASED ON YOUR GOAL
+## TIMING BASED ON YOUR GOAL
 
 Different people have different goals. One size does not fit all. With that being said, read below to figure out when is best for you to eat so you can reach your fitness goals.
 
@@ -31,18 +30,16 @@ Different people have different goals. One size does not fit all. With that bein
 In all cases, assess your progress and adjust as necessary. You might start by eating to stay lean and maintaining, but if you want to gain muscle or cut body fat, then you’ll need to make some adjustments.
 
 
-#
 
-# MORE FROM TRANSFORM
+## MORE FROM TRANSFORM
 
 Check out my blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for additional fit tips, recipes and more so you can reach your goals and live you happiest and healthiest life yet.
 
 Speaking of Facebook, join our FREE FB group and your other Fit Family brother/sisters for MORE exclusive content + daily coaching on the regular (search Your Fit and Healthy Life on Facebook)
 
 
-#
 
-# NEED HELP?
+## NEED HELP?
 
 If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your complimentary breakthrough coaching call where we’ll get crystal clear on your vision, identify challenges, motivate the heck out of you, as well as provide you a roadmap to achieve your goals. Contact us here.
 

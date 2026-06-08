@@ -14,14 +14,11 @@ author: "Kristen Bostik"
 Struggling to find recipes that everyone in your household will enjoy? No worries, we've got you covered. Co-owner of Transform, Kristen Bostik, knows exactly what you're going through and has made it her mission to find recipes that are healthy, easy to make, and everyone will enjoy. Give this recipe for Slow Cooker Firecracker Chicken Meatballs a try! You won't be disappointed ;)
 
 
-#
 
-# DIRECTIONS
+## DIRECTIONS
 
 
-#
 
-#
 
 
 ## NOTES:

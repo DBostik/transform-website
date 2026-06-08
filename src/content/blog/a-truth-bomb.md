@@ -14,23 +14,19 @@ author: "Transform Team"
 Here’s a truth bomb (and trust me, I’m saying this out of love)… YOU are the reason for why you haven’t reached your goals. Was that hard to digest? Let me explain…
 
 
-#
-
-#
 
 
-#
 
-# MY PROBLEM
+
+## MY PROBLEM
 
 I used to feel super uncomfortable in my clothes; the mushroom top program was REAL. Ugh! After having baby number two, I felt like I’d gotten to the point of no return and I thought I would be stuck with my post-pregnancy body. I wanted to change, but I just kept making excuses. Day after day, week after week, month after month. There I was.
 
 Every time I looked at my clothes, I saw imaginary labels on them. They said “when I lose the weight”…  Yet, time went by and nothing changed. I kept loathing in my self pity.
 
 
-#
 
-# MY SOLUTION
+## MY SOLUTION
 
 One day, a truth bomb exploded and I decided it was going to be different. I started to prioritize my health. How could I be a great role model for my kids if my own health wasn’t in order?
 
@@ -41,9 +37,8 @@ In addition, I recruited my husband to join the ride. Having a built-in support 
 I was both the PROBLEM and the SOLUTION!
 
 
-#
 
-# YOUR STORIES
+## YOUR STORIES
 
 Now, take a look here, and tell me if you have said something like this to yourself in the past:
 
@@ -62,23 +57,19 @@ How long have you been telling yourself these stories? If you’ve accepted thes
 And now you are accepting these “stories” and living them out as your destiny! Aren’t you fed up with this? Honestly, I’m fed up for you and I’m here to help you out. You with me?
 
 
-#
 
-# NOW WHAT?
+## NOW WHAT?
 
 After reading a truth bomb, now you’re going to commit to yourself. Commit to becoming a NEW person, to becoming the NEXT version of you! Here is what you’re going to do right now — Cut the BS, stop with the excuses, and make a damn decision now! Okay, that might be a little intimidating to you, but GOOD!
 
 The best things in life happen when you step outside your comfort zone. You can’t be triumphant unless you have obstacles to overcome. You’ve got this! I know this; the rest of the Transform team knows this. Do you know it?
 
 
-#
-
-#
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re uncertain where to start, let us help you. Book your complimentary breakthrough coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us. Our team of highly experienced coaches will help you get on track.
 

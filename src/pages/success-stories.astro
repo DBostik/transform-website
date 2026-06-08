@@ -13,6 +13,7 @@ import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 
+import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Client Success Stories & Transformations | Transform Personal Training";
 const pageDescription = "Real transformations from real clients. See before/after photos and read testimonials from people who achieved their fitness goals with Transform Personal Training.";
 
@@ -58,6 +59,7 @@ const transformations = [
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
   <!-- Google Fonts -->
@@ -77,7 +79,7 @@ const transformations = [
       "itemReviewed": {
         "@type": "LocalBusiness",
         "name": "Transform Personal Training",
-        "@id": "https://www.transformpersonaltraining.com/#organization"
+        "@id": "https://transformpersonaltraining.com/#organization"
       },
       "reviewRating": {
         "@type": "Rating",

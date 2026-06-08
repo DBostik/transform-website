@@ -16,14 +16,11 @@ Let’s face it, as we age, certain things seem to become harder and harder to d
 If so, you definitely need to read on and do the following. You’re probably forgetting (or choosing) not to do mobility work or anything else to improve your flexibility. Well my friends, hate to break it to you, but stretching is ESSENTIAL no matter what age you are! Neglect it now, and you’ll pay for it later.
 
 
-#
-
-#
 
 
-#
 
-# Stretching for Health
+
+## Stretching for Health
 
 As I just said above, stretching is essential to your health. According to health professionals at Harvard “Stretching keeps the muscles flexible, strong, and healthy, and we need that flexibility to maintain a range of motion in the joints. Without it, the muscles shorten and become tight. Then, when you call on the muscles for activity, they are weak and unable to extend all the way.”
 
@@ -40,12 +37,10 @@ Stretching has several benefits:
 - Better range of motion
 
 
-#
-
-#
 
 
-# Pre and Post Workout Stretching
+
+## Pre and Post Workout Stretching
 
 Take time to stretch a little bit each and every day, especially on the days you plan to workout. Stretching is essential both as a warm up before a workout as well as afterwards. On workout days, take a 3-5 minutes (or longer if necessary) to warm up to get your muscle ready. Then, take at least 3-5 minutes to cool down and stretch.
 
@@ -76,19 +71,14 @@ With that being said, make sure to stretch out all of the muscle groups you are 
 Again, I cannot express this enough… stretching is essential. Take the extra couple of minutes to stretch pre AND post workout.
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
 
-# Importance of Daily Stretching
+
+
+## Importance of Daily Stretching
 
 Stretching isn’t just for those participating in regular exercise. EVERYONE should stretch at least to maintain or increase their flexibility and mobility regardless if you are 15 or 50. Think back to elementary, junior high, and high school gym class, P.E. teachers included stretching in there for a reason.
 
@@ -105,17 +95,12 @@ It’s because they understand the importance stretching and what the long term 
 - carrying the laundry basket up and down stairs
 
 
-#
-
-#
 
 
-##
-
-#
 
 
-#
+
+
 
 ## Yoga
 
@@ -126,9 +111,7 @@ Try a couple different versions until you find what you like best.
 Going to a yoga class will hold you accountable to making sure that you do stretch on a regular basis. Plus, it’s a great way you ensure all of your muscle groups are stretched properly.  In addition, it’s a great way to meet more people and keep your social and emotional health in balance too.
 
 
-#
 
-#
 
 
 ## For My Young Readers
@@ -138,17 +121,12 @@ For the young audience members who just read that and think that none of this ap
 Stretching is not just an old people thing. It’s an everybody thing.
 
 
-#
-
-#
 
 
-##
-
-#
 
 
-#
+
+
 
 ## For My “Experienced in Life” Audience
 
@@ -162,28 +140,21 @@ It’s just a matter of priorities. If you haven’t figured it out yet, your he
 Whatever you reason and whatever your age, get up and go stretch! Your present and future self will thank you.
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
 
-# More from Transform
+
+
+## More from Transform
 
 Check out my blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for additional fit tips, recipes and more so you can reach your goals and live you happiest and healthiest life yet.
 
 
-#
-
-#
 
 
-# Need Help?
+
+## Need Help?
 
 Also, if you’re struggling and need some help making progress on your fitness journey, contact us. Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!

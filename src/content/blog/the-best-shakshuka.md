@@ -14,9 +14,8 @@ author: "Transform Team"
 Check out this delicious and healthy vegetarian breakfast recipe for Shakshuka! It's loaded with flavor, healthy, & easy to make.
 
 
-#
 
-# INGREDIENTS
+## INGREDIENTS
 
 - 2 tablespoons extra-virgin olive oil
 
@@ -55,9 +54,8 @@ Check out this delicious and healthy vegetarian breakfast recipe for Shakshuka! 
 - Toasted bread, for serving
 
 
-#
 
-# INSTRUCTIONS
+## INSTRUCTIONS
 
 1. Heat the oil over medium heat in a 12-inch lidded stainless steel or enamel-coated cast-iron skillet. Add the onion, red pepper, salt, and several grinds of fresh pepper and cook until the onion is soft and translucent, 6 to 8 minutes.
 
@@ -68,9 +66,8 @@ Check out this delicious and healthy vegetarian breakfast recipe for Shakshuka! 
 4. Season with salt and pepper to taste and sprinkle with the feta, parsley, avocado, and microgreens, if using. Serve with toasted bread for scooping.
 
 
-#
 
-# Need Help? We’re Here for You
+## Need Help? We’re Here for You
 
 If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your free breakthrough coaching call where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to [Contact us](/contact).
 

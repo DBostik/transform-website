@@ -16,7 +16,7 @@ Many of our clients ask the question, “Is it possible to drink and diet at the
 Trust me, I know from experience. I’ve done Weight Watchers, Seattle Sutton, NutriSystem, Keto, etc. Diets are not sustainable. We believe in healthy living, which entails consistently eating healthy, regularly exercising, drinking plenty of water, getting enough sleep, and managing stress. And that means you can still enjoy things, just in moderation.
 
 
-# Good News, It is Possible!
+## Good News, It is Possible!
 
 Good news, drinking and maintaining your fitness goals is POSSIBLE. The idea that you can’t enjoy a drink while being on a fitness journey is completely FALSE. It’s all about MODERATION. Drinking 1-2 times a week and sticking to 1-2 drinks each occasion is fine.
 
@@ -35,7 +35,7 @@ Reminder, check the nutritional label before consuming, especially with boozy wa
 ⁠
 
 
-# From Us to You
+## From Us to You
 
 Check out our blog and FREE Facebook group for healthy recipes 🥣, fit tips, motivation, and more. Or, if you need more support reaching your goals 🏆, then register for a complimentary session:
 

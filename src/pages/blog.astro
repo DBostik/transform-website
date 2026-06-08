@@ -11,6 +11,7 @@ import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 
+import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Fitness & Nutrition Blog - Transform Personal Training";
 const pageDescription = "Expert fitness advice, nutrition tips, and healthy recipes from Chicago's top personal trainers.";
 
@@ -29,6 +30,7 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
   <!-- Google Fonts -->

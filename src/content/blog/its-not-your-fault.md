@@ -14,9 +14,8 @@ author: "Kristen Bostik"
 Follow me @TransformFitCoach for daily nutrition tips, fitness motivation, recipes, and more!
 
 
-#
 
-# It’s Not Your Fault
+## It’s Not Your Fault
 
 Baked potatoes are healthier to eat than potato chips. You might think it is ridiculous that I’m going over this, but you’d be surprised how many people don’t know that. It’s okay if you didn’t know that either; it’s not your fault.
 
@@ -27,9 +26,8 @@ The human body was talked about in the fourth grade curriculum, but more so in t
 Look at the national level of science education across our country… the current Next Generation Science Standards (NGSS) don’t even include education about nutrition and fitness. It’s no wonder why the obesity rates are what they are in the United States.
 
 
-#
 
-# Left or Right?
+## Left or Right?
 
 As a parent and coach, it is my duty to set up both my children and clients for success so they can live their happiest and healthiest lives possible. Today I’m going to drop a knowledge nugget to help you do that too.
 
@@ -42,18 +40,16 @@ Look at the picture: 570g of fresh veggie snacks (LEFT) vs. 50g snack chips (RIG
 Foods that are naturally loaded with more water (like grapes, apples, peppers, etc) are less calorie dense compared to foods like potato chips, raisins, and jerky. Here’s a good breakdown of what calorie density is: https://www.healthline.com/nutrition/calorie-density. To summarize, less calorie dense (fresh) foods are better for your waistline and overall health.
 
 
-#
 
-# What About Processed Foods?
+## What About Processed Foods?
 
 I’m not saying you only should have fresh foods. Fresh is always best, but some processed foods still fit in your healthy eating lifestyle. Some examples of good choices are canned tomatoes, pre-cut veggies, tuna or frozen fruit. All of these foods are minimally processed and get the okay to be on your plate.
 
 Ultra or heavily processed foods on the other hand, should stay far away from your plates and bowls. I’m talking about things like pretzels, raisins, cereal, granola, potato chips, etc. It’s because ultra-processed foods have a long list of ingredients, as well as fillers, preservatives, and additives designed to enhance their flavor, texture, shelf-life, and nutritional profile.
 
 
-#
 
-# Now You Know
+## Now You Know
 
 Now that you’ve been educated on healthy snacks, you cannot claim it’s not your fault. Pick fresh, healthy foods that are filled with water. Fruits and veggies are less calorie dense and better for your health overall. Avoid heavily processed foods as much as possible, such as crackers, cereal, Velveta cheese, and other stuff like that.
 
@@ -62,9 +58,8 @@ To feel fuller longer, picks foods that have lots of water in them like spinach,
 Fresh foods might cost you a bit more now than the processed stuff, but think about it… would you rather spend the money now on fueling your body with quality food or spend the later in life on medical bills fixing your body because of your poor food choices?
 
 
-#
 
-# Need Help? We’re Here for You!
+## Need Help? We’re Here for You!
 
 If you’re really ready to take things to the next level and crush all of your health goals, book a complimentary coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, and provide you a roadmap to your goals achieved. Simply follow this link to [Contact us](/contact).
 

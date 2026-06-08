@@ -13,6 +13,7 @@ import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 import StyledGHLApplication from '../components/integration/StyledGHLApplication.astro';
 
+import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Join the Team - Transform Personal Training";
 const pageDescription = "Become a personal trainer at Chicago's premier fitness studio. We are looking for passionate, certified trainers to join our team.";
 ---
@@ -23,6 +24,7 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
   <!-- Google Fonts -->

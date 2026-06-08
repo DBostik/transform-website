@@ -14,9 +14,8 @@ author: "Transform Team"
 “Your identity is your most valuable possession. Protect it.” —Elastigirl, The Incredibles
 
 
-#
 
-# WHO AM I?
+## WHO AM I?
 
 Ever ask yourself that question before?  Perhaps you’ve thought to yourself how nice it would be to be somebody else from time to time? Our identity is the image that we have of ourselves. This image is particularly influenced by parents, peers, and other role models.
 
@@ -25,12 +24,10 @@ Identity is generally thought of as our individual perceptions of our behavior, 
 Those of you that are struggling with self doubt, negative body image, and making your healthy a priority have identity reshaping work to do. It’s time to change your identity.
 
 
-#
-
-#
 
 
-# WHICH DO YOU CHOOSE?
+
+## WHICH DO YOU CHOOSE?
 
 Fact: Those who say they can AND those who say they can’t are BOTH right.
 
@@ -41,16 +38,14 @@ Finding that you’ve typically been the person claiming that you want to lose w
 Change your identity from “I can’t” to “I can.” Give it a try; remove the word “can’t.” You’d be amazed how even doing something so small as that can have such a large impact in various aspects of your life not just your mindset.What are some thoughts/beliefs you carry (within your current identity) that do not serve you?
 
 
-#
 
-# MORE FROM TRANSFORM
+## MORE FROM TRANSFORM
 
 Check out our blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for additional fit tips, recipes and more. Speaking of Facebook, join our FREE Facebook group and your other Fit Family brother/sisters for MORE exclusive content and daily coaching on the regular (search Your Fit and Healthy Life on Facebook or click on this link).
 
 
-#
 
-# NEED HELP?
+## NEED HELP?
 
 It’s time to put yourself first. If you’re really ready to take things to the next level and crush all of your health goals. Go ahead and book your complimentary breakthrough coaching call. That’s where we’ll get crystal clear on your vision, identify challenges, motivate the heck out of you. Also we’ll provide you a roadmap to achieve your goals.
 

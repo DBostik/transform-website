@@ -18,9 +18,8 @@ That being said, weight loss isn’t always an easy process. Finding the motivat
 If you want to know how to get a nice lean body for the summer, read on as we offer some of our essential tips and tricks.
 
 
-#
 
-# Maintain A Healthy Diet
+## Maintain A Healthy Diet
 
 The easiest way to get the body you want is to feed it the right ingredients. The obvious elements should go without saying, but just in case you need the reminder: stay away from junk foods. This includes but is not limited to cake, chips, pizza, candy, ice cream and more.
 
@@ -33,9 +32,8 @@ It’s also advisable that you aim for smaller portions throughout your day. Thr
 Without food coming in, your metabolism will slow and your body will go into fat saving mode as an act of protection. If you want to lose some weight, eating small and healthy is the only way to go.
 
 
-#
 
-# Drink Lots of Water
+## Drink Lots of Water
 
 If you’re going to commit to eating healthy, you might as well commit to drinking healthy too. Cutting out sodas and other sugary drink, even if they’re of the diet variety, is an important step.
 
@@ -44,9 +42,8 @@ If you can substitute water for any of your daily beverage choices, you’ll fin
 If you’re not one prone to drinking the recommended eight glasses of water a day, try keeping a water bottle with you throughout the day. Having something physically by your side can be a helpful reminder to hydrate.
 
 
-#
 
-# Get Plenty of Good Sleep
+## Get Plenty of Good Sleep
 
 The easiest part of how to get a good body? Stay in bed.
 
@@ -55,9 +52,8 @@ You can eat well and live at the gym and you still might not see a decrease in y
 74% of people said they found weight loss easier and more effective while getting a good night’s sleep. Some scientists have deemed proper sleep (seven to nine hours a night) to be just as important as dieting when it comes to weight loss. They do call it beauty sleep for a reason!
 
 
-#
 
-# Engage In Physical Activity
+## Engage In Physical Activity
 
 This may be the part you’re dreading: if you want the perfect beach body, it does mean a good deal of exercise is in your future.
 
@@ -76,9 +72,8 @@ Consider taking protein powder as a step in your workout process for even better
 If none of these options work for you, at the very least go for a walk every day. Studies have shown that even a fifteen-minute walk can help increase your lifespan. While walking doesn’t offer the same calorie burning benefits as a good run, it can still help to fit a long walk into your everyday routine. Walking after a big meal can help your body digest food properly.
 
 
-#
 
-# Now You Know How To Get A Nice Lean Body
+## Now You Know How To Get A Nice Lean Body
 
 If you stick to eating healthy and a proper workout regime, there’s no reason you can’t be the hottest bod on the beach this summer. How to get a nice lean body? It’s in your grasp if you know what to do and stick to it.
 

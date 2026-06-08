@@ -18,14 +18,11 @@ The holidays mean: short work weeks, decorating the home festively, driving arou
 You know what the holidays don’t mean? As tempting as it may be, it does NOT mean time to slack off on your goals or to wait to until NYE to set your resolutions.
 
 
-#
-
-#
 
 
-#
 
-# Why do Many People Wait Until NYE?
+
+## Why do Many People Wait Until NYE?
 
 So many people give up on their goals. Some as early as one month into a new year while others hold out longer for a couple more months. Either way,  the closer the end of the year approaches, the less and less people stick to and reach their goals.
 
@@ -36,9 +33,8 @@ Do you know why? It’s because often times people either set too lofty of goals
 Guess what, you can break the cycle. Let’s go over about how.
 
 
-#
 
-# Breaking the Cycle
+## Breaking the Cycle
 
 The key is making small changes over time. Eventually those small changes add up to BIG results. Wouldn’t it be great to start 2021 on a roll already? I’m not saying you have to make drastic changes. Rather, start here today:
 
@@ -61,14 +57,11 @@ Changing a few little things here and there add up in the long run. Here are som
 Keep in mind it is all going to take practice. On average it takes approximately 21 days to build a new habit. Starting now puts you ahead of the game and sets you on track for maintain your progress so you can get to your goal. Speaking of goals, we need to talk about those because that’s huge part of the equation.
 
 
-#
-
-#
 
 
-#
 
-# SMART Goals with Benchmarks
+
+## SMART Goals with Benchmarks
 
 I could go on hours talking about the importance of this, but I’ll try to keep it short. As mentioned above, often times people set too big of goals for themselves or they set a reasonable one, but still don’t reach their goal by the end of the year.
 
@@ -91,14 +84,11 @@ SMART goals are Specific, Measurable, Attainable, Relevant, and Time-Bound. Anot
 Remember, a SMART goal has to be attainable. With that said, it is not reasonable to expect the average person to lose 20 pounds in a month. A reasonable number would be a lot closer to 10 pounds (about 1-2 pounds of weight loss per week). Slow and steady wins the race. This is not a sprint, it is a marathon. Also, if you hit a benchmark sooner than expected, keep going!
 
 
-#
-
-#
 
 
-#
 
-# The Truth
+
+## The Truth
 
 I’ll be honest with you, it’s going to take time. It will take lots of practice. It’s going to challenge you.
 
@@ -107,9 +97,8 @@ You will undoubtedly make mistakes. You will contemplate quitting over and over 
 Just keep pushing forward. Be consistent and strive to be a little better each and every day. I promise you, it WILL be worth it!
 
 
-#
 
-# Getting Pumped Up
+## Getting Pumped Up
 
 Remember, the pyramids weren’t built overnight. Your future self will thank you after you’ve taken these challenging steps towards living a happier, healthier life! Here’s a powerful video to get you in the right mindset:
 

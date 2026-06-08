@@ -3,14 +3,34 @@ import type { CollectionEntry } from 'astro:content';
 import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import PopupForm from '../components/PopupForm.astro';
+import BaseHead from '../components/BaseHead.astro';
 
 interface Props {
   post: CollectionEntry<'blog'>;
 }
 
 const { post } = Astro.props;
-const { title, description, image, date, author, category } = post.data;
+const { title, excerpt, image, date, author, category } = post.data;
 const { Content } = await post.render();
+const description = excerpt;
+const metaDescription = excerpt;
+const SITE = 'https://transformpersonaltraining.com';
+const pubDate = (() => { const d = new Date(date); return isNaN(d.getTime()) ? undefined : d.toISOString(); })();
+const articleSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: title,
+  description: metaDescription,
+  image: new URL(image, SITE).href,
+  ...(pubDate ? { datePublished: pubDate } : {}),
+  author: { '@type': 'Person', name: author },
+  publisher: {
+    '@type': 'Organization',
+    name: 'Transform Personal Training',
+    logo: { '@type': 'ImageObject', url: SITE + '/images/logo.webp' },
+  },
+  mainEntityOfPage: new URL('/blog/' + post.slug + '/', SITE).href,
+};
 ---
 
 <!DOCTYPE html>
@@ -19,7 +39,18 @@ const { Content } = await post.render();
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{title} - Transform Blog</title>
-  <meta name="description" content={description}>
+  <meta name="description" content={metaDescription}>
+  <BaseHead title={`${title} - Transform Blog`} description={metaDescription} image={image} type="article" />
+  <script type="application/ld+json" set:html={JSON.stringify(articleSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: SITE + '/' },
+      { '@type': 'ListItem', position: 2, name: 'Blog', item: SITE + '/blog/' },
+      { '@type': 'ListItem', position: 3, name: title, item: new URL('/blog/' + post.slug + '/', SITE).href }
+    ]
+  })} />
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">

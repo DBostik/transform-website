@@ -42,9 +42,8 @@ INSTRUCTIONS
 2. Add more almond milk, as needed.
 
 
-#
 
-# MORE HEALTHY RECIPES
+## MORE HEALTHY RECIPES
 
 Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare.
 
@@ -77,14 +76,11 @@ Check back with our blog for more to come so you have a nice stockpile of health
 Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
-
-#
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
 

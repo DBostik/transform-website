@@ -20,9 +20,8 @@ A vacation is something meant to be fun which doesn’t mean obsessing over weig
 No one should worry about gaining weight while on vacation. Yet, you don’t want to undo months of hard work on one getaway. In this article, you’ll learn how to stay fit while on vacation.
 
 
-#
 
-# 1. Avoid Skipping Meals
+## 1. Avoid Skipping Meals
 
 You might think avoiding meals is the best option. One study finds skipping meals increases fat gains, especially around the stomach area.
 
@@ -33,9 +32,8 @@ People that starve themselves throughout the day tend to eat high-calorie meals 
 It’s best to think of your stomach as a fireplace and food as firewood. Placing too much firewood on a fire puts it out. Adding small amounts of firewood, over time, keeps a fire burning strong.
 
 
-#
 
-# 2. Prepare Meals in Advance
+## 2. Prepare Meals in Advance
 
 Giving in to the temptations of fast food will wreck a diet fast. Your diet is a huge factor that goes into learning how to stay fit.
 
@@ -46,9 +44,8 @@ Ready to drink protein shakes are a great inclusion for any trip. You’ll want 
 Grabbing a small cooler will make for a perfect storage solution for your snacks.
 
 
-#
 
-# 3. Browse Nearby Restaurants Ahead of Time
+## 3. Browse Nearby Restaurants Ahead of Time
 
 A major part of a vacation is trying local cuisine. You don’t have to avoid eating out altogether while on vacation.
 
@@ -59,9 +56,8 @@ Certain restaurant menus have markings to show which dishes are healthier choice
 A little bit of research will save you from ruining your diet while on vacation.
 
 
-#
 
-# 4. Learning How to Stay Fit Involves Drinking Water
+## 4. Learning How to Stay Fit Involves Drinking Water
 
 Many vacations take place during the warmer months of the year. The ideal image of a vacation is somewhere sunny and beautiful. With the sun comes the increased risk of dehydration.
 
@@ -74,9 +70,8 @@ Drinking soda causes your body to store fat which doesn’t happen with water.
 You’ve likely heard that you should drink eight glasses of water every 24 hours. New findings show that adult males should drink 3.7 liters of water each day.
 
 
-#
 
-# 5. Be Picky with Your Hotel Selection
+## 5. Be Picky with Your Hotel Selection
 
 Not everyone wants to follow a strict diet while on vacation. Exercising while on vacation will help burn off any extra calories you consume.
 
@@ -87,9 +82,8 @@ Look for hotels offering treadmills, stationary bicycles, or a weight room. Many
 Staying in a hotel with no gym doesn’t mean you can’t exercise. You can find a gym near your hotel or break a sweat without leaving your room.
 
 
-#
 
-# 6. Perform Bodyweight Exercises in the Hotel Room
+## 6. Perform Bodyweight Exercises in the Hotel Room
 
 Learning how to stay fit doesn’t mean you have to be near a gym. You might not be able to find a hotel that has an on-site gym.
 
@@ -106,9 +100,8 @@ Create a workout plan with exercise you enjoy doing. Sticking to preferred exerc
 A hotel room workout makes you feel great and lets you get creative with how you train.
 
 
-#
 
-# 7. Opt for Sight Seeing Activities
+## 7. Opt for Sight Seeing Activities
 
 Taxi rides are a convenient way to get around a new city. Deciding how to stay fit while on a trip has to do with activities you plan.
 

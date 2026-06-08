@@ -18,9 +18,8 @@ PREP & COOK TIME: 45 minutes
 SERVINGS: 4
 
 
-#
 
-# INGREDIENTS
+## INGREDIENTS
 
 - 1 block extra firm tofu – sliced into strips
 
@@ -47,9 +46,8 @@ SERVINGS: 4
 - salt and pepper – to taste
 
 
-#
 
-# DIRECTIONS
+## DIRECTIONS
 
 1. Preheat the oven to 425F.
 
@@ -66,9 +64,8 @@ SERVINGS: 4
 Let me know your thoughts on this vegetarian recipe for Grits Bowl with Avocado and Baked Tofu Strips. Feel free to share with your friends and family!
 
 
-#
 
-# MORE HEALTHY RECIPES
+## MORE HEALTHY RECIPES
 
 Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare.
 
@@ -107,9 +104,8 @@ Check back with our blog for more to come so you have a nice stockpile of health
 If you liked this vegetarian-friendly bowl, stay tuned to the blog for additional recipes just like this and more. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
 
 
-#
 
-# NEED HELP? WE’RE HERE FOR YOU
+## NEED HELP? WE’RE HERE FOR YOU
 
 If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call. That’s where we’re going to get crystal clear on your vision, identify challenges, and motivate the heck out of you. Also, we’ll provide you a roadmap to achieve your goals. Simply follow this link to Contact us.
 

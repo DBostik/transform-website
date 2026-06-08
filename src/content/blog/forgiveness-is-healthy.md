@@ -14,43 +14,36 @@ author: "Transform Team"
 This is not one of those religious blogs where we’re going to try to persuade you to following something or someone. However, we’re bringing up forgiveness for a good reason. Forgiveness is for you (and everyone else too). Forgiveness is healthy. Actually, it is beneficial to multiple components of our health: mental, emotional, psychological, social, and physical.
 
 
-#
-
-#
 
 
-# Unforgiveness
+
+## Unforgiveness
 
 An unforgiving spirit is filled with hurt, anger, bitterness, and resentment. Unless brought under control, these emotions can wreak havoc in our lives. Unforgiveness can trigger bad behaviors and habits like excessive drinking, unhealthy weight gain, bad relationships, shopping addictions, etc. Maybe you can relate to some of those?
 
 
-#
-
-#
 
 
-# How to Control It
+
+## How to Control It
 
 The best way to control and manage such powerfully negative emotions is by understanding and practicing the art of forgiveness. Forgiveness, by definition, is to cease feelings of resentment against (offender). “Resentment is like drinking poison and then hoping it will kill your enemies,” said Nelson Mandela.
 
 It is an attribute of the strong that lets you regain your personal power, helps you restore yourself to basic goodness and health. Also, it is a way to enhance self-esteem, give hope, and restore faith. Forgiveness is the key to making peace with your past, fully embracing your future and lasting happiness.
 
 
-#
 
-# Forgiveness is For You
+## Forgiveness is For You
 
 Forgiveness is for you. Who/what needs forgiveness in your life? “To forgive is to set a prisoner free and discover that the prisoner was you,”  said Lewis B Smedes. It does not change the past, but it does create more room for an empowering future. You deserve that!
 
 Yes, sometimes there is a payoff for hanging on to pain, and I’m not saying everyone deserves your forgiveness, but when we don’t forgive, whether we know it or not, we continue to fester negative emotion. We limit our ability to feel compassion and we disallow ourselves to take complete responsibility for our lives.
 
 
-#
-
-#
 
 
-# Forgiveness Exercise
+
+## Forgiveness Exercise
 
 It’s time to close your eyes and clear your heart. Anything that costs you your peace is too expensive. Let it hurt, bleed, and heal. As Elsa from Frozen sings “Let it go!” FORGIVE THOSE WHO HAVE WRONGED YOU. Try this exercise.
 
@@ -77,9 +70,8 @@ You will read each emotional release statement ten times. Move through each pers
 The, grab a pillow and shout into it. That’s okay. If you need to cry, that’s perfectly alright too. This is your time. Use it how you wish. Just don’t inflict harm on others, yourself, animals, or your belongings.
 
 
-#
 
-# The Benefits of Forgiveness
+## The Benefits of Forgiveness
 
 Does this sound silly to you and you’re wondering, “Why bother?” read below the health benefits the medical field has discovered when studying the effects of letting go. What they found with individuals who practice forgiveness:
 
@@ -102,16 +94,14 @@ Does this sound silly to you and you’re wondering, “Why bother?” read belo
 Plain and simple, let go. Your mental, emotional, social, and physical health will all be better for it when you do. Remember, forgiveness is healthy.
 
 
-#
 
-# More From Transform
+## More From Transform
 
 Check out our blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for additional fit tips, recipes and more. Speaking of Facebook, join our FREE Facebook group and your other Fit Family brother/sisters for MORE exclusive content and daily coaching on the regular (search Your Fit and Healthy Life on Facebook or click on this link).
 
 
-#
 
-# Need Help?
+## Need Help?
 
 It’s time to put yourself first. If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your complimentary breakthrough coaching call. That’s where we’ll get crystal clear on your vision, identify challenges, motivate the heck out of you, as well as provide you a roadmap to achieve your goals.
 

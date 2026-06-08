@@ -16,9 +16,8 @@ My job as a coach is to interrupt what you’ve done up until this point. I thin
 Good. That means I’m doing my job and you’re doing exactly what you need to be doing at the moment. Do not, however, under any circumstance, run away from the challenge. Instead, run toward it. Right here right now we’re going to go over the key decision you must make. It’s time to draw a line in the sand.
 
 
-#
 
-# Things In Common
+## Things In Common
 
 The one thing that PEOPLE WITH DREAMS ABOUT BEING FIT AND LIVING A HAPPY, HEALTHY LIFE have in common… Each one at some point made the decision once and for all that they were done playing games. They’re done settling for less. They’re done looking in the mirror and being unsatisfied.
 
@@ -33,9 +32,8 @@ They’re done sitting on the sideline watching other people who are not as brig
 They drew a line in the sand and have not looked back since. They decided that what they wanted was far more important than staying in their comfort zone. They got crystal clear on their vision, determined how to get it, determined what sacrifices would be made in order to get it, and they took massive action towards their goals until they were achieved.
 
 
-#
 
-# What About You?
+## What About You?
 
 Let’s talk about you. Tell me:
 
@@ -58,14 +56,11 @@ Let’s talk about you. Tell me:
 I don’t judge your responses. However, I am here to help you draw a line in the sand and make a change so you can live the life you want and deserve.
 
 
-#
-
-#
 
 
-#
 
-# The Sad Truth
+
+## The Sad Truth
 
 The sad truth is that far too many people have not had this conversation with themselves and as a result, they are not in the driver’s seat of their life or their health. See…
 
@@ -80,16 +75,14 @@ The sad truth is that far too many people have not had this conversation with th
 The point I’m trying to make here is that everything you are, do, and become is driven by a decision, and until you decide to commit your life to excellence, your results will never be in alignment to your intentions. Then and only then will you give yourself a shot to building the life of your dreams in the body of your dreams. It’s your turn. Time to draw a line in the sand.
 
 
-#
 
-# More From Transform
+## More From Transform
 
 Check out my blog on our website, Transform’s Facebook page, and our Instagram account (@TransformFitCoach) for additional fit tips, recipes and more. Speaking of Facebook, join our FREE Facebook group and your other Fit Family brother/sisters for MORE exclusive content + daily coaching on the regular (search Your Fit and Healthy Life on Facebook)
 
 
-#
 
-# Need Help?
+## Need Help?
 
 It’s time to put yourself first. If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your complimentary breakthrough coaching call. That’s where we’ll get crystal clear on your vision, identify challenges, motivate the heck out of you, as well as provide you a roadmap to achieve your goals.
 

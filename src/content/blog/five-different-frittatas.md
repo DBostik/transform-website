@@ -18,24 +18,17 @@ Not only are frittatas a great way to get in your protein (because of the eggs),
 Prep Time: 5 mins / Cook Time: 25 mins
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
-
-# INGREDIENTS
 
 
-#
 
-#
+## INGREDIENTS
+
+
+
 
 
 ## Basic Frittata Recipes
@@ -57,9 +50,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 - Choose ingredients for one of the 5 different frittatas below:
 
 
-#
 
-#
 
 
 ## Variation
@@ -75,9 +66,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 - ¼ cup crumbled feta cheese
 
 
-#
 
-#
 
 
 ## Variation
@@ -93,9 +82,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 - ⅓ cup crumbled feta cheese
 
 
-#
 
-#
 
 
 ## Variation
@@ -115,9 +102,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 - ¼ cup chopped tarragon or chives
 
 
-#
 
-#
 
 
 ## Variation
@@ -133,9 +118,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 - ⅓ cup grated pecorino cheese
 
 
-#
 
-#
 
 
 ## Variation
@@ -151,24 +134,17 @@ Use the first 6 ingredients for each of the five different frittatas:
 - ½ cup sliced basil
 
 
-#
-
-#
 
 
-#
-
-#
 
 
-#
-
-# INSTRUCTIONS
 
 
-#
 
-#
+## INSTRUCTIONS
+
+
+
 
 
 ### Broccoli Feta
@@ -188,9 +164,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 7. Season to taste and serve.
 
 
-#
 
-#
 
 
 ### Roasted Red Pepper & Spinach
@@ -212,17 +186,12 @@ Use the first 6 ingredients for each of the five different frittatas:
 8. Season to taste and serve.
 
 
-#
-
-#
 
 
-###
-
-#
 
 
-#
+
+
 
 ### Spring Veggie
 
@@ -241,9 +210,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 7. Season to taste and serve.
 
 
-#
 
-#
 
 
 ### Mixed Mushroom & Tarragon
@@ -265,9 +232,7 @@ Use the first 6 ingredients for each of the five different frittatas:
 8. Season to taste and serve.
 
 
-#
 
-#
 
 
 ### Caprese
@@ -291,12 +256,10 @@ Use the first 6 ingredients for each of the five different frittatas:
 Make the five different frittatas and let us know which one is your favorite of the bunch!
 
 
-#
-
-#
 
 
-# Other Healthy Recipes
+
+## Other Healthy Recipes
 
 As mentioned above, keeping variety in your meals and snacks is important. Besides the five different frittatas listed above, below are a couple other healthy recipes I’ve shared. Check back with our blog for more to come. That way you have a nice stockpile of healthy meal options readily available so you can stay on track to reaching your health and fitness goals.
 
@@ -313,11 +276,9 @@ As mentioned above, keeping variety in your meals and snacks is important. Besid
 For additional tasty recipes, tips, and more, visit our website, Facebook page, and Instagram!
 
 
-#
-
-#
 
 
-# NEED HELP?
+
+## NEED HELP?
 
 Also, if you’re struggling and need some help making progress on your fitness journey, contact us. Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!

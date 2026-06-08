@@ -14,18 +14,16 @@ author: "Transform Team"
 Do you consider zinc in your diet? Zinc is an important element which contributes to many functions within the body. It plays a role in immunity, wound healing, and energy metabolism. The environment of your gastrointestinal tract can also influence how much zinc is actually absorbed and utilized in the body.
 
 
-#
 
-# Zinc’s Importance
+## Zinc’s Importance
 
 Consuming enough zinc on a vegan diet is usually no issue at all if you consume a variety of plant foods and grains. If you aren’t doing that, failing to meet the daily recommended intake can lead to some adverse health effects down the track.
 
 A deficiency in zinc could potentially lead to a weakened immune system, slowed wound healing, loss of appetite and even stunted growth. These are all obviously not ideal and can be quite serious!
 
 
-#
 
-# Benefits of Zinc
+## Benefits of Zinc
 
 Why should you consume zinc? Zinc hosts a plethora of health benefits including:
 
@@ -50,9 +48,8 @@ Why should you consume zinc? Zinc hosts a plethora of health benefits including:
 The recommended intake of zinc is approximately 8-12 mg per day depending on your age and gender.
 
 
-#
 
-# Examples for Vegans and Non-Vegans
+## Examples for Vegans and Non-Vegans
 
 Eating food sources rich in zinc will ensure you obtain ample amounts. You can achieve this by incorporating a range of different foods in your day. Here are some examples of vegan friendly zinc sources:
 

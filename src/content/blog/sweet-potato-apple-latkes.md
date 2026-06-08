@@ -14,9 +14,8 @@ author: "Transform Team"
 Did you know eating healthy doesn’t have to be complicated or require tons of ingredients? Check out this yummy vegan recipe for Sweet Potato & Apple Latkes with Tahini Lemon Drizzle. It tastes so yummy! We had these the other day. It was super easy to make and we didn’t need that many ingredients to prepare it!
 
 
-#
 
-# INGREDIENTS
+## INGREDIENTS
 
 Latkes:
 
@@ -55,14 +54,11 @@ Tahini Lemon Drizzle:
 - optional: squirt of sriracha
 
 
-#
-
-#
 
 
-#
 
-# INSTRUCTIONS
+
+## INSTRUCTIONS
 
 1. Combine all of the ingredients for the tahini lemon sauce in a bowl and whisk together. Set aside.
 

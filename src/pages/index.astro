@@ -21,6 +21,7 @@ import Navigation from '../components/Navigation.astro';
 import Footer from '../components/Footer.astro';
 import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
 
+import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Transform Personal Training | Chicago's Best Personal Trainers";
 const pageDescription = "Chicago's premier personal training studio in Lakeview. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE!";
 ---
@@ -31,6 +32,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
   <!-- Google Fonts -->
@@ -47,21 +49,21 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
     {
       "@context": "https://schema.org",
       "@type": "HealthAndBeautyBusiness",
-      "@id": "https://www.transformpersonaltraining.com/#organization",
+      "@id": "https://transformpersonaltraining.com/#organization",
       "name": "Transform Personal Training",
       "alternateName": "Transform Fitness Chicago",
       "description": "Premier personal training studio in Lakeview, Chicago offering customized 1-on-1 fitness training, nutrition coaching, and online training programs with guaranteed results.",
-      "url": "https://www.transformpersonaltraining.com",
+      "url": "https://transformpersonaltraining.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://www.transformpersonaltraining.com/images/logo.png",
+        "url": "https://transformpersonaltraining.com/images/logo.png",
         "width": 600,
         "height": 200
       },
       "image": [
-        "https://www.transformpersonaltraining.com/images/studio-1.jpg",
-        "https://www.transformpersonaltraining.com/images/studio-2.jpg",
-        "https://www.transformpersonaltraining.com/images/training-session.jpg"
+        "https://transformpersonaltraining.com/images/studio-1.jpg",
+        "https://transformpersonaltraining.com/images/studio-2.jpg",
+        "https://transformpersonaltraining.com/images/training-session.jpg"
       ],
       "address": {
         "@type": "PostalAddress",
@@ -77,7 +79,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
         "longitude": -87.6433894
       },
       "telephone": "+13126355139",
-      "email": "contact@email.transformfitcoach.com",
+      "email": "contact@transformfitcoach.com",
       "priceRange": "$$",
       "openingHoursSpecification": [
         {

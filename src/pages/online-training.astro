@@ -13,6 +13,7 @@ import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 
+import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Online Personal Training & Fitness Coaching | Transform";
 const pageDescription = "Get customized online fitness training from anywhere. App-based workouts, nutrition plans, and daily check-ins with certified trainers. Start your transformation today!";
 ---
@@ -23,6 +24,29 @@ const pageDescription = "Get customized online fitness training from anywhere. A
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Online Personal Training",
+    "name": "Online Personal Training & Fitness Coaching",
+    "description": pageDescription,
+    "url": "https://transformpersonaltraining.com/online-training/",
+    "provider": {
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Transform Personal Training",
+      "@id": "https://transformpersonaltraining.com/#organization"
+    },
+    "areaServed": { "@type": "Country", "name": "United States" }
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://transformpersonaltraining.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Online Training", "item": "https://transformpersonaltraining.com/online-training/" }
+    ]
+  })} />
   <meta name="description" content={pageDescription}>
   
   <!-- Google Fonts -->
