@@ -1,5 +1,16 @@
+<IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
+
+  # SEO: consolidate the www version to non-www (fixes the homepage being split across two URLs in Google)
+  RewriteCond %{HTTP_HOST} ^www\.transformpersonaltraining\.com [NC]
+  RewriteRule ^(.*)$ https://transformpersonaltraining.com/$1 [R=301,L]
+
+  # SEO: 301-redirect old root-level blog URLs to their new /blog/ location (only when that page actually exists)
+  RewriteCond %{REQUEST_URI} !^/blog/
+  RewriteCond %{REQUEST_URI} !^/dist/
+  RewriteCond %{DOCUMENT_ROOT}/dist/blog/$1/index.html -f
+  RewriteRule ^([a-z0-9-]+)/?$ /blog/$1/ [R=301,L]
 
   # 1. Redirect /dist/foo to /foo (Remove /dist prefix if visible)
   RewriteCond %{THE_REQUEST} \s/dist/ [NC]

@@ -435,6 +435,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"it-s-not-your-fault.md": {
+	id: "it-s-not-your-fault.md";
+  slug: "it-s-not-your-fault";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "italian-breakfast-panzanella.md": {
 	id: "italian-breakfast-panzanella.md";
   slug: "italian-breakfast-panzanella";
@@ -634,6 +641,13 @@ declare module 'astro:content' {
 "the-importance-of-me-time.md": {
 	id: "the-importance-of-me-time.md";
   slug: "the-importance-of-me-time";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"the-invisible-reality-internal-health.md": {
+	id: "the-invisible-reality-internal-health.md";
+  slug: "the-invisible-reality-internal-health";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
