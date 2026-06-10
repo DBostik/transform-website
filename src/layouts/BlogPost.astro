@@ -228,6 +228,26 @@ const articleSchema = {
     font-weight: 600;
   }
 
+  .prose :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.75rem;
+    font-size: 1rem;
+  }
+
+  .prose :global(th) {
+    text-align: left;
+    font-weight: 600;
+    color: var(--color-primary-700);
+    padding: 0.75rem 1rem;
+    border-bottom: 2px solid var(--color-primary-600);
+  }
+
+  .prose :global(td) {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--color-black-200);
+  }
+
   /* Specific fix for "wall of text" look */
   .prose {
     line-height: 1.85;
