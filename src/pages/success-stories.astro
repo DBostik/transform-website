@@ -7,15 +7,14 @@
  */
 
 import Button from '../components/ui/Button.astro';
-import FormInput from '../components/ui/FormInput.astro';
-import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
 
 import BaseHead from '../components/BaseHead.astro';
-const pageTitle = "Client Success Stories & Transformations | Transform Personal Training";
-const pageDescription = "Real transformations from real clients. See before/after photos and read testimonials from people who achieved their fitness goals with Transform Personal Training.";
+const pageTitle = "Chicago Personal Training Success Stories | Transform";
+const pageDescription = "Real transformations from real clients in Lakeview, Chicago. See before/after photos and testimonials from people who reached their goals with Transform.";
 
 // Featured transformations for the hero grid
 const featuredTransformations = [
@@ -105,8 +104,8 @@ const transformations = [
       <span class="success-hero__badge">Real Results</span>
       <h1 class="success-hero__title">SUCCESS STORIES</h1>
       <p class="success-hero__subtitle">
-        Since 2010, we've helped over 1000+ clients transform their bodies and lives. 
-        These are their stories.
+        Since 2010, we've helped over 1000+ clients transform their bodies and lives
+        at our private personal training studio in Lakeview, Chicago. These are their stories.
       </p>
     </div>
   </section>
@@ -125,7 +124,7 @@ const transformations = [
         {featuredTransformations.map((transformation) => (
           <div class="transformation-card transformation-card--featured">
             <div class="transformation-card__image">
-              <img src={transformation.image} alt={`${transformation.name} transformation`} loading="lazy" />
+              <img src={transformation.image} alt={`${transformation.name} before and after: ${transformation.result} with Transform Personal Training in Chicago`} loading="lazy" />
             </div>
             <div class="transformation-card__info">
               <h3 class="transformation-card__name">{transformation.name}</h3>
@@ -316,7 +315,7 @@ const transformations = [
         {transformations.map((transformation) => (
           <div class="transformation-card">
             <div class="transformation-card__image">
-              <img src={transformation.image} alt={`${transformation.name} transformation`} loading="lazy" />
+              <img src={transformation.image} alt={`${transformation.name} before and after: ${transformation.result} with Transform Personal Training in Chicago`} loading="lazy" />
             </div>
             <div class="transformation-card__info">
               <h3 class="transformation-card__name">{transformation.name}</h3>
@@ -379,50 +378,14 @@ const transformations = [
           <p>Take the first step towards your fitness goals. We'll respond within 24 hours.</p>
         </div>
         
-        <form class="consultation-form">
-          <FormInput
-            label="Full Name"
-            name="name"
-            type="text"
-            placeholder="John Doe"
-            required={true}
-          />
-          
-          <FormInput
-            label="Email Address"
-            name="email"
-            type="email"
-            placeholder="john@example.com"
-            required={true}
-          />
-          
-          <FormInput
-            label="Phone Number"
-            name="phone"
-            type="tel"
-            placeholder="(312) 555-0123"
-            required={true}
-          />
-          
+        <div class="consultation-form">
+          <!-- HighLevel Quick Lead Form (same working embed as the homepage) -->
+          <StyledGHLQuickLead />
 
-          
-          <div class="form-consent">
-            <label>
-              <input type="checkbox" required>
-              <span>
-                I consent to be contacted by Transform Personal Training regarding my inquiry.
-              </span>
-            </label>
-          </div>
-          
-          <Button variant="primary" type="submit" class="form-submit-btn">
-            Request Free Consultation
-          </Button>
-          
           <p class="form-note">
             We'll respond within 24 hours to schedule your free session.
           </p>
-        </form>
+        </div>
       </div>
     </div>
   </section>

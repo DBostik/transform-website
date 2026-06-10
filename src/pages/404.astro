@@ -1,0 +1,65 @@
+---
+/**
+ * 404 Page - Not Found
+ *
+ * Branded 404 that keeps lost visitors on the site and routes them
+ * to the highest-value pages instead of Hostinger's default error page.
+ * Served via ErrorDocument rule in .htaccess.
+ */
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import Button from '../components/ui/Button.astro';
+
+const pageTitle = "Page Not Found | Transform Personal Training";
+const pageDescription = "Sorry, that page doesn't exist. Find personal training services, success stories, and our free consultation offer at Transform Personal Training in Lakeview, Chicago.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <meta name="description" content={pageDescription}>
+  <meta name="robots" content="noindex">
+  <link rel="icon" href="/favicon.ico" sizes="48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+
+<body>
+  <Navigation currentPath="/" />
+
+  <section class="section" style="text-align: center; padding-top: 6rem; padding-bottom: 6rem;">
+    <div class="container" style="max-width: 640px;">
+      <p style="font-family: var(--font-heading); font-size: 5rem; font-weight: 800; color: var(--color-primary-500); margin-bottom: 1rem; line-height: 1;">404</p>
+      <h1 style="font-family: var(--font-heading); font-size: 2rem; font-weight: 700; color: var(--color-black-900); margin-bottom: 1rem;">
+        That page doesn't exist
+      </h1>
+      <p style="color: var(--color-black-600); font-size: 1.125rem; line-height: 1.7; margin-bottom: 2rem;">
+        The page you're looking for may have moved. Here's where you probably want to go:
+      </p>
+      <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 2rem;">
+        <Button variant="primary" href="/contact/">Schedule a Free Consultation</Button>
+        <Button variant="secondary" href="/studio-services/">Studio Services</Button>
+      </div>
+      <p style="color: var(--color-black-600);">
+        Or visit our <a href="/" style="color: var(--color-primary-600); font-weight: 600;">homepage</a>,
+        read <a href="/success-stories/" style="color: var(--color-primary-600); font-weight: 600;">success stories</a>,
+        or browse the <a href="/blog/" style="color: var(--color-primary-600); font-weight: 600;">blog</a>.
+      </p>
+    </div>
+  </section>
+
+  <Footer />
+</body>
+</html>

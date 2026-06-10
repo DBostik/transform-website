@@ -7,15 +7,14 @@
 
 import Button from '../components/ui/Button.astro';
 import PricingCard from '../components/ui/PricingCard.astro';
-import FormInput from '../components/ui/FormInput.astro';
-import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
 
 import BaseHead from '../components/BaseHead.astro';
-const pageTitle = "Studio Personal Training Services | Transform Chicago";
-const pageDescription = "Private 30-minute personal training sessions in Lakeview, Chicago. Customized workouts, nutrition guidance, and daily support. Book your free consultation today!";
+const pageTitle = "Private Personal Training Studio in Chicago | Transform";
+const pageDescription = "Private 30-minute personal training at our Lakeview, Chicago studio. Transparent pricing, custom workouts, nutrition plans, daily support. First session free!";
 ---
 
 <!DOCTYPE html>
@@ -339,50 +338,14 @@ const pageDescription = "Private 30-minute personal training sessions in Lakevie
           </p>
         </div>
         
-        <form style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
-          <FormInput
-            label="Full Name"
-            name="name"
-            type="text"
-            placeholder="John Doe"
-            required={true}
-          />
-          
-          <FormInput
-            label="Email Address"
-            name="email"
-            type="email"
-            placeholder="john@example.com"
-            required={true}
-          />
-          
-          <FormInput
-            label="Phone Number"
-            name="phone"
-            type="tel"
-            placeholder="(312) 555-0123"
-            required={true}
-          />
-          
+        <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
+          <!-- HighLevel Quick Lead Form (same working embed as the homepage) -->
+          <StyledGHLQuickLead />
 
-          
-          <div style="margin-bottom: 1.5rem;">
-            <label style="display: flex; align-items: flex-start; gap: 0.5rem; cursor: pointer;">
-              <input type="checkbox" required style="margin-top: 0.25rem;">
-              <span style="font-size: 0.875rem; color: var(--color-black-600);">
-                I consent to be contacted by Transform Personal Training regarding my inquiry.
-              </span>
-            </label>
-          </div>
-          
-          <Button variant="primary" type="submit" class="w-full" style="width: 100%;">
-            Request Free Consultation
-          </Button>
-          
           <p style="text-align: center; font-size: 0.875rem; color: var(--color-black-500); margin-top: 1rem;">
             We'll respond within 24 hours to schedule your free session.
           </p>
-        </form>
+        </div>
       </div>
     </div>
   </section>

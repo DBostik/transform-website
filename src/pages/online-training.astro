@@ -7,11 +7,10 @@
  */
 
 import Button from '../components/ui/Button.astro';
-import FormInput from '../components/ui/FormInput.astro';
-import FormTextarea from '../components/ui/FormTextarea.astro';
 import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
 
 import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Online Personal Training & Fitness Coaching | Transform";
@@ -259,7 +258,7 @@ const pageDescription = "Get customized online fitness training from anywhere. A
             Prefer face-to-face training? Visit our private studio in Lakeview, Chicago 
             for personalized 30-minute sessions with our expert trainers.
           </p>
-          <a href="/studio-services" class="btn-outline-white">
+          <a href="/studio-services/" class="btn-outline-white">
             Start For Free →
           </a>
         </div>
@@ -281,50 +280,14 @@ const pageDescription = "Get customized online fitness training from anywhere. A
           <p>Take the first step towards your fitness goals. We'll respond within 24 hours.</p>
         </div>
         
-        <form class="consultation-form">
-          <FormInput
-            label="Full Name"
-            name="name"
-            type="text"
-            placeholder="John Doe"
-            required={true}
-          />
-          
-          <FormInput
-            label="Email Address"
-            name="email"
-            type="email"
-            placeholder="john@example.com"
-            required={true}
-          />
-          
-          <FormInput
-            label="Phone Number"
-            name="phone"
-            type="tel"
-            placeholder="(312) 555-0123"
-            required={true}
-          />
-          
+        <div class="consultation-form">
+          <!-- HighLevel Quick Lead Form (same working embed as the homepage) -->
+          <StyledGHLQuickLead />
 
-          
-          <div class="form-consent">
-            <label>
-              <input type="checkbox" required>
-              <span>
-                I consent to be contacted by Transform Personal Training regarding my inquiry.
-              </span>
-            </label>
-          </div>
-          
-          <Button variant="primary" type="submit" class="form-submit-btn">
-            Request Free Consultation
-          </Button>
-          
           <p class="form-note">
             We'll respond within 24 hours to schedule your free session.
           </p>
-        </form>
+        </div>
       </div>
     </div>
   </section>

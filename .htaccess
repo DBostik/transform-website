@@ -6,6 +6,10 @@
   RewriteCond %{HTTP_HOST} ^www\.transformpersonaltraining\.com [NC]
   RewriteRule ^(.*)$ https://transformpersonaltraining.com/$1 [R=301,L]
 
+  # SEO: rescue old URLs that still rank in Google but changed slug during the migration
+  RewriteRule ^healthy-restaurants-in-chicago/?$ /blog/the-top-7-healthy-restaurants-in-chicago/ [R=301,L]
+  RewriteRule ^stop-the-insanity/?$ /blog/ [R=301,L]
+
   # SEO: 301-redirect old root-level blog URLs to their new /blog/ location (only when that page actually exists)
   RewriteCond %{REQUEST_URI} !^/blog/
   RewriteCond %{REQUEST_URI} !^/dist/
@@ -30,4 +34,22 @@
   RewriteCond %{REQUEST_FILENAME} !-d
   RewriteCond %{REQUEST_URI} !^/dist/
   RewriteRule ^(.*)$ /dist/$1 [L]
+</IfModule>
+
+# Serve the branded 404 page (built by Astro) instead of the hosting default
+ErrorDocument 404 /dist/404.html
+
+<IfModule mod_headers.c>
+  # HSTS: tell browsers to always use HTTPS (site is fully HTTPS already)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+
+  # Astro's content-hashed assets (filename changes when content changes) can be cached forever
+  <FilesMatch "\.[A-Za-z0-9_-]{8}\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+
+  # Images and icons: 30 days
+  <FilesMatch "\.(webp|png|jpe?g|gif|ico|svg)$">
+    Header set Cache-Control "public, max-age=2592000"
+  </FilesMatch>
 </IfModule>

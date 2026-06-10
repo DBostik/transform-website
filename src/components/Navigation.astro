@@ -15,6 +15,9 @@ interface Props {
 
 const { currentPath = '/' } = Astro.props;
 
+// Normalize paths for active-link comparison (treat /blog and /blog/ the same)
+const norm = (p: string) => (p.replace(/\/+$/, '') || '/');
+
 interface NavItem {
   label: string;
   href: string;
@@ -22,27 +25,29 @@ interface NavItem {
   target?: string;
 }
 
+// Internal links use trailing slashes to match the server's canonical URL
+// format (build.format: 'directory') and avoid a 301 hop on every click.
 const navLinks: NavItem[] = [
-  { 
-    label: 'Services', 
-    href: '/studio-services', // Provide a default or '#' if purely toggle
+  {
+    label: 'Services',
+    href: '/studio-services/', // Provide a default or '#' if purely toggle
     children: [
-      { label: 'Studio Services', href: '/studio-services' },
-      { label: 'Online Training', href: '/online-training' }
+      { label: 'Studio Services', href: '/studio-services/' },
+      { label: 'Online Training', href: '/online-training/' }
     ]
   },
-  { label: 'Success Stories', href: '/success-stories' },
-  { 
-    label: 'Team', 
-    href: '/meet-the-team',
+  { label: 'Success Stories', href: '/success-stories/' },
+  {
+    label: 'Team',
+    href: '/meet-the-team/',
     children: [
-      { label: 'Meet the Team', href: '/meet-the-team' },
-      { label: 'Join the Team', href: '/join-the-team' }
+      { label: 'Meet the Team', href: '/meet-the-team/' },
+      { label: 'Join the Team', href: '/join-the-team/' }
     ]
   },
-  { label: 'Blog', href: '/blog' },
+  { label: 'Blog', href: '/blog/' },
   { label: 'Members', href: 'https://clients.mindbodyonline.com/classic/ws?studioid=13171&stype=-2&subTab=info', target: '_blank' },
-  { label: 'Contact', href: '/contact' },
+  { label: 'Contact', href: '/contact/' },
 ];
 ---
 
@@ -71,7 +76,7 @@ const navLinks: NavItem[] = [
                 font-family: var(--font-heading);
                 font-weight: 600;
                 font-size: 0.9375rem;
-                color: ${currentPath.startsWith(link.href) && link.href !== '/' ? 'var(--color-primary-600)' : 'var(--color-black-700)'};
+                color: ${norm(currentPath).startsWith(norm(link.href)) && norm(link.href) !== '/' ? 'var(--color-primary-600)' : 'var(--color-black-700)'};
                 text-decoration: none;
                 transition: color var(--transition-fast);
                 display: flex;
@@ -92,7 +97,7 @@ const navLinks: NavItem[] = [
               <ul class="dropdown-menu">
                 {link.children.map((child) => (
                   <li>
-                    <a href={child.href} class={currentPath === child.href ? 'active' : ''}>
+                    <a href={child.href} class={norm(currentPath) === norm(child.href) ? 'active' : ''}>
                       {child.label}
                     </a>
                   </li>
@@ -164,7 +169,7 @@ const navLinks: NavItem[] = [
               <div class="mobile-dropdown">
                 <span 
                   class="mobile-nav-link dropdown-toggle"
-                  style={`color: ${currentPath.startsWith(link.href) ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
+                  style={`color: ${norm(currentPath).startsWith(norm(link.href)) ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
                 >
                   {link.label}
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -177,7 +182,7 @@ const navLinks: NavItem[] = [
                       <a 
                         href={child.href}
                         class="mobile-nav-link sub-link"
-                        style={`color: ${currentPath === child.href ? 'var(--color-primary-600)' : 'var(--color-black-600)'}`}
+                        style={`color: ${norm(currentPath) === norm(child.href) ? 'var(--color-primary-600)' : 'var(--color-black-600)'}`}
                       >
                         {child.label}
                       </a>
@@ -191,7 +196,7 @@ const navLinks: NavItem[] = [
                 target={link.target}
                 rel={link.target === '_blank' ? 'noopener noreferrer' : undefined}
                 class="mobile-nav-link"
-                style={`color: ${currentPath === link.href ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
+                style={`color: ${norm(currentPath) === norm(link.href) ? 'var(--color-primary-600)' : 'var(--color-black-700)'}`}
               >
                 {link.label}
               </a>

@@ -22,8 +22,8 @@ import Footer from '../components/Footer.astro';
 import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
 
 import BaseHead from '../components/BaseHead.astro';
-const pageTitle = "Transform Personal Training | Chicago's Best Personal Trainers";
-const pageDescription = "Chicago's premier personal training studio in Lakeview. Customized 1-on-1 fitness training, nutrition plans, and guaranteed results. First session FREE!";
+const pageTitle = "Personal Trainer Chicago | Transform Personal Training";
+const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chicago studio. 30-minute sessions, custom nutrition plans, daily support, 5-star rated. First session FREE!";
 ---
 
 <!DOCTYPE html>
@@ -115,8 +115,9 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
         }
       },
       "sameAs": [
-        "https://www.facebook.com/transformpersonaltraining",
-        "https://www.instagram.com/transformpersonaltraining"
+        "https://www.facebook.com/Transformpt",
+        "https://www.instagram.com/transformfitcoach",
+        "https://www.yelp.com/biz/transform-personal-training-chicago"
       ],
       "hasOfferCatalog": {
         "@type": "OfferCatalog",
@@ -213,7 +214,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
         <Button variant="primary" size="lg" href="#consultation-form">
           Schedule Free Consultation
         </Button>
-        <Button variant="secondary" size="lg" href="/online-training">
+        <Button variant="secondary" size="lg" href="/online-training/">
           Explore Online Training
         </Button>
       </div>
@@ -258,7 +259,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
             'Convenient scheduling',
             'Professional equipment'
           ]}
-          linkHref="/studio-services"
+          linkHref="/studio-services/"
         />
         
         <ServiceCard
@@ -271,7 +272,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
             'Daily check-ins',
             'Nutrition guidance'
           ]}
-          linkHref="/online-training"
+          linkHref="/online-training/"
         />
       </div>
     </div>
@@ -358,7 +359,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
       </div>
       
       <div style="text-align: center; margin-top: 3rem;">
-        <Button variant="outline" href="/success-stories">
+        <Button variant="outline" href="/success-stories/">
           Read More Success Stories →
         </Button>
       </div>
@@ -433,7 +434,7 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
             <p style="color: var(--color-black-700); line-height: 1.7; margin-bottom: 1.5rem;">
               With years of experience and nationally recognized certifications, our team is dedicated to helping you achieve your fitness goals through customized training, nutrition guidance, and daily support.
             </p>
-            <Button variant="primary" href="/meet-the-team">
+            <Button variant="primary" href="/meet-the-team/">
               Meet the Team
             </Button>
           </div>
@@ -448,6 +449,62 @@ const pageDescription = "Chicago's premier personal training studio in Lakeview.
             />
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ (visible content matching the FAQPage schema above) ===== -->
+  <section id="faq" class="section" style="background-color: var(--color-black-50);">
+    <div class="container" style="max-width: 800px;">
+      <div class="section-header">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+      </div>
+
+      <div style="margin-top: 2.5rem;">
+        <details style="background: white; border: 1px solid var(--color-black-200); border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin-bottom: 1rem;">
+          <summary style="font-family: var(--font-heading); font-weight: 600; font-size: 1.0625rem; color: var(--color-black-900); cursor: pointer;">
+            What happens in the first personal training session?
+          </summary>
+          <p style="color: var(--color-black-600); line-height: 1.7; margin-top: 0.75rem;">
+            Your first 30-minute consultation is completely FREE! You'll spend time with one of our certified trainers discussing your fitness background, goals, and what has you interested in working with a personal trainer. You'll learn about the trainer's experience and how our customized program can work specifically for you. We encourage questions so you know exactly what to expect as you get started on your transformation journey.
+          </p>
+        </details>
+
+        <details style="background: white; border: 1px solid var(--color-black-200); border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin-bottom: 1rem;">
+          <summary style="font-family: var(--font-heading); font-weight: 600; font-size: 1.0625rem; color: var(--color-black-900); cursor: pointer;">
+            Where is Transform Personal Training located?
+          </summary>
+          <p style="color: var(--color-black-600); line-height: 1.7; margin-top: 0.75rem;">
+            Transform Personal Training is located at 2900 N Broadway St, Chicago, IL 60657, in Lakeview, just a few blocks from most Chicago neighborhoods. We're easily accessible and offer convenient appointment times from 5:00am to 9:00pm Monday through Thursday.
+          </p>
+        </details>
+
+        <details style="background: white; border: 1px solid var(--color-black-200); border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin-bottom: 1rem;">
+          <summary style="font-family: var(--font-heading); font-weight: 600; font-size: 1.0625rem; color: var(--color-black-900); cursor: pointer;">
+            Do you offer online personal training?
+          </summary>
+          <p style="color: var(--color-black-600); line-height: 1.7; margin-top: 0.75rem;">
+            Yes! We offer comprehensive online personal training that you can access from anywhere. Using your smartphone, smartwatch, and the latest fitness technology, you receive customized training tailored to your goals, personalized nutrition plans, daily check-ins, and motivational support from your dedicated trainer.
+          </p>
+        </details>
+
+        <details style="background: white; border: 1px solid var(--color-black-200); border-radius: 0.75rem; padding: 1.25rem 1.5rem; margin-bottom: 1rem;">
+          <summary style="font-family: var(--font-heading); font-weight: 600; font-size: 1.0625rem; color: var(--color-black-900); cursor: pointer;">
+            How long are personal training sessions?
+          </summary>
+          <p style="color: var(--color-black-600); line-height: 1.7; margin-top: 0.75rem;">
+            Our personal training sessions are 30 minutes each. This efficient format is designed to fit easily into your work day while providing a challenging, engaging, and effective workout that's completely personalized to your fitness needs and goals.
+          </p>
+        </details>
+
+        <details style="background: white; border: 1px solid var(--color-black-200); border-radius: 0.75rem; padding: 1.25rem 1.5rem;">
+          <summary style="font-family: var(--font-heading); font-weight: 600; font-size: 1.0625rem; color: var(--color-black-900); cursor: pointer;">
+            What makes Transform Personal Training different?
+          </summary>
+          <p style="color: var(--color-black-600); line-height: 1.7; margin-top: 0.75rem;">
+            At Transform Personal Training, every workout is 100% personalized to your specific fitness needs and goals. We combine customized training sessions with personalized nutrition guidance and daily support to keep you motivated and accountable. Our trainers treat each person as an individual, and we guarantee results. Plus, your first session is completely free!
+          </p>
+        </details>
       </div>
     </div>
   </section>

@@ -12,8 +12,8 @@ import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
 
 import BaseHead from '../components/BaseHead.astro';
-const pageTitle = "Fitness & Nutrition Blog - Transform Personal Training";
-const pageDescription = "Expert fitness advice, nutrition tips, and healthy recipes from Chicago's top personal trainers.";
+const pageTitle = "Chicago Fitness & Nutrition Blog | Transform Personal Training";
+const pageDescription = "Practical fitness advice, nutrition tips, and healthy recipes from Lakeview personal trainers. Real strategies for busy Chicago professionals.";
 
 // Fetch posts from content collection
 const allPosts = await getCollection('blog');
@@ -87,10 +87,10 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
                 <span class="post-date">{post.data.date}</span>
               </div>
               <h2 class="post-title">
-                <a href={`/blog/${post.slug}`}>{post.data.title}</a>
+                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
               </h2>
               <p class="post-excerpt">{post.data.excerpt}</p>
-              <a href={`/blog/${post.slug}`} class="read-more">
+              <a href={`/blog/${post.slug}/`} class="read-more">
                 Read Article →
               </a>
             </div>
