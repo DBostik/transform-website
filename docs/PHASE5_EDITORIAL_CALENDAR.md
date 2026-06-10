@@ -36,6 +36,21 @@ Each post: 1,200-2,000 words, 2-3 internal links to service pages, one image (re
 ## Measurement
 Watch GSC for the target queries above moving from 0 clicks; track opt-in form submissions (HighLevel automation confirmed working June 10). Re-pull the same regex filter monthly.
 
+## Proposed posts 7-12 (months 4-6, Sep-Nov 2026) — PENDING DAVE'S APPROVAL
+Added June 10, 2026. Dave is pre-writing the full queue with the current model before access ends; confirm these topics with him before writing.
+
+| # | Target publish | Working title | Goes after | Notes |
+|---|---|---|---|---|
+| 7 | Sep wk 2 | How Long Does It Take to See Results With a Personal Trainer? | evergreen pre-purchase question | Honest timelines; bridges to 12-week framing; free session CTA |
+| 8 | Sep wk 4 | Best Personal Training in Chicago: How to Compare Your Options | best personal training chicago (203 impr @ pos 5.3) | Editorial comparison guide; complements homepage, don't duplicate its content |
+| 9 | Oct wk 2 | What a 12-Week Transformation Actually Looks Like | 12 week personal training program cost near me (@ pos 1), transformation queries | Walk through the journey week by week; heavy success-stories linking |
+| 10 | Oct wk 4 | Personal Training Over 40: Why Joint-Friendly Beats No-Pain-No-Gain | the over-40 buyer behind the low impact cluster | Links to post 2 (low impact) and success stories |
+| 11 | Nov wk 2 | How to Stay Fit Through a Chicago Winter | seasonal/local | Private indoor studio angle; Lakeview mention |
+| 12 | Nov wk 4 | How to Get Through the Holidays Without Losing Your Progress | seasonal | Link existing Drinking and Dieting post; CTA: start in December, beat the January rush |
+
+## Pre-written queue workflow (supersedes per-post drafting once queue exists)
+Approved drafts live in docs/drafts/queue/ as 02-<slug>.md ... 12-<slug>.md with QUEUE.md tracking status. Frontmatter date stays "SET AT PUBLISH" until staging. Every other Wednesday the scheduled task "biweekly-blog-draft-transform" (after it has been updated to staging mode) sets the date, moves the next approved file into src/content/blog/, marks it published here and in QUEUE.md, and hands Dave the Antigravity publishing prompt. Dave publishes; nothing goes live automatically.
+
 ## Still open after Phase 5
 - Small pre-approved cleanup: switch site email everywhere to contact@transformpersonaltraining.com (test email arrived June 10; Dave confirmed). Do as its own change.
 - Phase 6: schema cleanup. Phase 7: conversion path audit. See status doc.
