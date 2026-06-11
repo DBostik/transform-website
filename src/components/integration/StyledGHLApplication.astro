@@ -34,7 +34,10 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
   ></iframe>
 </div>
 
-<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+<!-- HighLevel form embed script. is:inline keeps it a plain script tag,
+     the official HighLevel embed method. Astro's module bundling of this
+     script stopped working June 2026 and left forms rendering blank. -->
+<script is:inline defer src="https://link.msgsndr.com/js/form_embed.js"></script>
 
 <style>
   .ghl-application-wrapper {

@@ -1,0 +1,1 @@
+import"./hoisted.BvtBHoTM.js";import"./hoisted.BQPpwChK.js";document.querySelectorAll(".post-content a[href]").forEach(o=>{const e=o;e instanceof HTMLAnchorElement&&e.hostname&&e.hostname!==window.location.hostname&&(e.target="_blank",e.rel="noopener noreferrer")});
