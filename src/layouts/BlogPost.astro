@@ -101,6 +101,17 @@ const articleSchema = {
 
   <Footer />
   <PopupForm />
+
+  <script>
+    // Links inside article content that lead off-site open in a new tab.
+    document.querySelectorAll('.post-content a[href]').forEach((el) => {
+      const a = el;
+      if (a instanceof HTMLAnchorElement && a.hostname && a.hostname !== window.location.hostname) {
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      }
+    });
+  </script>
 </body>
 </html>
 

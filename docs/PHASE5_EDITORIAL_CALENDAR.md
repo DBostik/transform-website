@@ -24,7 +24,7 @@ Existing blog: **87 posts** (status doc said 104; 87 is the verified count), mos
 | 5 | Aug wk 2 | Personal Training for Busy Professionals: Month-to-Month, In-Person or Virtual | the AI-style package/flexibility queries | Reinforce existing top-10 rankings; cover month-to-month, hybrid in-person/virtual, scheduling | Direct free first session |
 | 6 | Aug wk 4 | Do Online Weight Loss Coaches Work? An Honest Look | online weight loss coach near me (70 impr) | Honest pros/cons; links to /online-training/ | Free consult + online training page |
 
-Each post: 1,200-2,000 words, 2-3 internal links to service pages, one image (reuse from public/images/blog library of 141 files, or prepare new), frontmatter matching existing posts (title, excerpt, date, category, image, author: David Bostik).
+Each post: 1,200-2,000 words, 2-3 internal links to service pages, one NEW image per post (Dave generates in Nano Banana from a prompt Claude supplies with each draft; saved as webp under 150KB in public/images/blog/), frontmatter matching existing posts (title, excerpt, date, category, image, author: David Bostik).
 
 ## Workflow per post (agreed with Dave)
 1. Claude drafts to **docs/drafts/** (cannot accidentally go live from there).
@@ -36,8 +36,8 @@ Each post: 1,200-2,000 words, 2-3 internal links to service pages, one image (re
 ## Measurement
 Watch GSC for the target queries above moving from 0 clicks; track opt-in form submissions (HighLevel automation confirmed working June 10). Re-pull the same regex filter monthly.
 
-## Proposed posts 7-12 (months 4-6, Sep-Nov 2026) — PENDING DAVE'S APPROVAL
-Added June 10, 2026. Dave is pre-writing the full queue with the current model before access ends; confirm these topics with him before writing.
+## Posts 7-12 (months 4-6, Sep-Nov 2026) — APPROVED by Dave June 11, 2026, all six as proposed
+Dave is pre-writing the full queue (posts 2-12) before model access ends. Drafts live in docs/drafts/queue/ with QUEUE.md tracking status.
 
 | # | Target publish | Working title | Goes after | Notes |
 |---|---|---|---|---|
