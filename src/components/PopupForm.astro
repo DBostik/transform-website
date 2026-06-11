@@ -19,7 +19,7 @@
     
     <div class="popup-content">
       <iframe
-        src="https://api.leadconnectorhq.com/widget/form/qXzxX9rUnMDpX0jgk5RU"
+        data-src="https://api.leadconnectorhq.com/widget/form/qXzxX9rUnMDpX0jgk5RU"
         class="popup-iframe"
         id="inline-qXzxX9rUnMDpX0jgk5RU" 
         data-layout="{'id':'INLINE'}"
@@ -123,11 +123,22 @@
   const popupOverlay = document.getElementById('popup-form-overlay');
   const closeButton = document.getElementById('close-popup');
 
+  // The popup's form iframe and helper script only download when the popup
+  // actually opens, so pages stay fast while the popup is disabled.
+  function activatePopup() {
+    const iframe = document.getElementById('inline-qXzxX9rUnMDpX0jgk5RU');
+    if (iframe && !iframe.getAttribute('src')) {
+      iframe.setAttribute('src', iframe.getAttribute('data-src') || '');
+      const helper = document.createElement('script');
+      helper.src = 'https://link.msgsndr.com/js/form_embed.js';
+      document.body.appendChild(helper);
+    }
+    popupOverlay?.classList.add('active');
+  }
+
   // Show popup after 5 seconds (DISABLED - uncomment to re-enable)
   // setTimeout(() => {
-  //   if (popupOverlay) {
-  //     popupOverlay.classList.add('active');
-  //   }
+  //   activatePopup();
   // }, 5000);
 
   // Close popup when clicking close button
@@ -155,9 +166,9 @@
   document.querySelectorAll('.js-trigger-popup').forEach(button => {
     button.addEventListener('click', (e) => {
       e.preventDefault();
-      popupOverlay?.classList.add('active');
+      activatePopup();
     });
   });
 </script>
 
-<script src="https://link.msgsndr.com/js/form_embed.js"></script>
+<!-- HighLevel's helper script now loads on demand inside activatePopup() above -->

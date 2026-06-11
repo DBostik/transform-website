@@ -14,6 +14,7 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
 <div class="ghl-form-wrapper">
   <iframe
     src={formUrl}
+    loading="lazy"
     style="width:100%;height:100%;border:none;border-radius:3px"
     id={`inline-${formId}`}
     data-layout="{'id':'INLINE'}"
