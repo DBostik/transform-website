@@ -43,6 +43,15 @@ ErrorDocument 404 /dist/404.html
   # HSTS: tell browsers to always use HTTPS (site is fully HTTPS already)
   Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
 
+  # Pages must always be served fresh. The hosting server's cache was
+  # serving days-old copies of pages (blank forms, outdated content) even
+  # after dashboard cache clears. no-cache means: always re-check with the
+  # origin before serving. Static assets keep their long cache rules below.
+  <FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, must-revalidate"
+    Header set X-LiteSpeed-Cache-Control "no-cache"
+  </FilesMatch>
+
   # Site stylesheets/scripts without content hashes (e.g. /styles/*.css): 7 days
   <FilesMatch "\.(css|js)$">
     Header set Cache-Control "public, max-age=604800"
