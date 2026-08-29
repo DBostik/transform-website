@@ -1,7 +1,7 @@
 ---
 title: "How to Choose a Personal Trainer for Weight Loss in Chicago"
 excerpt: "What to look for in a personal trainer for weight loss in Chicago: the questions to ask, the red flags to avoid, and how to test a trainer before you spend a dollar."
-date: "SET AT PUBLISH"
+date: "July 8, 2026"
 category: "Fitness Advice"
 image: "/images/blog/how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.webp"
 author: "David Bostik"

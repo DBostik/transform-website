@@ -1,7 +1,7 @@
 ---
 title: "The Best Low Impact Workouts for Weight Loss, From a Chicago Personal Trainer"
 excerpt: "A Chicago personal trainer ranks the best low impact workouts for weight loss and lays out a simple weekly plan that burns fat without beating up your joints."
-date: "SET AT PUBLISH"
+date: "June 24, 2026"
 category: "Fitness Advice"
 image: "/images/blog/best-low-impact-workouts-for-weight-loss.webp"
 author: "David Bostik"
