@@ -1,43 +1,51 @@
 # Deployment Instructions for Transform Personal Training
 
-## 1. Prerequisites
-- **Production Build**: The `dist/` folder in your project root contains the production-ready website.
-- **Hostinger Access**: Login to your Hostinger File Manager in control panel.
+## 1. Overview
+This project uses an automated deployment pipeline via Hostinger's Git Webhook integration. Hostinger does **not** build the site; it simply serves the `dist/` folder exactly as it is checked into the `main` branch. 
 
-## 2. Prepare for Upload
-1. Locate the `dist` folder in your project directory: `/Users/davebostik/Desktop/Transform Website/dist`
-2. (Optional but recommended) Zip the contents of the `dist` folder into a single file named `dist.zip`. This makes uploading faster.
+Because of this, the compiled `dist/` directory **MUST** be checked into Git. The project uses a **husky pre-commit hook** to enforce this by automatically running `npm run build` and staging the `dist/` output whenever you commit.
 
-## 3. Hostinger Deployment (Blue/Green Method)
-This method ensures **Zero Downtime**. We will upload the new site to a temporary directory, then perform an "atomic swap".
+## 2. The Deployment Process (For AI Agents & Developers)
 
-### Step 1: Upload New Build
-1. Open Hostinger File Manager and navigate to `domains/transformpersonaltraining.com/`. You should see `public_html` in the file list. **DO NOT GO INSIDE IT.**
-2. Create a **new folder** named `public_html_new` (right next to the existing `public_html`).
-3. **Double Click** into `public_html_new` so you are inside it.
-4. Upload the **CONTENTS** of your `dist` folder here.
-   - **Do NOT** upload the `dist` folder itself. You want the *files* inside it.
-   - **Do NOT** upload the `public` folder.
-   - If you zipped the `dist` folder, upload `dist.zip`, extract it, and make sure the files (`index.html`, `_astro`, etc.) are sitting directly in `public_html_new`.
+Follow these steps exactly to deploy changes to the live site. Do **not** bypass Git hooks (`--no-verify`) and do **not** force push.
 
-### Step 2: Swap Folders (Go Live)
-1. Locate your current live folder: `public_html`.
-2. **Rename** `public_html` to `public_html_backup_DATE` (e.g., `public_html_backup_2024_05_20`).
-   - *The site is momentarily offline, but this step is instant.*
-3. Immediately **Rename** `public_html_new` to `public_html`.
-   - *The new site is now LIVE.*
+### Step 1: Clean Environment (Crucial for AI Agents)
+If previous commits failed or hung, you may have a stuck lockfile or iCloud duplicate artifacts. Clear them first:
+```bash
+rm -f .git/index.lock
+find dist .git -type f \( -name "* 2" -o -name "* 2.*" -o -name "* 3" -o -name "* 3.*" \) -print0 2>/dev/null | xargs -0 rm -f
+```
 
-### Step 3: Cleanup (Optional)
-- Once you confirm the new site is working perfectly, you can delete the old `public_html_backup...` folder.
+*Note: iCloud also drops duplicates INSIDE `.git` (like `refs/heads/main 2`), which breaks pull and push with "bad object" errors. The command above cleans those too, and it handles the spaces in these filenames (a plain `xargs rm` does not).*
 
-## 4. Post-Launch Checklist
-After the swap, verify the following on the live site:
+### Step 2: Stage Your Changes
+Stage the source files you have modified (e.g., in `src/`, `docs/`, `public/`). 
+```bash
+git add src/content/blog/YOUR_POST.md
+```
 
+### Step 3: Commit (CRITICAL: Disable Telemetry)
+Astro sometimes prompts for telemetry data during builds. In non-interactive terminal environments (like AI agent sessions), this prompt causes the pre-commit hook to hang indefinitely, resulting in a timeout and a stuck `.git/index.lock`.
+
+You **must** disable telemetry and update checks when committing:
+```bash
+export ASTRO_TELEMETRY_DISABLED=1 ASTRO_DISABLE_UPDATE_CHECK=true && git commit -m "Your commit message"
+```
+*Note: Wait for this command to finish. The husky hook will build all pages (approx. 97) and automatically stage the `dist/` directory into your commit.*
+
+### Step 4: Push to GitHub
+Once the commit finishes and the build is successful, push the code to `main`.
+```bash
+git push origin main
+```
+
+### Step 5: Live Verification
+Pushing to the `main` branch automatically triggers the Hostinger webhook. The live site will instantly pull the new `dist/` folder and perform a zero-downtime update. Wait a few seconds, then verify the changes are live on `https://transformpersonaltraining.com`.
+
+## 3. Post-Launch Checklist
+After the automated deploy, verify the following:
 - [ ] **Homepage**: Loads correctly and looks as expected.
-- [ ] **Sitemap**: Visit `https://transformpersonaltraining.com/sitemap.xml`. ensure it loads the XML file.
-- [ ] **Forms**: Test the "Contact Us" or "Lead" forms to ensure submissions work.
-- [ ] **Mobile**: Check the site on your phone to verify responsiveness.
-- [ ] **SSL**: Ensure the lock icon appears in the browser address bar (https).
-- [ ] **Internal Links**: Click a few menu items (e.g., Blog, Services) to ensure no 404 errors.
-
-> **Note on Sitemap**: Use `sitemap.xml` for your sitemap submission to Google Search Console. The generic `sitemap-index.xml` was skipped in favor of the manually curated `sitemap.xml` which contains all recent posts.
+- [ ] **Sitemap**: Visit `https://transformpersonaltraining.com/sitemap.xml`.
+- [ ] **Forms**: Test the forms (GHL embeds) to ensure they load properly.
+- [ ] **Mobile**: Check the site on mobile devices for responsiveness.
+- [ ] **Internal Links**: Check navigation to ensure no 404 errors.

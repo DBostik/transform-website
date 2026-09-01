@@ -1,0 +1,174 @@
+---
+/**
+ * Transform Personal Training - Privacy Policy
+ *
+ * Plain-English privacy policy covering the contact/lead forms,
+ * text and email communications, and embedded third-party services.
+ * DRAFT: Dave reviews and approves this copy before it ships.
+ */
+
+import Navigation from '../components/Navigation.astro';
+import Footer from '../components/Footer.astro';
+import BaseHead from '../components/BaseHead.astro';
+
+const pageTitle = "Privacy Policy | Transform Personal Training";
+const pageDescription = "How Transform Personal Training collects, uses, and protects your information, including contact form details, text messages, and email communications.";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
+  <meta name="description" content={pageDescription}>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/privacy-policy" />
+  <main>
+
+  <section class="section">
+    <div class="container">
+      <div class="pp-copy">
+        <h1 class="pp-title">Privacy Policy</h1>
+        <p class="pp-updated">Effective date: September 1, 2026</p>
+
+        <h2>Who we are</h2>
+        <p>
+          Transform Personal Training is a personal training studio at 2900 N Broadway St,
+          Chicago, IL 60657. This policy explains what information we collect through this
+          website, how we use it, and the choices you have. Questions are always welcome at
+          contact@transformpersonaltraining.com.
+        </p>
+
+        <h2>Information we collect</h2>
+        <p>
+          When you fill out a form on this site, we collect what you type in: typically your name,
+          email address, phone number, and anything you tell us about your goals. If you apply to
+          join our team, we also receive the resume and details you submit. When we schedule
+          sessions or exchange messages with you, we keep those communications so we can serve you
+          well. This site does not ask you to create an account or password.
+        </p>
+
+        <h2>How we use your information</h2>
+        <p>
+          We use your information to respond to your inquiry, schedule your free consultation and
+          sessions, deliver coaching and nutrition guidance, and send you related updates. With
+          your consent, we may also send occasional offers or fitness content. We use general,
+          non-identifying information about how the site is used to improve it.
+        </p>
+
+        <h2>Text messages and email</h2>
+        <p>
+          If you provide your phone number and check the consent box on a form, we may text you to
+          schedule and support your training. Message frequency varies and message and data rates
+          may apply. Reply STOP at any time to stop receiving texts, or HELP for help. Our emails
+          include an unsubscribe link, and you can opt out whenever you like without affecting
+          your training.
+        </p>
+
+        <h2>Services we rely on</h2>
+        <p>
+          Our forms, scheduling and messaging run on HighLevel (LeadConnector), which processes
+          form submissions on our behalf. The embedded form widgets include spam protection and
+          may set their own cookies or use advertising and analytics pixels inside the widget.
+          Existing members who book through the Members link use Mindbody, which has its own
+          privacy policy. Our website hosting provider processes standard server logs, such as IP
+          addresses, needed to serve the site securely.
+        </p>
+
+        <h2>Cookies</h2>
+        <p>
+          The site itself is a simple static website. Embedded third-party widgets, like our
+          forms, may use cookies as described above. You can control cookies through your browser
+          settings at any time.
+        </p>
+
+        <h2>What we don't do</h2>
+        <p>
+          We do not sell your personal information, and we do not share it with third parties for
+          their own marketing.
+        </p>
+
+        <h2>Keeping and deleting information</h2>
+        <p>
+          We keep your information for as long as we have a coaching relationship with you, or as
+          needed to respond to your inquiry and meet legal obligations. If you'd like us to
+          access, update, or delete the information we have about you, email
+          contact@transformpersonaltraining.com and we'll take care of it.
+        </p>
+
+        <h2>Children's privacy</h2>
+        <p>
+          This website is not directed to children under 13, and we do not knowingly collect
+          personal information from them.
+        </p>
+
+        <h2>Changes to this policy</h2>
+        <p>
+          If we change this policy, we'll post the updated version on this page with a new
+          effective date.
+        </p>
+
+        <h2>How to reach us</h2>
+        <p>
+          Transform Personal Training<br>
+          2900 N Broadway St, Chicago, IL 60657<br>
+          (312) 635-5139<br>
+          contact@transformpersonaltraining.com
+        </p>
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <Footer />
+</body>
+</html>
+
+<style>
+  .pp-copy {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .pp-title {
+    font-family: var(--font-heading);
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--color-black-900);
+    margin-bottom: 0.5rem;
+  }
+
+  .pp-updated {
+    color: var(--color-black-500);
+    font-size: 0.9rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .pp-copy h2 {
+    font-family: var(--font-heading);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin: 2rem 0 0.75rem;
+  }
+
+  .pp-copy p {
+    color: var(--color-black-700);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+  }
+</style>

@@ -26,7 +26,16 @@ import FooterLogo from './FooterLogo.astro';
         </ul>
       </div>
       
-      <!-- Column 3: Contact Info -->
+      <!-- Column 3: Areas We Serve -->
+      <div>
+        <h4 class="footer-heading">Areas We Serve</h4>
+        <ul class="footer-links">
+          <li><a href="/personal-trainer-lakeview/">Personal Trainer Lakeview</a></li>
+          <li><a href="/personal-trainer-lincoln-park/">Personal Trainer Lincoln Park</a></li>
+        </ul>
+      </div>
+      
+      <!-- Column 4: Contact Info -->
       <div>
         <h4 class="footer-heading">Contact Us</h4>
         <p class="footer-contact">
@@ -43,7 +52,7 @@ import FooterLogo from './FooterLogo.astro';
     </div>
     
     <div class="footer-bottom">
-      <p>© 2026 Transform Personal Training. All rights reserved.</p>
+      <p>© 2026 Transform Personal Training. All rights reserved. &middot; <a href="/privacy-policy/">Privacy Policy</a></p>
     </div>
   </div>
 </footer>
@@ -109,5 +118,13 @@ import FooterLogo from './FooterLogo.astro';
   .footer-bottom p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
+  }
+  .footer-bottom a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: underline;
+  }
+
+  .footer-bottom a:hover {
+    color: white;
   }
 </style>

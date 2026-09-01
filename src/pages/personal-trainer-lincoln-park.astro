@@ -1,0 +1,414 @@
+---
+/**
+ * Transform Personal Training - Personal Trainer Lincoln Park Page
+ *
+ * Neighborhood landing page for Lincoln Park, Chicago searches.
+ * The faqs array renders both the visible FAQ and the FAQPage schema,
+ * so the two can never drift apart.
+ */
+
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
+import BaseHead from '../components/BaseHead.astro';
+
+const pageTitle = "Personal Trainer Lincoln Park, Chicago | Transform";
+const pageDescription = "1-on-1 personal training minutes from Lincoln Park. Private studio two blocks north of Diversey at 2900 N Broadway. 30-minute sessions, first one free.";
+
+const faqs = [
+  {
+    q: "Is the studio actually in Lincoln Park?",
+    a: "We're just over the border in Lakeview, at 2900 N Broadway St, about two blocks north of Diversey Pkwy. From most of Lincoln Park that's a five to ten minute trip straight up Clark or Broadway, which is why so many of our clients come from the neighborhood."
+  },
+  {
+    q: "How do I get there from Lincoln Park without driving?",
+    a: "The #22 Clark and #36 Broadway buses run straight up from Lincoln Park and stop within about a block of the studio. The Diversey Brown Line stop is roughly a ten minute walk, and it's an easy bike ride up Clark or over from the Lakefront Trail."
+  },
+  {
+    q: "Do you have appointment times that work around a packed schedule?",
+    a: "That's the point of our format. We open at 5am Monday through Friday so you can train before work, run evenings until 9pm Monday through Thursday, and offer Saturdays from 7am to 3pm. Sessions are 30 minutes and by appointment only, so there's no wasted time."
+  },
+  {
+    q: "What does personal training cost?",
+    a: "Our pricing is published on the site, tiered by how often you train, and the 30-minute session format keeps the per-session cost manageable. Check the current plans on our studio services page. Your first consultation is free either way."
+  },
+  {
+    q: "Can I train without coming to the studio?",
+    a: "Yes. Our online coaching program delivers custom workouts, nutrition plans and daily check-ins through your phone, with the same coaches. It's a popular option for clients who split time between home, the office and travel."
+  }
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Personal Training",
+    "name": "Personal Training for Lincoln Park, Chicago",
+    "description": pageDescription,
+    "url": "https://transformpersonaltraining.com/personal-trainer-lincoln-park/",
+    "provider": {
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Transform Personal Training",
+      "@id": "https://transformpersonaltraining.com/#organization"
+    },
+    "areaServed": [
+      { "@type": "Place", "name": "Lincoln Park" },
+      { "@type": "Place", "name": "Park West" },
+      { "@type": "City", "name": "Chicago" }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://transformpersonaltraining.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Personal Trainer Lincoln Park", "item": "https://transformpersonaltraining.com/personal-trainer-lincoln-park/" }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  })} />
+  <meta name="description" content={pageDescription}>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Design System Styles -->
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <Navigation currentPath="/personal-trainer-lincoln-park" />
+  <main>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="lp-hero">
+    <div class="lp-hero__content container">
+      <span class="lp-hero__badge">Serving Lincoln Park &middot; Chicago</span>
+      <h1 class="lp-hero__title">PERSONAL TRAINING FOR LINCOLN PARK</h1>
+      <p class="lp-hero__subtitle">
+        Private 1-on-1 coaching two blocks north of the Diversey border. Close enough to walk,
+        quiet enough to actually focus.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== LOCATION SECTION ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Two Blocks North of Diversey</h2>
+      </div>
+      <div class="neighborhood-copy">
+        <p>
+          Our studio sits at <strong>2900 N Broadway St</strong>, right where Lakeview meets
+          Lincoln Park. If you're near Diversey, it's around the corner. From Fullerton, DePaul or
+          the heart of the neighborhood, it's a straight shot up Clark or Broadway that most
+          clients make in five to ten minutes, and the #22 and #36 buses drop you within a block
+          of our door. Coming from a workout on the Lakefront Trail? We're a short ride inland.
+        </p>
+        <p>
+          We kept the studio private on purpose. No crowds, no waiting for equipment, no
+          distractions: one client, one coach, thirty focused minutes. Early birds book the 5am
+          weekday slots before heading to the office; everyone else finds a time that fits, with
+          evenings until 9pm and Saturday mornings available.
+          <a href="https://maps.google.com/?q=2900+N+Broadway+St+Chicago+IL+60657" rel="noopener noreferrer" target="_blank">Get directions</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY SECTION ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Lincoln Park Clients Skip the Big-Box Gyms</h2>
+        <p class="section-subtitle">
+          Memberships don't get people in shape. Coaching does.
+        </p>
+      </div>
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem;">
+        <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">🔒</div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">Private by Design</h3>
+          <p style="color: var(--color-black-600); line-height: 1.7;">
+            Every session is 1-on-1 in a private studio. Whether you're starting from zero or
+            chasing a new level, nobody is watching except your coach.
+          </p>
+        </div>
+        <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">⏱️</div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">Built for Busy Schedules</h3>
+          <p style="color: var(--color-black-600); line-height: 1.7;">
+            Thirty minutes, personalized and efficient. Train at 5am before the commute or on the
+            way home, and still have your evening.
+          </p>
+        </div>
+        <div style="background: white; border-radius: 12px; padding: 2rem; box-shadow: 0 2px 8px rgba(0,0,0,0.06);">
+          <div style="font-size: 2rem; margin-bottom: 0.75rem;">🤝</div>
+          <h3 style="font-family: var(--font-heading); font-size: 1.25rem; font-weight: 600; color: var(--color-black-900); margin-bottom: 1rem;">Coaching Beyond the Workout</h3>
+          <p style="color: var(--color-black-600); line-height: 1.7;">
+            Nutrition plans built around your life and daily check-ins from your own trainer keep
+            progress moving on the other 23 and a half hours of the day.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TEAM SECTION ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Coaches Who Have Been There</h2>
+      </div>
+      <div class="neighborhood-copy">
+        <p>
+          Transform was founded by David Bostik, who lost 150 lbs himself before opening the
+          studio, and the whole team coaches with that same firsthand empathy. Between Gerri,
+          Miriam, Eric-Todd and Kristen, you'll find specialists in strength, weight loss,
+          joint-friendly corrective exercise, pre/post-natal training and habit-based
+          accountability coaching. <a href="/meet-the-team/">Get to know the team</a> and we'll
+          match you with the right fit at your free consultation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Results From Real Clients</h2>
+        <p class="section-subtitle">5-star rated by Chicago clients on Google and Yelp.</p>
+      </div>
+      <div class="lp-quotes">
+        <blockquote class="lp-quote">
+          <p>
+            "Working with Transform has completely changed my life. The personalized approach and
+            constant support helped me achieve goals I never thought possible. I've lost 40 pounds
+            and gained so much confidence!"
+          </p>
+          <footer>&mdash; Michael T.</footer>
+        </blockquote>
+        <blockquote class="lp-quote">
+          <p>
+            "The trainers at Transform really care about your success. They push you when you need
+            it and support you every step of the way. Best investment I've ever made in myself!"
+          </p>
+          <footer>&mdash; Jennifer L.</footer>
+        </blockquote>
+      </div>
+      <p style="text-align: center; margin-top: 2rem;">
+        <a href="/success-stories/">See the before-and-after stories &rarr;</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== OPTIONS POINTER ===== -->
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">In the Studio or From Your Living Room</h2>
+      </div>
+      <div class="neighborhood-copy">
+        <p>
+          Most Lincoln Park clients train at the studio, where
+          <a href="/studio-services/">session pricing is published</a> and tiered by how often you
+          come. If the trip doesn't fit your week, our <a href="/online-training/">online
+          coaching</a> delivers the same programming and daily support through your phone. Not
+          sure what training should cost? We wrote an honest guide to
+          <a href="/blog/how-much-does-a-personal-trainer-cost-in-chicago/">personal trainer pricing in Chicago</a>.
+          Live north of Diversey? Visit our <a href="/personal-trainer-lakeview/">Lakeview page</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Lincoln Park Training FAQs</h2>
+      </div>
+      <div class="lp-faq">
+        {faqs.map((f) => (
+          <details class="lp-faq__item">
+            <summary class="lp-faq__q">{f.q}</summary>
+            <p class="lp-faq__a">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONSULTATION FORM ===== -->
+  <section id="consultation" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
+    <div style="position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85);"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 640px; margin: 0 auto; text-align: center;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: white; margin-bottom: 0.75rem;">
+          Start With a Free Consultation
+        </h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem;">
+          Tell us about your goals and we'll reach out right away to set up your free session,
+          minutes from Lincoln Park.
+        </p>
+        <StyledGHLQuickLead />
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <Footer />
+
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  /* ===== HERO SECTION ===== */
+  .lp-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .lp-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .lp-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .lp-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .lp-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2.5rem, 8vw, 4rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    margin-bottom: 1.5rem;
+    line-height: 1.1;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .lp-hero__subtitle {
+    font-size: 1.25rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.7;
+  }
+
+  /* ===== BODY COPY ===== */
+  .neighborhood-copy {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .neighborhood-copy p {
+    color: var(--color-black-700);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+
+  /* ===== QUOTES ===== */
+  .lp-quotes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  .lp-quote {
+    background: white;
+    border-left: 4px solid var(--color-accent-500);
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    margin: 0;
+  }
+
+  .lp-quote p {
+    color: var(--color-black-700);
+    line-height: 1.7;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+
+  .lp-quote footer {
+    color: var(--color-black-900);
+    font-weight: 600;
+  }
+
+  /* ===== FAQ ===== */
+  .lp-faq {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .lp-faq__item {
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .lp-faq__q {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-black-900);
+    cursor: pointer;
+  }
+
+  .lp-faq__a {
+    color: var(--color-black-700);
+    line-height: 1.7;
+    margin-top: 0.75rem;
+  }
+</style>
