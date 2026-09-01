@@ -35,11 +35,40 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
   <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
+  <!-- Structured Data: contact page referencing the business -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "@id": "https://transformpersonaltraining.com/contact/#webpage",
+      "url": "https://transformpersonaltraining.com/contact/",
+      "name": "Contact Transform Personal Training",
+      "about": {
+        "@type": "HealthAndBeautyBusiness",
+        "@id": "https://transformpersonaltraining.com/#organization",
+        "name": "Transform Personal Training",
+        "url": "https://transformpersonaltraining.com",
+        "telephone": "+13126355139",
+        "email": "contact@transformpersonaltraining.com",
+        "image": "https://transformpersonaltraining.com/images/hero-background.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "2900 N Broadway St",
+          "addressLocality": "Chicago",
+          "addressRegion": "IL",
+          "postalCode": "60657",
+          "addressCountry": "US"
+        }
+      }
+    }
+  </script>
+
 </head>
 
 <body>
   <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/contact" />
+  <main>
   
   <!-- ===== HERO SECTION ===== -->
   <section class="contact-hero">
@@ -160,6 +189,7 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
   </section>
 
   <!-- ===== FOOTER ===== -->
+  </main>
   <Footer />
 </body>
 </html>

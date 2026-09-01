@@ -46,6 +46,7 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
 <body>
   <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/blog" />
+  <main>
   
   <!-- ===== HERO SECTION ===== -->
   <section class="blog-hero">
@@ -120,7 +121,7 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
           <p>Join our newsletter for weekly fitness tips, recipes, and exclusive offers delivered straight to your inbox.</p>
         </div>
         <form class="newsletter-form">
-          <input type="email" placeholder="Enter your email address" required />
+          <input type="email" aria-label="Email address" placeholder="Enter your email address" required />
           <Button variant="primary" type="submit">Subscribe</Button>
         </form>
       </div>
@@ -128,6 +129,7 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
   </section>
 
   <!-- ===== FOOTER ===== -->
+  </main>
   <Footer />
 
   <PopupForm />
