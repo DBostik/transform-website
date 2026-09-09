@@ -28,6 +28,7 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 10 | 10-personal-training-over-40.md | Personal Training Over 40: Why Joint-Friendly Beats No-Pain-No-Gain | not started | needed | |
 | 11 | 11-how-to-stay-fit-through-a-chicago-winter.md | How to Stay Fit Through a Chicago Winter | not started | needed | |
 | 12 | 12-how-to-get-through-the-holidays-without-losing-your-progress.md | How to Get Through the Holidays Without Losing Your Progress | not started | needed | |
+| 13 | 13-is-personal-training-worth-it-in-chicago.md | Is Personal Training Worth It in Chicago? A Private Studio Reality Check | published | done | September 9, 2026 |
 
 ## Target staging dates (every other Wednesday)
 
