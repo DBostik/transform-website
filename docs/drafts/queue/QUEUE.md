@@ -20,7 +20,7 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 2 | 02-best-low-impact-workouts-for-weight-loss.md | The Best Low Impact Workouts for Weight Loss, From a Chicago Personal Trainer | published | done | June 24, 2026 |
 | 3 | 03-how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.md | How to Choose a Personal Trainer for Weight Loss in Chicago | published | done | July 8, 2026 |
 | 4 | 04-30-minute-vs-60-minute-personal-training.md | 30-Minute vs 60-Minute Personal Training: Which Actually Gets Results? | published | done | September 2, 2026 |
-| 5 | 05-personal-training-for-busy-professionals.md | Personal Training for Busy Professionals: Month-to-Month, In-Person or Virtual | approved | done | |
+| 5 | 05-personal-training-for-busy-professionals.md | Personal Training for Busy Professionals: Month-to-Month, In-Person or Virtual | published | done | September 16, 2026 |
 | 6 | 06-do-online-weight-loss-coaches-work.md | Do Online Weight Loss Coaches Work? An Honest Look | not started | needed | |
 | 7 | 07-how-long-does-it-take-to-see-results-with-a-personal-trainer.md | How Long Does It Take to See Results With a Personal Trainer? | not started | needed | |
 | 8 | 08-best-personal-training-in-chicago.md | Best Personal Training in Chicago: How to Compare Your Options | not started | needed | |
