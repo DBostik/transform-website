@@ -148,6 +148,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"30-minute-vs-60-minute-personal-training.md": {
+	id: "30-minute-vs-60-minute-personal-training.md";
+  slug: "30-minute-vs-60-minute-personal-training";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "5-tips-for-getting-fit.md": {
 	id: "5-tips-for-getting-fit.md";
   slug: "5-tips-for-getting-fit";
@@ -207,6 +214,13 @@ declare module 'astro:content' {
 "benefits-of-having-a-personal-trainer.md": {
 	id: "benefits-of-having-a-personal-trainer.md";
   slug: "benefits-of-having-a-personal-trainer";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"best-low-impact-workouts-for-weight-loss.md": {
+	id: "best-low-impact-workouts-for-weight-loss.md";
+  slug: "best-low-impact-workouts-for-weight-loss";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -421,6 +435,13 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
+"how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.md": {
+	id: "how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.md";
+  slug: "how-to-choose-a-personal-trainer-for-weight-loss-in-chicago";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "how-to-lead-a-more-healthy-and-fit-life.md": {
 	id: "how-to-lead-a-more-healthy-and-fit-life.md";
   slug: "how-to-lead-a-more-healthy-and-fit-life";
@@ -438,6 +459,13 @@ declare module 'astro:content' {
 "how-to-stay-fit-while-on-vacation.md": {
 	id: "how-to-stay-fit-while-on-vacation.md";
   slug: "how-to-stay-fit-while-on-vacation";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"is-personal-training-worth-it-in-chicago.md": {
+	id: "is-personal-training-worth-it-in-chicago.md";
+  slug: "is-personal-training-worth-it-in-chicago";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -522,6 +550,13 @@ declare module 'astro:content' {
 "overnight-oat-parfaits.md": {
 	id: "overnight-oat-parfaits.md";
   slug: "overnight-oat-parfaits";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"personal-training-for-busy-professionals.md": {
+	id: "personal-training-for-busy-professionals.md";
+  slug: "personal-training-for-busy-professionals";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

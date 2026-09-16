@@ -4,3 +4,14 @@ node_modules/
 .env
 .env.*
 !.env.example
+
+# iCloud conflict copies (files ending in " 2", " 3", etc.) - never commit these
+* 2.*
+* 3.*
+* 4.*
+*\ 2
+*\ 3
+
+# Scratch / quarantine folders - never commit these
+_to_delete/
+_preview/
