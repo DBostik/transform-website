@@ -22,6 +22,16 @@ const pageDescription = "Sorry, that page doesn't exist. Find personal training 
   <title>{pageTitle}</title>
   <meta name="description" content={pageDescription}>
   <meta name="robots" content="noindex">
+
+  <!-- Google tag (gtag.js) - Google Analytics 4 -->
+  <script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-ZEZSZKQ9T7"></script>
+  <script is:inline>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-ZEZSZKQ9T7');
+  </script>
+
   <link rel="icon" href="/favicon.ico" sizes="48x48" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

@@ -6,6 +6,8 @@
  * Purely additive: it does not render <title> or <meta name="description">
  * (each page already sets those), so it cannot create duplicates.
  *
+ * Also loads the Google Analytics 4 tag (G-ZEZSZKQ9T7) on every page that uses it.
+ *
  * Usage in a page <head>:
  *   <BaseHead title={pageTitle} description={pageDescription} />
  * For an article/blog post:
@@ -30,6 +32,15 @@ const {
 const canonical = new URL(Astro.url.pathname, SITE).href;
 const ogImage = new URL(image, SITE).href;
 ---
+<!-- Google tag (gtag.js) - Google Analytics 4 -->
+<script is:inline async src="https://www.googletagmanager.com/gtag/js?id=G-ZEZSZKQ9T7"></script>
+<script is:inline>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-ZEZSZKQ9T7');
+</script>
+
 <link rel="canonical" href={canonical} />
 
 <link rel="icon" href="/favicon.ico" sizes="48x48" />

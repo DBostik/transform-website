@@ -31,6 +31,7 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 13 | 13-is-personal-training-worth-it-in-chicago.md | Is Personal Training Worth It in Chicago? A Private Studio Reality Check | published | done | September 9, 2026 |
 | 14 | 14-online-vs-in-person-personal-training.md | Online vs In-Person Personal Training: How to Pick | not started | needed | |
 | 15 | 15-what-daily-check-ins-actually-mean.md | What Daily Check-Ins With a Coach Actually Mean | not started | needed | |
+| 16 | 16-how-much-does-online-personal-training-cost.md | How Much Does Online Personal Training Cost? (2026 Guide) | drafted | done | |
 
 ## Staging dates
 
@@ -43,8 +44,9 @@ Cadence decision (Sept 17, 2026): one new post every other week. The off week go
 Posts 14 and 15 come from the Querywright briefs pack and support the online training push. Posts 11 and 12 are seasonal and need their months.
 
 1. Post 6, online weight loss coaches (approved) - Sept 30
-2. Post 7, how long results take - Oct 14
-3. Post 14, online vs in-person - Oct 28
+2. Post 16, online training cost - Oct 14 (added Sept 17; highest expected return, see below)
+3. Post 7, how long results take - Oct 28
+4. Post 14, online vs in-person - Nov 11
 4. Post 11, Chicago winter (seasonal) - Nov 11
 5. Post 12, holidays (seasonal) - Nov 25
 6. Post 15, daily check-ins - Dec 9
@@ -53,3 +55,4 @@ Posts 14 and 15 come from the Querywright briefs pack and support the online tra
 Briefs for the two new posts:
 - Post 14: primary keyword "online personal training vs in person". A decision guide, not a sales pitch: the Lakeview studio for locals who want hands-on 30-minute sessions, online for distance, travel and schedule. Same coaches, different delivery. Dual CTA, free first session for locals and a free coaching call for everyone else. 1,400-1,800 words.
 - Post 15: primary keywords "personal training with daily check-ins", "daily support". What a check-in actually is between workouts: logging, what the coach replies to, what happens on a missed day, nutrition notes. This is the wedge against template and AI programs. Link /online-training/. Do not promise response times beyond the published one (within 24 hours, usually faster). 1,200-1,600 words.
+- Post 16: primary keywords "online personal training cost", "how much does online personal training cost", "average cost of online personal trainer". Added Sept 17 after reading Search Console. The Chicago cost post ranks position 1 to 3 nationally for dozens of "personal trainer cost" queries with almost no clicks, because the title says Chicago. Online coaching is a national product, so this post goes after that national cost intent directly. Tier table from 2026 industry pricing guides, Transform's $127/week stated plainly, plus a section answering "is $400 a month a lot for a personal trainer" (a real query in GSC). Do not let it cannibalize the Chicago post: this one is online-only and national, that one stays local and per-session.
