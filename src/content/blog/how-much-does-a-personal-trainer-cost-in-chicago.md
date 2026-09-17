@@ -23,7 +23,8 @@ Here's what training actually costs around the city, based on current industry s
 | Boutique or private studio | $85–$125 per hour |
 | In-home trainer | $100–$175 per hour, sometimes plus travel fees |
 | Small group training (2–4 people) | $25–$45 per person, per session |
-| Online coaching | $150–$400 per month |
+| Online coaching (app-based) | $150–$400 per month |
+| Online coaching with a real coach and live calls | More than app-based plans; ours starts at $127 per week |
 
 A few patterns worth knowing. Rates climb in downtown neighborhoods like the Loop and River North, where studio rent is highest. Specialized programs, things like corrective exercise or sport-specific training, often command $80 to $120 per session. And at the luxury end, training at a club like Equinox can reach $100 to $150 per session on top of a membership that runs $200 or more per month.
 
@@ -72,7 +73,7 @@ A fair question, since Chicago is full of $30-a-month gyms.
 
 A trainer earns the cost when one of these is true: you've been going to the gym without results, you have a deadline (a wedding, a reunion, a doctor's warning), you don't feel confident designing your own workouts, or you know from experience that you won't stay consistent on your own. Accountability is most of what you're buying, and it's the part that works. You can see what that's produced for our clients on our [success stories page](/success-stories/).
 
-If the budget is tight, you still have options. Our Group Max 3 sessions get the per-session cost down to $32.50. And [online training](/online-training/) builds you a fully custom program with real coaching support, priced around your goals rather than per session.
+If the budget is tight, you still have options. Our Group Max 3 sessions get the per-session cost down to $32.50. And [online training](/online-training/) builds you a fully custom program with real coaching support, starting at $127 per week.
 
 ## Frequently Asked Questions
 
@@ -80,7 +81,7 @@ If the budget is tight, you still have options. Our Group Max 3 sessions get the
 Most Chicagoans pay $60 to $120 per one-hour session, depending on the trainer's experience and the neighborhood. Private studio training averages $85 to $125 per hour. Transform's 30-minute private sessions run $45 to $55.
 
 **What's the cheapest way to work with a personal trainer?**
-Small group training. Our Group Max 3 program starts at $32.50 per session, with the same 30-minute private-studio format. Online coaching is another flexible route, priced around your goals rather than a set menu.
+Small group training. Our Group Max 3 program starts at $32.50 per session, with the same 30-minute private-studio format. Online coaching is another route, starting at $127 per week, with a custom program, daily check-ins and a weekly 1-on-1 video call with your coach.
 
 **Do trainers offer free sessions?**
 Many offer a free consultation. Ours goes deeper, which is why we call it a session: your trainer assesses where you're starting from and begins building your actual training plan. You leave with the start of a real program, not just a sales pitch.

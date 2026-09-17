@@ -1,20 +1,63 @@
 ---
 /**
  * Transform Personal Training - Online Training Page
- * 
- * Showcases virtual training services with Trainerize app integration
- * Premium design matching the live site aesthetic
+ *
+ * Online coaching with a real coach: custom programs in Trainerize, daily
+ * check-ins, 24/7 in-app messaging and a weekly 1-on-1 video call.
+ * Uses the dedicated HighLevel "Online Lead Form - New Website".
  */
 
-import Button from '../components/ui/Button.astro';
 import Navigation from '../components/Navigation.astro';
 import PopupForm from '../components/PopupForm.astro';
 import Footer from '../components/Footer.astro';
-import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
+import StyledGHLOnlineLead from '../components/integration/StyledGHLOnlineLead.astro';
 
 import BaseHead from '../components/BaseHead.astro';
-const pageTitle = "Online Personal Training & Fitness Coaching | Transform";
-const pageDescription = "Get customized online fitness training from anywhere. App-based workouts, nutrition plans, and daily check-ins with certified trainers. Start your transformation today!";
+const pageTitle = "Online Personal Training With a Real Coach | Transform";
+const pageDescription = "Online personal training with a real coach: a custom program, weekly 1-on-1 video calls, daily check-ins and nutrition. Programs start at $127/week.";
+
+const faqs = [
+  {
+    question: "How much does online personal training cost?",
+    answer: "Programs start at $127 per week, billed every four weeks. Your exact price depends on how much support you need, and we go over it on your free coaching call before you commit to anything."
+  },
+  {
+    question: "How is this different from a fitness app or an AI-generated plan?",
+    answer: "An app hands you workouts. We give you a coach. A real person writes your program, checks in with you every day, meets you on video every week, and changes the plan when your life changes. Nothing about your program is auto-generated."
+  },
+  {
+    question: "Do I need a gym?",
+    answer: "No. Your coach builds your program around what you actually have, whether that is a full gym, a few dumbbells at home, or just your body weight and a hotel room."
+  },
+  {
+    question: "What happens on the weekly video call?",
+    answer: "You and your coach meet one on one, review how the week went, talk through what is working and what is not, and update your plan for the week ahead. It is a live call, not a recording."
+  },
+  {
+    question: "Will my coach know if my form is off?",
+    answer: "Every exercise in your program comes with a video demo, and you can send your coach a video of any lift for feedback whenever you want a second set of eyes."
+  },
+  {
+    question: "Do you offer online weight loss coaching?",
+    answer: "Yes. Most of our online clients come to us to lose weight and keep it off, which is why nutrition coaching and daily accountability are built into every program instead of sold as add-ons."
+  },
+  {
+    question: "What if I travel a lot?",
+    answer: "That is one of the best reasons to train online. Your coach adjusts your plan for whatever gym, hotel or living room you are in that week, so travel stops resetting your progress."
+  },
+  {
+    question: "Can I combine online coaching with studio training?",
+    answer: "Yes. If you are in Chicago, plenty of clients use studio sessions as their anchor and online coaching to carry the travel weeks and the days they cannot get in."
+  },
+  {
+    question: "Is there a contract?",
+    answer: "No. You can stop anytime. We will ask you to plan on giving it 90 days, because that is how long it takes to see the kind of change you came for."
+  },
+  {
+    question: "Where do you coach clients?",
+    answer: "Anywhere in the United States. Our studio is in Lakeview, Chicago, and our online coaching is not limited by your zip code."
+  }
+];
 ---
 
 <!DOCTYPE html>
@@ -28,7 +71,7 @@ const pageDescription = "Get customized online fitness training from anywhere. A
     "@context": "https://schema.org",
     "@type": "Service",
     "serviceType": "Online Personal Training",
-    "name": "Online Personal Training & Fitness Coaching",
+    "name": "Online Personal Training & Coaching",
     "description": pageDescription,
     "url": "https://transformpersonaltraining.com/online-training/",
     "provider": {
@@ -36,7 +79,18 @@ const pageDescription = "Get customized online fitness training from anywhere. A
       "name": "Transform Personal Training",
       "@id": "https://transformpersonaltraining.com/#organization"
     },
-    "areaServed": { "@type": "Country", "name": "United States" }
+    "areaServed": { "@type": "Country", "name": "United States" },
+    "offers": {
+      "@type": "Offer",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 127,
+        "priceCurrency": "USD",
+        "unitText": "week"
+      },
+      "availability": "https://schema.org/InStock",
+      "url": "https://transformpersonaltraining.com/online-training/"
+    }
   })} />
   <script type="application/ld+json" set:html={JSON.stringify({
     "@context": "https://schema.org",
@@ -46,13 +100,22 @@ const pageDescription = "Get customized online fitness training from anywhere. A
       { "@type": "ListItem", "position": 2, "name": "Online Training", "item": "https://transformpersonaltraining.com/online-training/" }
     ]
   })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map(faq => ({
+      "@type": "Question",
+      "name": faq.question,
+      "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+    }))
+  })} />
   <meta name="description" content={pageDescription}>
-  
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
-  
+
   <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
@@ -62,49 +125,184 @@ const pageDescription = "Get customized online fitness training from anywhere. A
   <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/online-training" />
   <main>
-  
+
   <!-- ===== HERO SECTION ===== -->
   <section class="online-hero">
     <div class="online-hero__content container">
-      <span class="online-hero__badge">Virtual Training Program</span>
-      <h1 class="online-hero__title">ONLINE PERSONAL TRAINING</h1>
+      <span class="online-hero__badge">Online Coaching</span>
+      <h1 class="online-hero__title">ONLINE PERSONAL TRAINING WITH A REAL COACH</h1>
       <p class="online-hero__subtitle">
-        Using your smartphone, smartwatch and the latest in fitness technology you can receive 
-        customized online training tailored to your goals from anywhere and at any time!
+        No cookie-cutter templates. No AI-generated plans. A real coach who builds your
+        program, checks in with you every day, and gets on a video call with you every
+        week to adjust it.
+      </p>
+      <a href="#consultation" class="btn-cta">Book My Free Coaching Call</a>
+      <p class="online-hero__meta">
+        Programs start at $127/week &middot; Weekly 1-on-1 video calls &middot; Train from anywhere in the US
+      </p>
+      <p class="online-hero__local">
+        Live near Lakeview, Chicago? <a href="/studio-services/">See in-studio training</a>
       </p>
     </div>
   </section>
 
-  <!-- ===== REACH YOUR GOALS FROM ANYWHERE ===== -->
+  <!-- ===== THE DIFFERENCE ===== -->
+  <section class="feature-section feature-section--white">
+    <div class="container container--narrow">
+      <h2 class="section-title section-title--accent text-center">NO TEMPLATES. NO AI-GENERATED PLANS. A REAL COACH.</h2>
+      <p class="lede">
+        It has never been easier to get a workout plan. Ask an AI chatbot or download an
+        app and you will have one in 30 seconds. That is exactly the problem. A plan
+        generated in 30 seconds does not know your bad knee, your 60-hour work week, or
+        why the last three programs did not stick, and it will not notice when you
+        quietly stop showing up.
+      </p>
+      <p class="lede">
+        Every Transform online program is written by your coach, a real person, based on
+        your call, your check-ins, and how your body is actually responding. When
+        something is not working, your plan changes that week. You are paying for a
+        coach, and a coach is what you get.
+      </p>
+
+      <div class="compare-wrap">
+        <table class="compare-table">
+          <thead>
+            <tr>
+              <th scope="col"><span class="visually-hidden">What you get</span></th>
+              <th scope="col">Apps, templates and AI plans</th>
+              <th scope="col">Transform online coaching</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Who writes your program</th>
+              <td>A template or an algorithm</td>
+              <td>Your coach, a real person</td>
+            </tr>
+            <tr>
+              <th scope="row">Live time with a coach</th>
+              <td>Rarely or never</td>
+              <td>1-on-1 video call every week</td>
+            </tr>
+            <tr>
+              <th scope="row">Accountability</th>
+              <td>Push notifications</td>
+              <td>Daily check-ins from a real person</td>
+            </tr>
+            <tr>
+              <th scope="row">Questions between workouts</th>
+              <td>Help center or a chatbot</td>
+              <td>Message your coach anytime</td>
+            </tr>
+            <tr>
+              <th scope="row">Nutrition</th>
+              <td>Generic tips or tracking on your own</td>
+              <td>A nutrition plan built around your life</td>
+            </tr>
+            <tr>
+              <th scope="row">When life gets in the way</th>
+              <td>You fall off</td>
+              <td>Your coach adjusts the plan</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="research-note">
+        <h3>Does coaching from a distance actually work?</h3>
+        <p>
+          Yes, when a real person is coaching you. A two-year weight loss study published
+          in the New England Journal of Medicine followed 415 adults. The group coached
+          remotely was still down about 10 pounds two years later, close to the group
+          coached face to face. The group left to do it on their own lost under 2 pounds.
+          The difference was not whether people sat in the same room as their coach. It
+          was whether a real person was coaching them at all.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHAT YOU GET ===== -->
+  <section class="feature-section feature-section--light">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">EVERYTHING INCLUDED IN YOUR PROGRAM</h2>
+        <p class="section-subtitle">
+          One price, everything in it. No add-ons, no upsells once you start.
+        </p>
+      </div>
+
+      <div class="included-grid">
+        <div class="included-card">
+          <span class="included-card__icon">📝</span>
+          <h3>A program built for you</h3>
+          <p>Written by your coach around your goals, your equipment and your schedule, with a video demo for every exercise.</p>
+        </div>
+        <div class="included-card">
+          <span class="included-card__icon">🎥</span>
+          <h3>A weekly 1-on-1 video call</h3>
+          <p>Live, face to face with your coach. Review the week, fix what is not working, leave with an updated plan. An app cannot do this.</p>
+        </div>
+        <div class="included-card">
+          <span class="included-card__icon">✅</span>
+          <h3>Daily check-ins</h3>
+          <p>Your coach sends you a message every day in the app. It is hard to quietly disappear when a real person is expecting to hear from you.</p>
+        </div>
+        <div class="included-card">
+          <span class="included-card__icon">💬</span>
+          <h3>Message your coach anytime</h3>
+          <p>Sore knee, hotel gym, a menu you cannot decode. Message your coach in the app and hear back within 24 hours, usually much sooner.</p>
+        </div>
+        <div class="included-card">
+          <span class="included-card__icon">🥗</span>
+          <h3>A nutrition plan that fits your life</h3>
+          <p>Meal plans built around your goals and the food you actually eat, with tracking in the same app. No fad diets.</p>
+        </div>
+        <div class="included-card">
+          <span class="included-card__icon">📊</span>
+          <h3>Progress tracking</h3>
+          <p>Body stats, habits and optional progress photos in one place, synced with Apple Watch, Fitbit, Garmin and more.</p>
+        </div>
+        <div class="included-card">
+          <span class="included-card__icon">🎯</span>
+          <h3>Form feedback on request</h3>
+          <p>Send your coach a video of any lift and get real coaching on it, not a thumbs up from a bot.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== YOUR PROGRAM IN YOUR POCKET ===== -->
   <section class="feature-section feature-section--white">
     <div class="container">
       <div class="feature-grid feature-grid--reversed">
         <div class="feature-content">
-          <h2 class="feature-title">REACH YOUR GOALS<br>FROM ANYWHERE</h2>
+          <h2 class="feature-title">YOUR PROGRAM,<br>IN YOUR POCKET</h2>
           <p class="feature-description">
-            A customized fitness program that doesn't need a gym membership – 
-            But just as useable at the gym
+            Your coach builds your program in the Trainerize app, so every workout, set and
+            weight is on your phone when you get there. It works in a full gym, in your
+            living room, or in whatever hotel gym you land in this week.
           </p>
           <ul class="feature-list">
             <li>
               <span class="feature-list__icon">📱</span>
-              Access workouts anytime on your phone
+              Every workout on your phone, with video demos
             </li>
             <li>
               <span class="feature-list__icon">🏠</span>
-              Train at home, the gym, or on the go
+              Train at home, at the gym, or on the road
             </li>
             <li>
               <span class="feature-list__icon">📊</span>
-              Track your progress in real-time
+              Track every session and watch the numbers move
             </li>
           </ul>
         </div>
         <div class="feature-image">
           <div class="phone-mockup">
-            <img 
-              src="/images/trainerize-features-training-sm-and-up-1.webp" 
-              alt="Trainerize Training App showing workout interface" 
+            <img
+              src="/images/trainerize-features-training-sm-and-up-1.webp"
+              alt="Trainerize app showing a custom workout program"
               width="1082"
               height="589"
               loading="lazy"
@@ -115,84 +313,15 @@ const pageDescription = "Get customized online fitness training from anywhere. A
     </div>
   </section>
 
-  <!-- ===== ONE SIZE DOES NOT FIT ALL ===== -->
-  <section class="highlight-section">
-    <div class="container">
-      <div class="highlight-content">
-        <h2 class="highlight-title">ONE SIZE DOES NOT FIT ALL</h2>
-        <p class="highlight-text">
-          Your targets are just that – <strong>YOURS</strong>. They can be viewed and set by you 
-          with help from your trainer. Every program is customized to your specific goals, 
-          fitness level, and schedule.
-        </p>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== NUTRITION PLANS ===== -->
+  <!-- ===== YOUR COACH, EVERY DAY ===== -->
   <section class="feature-section feature-section--light">
-    <div class="container">
-      <div class="section-header">
-        <h2 class="section-title section-title--accent">NUTRITION PLANS</h2>
-        <p class="section-subtitle">
-          Meal plans prescribed by your trainer to meet your consumption goals all in one place – 
-          Device integration lets you keep track of where you're at and lets you know just how far 
-          away until you make that breakthrough!
-        </p>
-      </div>
-      
-      <div class="nutrition-row">
-        <div class="nutrition-item">
-          <img 
-            src="/images/mask-group-3.webp" 
-            alt="Healthy meal bowl" 
-            class="nutrition-food-image"
-            width="430"
-            height="452"
-            loading="lazy"
-          />
-        </div>
-        <div class="nutrition-item nutrition-item--app">
-          <div class="phone-mockup phone-mockup--nutrition-app">
-            <img 
-              src="/images/trainerize-features-nutrition-tracking.webp" 
-              alt="Nutrition tracking interface showing macros and calories" 
-              width="392"
-              height="448"
-              loading="lazy"
-            />
-          </div>
-        </div>
-        <div class="nutrition-item">
-          <img 
-            src="/images/mask-group-4.webp" 
-            alt="Healthy food preparation" 
-            class="nutrition-food-image"
-            width="438"
-            height="450"
-            loading="lazy"
-          />
-        </div>
-      </div>
-
-      <div class="cta-centered">
-        <a href="#consultation" class="btn-cta btn-cta--large">
-          Book a Breakthrough Call
-          <span class="btn-cta__value">Valued at $500!</span>
-        </a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ===== DON'T FALL BEHIND ===== -->
-  <section class="feature-section feature-section--white">
     <div class="container">
       <div class="feature-grid">
         <div class="feature-image">
           <div class="phone-mockup phone-mockup--messages">
-            <img 
-              src="/images/trainerize-features-message-clients.webp" 
-              alt="Coach messaging interface for daily check-ins" 
+            <img
+              src="/images/trainerize-features-message-clients.webp"
+              alt="Coach and client messaging in the Trainerize app"
               width="719"
               height="476"
               loading="lazy"
@@ -201,18 +330,18 @@ const pageDescription = "Get customized online fitness training from anywhere. A
         </div>
         <div class="feature-content">
           <span class="feature-badge">Daily Support</span>
-          <h2 class="feature-title">DON'T FALL BEHIND</h2>
+          <h2 class="feature-title">YOUR COACH,<br>EVERY DAY</h2>
           <p class="feature-description">
-            Meal plans prescribed by your trainer to meet your consumption goals all in one place – 
-            Device integration lets you keep track of where you're at and lets you know just how far 
-            away until you make that breakthrough!
+            Most people do not quit because the program was wrong. They quit because nobody
+            noticed when they stopped. Your coach checks in every day, and you can reach
+            them any time in between.
           </p>
-          
+
           <div class="coach-support-card">
-            <div class="coach-support-card__icon">💬</div>
+            <div class="coach-support-card__icon">🎥</div>
             <div class="coach-support-card__content">
-              <h3>Coaches Have Your Back</h3>
-              <p>Receive daily check-ins and motivational messages from your own personal trainer</p>
+              <h3>A live call every single week</h3>
+              <p>One on one with your coach. You go over the week together and your plan gets adjusted based on what your body is actually doing.</p>
             </div>
           </div>
         </div>
@@ -220,15 +349,55 @@ const pageDescription = "Get customized online fitness training from anywhere. A
     </div>
   </section>
 
-  <!-- ===== GUARANTEED RESULTS ===== -->
+  <!-- ===== NUTRITION ===== -->
+  <section class="feature-section feature-section--white">
+    <div class="container">
+      <div class="feature-grid feature-grid--reversed">
+        <div class="feature-content">
+          <h2 class="feature-title">NUTRITION THAT<br>FITS YOUR LIFE</h2>
+          <p class="feature-description">
+            You train a few hours a week. You eat, sleep, sit and stress for the other 165.
+            That is where results are won, so nutrition coaching is built into every online
+            program instead of sold as an add-on.
+          </p>
+          <ul class="feature-list">
+            <li>
+              <span class="feature-list__icon">🥗</span>
+              A plan built around the food you actually eat
+            </li>
+            <li>
+              <span class="feature-list__icon">📲</span>
+              Track meals in the same app as your workouts
+            </li>
+            <li>
+              <span class="feature-list__icon">🤝</span>
+              Adjusted with your coach as your goals change
+            </li>
+          </ul>
+        </div>
+        <div class="feature-image">
+          <div class="phone-mockup phone-mockup--nutrition-app">
+            <img
+              src="/images/trainerize-features-nutrition-tracking.webp"
+              alt="Nutrition tracking in the Trainerize app showing macros and calories"
+              width="392"
+              height="448"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PROVEN RESULTS ===== -->
   <section class="results-section">
     <div class="container">
       <div class="results-content">
-        <h2 class="results-title">GUARANTEED RESULTS!</h2>
+        <h2 class="results-title">PROVEN RESULTS</h2>
         <p class="results-description">
-          Many just like you have struggled to achieve their fitness goals however you are the one to 
-          reach the first step to your breakthrough – join the others who have found the boost they 
-          needed to <strong>TRANSFORM THEIR BODIES AND LIVES</strong>
+          Transform has been coaching people to real, lasting change for over a decade,
+          in our Chicago studio and online.
         </p>
         <div class="results-stats">
           <div class="stat">
@@ -244,29 +413,217 @@ const pageDescription = "Get customized online fitness training from anywhere. A
             <span class="stat__label">Average Rating</span>
           </div>
         </div>
+
+        <div class="quote-grid">
+          <blockquote class="quote-card">
+            <p>
+              "I was at my highest weight last year during the pandemic and needed help. I
+              reached out to Transform and they worked with me every step of the way. Coach
+              Kristen did a phenomenal job. I felt satisfied with the meal plan and the
+              overall results, lost 35 pounds over a 6 month period."
+            </p>
+            <footer>
+              <span class="quote-card__name">Abha B.</span>
+              <span class="quote-card__detail">Online client, lost 35 lbs in 6 months</span>
+            </footer>
+          </blockquote>
+          <blockquote class="quote-card">
+            <p>
+              "I've been working with Kristen for a couple of months now and it has been a
+              great experience. Very helpful with workouts and nutrition. Everything is
+              detail and tailored to fit me and my personal needs. I can definitely see
+              myself making some great strides."
+            </p>
+            <footer>
+              <span class="quote-card__name">Robert G.</span>
+              <span class="quote-card__detail">Google review</span>
+            </footer>
+          </blockquote>
+        </div>
+        <p class="results-disclaimer">Individual results vary. <a href="/success-stories/">See more success stories</a></p>
+
+        <div class="cta-centered">
+          <a href="#consultation" class="btn-cta">Book My Free Coaching Call</a>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ===== ALSO OFFERING: STUDIO TRAINING ===== -->
-  <section class="alt-service-section">
+  <!-- ===== PRICING ===== -->
+  <section class="feature-section feature-section--white">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">WHAT $127 A WEEK ACTUALLY BUYS</h2>
+      </div>
+      <p class="lede">
+        In a city like Chicago, personal trainers charge roughly $60 to $120 an hour, and
+        most people see their trainer for exactly that hour. Two sessions a week runs $120
+        to $240, and your coach disappears the moment it ends. We put those numbers in
+        writing in our <a href="/blog/how-much-does-a-personal-trainer-cost-in-chicago/">2026 Chicago pricing guide</a>.
+      </p>
+
+      <div class="price-card">
+        <span class="price-card__label">Online coaching</span>
+        <span class="price-card__price">Starts at $127<span>/week</span></span>
+        <span class="price-card__note">About $18 a day, billed every four weeks</span>
+        <ul class="price-card__list">
+          <li>A coach with you seven days a week, not two hours</li>
+          <li>A live 1-on-1 video call every week</li>
+          <li>Daily check-ins and messaging in between</li>
+          <li>A custom training program and a nutrition plan</li>
+        </ul>
+        <p class="price-card__fine">
+          Your exact price depends on how much support you want, and we go over it on your
+          free coaching call. No contract, and you can stop anytime.
+        </p>
+        <a href="#consultation" class="btn-cta btn-cta--large">Book My Free Coaching Call</a>
+      </div>
+
+      <p class="price-footnote">
+        In Chicago and weighing this against training in our studio? Our
+        <a href="/studio-services/">studio pricing is published too</a>, so you can compare
+        the real numbers before you talk to anyone.
+      </p>
+    </div>
+  </section>
+
+  <!-- ===== WHY ONLINE ===== -->
+  <section class="feature-section feature-section--light">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">WHY SOME CLIENTS CHOOSE ONLINE OVER THE STUDIO</h2>
+      </div>
+      <ul class="why-list">
+        <li>
+          <strong>Your schedule, not ours.</strong> Train at 5am, at 10pm, or on your lunch
+          break. There is no appointment to move when work blows up.
+        </li>
+        <li>
+          <strong>It travels with you.</strong> Business trips, vacations and holidays stop
+          resetting your progress, because your coach adjusts the plan to wherever you are.
+        </li>
+        <li>
+          <strong>Coaching for the other 165 hours.</strong> You train two or three hours a
+          week. Your coach is there for the rest of it, which is where results are actually
+          won or lost.
+        </li>
+        <li>
+          <strong>You learn to do it yourself.</strong> You finish knowing how to train and
+          eat on your own, not just how to follow a trainer around a studio.
+        </li>
+        <li>
+          <strong>You can live anywhere in the US.</strong> Your coach does not need to be in
+          your city.
+        </li>
+      </ul>
+
+      <div class="honest-box">
+        <h3>When the studio is the better choice</h3>
+        <p>
+          If you want a coach standing next to you correcting every rep, or you know you
+          need a scheduled appointment to show up at all, in-person training is hard to
+          beat. If you are near Lakeview, come
+          <a href="/studio-services/">try the studio</a>, where your first session is free.
+          Plenty of people do both: studio sessions as the anchor, online coaching carrying
+          the weeks they are away.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== COACHES ===== -->
+  <section class="feature-section feature-section--white">
     <div class="container">
-      <div class="alt-service-card">
-        <div class="alt-service-content">
-          <span class="alt-service-label">Also Offering</span>
-          <h3 class="alt-service-title">In-Studio Training</h3>
-          <p class="alt-service-description">
-            Prefer face-to-face training? Visit our private studio in Lakeview, Chicago 
-            for personalized 30-minute sessions with our expert trainers.
-          </p>
-          <a href="/studio-services/" class="btn-outline-white">
-            Start For Free →
-          </a>
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">MEET YOUR ONLINE COACHES</h2>
+        <p class="section-subtitle">
+          You are not assigned to a rotating support queue. You work with one coach who
+          knows your name and your history.
+        </p>
+      </div>
+      <div class="coach-grid">
+        <div class="coach-card">
+          <img src="/images/team/Kristen-coach.webp" alt="Kristen, Accountability Coach at Transform Personal Training" width="413" height="756" loading="lazy" />
+          <div class="coach-card__body">
+            <h3>Kristen</h3>
+            <span class="coach-card__role">Accountability Coach</span>
+            <p>
+              A former teacher and working parent who joined Transform in 2014, Kristen
+              focuses on nutrition, habits and the small daily shifts that actually last
+              instead of drastic changes that do not. Certified Accountability Specialist,
+              Behavior Change Specialist and Nutrition Coach.
+            </p>
+          </div>
         </div>
-        <div class="alt-service-badge">
-          <span>Try Us Out For Free</span>
-          <span>On Your First Visit!</span>
+        <div class="coach-card">
+          <img src="/images/team/David-Bostik.webp" alt="David Bostik, Owner and Founder of Transform Personal Training" width="444" height="604" loading="lazy" style="object-position: 50% 8%;" />
+          <div class="coach-card__body">
+            <h3>David Bostik</h3>
+            <span class="coach-card__role">Owner &amp; Founder</span>
+            <p>
+              David started his own journey at 346 pounds and lost 150 of them. He founded
+              Transform to help other people do the same, and he still takes on online
+              clients himself. AFAA and ISSA certified.
+            </p>
+          </div>
         </div>
+      </div>
+      <p class="text-center"><a href="/meet-the-team/" class="text-link">Meet the full team →</a></p>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="feature-section feature-section--light">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">HOW TO GET STARTED</h2>
+      </div>
+      <ol class="steps-list">
+        <li>
+          <span class="steps-list__num">1</span>
+          <div>
+            <h3>Book your free coaching call</h3>
+            <p>Fill out the short form below. It takes about a minute.</p>
+          </div>
+        </li>
+        <li>
+          <span class="steps-list__num">2</span>
+          <div>
+            <h3>We text you to find a time</h3>
+            <p>Usually within minutes. We work around your schedule, whatever time zone you are in.</p>
+          </div>
+        </li>
+        <li>
+          <span class="steps-list__num">3</span>
+          <div>
+            <h3>Talk with a coach</h3>
+            <p>Your goals, your schedule, your equipment, your history, and whether online coaching is the right fit. No pressure either way.</p>
+          </div>
+        </li>
+        <li>
+          <span class="steps-list__num">4</span>
+          <div>
+            <h3>Start training</h3>
+            <p>Your coach builds your program in the app, sets up your nutrition plan, and you get to work.</p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ===== FAQ ===== -->
+  <section class="feature-section feature-section--white">
+    <div class="container container--narrow">
+      <div class="section-header">
+        <h2 class="section-title section-title--accent">ONLINE COACHING FAQ</h2>
+      </div>
+      <div class="faq-list">
+        {faqs.map((faq) => (
+          <details class="faq-item">
+            <summary>{faq.question}</summary>
+            <p>{faq.answer}</p>
+          </details>
+        ))}
       </div>
     </div>
   </section>
@@ -277,17 +634,40 @@ const pageDescription = "Get customized online fitness training from anywhere. A
     <div class="container consultation-container">
       <div class="consultation-wrapper">
         <div class="consultation-header">
-          <h2>Request a Complimentary Consultation</h2>
-          <p>Take the first step towards your fitness goals. We'll respond within 24 hours.</p>
+          <h2>Book Your Free Coaching Call</h2>
+          <p>Tell us a little about yourself and we will text you to find a time that works. No pressure, no obligation.</p>
         </div>
-        
+
         <div class="consultation-form">
-          <!-- HighLevel Quick Lead Form (same working embed as the homepage) -->
-          <StyledGHLQuickLead />
+          <!-- HighLevel "Online Lead Form - New Website" (online leads only) -->
+          <StyledGHLOnlineLead />
 
           <p class="form-note">
-            We'll respond within 24 hours to schedule your free session.
+            Most people hear from us within minutes.
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ALSO OFFERING: STUDIO TRAINING ===== -->
+  <section class="alt-service-section">
+    <div class="container">
+      <div class="alt-service-card">
+        <div class="alt-service-content">
+          <span class="alt-service-label">In Chicago?</span>
+          <h3 class="alt-service-title">Prefer Training in Person?</h3>
+          <p class="alt-service-description">
+            Visit our private studio in Lakeview, Chicago for 1-on-1 training in focused
+            30-minute sessions. Your first session is free.
+          </p>
+          <a href="/studio-services/" class="btn-outline-white">
+            See In-Studio Training →
+          </a>
+        </div>
+        <div class="alt-service-badge">
+          <span>Try Us Out For Free</span>
+          <span>On Your First Visit!</span>
         </div>
       </div>
     </div>
@@ -296,7 +676,7 @@ const pageDescription = "Get customized online fitness training from anywhere. A
   <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
-  
+
   <!-- ===== POPUP FORM ===== -->
   <PopupForm />
 </body>
@@ -976,4 +1356,486 @@ const pageDescription = "Get customized online fitness training from anywhere. A
       padding: 2rem;
     }
   }
+
+  /* ===== V2 ADDITIONS (online page rewrite) ===== */
+  .container--narrow {
+    max-width: 860px;
+  }
+
+  .text-center { text-align: center; }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px; height: 1px;
+    padding: 0; margin: -1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap; border: 0;
+  }
+
+  .online-hero__meta {
+    margin-top: 1.5rem;
+    color: rgba(255, 255, 255, 0.9);
+    font-size: 0.9375rem;
+    font-weight: 600;
+  }
+
+  .online-hero__local {
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 0.875rem;
+  }
+
+  .online-hero__local a {
+    color: white;
+    text-decoration: underline;
+  }
+
+  .lede {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    color: var(--color-black-700);
+    margin-bottom: 1.5rem;
+  }
+
+  .lede a { color: var(--color-primary-700); }
+
+  /* Comparison table */
+  .compare-wrap {
+    overflow-x: auto;
+    margin: 2.5rem 0 2rem;
+  }
+
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-size: 0.9375rem;
+  }
+
+  .compare-table th,
+  .compare-table td {
+    padding: 0.875rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--color-black-100);
+    vertical-align: top;
+  }
+
+  .compare-table thead th {
+    background: var(--color-black-50);
+    font-family: var(--font-heading);
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--color-black-700);
+  }
+
+  .compare-table thead th:last-child {
+    background: var(--color-primary-600);
+    color: white;
+  }
+
+  .compare-table tbody th {
+    font-weight: 600;
+    color: var(--color-black-900);
+    width: 30%;
+  }
+
+  .compare-table tbody td:last-child {
+    font-weight: 600;
+    color: var(--color-primary-700);
+    background: var(--color-primary-50);
+  }
+
+  .compare-table tbody tr:last-child th,
+  .compare-table tbody tr:last-child td {
+    border-bottom: none;
+  }
+
+  /* Research callout */
+  .research-note {
+    background: var(--color-black-50);
+    border-left: 4px solid var(--color-primary-500);
+    border-radius: 0 1rem 1rem 0;
+    padding: 1.5rem 1.75rem;
+  }
+
+  .research-note h3 {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin-bottom: 0.75rem;
+  }
+
+  .research-note p {
+    margin: 0;
+    color: var(--color-black-600);
+    line-height: 1.8;
+  }
+
+  /* What's included grid */
+  .included-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+
+  .included-card {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.75rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+    border-top: 4px solid var(--color-accent-500);
+  }
+
+  .included-card__icon {
+    font-size: 1.75rem;
+    display: block;
+    margin-bottom: 0.75rem;
+  }
+
+  .included-card h3 {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin-bottom: 0.5rem;
+  }
+
+  .included-card p {
+    margin: 0;
+    color: var(--color-black-600);
+    font-size: 0.9375rem;
+    line-height: 1.7;
+  }
+
+  /* Testimonials inside results section */
+  .quote-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    margin: 3rem auto 1rem;
+    max-width: 900px;
+    text-align: left;
+  }
+
+  @media (min-width: 768px) {
+    .quote-grid { grid-template-columns: 1fr 1fr; }
+  }
+
+  .quote-card {
+    background: rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    margin: 0;
+  }
+
+  .quote-card p {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1rem;
+    line-height: 1.7;
+    margin-bottom: 1rem;
+  }
+
+  .quote-card footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.125rem;
+  }
+
+  .quote-card__name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: white;
+  }
+
+  .quote-card__detail {
+    font-size: 0.8125rem;
+    color: var(--color-accent-400);
+  }
+
+  .results-disclaimer {
+    font-size: 0.8125rem;
+    color: rgba(255, 255, 255, 0.6);
+    margin-bottom: 0;
+  }
+
+  .results-disclaimer a {
+    color: rgba(255, 255, 255, 0.9);
+    text-decoration: underline;
+  }
+
+  /* Price card */
+  .price-card {
+    background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+    border-radius: 1.5rem;
+    padding: 2.5rem;
+    text-align: center;
+    color: white;
+    margin: 2rem 0 1.5rem;
+  }
+
+  .price-card__label {
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 0.5rem;
+  }
+
+  .price-card__price {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 6vw, 3rem);
+    font-weight: 800;
+    color: white;
+    line-height: 1.1;
+  }
+
+  .price-card__price span {
+    font-size: 1.25rem;
+    font-weight: 600;
+    opacity: 0.85;
+  }
+
+  .price-card__note {
+    display: block;
+    margin-top: 0.5rem;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+  }
+
+  .price-card__list {
+    list-style: none;
+    padding: 0;
+    margin: 1.75rem auto;
+    max-width: 440px;
+    text-align: left;
+  }
+
+  .price-card__list li {
+    position: relative;
+    padding: 0.5rem 0 0.5rem 1.75rem;
+    color: rgba(255, 255, 255, 0.95);
+    line-height: 1.6;
+  }
+
+  .price-card__list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: var(--color-accent-400);
+    font-weight: 700;
+  }
+
+  .price-card__fine {
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    max-width: 480px;
+    margin: 0 auto 1.75rem;
+  }
+
+  .price-footnote {
+    font-size: 0.9375rem;
+    color: var(--color-black-600);
+    line-height: 1.7;
+  }
+
+  .price-footnote a { color: var(--color-primary-700); }
+
+  /* Why online list */
+  .why-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 2rem;
+  }
+
+  .why-list li {
+    padding: 1rem 0;
+    border-bottom: 1px solid var(--color-black-100);
+    color: var(--color-black-600);
+    line-height: 1.8;
+  }
+
+  .why-list li:last-child { border-bottom: none; }
+
+  .why-list strong { color: var(--color-black-900); }
+
+  .honest-box {
+    background: white;
+    border-radius: 1rem;
+    padding: 1.75rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  }
+
+  .honest-box h3 {
+    font-family: var(--font-heading);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin-bottom: 0.75rem;
+  }
+
+  .honest-box p {
+    margin: 0;
+    color: var(--color-black-600);
+    line-height: 1.8;
+  }
+
+  .honest-box a { color: var(--color-primary-700); }
+
+  /* Coaches */
+  .coach-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .coach-card {
+    background: white;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    padding: 1.5rem;
+  }
+
+  .coach-card img {
+    width: 110px;
+    height: 110px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 50% 18%;
+    display: block;
+    border: 3px solid var(--color-primary-100);
+  }
+
+  .coach-card__body { padding: 0; }
+
+  .coach-card__body h3 {
+    font-family: var(--font-heading);
+    font-size: 1.375rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin-bottom: 0.25rem;
+  }
+
+  .coach-card__role {
+    display: block;
+    color: var(--color-primary-600);
+    font-weight: 600;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 0.75rem;
+  }
+
+  .coach-card__body p {
+    margin: 0;
+    color: var(--color-black-600);
+    line-height: 1.7;
+    font-size: 0.9375rem;
+  }
+
+  .text-link {
+    color: var(--color-primary-700);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .text-link:hover { text-decoration: underline; }
+
+  /* Steps */
+  .steps-list {
+    list-style: none;
+    counter-reset: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    gap: 1.25rem;
+  }
+
+  .steps-list li {
+    display: flex;
+    gap: 1.25rem;
+    align-items: flex-start;
+    background: white;
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .steps-list__num {
+    flex-shrink: 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: var(--color-accent-500);
+    color: white;
+    font-family: var(--font-heading);
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .steps-list h3 {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-black-900);
+    margin-bottom: 0.25rem;
+  }
+
+  .steps-list p {
+    margin: 0;
+    color: var(--color-black-600);
+    line-height: 1.7;
+    font-size: 0.9375rem;
+  }
+
+  /* FAQ */
+  .faq-list {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .faq-item {
+    background: white;
+    border: 1px solid var(--color-black-200);
+    border-radius: 0.75rem;
+    padding: 1.25rem 1.5rem;
+  }
+
+  .faq-item summary {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    color: var(--color-black-900);
+    cursor: pointer;
+  }
+
+  .faq-item p {
+    margin: 0.75rem 0 0;
+    color: var(--color-black-600);
+    line-height: 1.7;
+  }
+
+  @media (max-width: 640px) {
+    .price-card { padding: 1.75rem 1.25rem; }
+    .compare-table { font-size: 0.875rem; }
+    .compare-table th, .compare-table td { padding: 0.75rem 0.625rem; }
+  }
+
 </style>
