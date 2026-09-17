@@ -55,7 +55,7 @@ Some things are not just yellow flags to weigh. In our experience they are reaso
 
 The same city gives you four very different ways to be coached. None is wrong, but they fit different people.
 
-Big gym floors put trainers steps from your existing membership, which is convenient. Quality varies enormously, turnover is high, and the trainer often splits attention across a loud, crowded floor. Independent trainers who rent space can be excellent, just do extra homework on experience and reviews since there is no studio standard behind them. Private studios like ours trade the crowd for focus: one trainer, one client, a quiet room, and nobody waiting for your squat rack. And online coaching has matured into a real option if your schedule or location makes in-person hard. We offer it ourselves through our [online training](/online-training/) program, and it works best for self-starters who mainly need programming and accountability rather than hands-on form coaching.
+Big gym floors put trainers steps from your existing membership, which is convenient. Quality varies enormously, turnover is high, and the trainer often splits attention across a loud, crowded floor. Independent trainers who rent space can be excellent, just do extra homework on experience and reviews since there is no studio standard behind them. Private studios like ours trade the crowd for focus: one trainer, one client, a quiet room, and nobody waiting for your squat rack. And online coaching has matured into a real option if your schedule or location makes in-person hard. The catch is that most of it is not coaching at all: a template, an app, or lately a plan an AI wrote in thirty seconds. Ours is not that. Our [online training](/online-training/) program pairs you with a real coach who writes your program, checks in with you every day, and meets you on a live one-on-one video call every week. It is the right call when getting to a studio is the thing standing in your way. It is the wrong call if you want someone next to you correcting your form rep by rep.
 
 ## Meet us free before you decide
 
@@ -64,6 +64,8 @@ Here is the simplest filter of all: a good trainer will let you meet them before
 Our version of that is a free first session at our Lakeview studio. It is not a workout thrown together to impress you. It is an in-depth consultation where a trainer sits down with you, assesses where you are starting from, talks through your goals and your schedule, and starts building your actual plan. You leave knowing exactly what working together would look like, and what it costs, with zero obligation.
 
 Our honest advice: take two or three trainers in Chicago up on their intro offers, including ours, and compare what you hear against the seven questions above. [Book the free session](/contact/) whenever you are ready.
+
+Not in Chicago, or nowhere near a studio you would actually drive to? The seven questions still apply, you just ask them of an online coach instead. Ask who writes the program, how often you will hear from them, and whether you ever speak to a human being. Our [online coaching](/online-training/) answers those with a real coach, daily check-ins and a weekly video call, starting at $127 a week, and the first call is free.
 
 ## The trainer you keep showing up for
 

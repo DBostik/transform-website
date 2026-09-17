@@ -105,4 +105,6 @@ You do not need another tab of rate comparisons. You need one low-risk test agai
 
 Book a [free first training session](/contact/). Bring the week you really live, not the week you wish you had. If private 30-minute coaching in Lakeview is the wrong fit, you should walk out knowing that before you spend a package.
 
+**Not in Chicago, or never near Lakeview on a weekday?** The same question still has an answer, it just looks different. [Online coaching](/online-training/) puts a real coach on your program instead of a template: they build the plan, check in with you every day, and get on a live one-on-one video call with you every week. It starts at $127 a week, and the first call costs nothing. Worth it is still decided the same way, by whether you are still training in month four.
+
 Still vetting trainers on process and red flags? Use our guide on [how to choose a personal trainer for weight loss in Chicago](/blog/how-to-choose-a-personal-trainer-for-weight-loss-in-chicago/) alongside the visit. Shop for the plan you will keep in month four. That is what “worth it” means here.
