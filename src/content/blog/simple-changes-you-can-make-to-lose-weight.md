@@ -47,8 +47,8 @@ Alcoholic beverages, juice, sodas and sugary coffee drinks can really pack on th
 
 Remember too that when you are shopping for groceries, the healthiest foods are located around the perimeter of the store. Pre-packaged, high calorie, and sugary foods are usually stocked on the middle shelves.
 
-For help with creating a healthy eating plan, find a personal trainer today!
+For help with creating a healthy eating plan, [find a personal trainer today](/studio-services/)!
 
 Boredom and stress can make you feel like eating also but avoid this, because it is emotional eating.
 
-Chicago personal trainers say, “Try going for a walk instead and see how you feel afterward.”
+[Chicago personal trainers](/personal-trainer-lakeview/) say, “Try going for a walk instead and see how you feel afterward.”

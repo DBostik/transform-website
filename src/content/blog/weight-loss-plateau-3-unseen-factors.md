@@ -11,7 +11,7 @@ author: "David Bostik"
 
 
 
-You’ve been crushing your workouts, eating clean, and tracking your macros… but the scale won’t budge. We’ve all been there. It’s frustrating, discouraging, and can make you want to throw in the towel.
+You’ve been crushing your workouts, eating clean, and tracking your macros… but the scale won’t budge. We’ve all been there. It’s frustrating, discouraging, and can make you want to throw in the towel. If you have hit a wall like this, [a personal trainer](/studio-services/) can help you work out which of these factors is actually holding you back.
 
 But before you give up, let’s look at three often-overlooked factors that might be stalling your progress.
 

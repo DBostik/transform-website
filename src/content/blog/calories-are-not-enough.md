@@ -44,7 +44,7 @@ There are three reasons why protein is the MOST important macronutrient when it 
 
 ## How Much Protein?⠀⁠⠀
 
-💖 There are many opinions on how much protein is necessary when in a calorie deficit/working towards body recomposition. I typically like to keep protein on the higher side for myself and clients so I aim for 0.8g-1g per lb of bodyweight!
+💖 There are many opinions on how much protein is necessary when in a calorie deficit/working towards body recomposition. I typically like to keep protein on the higher side for myself and clients so I aim for 0.8g-1g per lb of bodyweight! Getting protein targets like this dialed in is exactly the kind of thing covered in a [custom nutrition plan](/online-training/).
 
 
 

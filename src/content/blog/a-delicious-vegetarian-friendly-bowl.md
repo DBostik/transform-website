@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-Check out this yummy vegetarian-friendly bowl recipe for a Grits with Avocado and Baked Tofu Strips. This grits bowl is almost like a deconstructed breakfast sandwich. Eggy baked tofu, fresh avocado, and creamy, steamy grits. It tastes so delicious! We had this the other day. Not only is it healthy and tasty, but it is super easy to make too!
+Check out this yummy vegetarian-friendly bowl recipe for a Grits with Avocado and Baked Tofu Strips. This grits bowl is almost like a deconstructed breakfast sandwich. Eggy baked tofu, fresh avocado, and creamy, steamy grits. It tastes so delicious! We had this the other day. Not only is it healthy and tasty, but it is super easy to make too! The tofu also packs in plant-based protein, the kind of thing our [online coaching nutrition plans](/online-training/) are built around.
 
 PREP & COOK TIME: 45 minutes
 

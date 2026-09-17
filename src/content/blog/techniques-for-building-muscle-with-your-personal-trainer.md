@@ -13,7 +13,7 @@ author: "Transform Team"
 
 In the same way that a healthy lifestyle comes down to a conscious decision to live healthy, building muscle really relies on a decision to put in the necessary effort. But, where do you begin this quest?
 
-A personal training studio such as Transform Personal Training will give you some excellent tips to get you on the road to building your muscles and improving your life. Read through them all and find out ways to build the muscle you want.
+A [personal training studio such as Transform Personal Training](/studio-services/) will give you some excellent tips to get you on the road to building your muscles and improving your life. Read through them all and find out ways to build the muscle you want.
 
 Sleep –
 

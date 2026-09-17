@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-There are countless benefits to working out with a personal trainer or going for a jog several times each week. Better health, a trimmer waistline and longer life expectancy are all a direct result of regular physical activity. But can routinely exercising result in a more youthful appearance? Scientific research and common sense says yes.
+There are countless benefits to [working out with a personal trainer](/studio-services/) or going for a jog several times each week. Better health, a trimmer waistline and longer life expectancy are all a direct result of regular physical activity. But can routinely exercising result in a more youthful appearance? Scientific research and common sense says yes.
 
 What happens when we work out on a regular basis? Most would say it leads to increased energy, improved self-esteem and more restful sleep. All of which can bring about younger looks.
 

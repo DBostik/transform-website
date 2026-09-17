@@ -9,7 +9,7 @@ author: "Kristen Bostik"
 
 We often measure our fitness progress by the reflection in the mirror or the way our favorite pair of jeans fits. While those are great milestones, the most important changes during a weight loss journey are actually happening where you can’t see them: on the inside.
 
-In the East Lakeview community, we are surrounded by high-performers who understand that an engine is only as good as its maintenance. Your body is no different. To illustrate this, let’s look at what a significant weight difference actually looks like under an MRI.
+In the [East Lakeview community](/personal-trainer-lakeview/), we are surrounded by high-performers who understand that an engine is only as good as its maintenance. Your body is no different. To illustrate this, let’s look at what a significant weight difference actually looks like under an MRI.
 
 ## The Invisible Impact of Weight
 
@@ -21,7 +21,7 @@ When we look at a cross-section of a 250 lb body versus a 120 lb body, we see mo
 
 ## It’s Never Too Late to Pivot
 
-The beauty of the human body is its resilience. Whether you are in 60657 or training with us online, your body is ready to respond to better care. Taking care of your "inside" is the ultimate act of self-care. It’s about ensuring you have the health and comfort to live the life you’ve always imagined.
+The beauty of the human body is its resilience. Whether you are in 60657 or [training with us online](/online-training/), your body is ready to respond to better care. Taking care of your "inside" is the ultimate act of self-care. It’s about ensuring you have the health and comfort to live the life you’ve always imagined.
 
 True transformation doesn't require a radical, unsustainable overhaul. It starts with:
 

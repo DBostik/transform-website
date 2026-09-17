@@ -41,7 +41,7 @@ Tracking macros doesn’t exactly sound like fun, but it is necessary if you wis
 
 That’s not a problem. Keep a hand written log. Either way, be consistent and be honest when logging your food and beverages. If you aren’t, you’re only cheating yourself.
 
-So to answer the question… technically, no you do not have to; however, just understand that either it will take you a lot longer to reach your goals or you may not get to them at all because of not doing so. The best method for weight loss is to track macros.
+So to answer the question… technically, no you do not have to; however, just understand that either it will take you a lot longer to reach your goals or you may not get to them at all because of not doing so. The best method for weight loss is to track macros. Getting your macros dialed in is part of what is included in our [online training program](/online-training/).
 
 By the way, a helpful tip from me to you … log all of your food first thing in the morning. That way you have a roadmap to follow. Having a plan of attack will keep you on track 😉
 

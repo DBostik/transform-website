@@ -35,7 +35,7 @@ If you tell yourself, “I’m the type of person that can’t lose weight.” Y
 
 Finding that you’ve typically been the person claiming that you want to lose weight and can’t, but you want to be that second person who is committed? Well, it’s time to change your identity. You have control over the outcome of your life. Start by taking one step at a time.
 
-Change your identity from “I can’t” to “I can.” Give it a try; remove the word “can’t.” You’d be amazed how even doing something so small as that can have such a large impact in various aspects of your life not just your mindset.What are some thoughts/beliefs you carry (within your current identity) that do not serve you?
+Change your identity from “I can’t” to “I can.” Give it a try; remove the word “can’t.” You’d be amazed how even doing something so small as that can have such a large impact in various aspects of your life not just your mindset.What are some thoughts/beliefs you carry (within your current identity) that do not serve you? Plenty of our clients worked through exactly that kind of shift, and you can read their [client success stories](/success-stories/).
 
 
 

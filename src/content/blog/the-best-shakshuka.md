@@ -69,6 +69,6 @@ Check out this delicious and healthy vegetarian breakfast recipe for Shakshuka! 
 
 ## Need Help? We’re Here for You
 
-If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your free breakthrough coaching call where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to [Contact us](/contact).
+If you’re really ready to take things to the next level and crush all of your health goals, go ahead and book your free breakthrough coaching call where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, provide you a roadmap to your goals achieved. Simply follow this link to [Contact us](/contact/).
 
 Our team of highly experienced coaches will help you get on track. Hit a plateau? Our rockstar staff can help you push through that too. Regardless of where you are on your fitness journey, we want to see you happy and healthy so you can live the best life possible.

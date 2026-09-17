@@ -1,6 +1,6 @@
 ---
 title: "Focus on Yourself"
-excerpt: "## The Characters At The Gym  Ever find yourself scanning the gym and judging the people you see? We’ve all done it at some point or other. Before the..."
+excerpt: "Everyone at the gym is somewhere different on their own path. Here is how to stop measuring yourself against the room and start making progress."
 date: "December 21, 2021"
 category: "Fitness Advice"
 image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
@@ -71,6 +71,25 @@ Strive to be a little better everyday. Along the way, encourage those around you
 
 ## I’m Lost, Help!
 
+If you read all of that and thought "fine, but I still have no idea what I am supposed to do in there," that is the most common problem we see, and it has nothing to do with motivation.
 
+Start here.
+
+**Pick two days, not five.** Two sessions you keep every week beat five you keep for ten days. You can add more once the two are automatic.
+
+**Have a plan before you walk in.** Wandering between machines is how people end up scrolling on a bench. Know the three or four things you are doing that day before you arrive.
+
+**Learn a handful of movements properly.** A squat, a hinge, a push, a pull and a carry will cover most of what you need for a long time. Doing five things well beats doing twenty badly.
+
+**Track what you did.** Weight, reps, how it felt. Next week, try to beat it slightly. That is most of what progress is.
+
+**Ask for help earlier than feels comfortable.** Nobody in that room is judging you for asking. The people who look like they know what they are doing mostly learned it from somebody else.
 
 ## Helpful Resources
+
+A few things worth reading next, and where to start if you would rather not figure it out alone.
+
+- [How to choose a personal trainer for weight loss in Chicago](/blog/how-to-choose-a-personal-trainer-for-weight-loss-in-chicago/) covers the questions to ask and the red flags to walk away from.
+- [The best low impact workouts for weight loss](/blog/best-low-impact-workouts-for-weight-loss/) is a good starting point if your joints have opinions.
+- [Our studio in Lakeview](/studio-services/) runs private 1-on-1 sessions in 30 minutes, with nobody watching and nothing to figure out on your own. The first one is free.
+- [Online coaching](/online-training/) does the same thing from a distance if a studio is not realistic for you, with a program built by a coach and a live check-in call every week.

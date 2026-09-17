@@ -13,7 +13,7 @@ author: "Transform Team"
 
 For a powerful upper body and developed arms, the pull up is one of the more effective exercises. Use good form for as long as you can then rest and do more. Be patient. You might use up some time to get this exercise but the wait will be well worth it.
 
-If you are not sure how to do the exercise properly, ask your friendly personal trainer at Transform Personal Training
+If you are not sure how to do the exercise properly, ask your [friendly personal trainer](/studio-services/) at Transform Personal Training
 
 If you desire to lose fat or change your body, one of the most important things that you need to do is to lift weights.
 

@@ -137,4 +137,4 @@ Pretty awesome, right?
 
 Now that you’ve answered the question, “Why am I gaining weight?” are you ready to use your new knowledge to your advantage?
 
-We offer a variety of personal training packages designed to fit your needs. If you would like to schedule a consultation, click here. Or, if you have any questions, don’t hesitate to get in touch.
+We offer a variety of [personal training packages designed to fit your needs](/studio-services/). If you would like to schedule a consultation, click here. Or, if you have any questions, don’t hesitate to get in touch.

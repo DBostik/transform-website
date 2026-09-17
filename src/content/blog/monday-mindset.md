@@ -25,7 +25,7 @@ Maybe last week you only worked out once 👟. This week workout at least twice.
 
 I can tell you from personal experience how rewarding it is to conquer your health and fitness goals. When I started my journey at 346 pounds, I was doubtful that I could drop over 100 pounds, but with a lot of hard work, determination, healthy eating, and consistency, I did it. Check out my before/after photo to see.
 
-I’m not the only one who’s persevered and seen great result. Check out these folks. They stuck with it and hit their goals. Do same and it will work for you too!
+I’m not the only one who’s persevered and seen great result. [Check out these folks](/success-stories/). They stuck with it and hit their goals. Do same and it will work for you too!
 
 Stay strong! 💪
 

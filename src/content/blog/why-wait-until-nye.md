@@ -94,7 +94,7 @@ I’ll be honest with you, it’s going to take time. It will take lots of pract
 
 You will undoubtedly make mistakes. You will contemplate quitting over and over again, but this year you’re going to keep going because you want it THAT badly. You want to live your happiest and healthiest year yet.
 
-Just keep pushing forward. Be consistent and strive to be a little better each and every day. I promise you, it WILL be worth it!
+Just keep pushing forward. Be consistent and strive to be a little better each and every day. I promise you, it WILL be worth it! If you want an accountability partner in that process, that is what our [personal training studio](/studio-services/) is here for.
 
 
 

@@ -15,7 +15,7 @@ If truth be told, most of us want to be a lot fitter than we are. It is somethin
 
 So, where do you start? A quick internet search reveals too many pages to provide a good and reliable source of information, and there is a great deal of information provided on the TV channels, books, newspapers and countless fitness DVDs.
 
-To be honest there will always be something out there that will help, or maybe you can take a little information from each one to build your own fitness regime. Better idea, find a personal trainer to guide you on your quest for fitness.
+To be honest there will always be something out there that will help, or maybe you can take a little information from each one to build your own fitness regime. Better idea, [find a personal trainer](/studio-services/) to guide you on your quest for fitness.
 
 Being fitter equals less body fat as this is something that is burnt off during exercise. You could just diet to become slimmer but your chances of losing weight will be much greater if you exercise as well.
 
@@ -29,6 +29,6 @@ Being fitter can also have a positive effect on cholesterol levels, reducing LDL
 
 Your stamina and strength can significantly increase when you start working out and this is even more important to people as you get a little older. Aging can have great effects on how your body works so it is crucial that you keep on moving and stay active.
 
-Your personal trainer in Chicago from Transform Personal Training will help you become fitter and healthier so you can start enjoying your life again. Don’t waste another day worrying about your health or saying ‘I’ll start tomorrow’ because there is no better time than NOW.
+Your [personal trainer in Chicago](/personal-trainer-lakeview/) from Transform Personal Training will help you become fitter and healthier so you can start enjoying your life again. Don’t waste another day worrying about your health or saying ‘I’ll start tomorrow’ because there is no better time than NOW.
 
 Give us a call to see how we can not only help you get into better shape but also improve the overall quality of your life.

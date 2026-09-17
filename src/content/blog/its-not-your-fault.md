@@ -61,6 +61,6 @@ Fresh foods might cost you a bit more now than the processed stuff, but think ab
 
 ## Need Help? We’re Here for You!
 
-If you’re really ready to take things to the next level and crush all of your health goals, book a complimentary coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, and provide you a roadmap to your goals achieved. Simply follow this link to [Contact us](/contact).
+If you’re really ready to take things to the next level and crush all of your health goals, book a complimentary coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, and provide you a roadmap to your goals achieved. Simply follow this link to [Contact us](/contact/).
 
 Our team of highly experienced coaches will help you get on track. Maybe you’ve been on a fitness journey and have hit a plateau. If so, our rockstar staff can help you push through that too. Regardless of where you are on your fitness journey, we want to see you happy and healthy so you can live the best life possible.

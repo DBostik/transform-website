@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-Taking your fitness journey seriously goes beyond the work you put in with a trainer or at the gym.
+Taking your fitness journey seriously goes beyond the work you put in with a [trainer or at the gym](/studio-services/).
 
 It requires dedication and discipline in many areas of your life, like healthy dieting and a regular sleep schedule.
 

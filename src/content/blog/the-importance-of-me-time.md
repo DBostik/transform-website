@@ -132,7 +132,7 @@ Do not underestimate the importance of Me Time. Use your Me Time to recharge. Yo
 
 This is important. Schedule it in your calendar on your phone with an alert if you need to do so. Just make sure you get it done daily. Remember what they say on flights about safety masks, always put yours on before helping others. Your health, my friends, is like that safety mask. It’s not unreasonable to take time out for yourself.
 
-Don’t feel guilty. Do it. You DESERVE it! If you’re not at your best, then how can you help others be their best?
+Don’t feel guilty. Do it. You DESERVE it! If you’re not at your best, then how can you help others be their best? A [personal trainer](/studio-services/) can help you build that time into your week so it actually happens.
 
 
 

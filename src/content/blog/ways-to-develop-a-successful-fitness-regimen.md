@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-There are a lot of great ways to develop a successful fitness regimen. A great way is to seek help from Transform Personal Training which can provide you with the some of the best personal trainers in Chicago.
+There are a lot of great ways to develop a successful fitness regimen. A great way is to seek help from Transform Personal Training which can provide you with the [some of the best personal trainers in Chicago](/studio-services/).
 
 Our trainers will advise you on the best way to become fitter and remember they are the experts. A personal trainer knows the information that your require and it is sensible to listen to their advice.
 

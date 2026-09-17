@@ -69,4 +69,4 @@ If you’re not vegan, there are even more zinc packed foods you can choose from
 
 - other: low-fat yogurt
 
-Do you consume enough zinc in your diet?
+Do you consume enough zinc in your diet? Getting the right micronutrients is part of what we cover in the [personalized nutrition coaching](/online-training/) that comes with online training.

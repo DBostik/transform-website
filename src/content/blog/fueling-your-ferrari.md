@@ -19,7 +19,7 @@ In order for your body to perform its best, you need to fuel it with health food
 
 ## Proper Fueling
 
-With that said, have you been fueling your Ferrari with nutrition food? If not, time to start doing so. Health and fitness are 75% about what you eat and 25% about the movement/exercise piece. Doing both are clearly important, but if you have to start anywhere, I recommend to start with getting your nutrition on track.
+With that said, have you been fueling your Ferrari with nutrition food? If not, time to start doing so. Health and fitness are 75% about what you eat and 25% about the movement/exercise piece. Doing both are clearly important, but if you have to start anywhere, I recommend to start with [getting your nutrition on track](/online-training/).
 
 I had a client who broke her leg a couple weeks into her program. The cast and crutches (as well as eventually the boot) made even walking a challenge so applying pressure to the foot wasn’t an option and working out was limited. Therefore, we devoted lots of time and energy to her eating habits.
 

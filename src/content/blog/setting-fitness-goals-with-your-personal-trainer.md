@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-You may not be overweight or malnourished, but that in no way means that you’re physically fit. Find out what you don’t know about fitness as shared by personal trainers in Chicago from Transform Personal Training . The tips in this article will turn you on to many different tactics you can use to achieve your ultimate goal of being fit.
+You may not be overweight or malnourished, but that in no way means that you’re physically fit. Find out what you don’t know about fitness as shared by [personal trainers in Chicago from Transform Personal Training](/studio-services/) . The tips in this article will turn you on to many different tactics you can use to achieve your ultimate goal of being fit.
 
 Do not forget to do your cardio. Even if you are trying to just build muscle to your frame, cardio is essential. It adds some variety to your workout. It keeps your body limber and doesn’t allow your muscles to settle into a routine. Over time, it is also a great way to build lean muscle.
 

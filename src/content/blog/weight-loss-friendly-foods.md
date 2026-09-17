@@ -32,7 +32,7 @@ What foods have you discovered since starting your weight loss journey? When you
 
 ## HEALTHY RECIPES
 
-Eating healthy is key to weight-loss and keeping your choices varied is important too. People that switch things up don’t get bored with eating right and stay on track longer. Below are several recipes our team and clients like. Give them a try. Then, add the ones you like to your recipe arsenal. Feel free to share this with your friends.
+Eating healthy is key to weight-loss and keeping your choices varied is important too. People that switch things up don’t get bored with eating right and stay on track longer. We build a [custom nutrition plan](/online-training/) around foods like these for every online training client. Below are several recipes our team and clients like. Give them a try. Then, add the ones you like to your recipe arsenal. Feel free to share this with your friends.
 
 Make sure to come back to our blog to check out the new recipes.
 

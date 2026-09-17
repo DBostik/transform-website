@@ -29,4 +29,4 @@ Taking that first step is often the hardest part. Just like getting in line for 
 
 There will be drops. There will be times when you want to scream. But remember why you got on in the first place. The thrill of becoming a better version of yourself is worth every twist and turn.
 
-[Reach out and let us help you get on the ride.](/contact)
+[Reach out and let us help you get on the ride.](/contact/)

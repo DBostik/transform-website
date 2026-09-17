@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-Did you know eating healthy doesn’t have to be complicated or require tons of ingredients? Check out this yummy vegan recipe for Sweet Potato & Apple Latkes with Tahini Lemon Drizzle. It tastes so yummy! We had these the other day. It was super easy to make and we didn’t need that many ingredients to prepare it!
+Did you know eating healthy doesn’t have to be complicated or require tons of ingredients? Check out this yummy vegan recipe for Sweet Potato & Apple Latkes with Tahini Lemon Drizzle. It tastes so yummy! We had these the other day. It was super easy to make and we didn’t need that many ingredients to prepare it! Recipes like this show up in the [personalized nutrition plans](/online-training/) we build for online training clients.
 
 
 

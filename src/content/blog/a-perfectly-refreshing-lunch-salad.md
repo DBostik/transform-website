@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-Listen carefully. I’m going to share with you one of the secrets to success on a fitness journey towards improved health…. It’s VARIETY. Switching up your mix of healthy recipes is super important. Over the years we’ve noticed that the people who tend to fall off the wagon get bored with what they are eating.
+Listen carefully. I’m going to share with you one of the secrets to [success on a fitness journey](/success-stories/) towards improved health…. It’s VARIETY. Switching up your mix of healthy recipes is super important. Over the years we’ve noticed that the people who tend to fall off the wagon get bored with what they are eating.
 
 With that said, today I have a perfectly refreshing lunch salad recipe to add to your healthy meals arsenal.
 

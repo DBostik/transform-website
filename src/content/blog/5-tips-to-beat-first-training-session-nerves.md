@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-Nervous about your first Chicago personal training session?  Don’t be!  Here are some tips that will help center your mind and calm you down before it finally arrives.
+Nervous about your [first Chicago personal training session](/studio-services/)?  Don’t be!  Here are some tips that will help center your mind and calm you down before it finally arrives.
 
 one
 
@@ -19,7 +19,7 @@ Drink plenty of water the night before and the day of your first meeting with yo
 
 two
 
-Give yourself plenty of time to get ready before the first session so you will be at your appointment on time. It could throw your trainers workout plan way off track, and you as well, if you show up late.  If you arrive in plenty of time for a proper warm-up before your session starts, you and your Chicago personal trainer are much more likely to be in sync.
+Give yourself plenty of time to get ready before the first session so you will be at your appointment on time. It could throw your trainers workout plan way off track, and you as well, if you show up late.  If you arrive in plenty of time for a proper warm-up before your session starts, you and your [Chicago personal trainer](/personal-trainer-lakeview/) are much more likely to be in sync.
 
 three
 

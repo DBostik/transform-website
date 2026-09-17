@@ -11,7 +11,7 @@ author: "Transform Team"
 
 
 
-Before busting your moves out with the best personal trainer in Chicago, it’s a good idea to feed your body with nutrients to provide your mind and muscles the energy it needs for the workout ahead.  Never mind the intensity of the iron pumping or the treadmill running, juice will cure hunger pangs and keep you full for the duration of your session.
+Before busting your moves out with the [best personal trainer in Chicago](/studio-services/), it’s a good idea to feed your body with nutrients to provide your mind and muscles the energy it needs for the workout ahead.  Never mind the intensity of the iron pumping or the treadmill running, juice will cure hunger pangs and keep you full for the duration of your session.
 
 Juicing is easy!To get started, buy a juicer. They’re a great investment, trust me. Then, all you need to do is shop around for the best quality fruit, vegetables, a few spices, and a good quality bottle of H2O. This is where it gets fun! You get to experiment with varieties of fruits and vegetables, and fresh juice is so much better for you.
 

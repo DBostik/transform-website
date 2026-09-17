@@ -13,7 +13,7 @@ author: "Transform Team"
 
 Its summer time, so going out for a run in the Windy City is back on the menu for the workout happy citizens of Chicago. The Second City has some of the most scenic and enjoyable outdoor landscapes of any major metropolitan city in the U.S.
 
-The Chicagoland area is a hotspot for runners looking for a great place to take a jog or go for a healthy walk. The best personal trainers in Chicago would be able to give a rundown of the best outdoor locations for a great workout.
+The Chicagoland area is a hotspot for runners looking for a great place to take a jog or go for a healthy walk. The [best personal trainers in Chicago](/personal-trainer-lakeview/) would be able to give a rundown of the best outdoor locations for a great workout.
 
 Lets take a look at a few of the best the city has to offer.
 

@@ -79,7 +79,7 @@ You’ll want to look for a location that has an in-house gymnasium. Many hotels
 
 Look for hotels offering treadmills, stationary bicycles, or a weight room. Many hotels include the price of on-site facilities into the room.
 
-Staying in a hotel with no gym doesn’t mean you can’t exercise. You can find a gym near your hotel or break a sweat without leaving your room.
+Staying in a hotel with no gym doesn’t mean you can’t exercise. You can find a gym near your hotel or break a sweat without leaving your room. Travel weeks are the strongest argument for [online coaching with a real coach](/online-training/), because the program travels with you.
 
 
 

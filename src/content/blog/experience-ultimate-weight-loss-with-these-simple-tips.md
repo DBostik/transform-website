@@ -103,7 +103,7 @@ Instead, you should stock your home with nutritious snacks such as fruit, nuts, 
 
 ## Hire a Personal Trainer
 
-Sometimes, it takes a little external motivation in order to lose weight. It’s not always easy to stay on task when you’re going it alone. If you’re having trouble staying motivated, you might consider hiring a personal trainer.
+Sometimes, it takes a little external motivation in order to lose weight. It’s not always easy to stay on task when you’re going it alone. If you’re having trouble staying motivated, you might consider [hiring a personal trainer](/blog/how-to-choose-a-personal-trainer-for-weight-loss-in-chicago/).
 
 A personal trainer will ensure that you show up, carry out the correct exercises, and eat the right foods. He or she will act as a teacher and guide on your road to ultimate weight loss.
 

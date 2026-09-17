@@ -27,7 +27,7 @@ Here we will focus on three key pairings: iron and vitamin C, unsaturated fats a
 
 - CALCIUM & VITAMIN D: These two nutrients work together to help build and strengthen your bones. Consume plant-based calcium sources in adequate amounts (such as calcium-fortified plant milks) and ensure that you get at least 10-15 minutes of sun exposure every day.
 
-Did you know about these nutrient pairings? If you’re still unsure about how to best maximize nutrient absorption, reach out. Our team of seasoned fitness professionals can help you not just hit your goals in the gym, but also aid you in picking out healthy foods that will assist you in reaching your ultimate fitness goals.
+Did you know about these nutrient pairings? If you’re still unsure about how to best maximize nutrient absorption, reach out. Our [team of seasoned fitness professionals](/studio-services/) can help you not just hit your goals in the gym, but also aid you in picking out healthy foods that will assist you in reaching your ultimate fitness goals.
 
 
 

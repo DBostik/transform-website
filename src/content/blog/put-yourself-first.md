@@ -44,7 +44,7 @@ It’s your turn now, your moment. I’m going to use an analogy I’ve used bef
 
 If you aren’t at your best, how are you to be at your best for those around you? When you put yourself first is not selfish, it’s necessary.
 
-Lucky for you, you’ve got me in your corner. I’m at the top of that mountain you’ve been trying to climb for years. My hand is out, and I’m cheering you on, ready and willing to pull you up with me and the thousands of other men and women I’ve helped.
+Lucky for you, you’ve got me in your corner. I’m at the top of that mountain you’ve been trying to climb for years. My hand is out, and I’m cheering you on, ready and willing to pull you up with me and the thousands of other [men and women I’ve helped](/success-stories/).
 
 I don’t know who you are or what sticking points you’re facing in your life. But I do know that you CAN do this. And if you take this journey with me you WILL be successful and have one of the most transformative seasons of your life. You won’t recognize yourself when I’m through with you. Time to get in the habit of putting yourself first. You don’t just deserve that, you NEED that.
 

@@ -33,4 +33,4 @@ Park that spare tire
 
 Everyone that commutes to work in an congested metropolis knows that getting to the parking structure early is the key to that prime spot right next to the elevator. This leaves spots on the seventh floor in the back just waiting to get your heart up.  Choose the road less traveled and it will pay off over time with more energy and a trimmer waistline.
 
-Accepting these and other changes into your daily routine will increase heart rate, burn calories and may help prevent health risks like diabetes that plague the office workforce. For other tips on how to get a little workout during the day consult one of our  personal trainers at Transform..
+Accepting these and other changes into your daily routine will increase heart rate, burn calories and may help prevent health risks like diabetes that plague the office workforce. For other tips on how to get a little workout during the day consult one of our  [personal trainers at Transform](/studio-services/)..

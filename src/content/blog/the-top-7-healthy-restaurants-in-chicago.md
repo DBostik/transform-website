@@ -151,7 +151,7 @@ Now let’s be clear, not everything on every one of these menus can be consider
 
 Of course, a huge part of staying healthy is balancing your nutritious diet with exercise.
 
-Transform Personal Training offers one-on-one, small group, and couples training at affordable prices.
+Transform Personal Training offers [one-on-one, small group, and couples training](/studio-services/) at affordable prices.
 
 Transform also offers a 30-day risk-free guarantee, so there’s no reason to hold back on getting the results you want.
 

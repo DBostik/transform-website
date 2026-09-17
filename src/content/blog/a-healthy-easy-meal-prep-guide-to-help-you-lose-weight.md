@@ -481,7 +481,7 @@ And there you have it! An amazingly simple and delicious 7-day meal prep guide t
 
 You’ll notice that each day, you’re consuming 1,200 calories or less. But with all the tasty food, you won’t struggle with a rumbling stomach at all.
 
-When you’re read to take your fitness and weight loss goals to the next level, check out our personal training services.
+When you’re read to take your fitness and weight loss goals to the next level, check out [our personal training services](/studio-services/).
 
 Combining a great diet with regular, targeted workouts is the best weight to achieve goals beyond your wildest dreams.
 

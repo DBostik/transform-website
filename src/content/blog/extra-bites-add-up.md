@@ -21,7 +21,7 @@ DOESN’T IT?!? One extra bite may not seem like much individually, but added up
 
 Who doesn’t indulge in those extra bites sometimes? This isn’t to beat yourself up over, but this is more to help you be HONEST with yourself. So wait to indulge in those untracked “extra” bites when you are in your MAINTENANCE STAGE vs.
 
-when you are in your WEIGHTLOSS STAGE.⁠ Staying true to your⁣ daily calorie allowance by entering ALL of the things you eat and drink (and I mean EVERY LITTLE BITE and SIP). With HONESTY you CAN achieve your goals and you absolutely DESERVE it! You GOT this…
+when you are in your WEIGHTLOSS STAGE.⁠ Staying true to your⁣ daily calorie allowance by entering ALL of the things you eat and drink (and I mean EVERY LITTLE BITE and SIP). With HONESTY you CAN achieve your goals and you absolutely DESERVE it! You GOT this… Having a coach look at those numbers with you, which is what [online coaching](/online-training/) is built around, makes staying honest a lot easier.
 
 
 

@@ -42,7 +42,7 @@ Stretching has several benefits:
 
 ## Pre and Post Workout Stretching
 
-Take time to stretch a little bit each and every day, especially on the days you plan to workout. Stretching is essential both as a warm up before a workout as well as afterwards. On workout days, take a 3-5 minutes (or longer if necessary) to warm up to get your muscle ready. Then, take at least 3-5 minutes to cool down and stretch.
+Take time to stretch a little bit each and every day, especially on the days you plan to workout. Stretching is essential both as a warm up before a workout as well as afterwards. On workout days, take a 3-5 minutes (or longer if necessary) to warm up to get your muscle ready. Then, take at least 3-5 minutes to cool down and stretch. A [personal trainer at our studio](/studio-services/) can make sure stretching is built into every session so it does not get skipped.
 
 And of course afterwards, make sure to drink plenty of water. The water and stretching will help flush the lactic acid out of your system and reduce soreness.
 

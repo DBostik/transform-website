@@ -17,7 +17,7 @@ When you go to a bike shop that specializes in the many different elements road 
 
 It’s a good idea to ask whoever is helping you, if they will take measurements and match you to a bike that will be most comfortable for your body type. This will make a big difference in how much you will take your new road bike out for a spin because you will be more apt to ride a bike that conforms to your unique frame.
 
-Before spending a significant amount of money on a new road bike, you will need to also consider what you will be using it for. Will you be riding on rough terrain? Commuting back and forth through the city? Are you aspiring to beat your Chicago personal trainer in a biking marathon?
+Before spending a significant amount of money on a new road bike, you will need to also consider what you will be using it for. Will you be riding on rough terrain? Commuting back and forth through the city? Are you aspiring to beat your [Chicago personal trainer](/personal-trainer-lakeview/) in a biking marathon?
 
 Determine where you will be riding and if you will need to carry belongings along the way when you ride so you can choose a bicycle that will suit your lifestyle.
 

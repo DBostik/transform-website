@@ -71,7 +71,7 @@ Let me your thoughts on this Simple Vegan Breakfast Hash and feel free to share 
 
 ## MORE HEALTHY RECIPES
 
-Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare.
+Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare. If you want recipes like these worked into a full plan, our [online training program](/online-training/) includes personalized nutrition coaching.
 
 Check back with our blog for more to come so you have a nice stockpile of healthy meal options readily available. That way you can stay on track to reaching your health and fitness goals.
 

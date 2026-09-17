@@ -55,7 +55,7 @@ The mind is such a powerful instrument. It’s time you retune yours, trust you
 
 ## Trust Yourself
 
-None of that can happen if you don’t trust yourself enough to allow yourself to have those rights and live by those rights. Time to steer your life in the direction you want it to go. No more feeling like you don’t have control. Where do you need improvement? Sit down and really think about it. Then, develop a plan and take action. You’ve got this!
+None of that can happen if you don’t trust yourself enough to allow yourself to have those rights and live by those rights. Time to steer your life in the direction you want it to go. No more feeling like you don’t have control. Where do you need improvement? Sit down and really think about it. Then, develop a plan and take action. You’ve got this! Working with a coach to build that plan is what [personal training](/studio-services/) is for.
 
 
 

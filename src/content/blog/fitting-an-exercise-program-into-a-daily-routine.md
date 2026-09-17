@@ -13,11 +13,11 @@ author: "Transform Team"
 
 The first step in starting an exercise program is getting up the nerve to get going. For those that have had a lapse in working out it can be hard to get going in the first place. Once an individual makes the commitment to start an exercise program, the number one thing that puts a stop to it is overdoing it at the start and getting frustrated and disruption to every day life.
 
-Fitting a new program of exercise into a busy lifestyle can be difficult. Changing habits after years of ignoring your body is tough, but altering your perception of a daily routine is critical to success.
+Fitting a new program of exercise into a [busy lifestyle](/blog/personal-training-for-busy-professionals/) can be difficult. Changing habits after years of ignoring your body is tough, but altering your perception of a daily routine is critical to success.
 
 Going in, it is also essential to understand that no one gets into shape overnight. Finding the right balance of exercise is important to make sure your mental state stays positive and frustration is kept to a minimum.
 
-Getting advice and setting up a program to fit your goals with a qualified personal trainer will keep you on track and away from those negative thoughts. Don’t be afraid to ask for help. Every gym has a personal trainer that is there to help you reach your ideal body.
+Getting advice and setting up a program to fit your goals with [a qualified personal trainer](/studio-services/) will keep you on track and away from those negative thoughts. Don’t be afraid to ask for help. Every gym has a personal trainer that is there to help you reach your ideal body.
 
 It is also important before starting a workout program that you check with your doctor first. Make sure to know of any restrictions that you may need to put on yourself to avoid serious sports related injury. Also, don’t be afraid to ask those that have been able to continuously maintain an active lifestyle how they have been able to keep it going.
 

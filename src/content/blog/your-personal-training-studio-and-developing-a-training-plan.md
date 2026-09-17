@@ -13,7 +13,7 @@ author: "Transform Team"
 
 If you have already spent an enormous amount of time looking into getting fit, then you know that there is a near-endless stream of advice about the best way to do it.
 
-Perhaps you have even tried numerous varied plans to help yourself get into shape. It can be quite confusing trying to decide what works, and what doesn’t. However, when it comes to getting healthy, training programs from a personal training studio like Transform Personal Training should be included into your routine.
+Perhaps you have even tried numerous varied plans to help yourself get into shape. It can be quite confusing trying to decide what works, and what doesn’t. However, when it comes to getting healthy, training programs from [a personal training studio like Transform Personal Training](/studio-services/) should be included into your routine.
 
 Of course there is no shortage of training programs on the market.
 
@@ -23,6 +23,6 @@ Before you get the wrong idea about creating a training plan, built around muscl
 
 So, you would like to start a program, but you’re not sure what’s best for you?
 
-There is a simple solution: Find the best personal trainer in Chicago for you at Transform Personal Training . If you are concerned about how expensive they are, don’t be. At Transform Personal Training, we have reasonable rates, and investing in your health is always a good idea.
+There is a simple solution: [Find the best personal trainer in Chicago for you at Transform Personal Training](/personal-trainer-lakeview/) . If you are concerned about how expensive they are, don’t be. At Transform Personal Training, we have reasonable rates, and investing in your health is always a good idea.
 
 Whatever training program you choose, the key is to get started and take action!

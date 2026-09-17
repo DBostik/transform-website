@@ -121,7 +121,7 @@ Each time you improve, you build your self-efficacy.
 
 ## Confidence Lifting Tip
 
-Always go to the gym with a personal lifting goal. Set one that’s challenging but reachable. This will help you to always feel a sense of accomplishment to further build your confidence. Ask your personal trainer to help you stay accountable!
+Always go to the gym with a personal lifting goal. Set one that’s challenging but reachable. This will help you to always feel a sense of accomplishment to further build your confidence. Ask your [personal trainer](/studio-services/) to help you stay accountable!
 
 
 

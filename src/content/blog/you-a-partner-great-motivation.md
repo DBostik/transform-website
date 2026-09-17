@@ -19,7 +19,7 @@ Whether you like to head to the gym or head outdoors, there are many exercises a
 
 Pump Some Iron Together :
 
-Personal trainers in Chicago say, “Have your partner spot you when you are lifting free weights in the gym to be sure you aren’t taking on too much weight. This encourages eye contact and communication between the two of you.”  Have your partner watch your form and tell them to be vocal when they see any mistakes you may be making.
+[Personal trainers in Chicago](/personal-trainer-lincoln-park/) say, “Have your partner spot you when you are lifting free weights in the gym to be sure you aren’t taking on too much weight. This encourages eye contact and communication between the two of you.”  Have your partner watch your form and tell them to be vocal when they see any mistakes you may be making.
 
 Go Rock Climbing:
 

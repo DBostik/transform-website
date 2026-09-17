@@ -91,7 +91,7 @@ Does this sound silly to you and you’re wondering, “Why bother?” read belo
 
 - improved heart health
 
-Plain and simple, let go. Your mental, emotional, social, and physical health will all be better for it when you do. Remember, forgiveness is healthy.
+Plain and simple, let go. Your mental, emotional, social, and physical health will all be better for it when you do. Remember, forgiveness is healthy. A clearer head also makes it easier to stay consistent with training, which is something a lot of our [clients mention alongside their results](/success-stories/).
 
 
 

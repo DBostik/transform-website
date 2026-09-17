@@ -57,4 +57,4 @@ The end is here and it’s time to cool down. Remember to give yourself at least
 
 Choose your most favorite feel good music for the last song spots on your playlist and also, feel proud of yourself because you did it!
 
-Don’t forget though that weight training should still be your primary form of exercise some come try out a session with one of the best personal trainers in Chicago.
+Don’t forget though that weight training should still be your primary form of exercise some come try out a session with one of the [best personal trainers in Chicago](/studio-services/).

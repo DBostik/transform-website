@@ -37,7 +37,7 @@ When you get the urge to head to the kitchen and swallow the whole half gallon o
 
 Mindless eating should be replaced with an emotionally pleasurable activity. Do something you enjoy that doesn’t involve calorie consumption. Give yourself a manicure and paint your nails, you’ll be less likely to dig freshly painted nails down into a potato chip bag.
 
-Look for things to do that won’t destroy weight loss efforts or something that you can enjoy with another person that don’t relate to food. Take a nature walk, sign up for a class with a personal trainer in Chicago, or go power window shopping with a strong support system.
+Look for things to do that won’t destroy weight loss efforts or something that you can enjoy with another person that don’t relate to food. Take a nature walk, sign up for a class with a [personal trainer in Chicago](/studio-services/), or go power window shopping with a strong support system.
 
 Exercise is calming, clears your head, and will help cure the desire for you to overindulge.  If you are stuck inside, try running in place or doing some jumping jacks to burn calories rather than piling them on.
 

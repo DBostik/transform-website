@@ -52,7 +52,7 @@ Okay, so now you get the gist of what the challenge is, but now let’s dive int
 
 As holistic health practitioner, naturopath and raw food advocate Ann Wigmore said, “The food you eat can either be the safest and most powerful form of medicine or the slowest form of poison.” Can you guess which ones are best for you?
 
-I bet you can, but just to be certain, I’ll put it out there… fried foods contain additives and preservatives that hurt you while whole foods contain vitamins and minerals that help you. SWAP them! Your waistline will thank you.
+I bet you can, but just to be certain, I’ll put it out there… fried foods contain additives and preservatives that hurt you while whole foods contain vitamins and minerals that help you. SWAP them! Your waistline will thank you. A [nutrition plan built for you](/online-training/) makes swaps like this easier to stick with.
 
 
 

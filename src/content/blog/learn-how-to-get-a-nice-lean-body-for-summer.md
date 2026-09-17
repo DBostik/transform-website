@@ -63,7 +63,7 @@ Going for a run for half an hour a day can prompt huge differences in your weigh
 
 If you’re not a fan of running, there are still other exercises that you can work into your daily routine. If there is a pool in your local community, swimming laps can be another fantastic cardio activity.
 
-There are also plenty of body toning exercises that you can do from the comfort of your own home. Committing to a number of push-ups, crunches, squats, and lunges to do each day can make a huge difference and help you commit to a routine that you can follow.
+There are also plenty of [body toning exercises](/blog/best-low-impact-workouts-for-weight-loss/) that you can do from the comfort of your own home. Committing to a number of push-ups, crunches, squats, and lunges to do each day can make a huge difference and help you commit to a routine that you can follow.
 
 Most people have trouble losing weight because they can’t commit to an exercise routine. Selecting a specific number that feels appropriate and personal to you can help guarantee that you’ll keep up with it as the days go on.
 
@@ -77,6 +77,6 @@ If none of these options work for you, at the very least go for a walk every day
 
 If you stick to eating healthy and a proper workout regime, there’s no reason you can’t be the hottest bod on the beach this summer. How to get a nice lean body? It’s in your grasp if you know what to do and stick to it.
 
-Having trouble sticking to your routine or still not losing weight to your satisfaction? Our personal training program can help– and you can even try it free on your first visit.
+Having trouble sticking to your routine or still not losing weight to your satisfaction? Our [personal training program](/studio-services/) can help– and you can even try it free on your first visit.
 
 Any other weight loss tips for the summer season? Leave your comments below.
