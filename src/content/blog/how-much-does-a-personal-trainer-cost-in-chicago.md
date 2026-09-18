@@ -94,3 +94,5 @@ For most goals, two to three per week is the sweet spot, and it's why our pricin
 The only way to really compare trainers is to sit down with one. Your first session at Transform is free and 1-on-1 at our private Lakeview studio: we talk through your goals, assess your starting point, and begin mapping the plan we'd build for you. If we're not the right fit, you still walk away with a head start.
 
 [Book your free first session here](/contact/), or learn more about [how our training works](/studio-services/).
+
+**Not in Chicago?** You can still work with us. Our [online personal training](/online-training/) pairs you with a real coach for a custom program, daily check-ins and a weekly 1-on-1 video call, starting at $127 per week. [Book a free coaching call](/online-training/#consultation) and we'll tell you honestly whether it fits your goals.
