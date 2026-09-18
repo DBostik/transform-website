@@ -1,5 +1,7 @@
 # SEO Strategy - Transform Personal Training
 
+> **Status note (Sept 18, 2026):** this document dates from February 2026 and is partly superseded. The online coaching page lives at `/online-training/` (rewritten Sept 17, 2026). Do NOT build a separate `/online-fitness-coaching/` page or any other second page targeting the same online-training intent: it would be a doorway page. Current plans live in the Claude project docs, not here.
+
 ## Executive Summary
 
 This document outlines the comprehensive SEO strategy for the Transform Personal Training website rebuild. Based on 2026 best practices, this strategy focuses on technical excellence, local SEO dominance, and content optimization to rank highly for personal training services in Chicago.
@@ -50,7 +52,7 @@ This document outlines the comprehensive SEO strategy for the Transform Personal
 **Example URLs:**
 ```
 ✅ Good: /personal-training-chicago/
-✅ Good: /online-fitness-coaching/
+✅ Good: /online-training/
 ✅ Good: /success-stories/
 ❌ Bad: /page?id=123
 ❌ Bad: /services_page_final_v2/

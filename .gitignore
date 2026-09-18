@@ -15,3 +15,6 @@ node_modules/
 # Scratch / quarantine folders - never commit these
 _to_delete/
 _preview/
+
+# Files the Claude desktop app saves into the project folder - never commit
+Claude outputs/
