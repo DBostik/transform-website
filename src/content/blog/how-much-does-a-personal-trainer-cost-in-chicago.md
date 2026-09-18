@@ -3,7 +3,7 @@ title: "How Much Does a Personal Trainer Cost in Chicago? (2026 Guide)"
 excerpt: "Real 2026 personal training rates in Chicago by gym, private studio, in-home, and online, plus why session length changes the math more than anything else."
 date: "June 10, 2026"
 category: "Fitness Advice"
-image: "/images/blog/blog_gym_equipment_1770321129531.webp"
+image: "/images/blog/how-much-does-a-personal-trainer-cost-in-chicago.webp"
 author: "David Bostik"
 ---
 
