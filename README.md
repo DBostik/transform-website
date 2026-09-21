@@ -26,7 +26,7 @@ This is a complete rebuild of the Transform Personal Training website (www.trans
 
 - **Framework**: Astro (performance-first static site generator)
 - **Styling**: Tailwind CSS v4
-- **Hosting**: Vercel or Netlify
+- **Hosting**: Hostinger, serving the committed `dist/` folder from GitHub `main` (see `DEPLOYMENT_INSTRUCTIONS.md`)
 - **Forms**: HighLevel integration via webhooks
 - **Analytics**: Google Analytics 4, Google Search Console
 - **SEO**: Schema.org JSON-LD, optimized meta tags
