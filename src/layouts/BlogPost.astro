@@ -261,6 +261,14 @@ const articleSchema = {
     border-bottom: 1px solid var(--color-black-200);
   }
 
+  /* On phones, a table wider than the screen scrolls inside its own box instead of pushing the whole page sideways */
+  @media (max-width: 639px) {
+    .prose :global(table) {
+      display: block;
+      overflow-x: auto;
+    }
+  }
+
   /* Specific fix for "wall of text" look */
   .prose {
     line-height: 1.85;

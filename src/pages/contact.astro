@@ -362,6 +362,13 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     font-size: 1.125rem;
     transition: color 0.2s;
   }
+
+  /* Phones only: let the long email address wrap instead of widening the page */
+  @media (max-width: 639px) {
+    .info-value-link {
+      overflow-wrap: anywhere;
+    }
+  }
   
   .info-value-link:hover {
     color: var(--color-accent-600);
