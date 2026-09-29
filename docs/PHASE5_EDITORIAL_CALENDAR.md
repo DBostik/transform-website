@@ -47,8 +47,9 @@ CORRECTION (Sept 17, 2026): an earlier version of this heading said Dave approve
 | 10 | Oct wk 4 | Personal Training Over 40: Why Joint-Friendly Beats No-Pain-No-Gain | the over-40 buyer behind the low impact cluster | Links to post 2 (low impact) and success stories |
 | 11 | Nov wk 2 | How to Stay Fit Through a Chicago Winter | seasonal/local | Private indoor studio angle; Lakeview mention |
 | 12 | Nov wk 4 | How to Get Through the Holidays Without Losing Your Progress | seasonal | Link existing Drinking and Dieting post; CTA: start in December, beat the January rush |
-| 14 | Oct 28, 2026 | Online vs In-Person Personal Training: How to Pick | online personal training vs in person | Added Sept 17, 2026 from the Querywright briefs pack. Decision guide, not a pitch: studio for locals who want hands-on 30-minute sessions, online for distance, travel and schedule. Same coaches, different delivery | Dual CTA: free first session for locals, free coaching call for everyone else |
+| 14 | Tentative, after Oct 28 (see QUEUE.md) | Online vs In-Person Personal Training: How to Pick | online personal training vs in person | Added Sept 17, 2026 from the Querywright briefs pack. Decision guide, not a pitch: studio for locals who want hands-on 30-minute sessions, online for distance, travel and schedule. Same coaches, different delivery | Dual CTA: free first session for locals, free coaching call for everyone else |
 | 15 | Dec 9, 2026 | What Daily Check-Ins With a Coach Actually Mean | personal training with daily check-ins, daily support | Added Sept 17, 2026 from the Querywright briefs pack. What a check-in is between workouts: logging, what the coach replies to, missed-day protocol, nutrition notes. The wedge against template and AI programs. Do not promise response times beyond the published one |
+| 17 | Oct 28, 2026 | What Happens in Your Free First Personal Training Session (Chicago) | free first personal training session, what to expect | Drafted Sept 29, 2026 (not yet approved), image done. Scheduled Oct 28, 2026. Walks through the free 30-minute visit, what we will not do, and how plans work after. Dates in this table are older targets; QUEUE.md holds the current order | Free first session + free coaching call for non-locals |
 
 ## Pre-written queue workflow (supersedes per-post drafting once queue exists)
 Approved drafts live in docs/drafts/queue/ as 02-<slug>.md ... 12-<slug>.md with QUEUE.md tracking status. Frontmatter date stays "SET AT PUBLISH" until staging. Every other Wednesday the scheduled task "biweekly-blog-draft-transform" (after it has been updated to staging mode) sets the date, moves the next approved file into src/content/blog/, marks it published here and in QUEUE.md, and hands Dave the Antigravity publishing prompt. Dave publishes; nothing goes live automatically.
@@ -56,7 +57,7 @@ Approved drafts live in docs/drafts/queue/ as 02-<slug>.md ... 12-<slug>.md with
 ## Cadence decision (Sept 17, 2026)
 One new post every other week, not weekly. Publishing frequency is not a Google ranking factor, and the blog already holds 93 posts, 85 of them pre-2026 with a median of 553 words. The off week goes to improving an existing page: refreshing a thin legacy post, adding internal links, or improving a service page. Revisit in about 90 days using Search Console.
 
-Intended order: 6 (Sept 30), 7 (Oct 14), 14 (Oct 28), 11 (Nov 11, seasonal), 12 (Nov 25, seasonal), 15 (Dec 9), then 8, 9 and 10. The scheduled task stages the lowest-numbered APPROVED post, so approval order controls what actually ships.
+Intended order (updated Sept 29, 2026): 6 (Sept 30), 16 (Oct 14), 17 (Oct 28), confirmed by Dave; later posts are tentative and QUEUE.md holds their current order. The scheduled task stages the lowest-numbered APPROVED post, so approval order controls what actually ships.
 
 ## Online training push (Sept 17, 2026)
 Shipped in commits 2d541ab and ab3c3f5, both live-verified:

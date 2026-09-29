@@ -10,6 +10,16 @@ Companion to docs/PHASE5_EDITORIAL_CALENDAR.md. Approval status for every post l
 - The task skips its run if fewer than 12 days have passed since the most recent published date below. It never stages a post that is not approved, and it never stages a post whose image file is missing from `public/images/blog/`.
 - Images: every post gets a NEW image. Dave generates each one in Nano Banana from a prompt Claude provides with the draft; Claude converts it to webp under 150KB and saves it to `public/images/blog/`.
 
+## Confirmed schedule (Dave, Sept 29, 2026)
+
+Every other Wednesday. These are planned dates only; the Published column below is filled in only when a post actually ships, and a post still has to be approved on the status board before the task will stage it.
+
+- Wed Sept 30, 2026: post 6, Do Online Weight Loss Coaches Work?
+- Wed Oct 14, 2026: post 16, How Much Does Online Personal Training Cost?
+- Wed Oct 28, 2026: post 17, What Happens in Your Free First Personal Training Session (Chicago)
+
+This replaces an earlier plan that put post 17 on Oct 7.
+
 ## Status board
 
 Statuses: not started / drafted / approved / published. Image: needed / done.
@@ -32,10 +42,11 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 14 | 14-online-vs-in-person-personal-training.md | Online vs In-Person Personal Training: How to Pick | not started | needed | |
 | 15 | 15-what-daily-check-ins-actually-mean.md | What Daily Check-Ins With a Coach Actually Mean | not started | needed | |
 | 16 | 16-how-much-does-online-personal-training-cost.md | How Much Does Online Personal Training Cost? (2026 Guide) | drafted | done | |
+| 17 | 17-what-happens-in-your-free-first-personal-training-session.md | What Happens in Your Free First Personal Training Session (Chicago) | drafted | done | |
 
 ## Staging dates
 
-The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. There is no fixed per-post calendar. Most recent published post: post 5 on September 16, 2026.
+The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 5 on September 16, 2026.
 
 Cadence decision (Sept 17, 2026): one new post every other week. The off week goes to improving an existing page instead of publishing more.
 
@@ -45,12 +56,15 @@ Posts 14 and 15 come from the Querywright briefs pack and support the online tra
 
 1. Post 6, online weight loss coaches (approved) - Sept 30
 2. Post 16, online training cost - Oct 14 (added Sept 17; highest expected return, see below)
-3. Post 7, how long results take - Oct 28
-4. Post 14, online vs in-person - Nov 11
-4. Post 11, Chicago winter (seasonal) - Nov 11
-5. Post 12, holidays (seasonal) - Nov 25
-6. Post 15, daily check-ins - Dec 9
-7. Posts 8, 9, 10 after that
+3. Post 17, free first session - Oct 28
+4. Post 7, how long results take - Nov 11
+5. Post 11, Chicago winter (seasonal) - Nov 25
+6. Post 12, holidays (seasonal) - Dec 9
+7. Post 14, online vs in-person - Dec 23
+8. Post 15, daily check-ins - Jan 6
+9. Posts 8, 9, 10 after that
+
+Order updated Sept 29, 2026: post 17 added at Oct 28 (confirmed by Dave; this replaces an earlier Oct 7 plan), everything after it moved back one slot, and the Nov 11 double booking removed. Dates for posts 6, 16 and 17 are confirmed; dates from Nov 11 on are tentative. Because the task stages the lowest-numbered approved post, post 16 must be approved before Oct 14, post 17 before Oct 28, and post 7 should not be approved until after post 17 is staged on Oct 28.
 
 Briefs for the two new posts:
 - Post 14: primary keyword "online personal training vs in person". A decision guide, not a sales pitch: the Lakeview studio for locals who want hands-on 30-minute sessions, online for distance, travel and schedule. Same coaches, different delivery. Dual CTA, free first session for locals and a free coaching call for everyone else. 1,400-1,800 words.
