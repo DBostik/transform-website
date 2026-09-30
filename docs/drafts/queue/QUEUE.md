@@ -31,7 +31,7 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 3 | 03-how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.md | How to Choose a Personal Trainer for Weight Loss in Chicago | published | done | July 8, 2026 |
 | 4 | 04-30-minute-vs-60-minute-personal-training.md | 30-Minute vs 60-Minute Personal Training: Which Actually Gets Results? | published | done | September 2, 2026 |
 | 5 | 05-personal-training-for-busy-professionals.md | Personal Training for Busy Professionals: Month-to-Month, In-Person or Virtual | published | done | September 16, 2026 |
-| 6 | 06-do-online-weight-loss-coaches-work.md | Do Online Weight Loss Coaches Work? An Honest Look | approved | done | |
+| 6 | 06-do-online-weight-loss-coaches-work.md | Do Online Weight Loss Coaches Work? An Honest Look | published | done | September 30, 2026 |
 | 7 | 07-how-long-does-it-take-to-see-results-with-a-personal-trainer.md | How Long Does It Take to See Results With a Personal Trainer? | drafted | done | |
 | 8 | 08-best-personal-training-in-chicago.md | Best Personal Training in Chicago: How to Compare Your Options | not started | needed | |
 | 9 | 09-what-a-12-week-transformation-actually-looks-like.md | What a 12-Week Transformation Actually Looks Like | not started | needed | |
@@ -46,7 +46,7 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 
 ## Staging dates
 
-The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 5 on September 16, 2026.
+The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 6 on September 30, 2026.
 
 Cadence decision (Sept 17, 2026): one new post every other week. The off week goes to improving an existing page instead of publishing more.
 

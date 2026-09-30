@@ -1,7 +1,7 @@
 ---
 title: "Do Online Weight Loss Coaches Work? An Honest Look"
 excerpt: "What the research says about losing weight with an online coach, where online coaching falls short, and the seven questions to ask before you pay anyone."
-date: "SET AT PUBLISH"
+date: "September 30, 2026"
 category: "Fitness Advice"
 image: "/images/blog/do-online-weight-loss-coaches-work.webp"
 author: "David Bostik"
