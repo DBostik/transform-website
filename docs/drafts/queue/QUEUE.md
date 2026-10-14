@@ -41,12 +41,12 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 13 | 13-is-personal-training-worth-it-in-chicago.md | Is Personal Training Worth It in Chicago? A Private Studio Reality Check | published | done | September 9, 2026 |
 | 14 | 14-online-vs-in-person-personal-training.md | Online vs In-Person Personal Training: How to Pick | not started | needed | |
 | 15 | 15-what-daily-check-ins-actually-mean.md | What Daily Check-Ins With a Coach Actually Mean | not started | needed | |
-| 16 | 16-how-much-does-online-personal-training-cost.md | How Much Does Online Personal Training Cost? (2026 Guide) | approved | done | |
+| 16 | 16-how-much-does-online-personal-training-cost.md | How Much Does Online Personal Training Cost? (2026 Guide) | published | done | October 14, 2026 |
 | 17 | 17-what-happens-in-your-free-first-personal-training-session.md | What Happens in Your Free First Personal Training Session (Chicago) | approved | done | |
 
 ## Staging dates
 
-The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 6 on September 30, 2026.
+The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 16 on October 14, 2026.
 
 Cadence decision (Sept 17, 2026): one new post every other week. The off week goes to improving an existing page instead of publishing more.
 

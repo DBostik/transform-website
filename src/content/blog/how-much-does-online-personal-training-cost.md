@@ -1,7 +1,7 @@
 ---
 title: "How Much Does Online Personal Training Cost? (2026 Guide)"
 excerpt: "What online coaching actually costs in 2026, from $10 apps to premium 1-on-1 programs, what separates the tiers, and how to tell which one you need."
-date: "SET AT PUBLISH"
+date: "October 14, 2026"
 category: "Fitness Advice"
 image: "/images/blog/how-much-does-online-personal-training-cost.webp"
 author: "David Bostik"
