@@ -1,8 +1,5 @@
 ---
 /**
- * Transform Personal Training - Personal Trainer Lakeview Page
- *
- * Neighborhood landing page for Lakeview, Chicago searches.
  * The faqs array renders both the visible FAQ and the FAQPage schema,
  * so the two can never drift apart.
  */
@@ -84,22 +81,18 @@ const faqs = [
   })} />
   <meta name="description" content={pageDescription}>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/personal-trainer-lakeview" />
   <main>
 
-  <!-- ===== HERO SECTION ===== -->
   <section class="lakeview-hero">
     <div class="lakeview-hero__content container">
       <span class="lakeview-hero__badge">Lakeview &middot; Chicago</span>
@@ -111,7 +104,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== NEIGHBORHOOD SECTION ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -140,7 +132,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== WHAT YOU GET ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -186,7 +177,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== TEAM SECTION ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -204,7 +194,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== TESTIMONIALS ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -235,7 +224,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== PRICING POINTER ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -255,7 +243,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== FAQ ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -272,7 +259,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== CONSULTATION FORM ===== -->
   <section id="consultation" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
     <div style="position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85);"></div>
     <div class="container" style="position: relative; z-index: 1;">
@@ -297,7 +283,6 @@ const faqs = [
 </html>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .lakeview-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -355,7 +340,6 @@ const faqs = [
     line-height: 1.7;
   }
 
-  /* ===== BODY COPY ===== */
   .neighborhood-copy {
     max-width: 760px;
     margin: 0 auto;
@@ -367,7 +351,6 @@ const faqs = [
     margin-bottom: 1.25rem;
   }
 
-  /* ===== QUOTES ===== */
   .lv-quotes {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -397,7 +380,6 @@ const faqs = [
     font-weight: 600;
   }
 
-  /* ===== FAQ ===== */
   .lv-faq {
     max-width: 760px;
     margin: 0 auto;

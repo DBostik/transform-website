@@ -1,13 +1,4 @@
 ---
-/**
- * Navigation Header Component
- * 
- * Main site navigation with logo, menu links, and CTA button.
- * Features responsive mobile menu, dropdown support, and blue primary color accents.
- * 
- * Props:
- * - currentPath: Current page path for active link highlighting
- */
 
 interface Props {
   currentPath?: string;
@@ -30,7 +21,7 @@ interface NavItem {
 const navLinks: NavItem[] = [
   {
     label: 'Services',
-    href: '/studio-services/', // Provide a default or '#' if purely toggle
+    href: '/studio-services/',
     children: [
       { label: 'Studio Services', href: '/studio-services/' },
       { label: 'Online Training', href: '/online-training/' }
@@ -53,7 +44,6 @@ const navLinks: NavItem[] = [
 
 <header style="background-color: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); position: sticky; top: 0; z-index: 1000;">
   <nav class="container" style="display: flex; align-items: center; justify-content: space-between; padding-top: 1rem; padding-bottom: 1rem;">
-    <!-- Logo -->
     <a href="/" style="display: flex; align-items: center; text-decoration: none;">
       <img
         src="/images/logo.jpg"
@@ -64,7 +54,6 @@ const navLinks: NavItem[] = [
       />
     </a>
     
-    <!-- Desktop Navigation -->
     <div class="desktop-nav" style="display: none;">
       <ul style="display: flex; gap: 2rem; list-style: none; margin: 0; padding: 0; align-items: center;">
         {navLinks.map((link) => (
@@ -133,7 +122,6 @@ const navLinks: NavItem[] = [
       </ul>
     </div>
     
-    <!-- Mobile Menu Button -->
     <button 
       id="mobile-menu-button"
       class="mobile-menu-btn"
@@ -158,7 +146,6 @@ const navLinks: NavItem[] = [
     </button>
   </nav>
   
-  <!-- Mobile Menu (Hidden by default) -->
   <div 
     id="mobile-menu"
     class="mobile-menu"
@@ -219,7 +206,6 @@ const navLinks: NavItem[] = [
 </header>
 
 <style>
-  /* Dropdown Styles */
   .dropdown-parent:hover .dropdown-menu {
     opacity: 1;
     visibility: visible;
@@ -274,7 +260,6 @@ const navLinks: NavItem[] = [
     color: var(--color-primary-600);
   }
 
-  /* Show desktop nav on larger screens */
   @media (min-width: 900px) {
     .desktop-nav {
       display: block !important;
@@ -284,7 +269,6 @@ const navLinks: NavItem[] = [
     }
   }
 
-  /* Mobile Styles */
   .mobile-menu {
     display: none;
     background-color: white;
@@ -350,7 +334,6 @@ const navLinks: NavItem[] = [
     text-decoration: none;
   }
 
-  /* Hover Effects */
   .nav-link:hover {
     color: var(--color-primary-600) !important;
   }
@@ -363,7 +346,6 @@ const navLinks: NavItem[] = [
 </style>
 
 <script>
-  // Mobile menu toggle
   const menuButton = document.getElementById('mobile-menu-button');
   const mobileMenu = document.getElementById('mobile-menu');
   
@@ -374,7 +356,6 @@ const navLinks: NavItem[] = [
     }
   });
 
-  // Mobile Dropdown Toggle
   const dropdownToggles = document.querySelectorAll('.dropdown-toggle');
   dropdownToggles.forEach(toggle => {
     toggle.addEventListener('click', () => {

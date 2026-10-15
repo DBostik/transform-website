@@ -1,16 +1,4 @@
 ---
-/**
- * Transform Personal Training - Homepage
- * 
- * Complete homepage layout with:
- * - Hero section with blue primary CTA
- * - Services overview (Studio + Online)
- * - Features section
- * - Testimonials
- * - What Happens First
- * - Founder story
- * - Consultation form
- */
 
 import Button from '../components/ui/Button.astro';
 import ServiceCard from '../components/ui/ServiceCard.astro';
@@ -35,7 +23,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
   <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
@@ -43,11 +30,9 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
   <!-- Hero image: fetch immediately, it is the largest visible element -->
   <link rel="preload" as="image" href="/images/hero-background.webp" fetchpriority="high">
 
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 
-  <!-- Schema Markup -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -200,11 +185,9 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/" />
   <main>
   
-  <!-- ===== HERO SECTION ===== -->
   <section class="hero" style="background-image: url('/images/hero-background.webp');">
     <div class="hero-overlay"></div>
     
@@ -243,7 +226,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== SERVICES OVERVIEW ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -285,7 +267,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== WHY TRANSFORM (FEATURES) ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -293,7 +274,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
       </div>
       
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem;">
-        <!-- Feature 1 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             🎯
@@ -306,7 +286,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
           </p>
         </div>
         
-        <!-- Feature 2 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             🍎
@@ -319,7 +298,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
           </p>
         </div>
         
-        <!-- Feature 3 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             💬
@@ -335,7 +313,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== TESTIMONIALS ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -373,7 +350,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== WHAT HAPPENS FIRST ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -384,7 +360,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
       </div>
       
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-        <!-- Step 1 -->
         <div style="text-align: center;">
           <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
             1
@@ -397,7 +372,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
           </p>
         </div>
         
-        <!-- Step 2 -->
         <div style="text-align: center;">
           <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
             2
@@ -410,7 +384,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
           </p>
         </div>
         
-        <!-- Step 3 -->
         <div style="text-align: center;">
           <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
             3
@@ -426,7 +399,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== FOUNDER STORY ===== -->
   <section class="section">
     <div class="container">
       <div style="display: grid; grid-template-columns: 1fr; gap: 3rem; align-items: center; max-width: 1000px; margin: 0 auto;">
@@ -525,7 +497,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== CONSULTATION FORM ===== -->
   <section id="consultation-form" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
     <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.55));"></div>
     <div class="container" style="position: relative; z-index: 1;">
@@ -540,7 +511,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
         </div>
         
         <div style="background: white; padding: 2rem; border-radius: 1rem; box-shadow: var(--shadow-xl);">
-          <!-- HighLevel Quick Lead Form -->
           <StyledGHLQuickLead />
           
           <p style="text-align: center; font-size: 0.875rem; color: var(--color-black-500); margin-top: 1rem;">
@@ -551,7 +521,6 @@ const pageDescription = "Private 1-on-1 personal training in our Lakeview, Chica
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 </body>

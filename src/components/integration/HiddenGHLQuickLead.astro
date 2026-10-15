@@ -1,12 +1,7 @@
 ---
 /**
- * HighLevel Quick Lead Form Handler - CLEAN VERSION
- * 
  * No iframes, no embeds - just pure form submission to HighLevel.
  * This avoids all cross-origin issues and HighLevel JavaScript errors.
- * 
- * Used for: Homepage consultation form, pop-ups, team page booking
- * Fields: Name, Phone, Email
  */
 ---
 
@@ -14,7 +9,6 @@
   (function() {
     'use strict';
     
-    // HighLevel form endpoint
     const FORM_ID = 'qXzxX9rUnMDpX0jgk5RU';
     const FORM_ENDPOINT = `https://api.leadconnectorhq.com/widget/form/${FORM_ID}`;
     
@@ -51,7 +45,6 @@
           const email = emailInput.value.trim();
           const phone = phoneInput.value.trim();
 
-          // Validation
           if (!name || !email || !phone) {
             alert('Please fill out all fields.');
             return;
@@ -64,7 +57,6 @@
 
           console.log('[GHL] Data validated, submitting...');
 
-          // Update button
           const btnText = submitBtn?.textContent;
           if (submitBtn) {
             submitBtn.disabled = true;
@@ -72,13 +64,11 @@
           }
 
           try {
-            // Create form data
             const formData = new FormData();
             formData.append('name', name);
             formData.append('email', email);
             formData.append('phone', phone);
 
-            // Submit to HighLevel
             await fetch(FORM_ENDPOINT, {
               method: 'POST',
               body: formData,
@@ -103,7 +93,6 @@
       });
     }
 
-    // Initialize when ready
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', setupQuickLeadForm);
     } else {

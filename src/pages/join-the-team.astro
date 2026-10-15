@@ -1,9 +1,4 @@
 ---
-/**
- * Transform Personal Training - Join the Team Page
- * 
- * Careers page for potential trainers to apply.
- */
 
 import Button from '../components/ui/Button.astro';
 import FormInput from '../components/ui/FormInput.astro';
@@ -27,22 +22,18 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
   <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/join-the-team" />
   <main>
   
-  <!-- ===== HERO SECTION ===== -->
   <section class="career-hero">
     <div class="career-hero__content container">
       <span class="career-hero__badge">Careers</span>
@@ -54,12 +45,10 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
     </div>
   </section>
 
-  <!-- ===== CONTENT SECTION ===== -->
   <section class="section">
     <div class="container">
       <div class="content-grid">
         
-        <!-- Details Column -->
         <div class="details-col">
           <h2 class="section-title">Why Transform?</h2>
           <p class="mb-6 text-lg">
@@ -94,7 +83,6 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
           </ul>
         </div>
         
-        <!-- Application Form -->
         <div class="form-col">
           <div class="form-wrapper">
             <div class="form-header">
@@ -102,7 +90,6 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
               <p class="form-subtitle">Fill out the form below to start the conversation.</p>
             </div>
             
-            <!-- HighLevel Application Form -->
             <StyledGHLApplication />
           </div>
         </div>
@@ -111,7 +98,6 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 
@@ -120,7 +106,6 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
 </html>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .career-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -178,7 +163,6 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
     line-height: 1.7;
   }
   
-  /* ===== CONTENT SECTION ===== */
   .content-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -265,7 +249,6 @@ const pageDescription = "Become a personal trainer at Chicago's premier fitness 
     font-weight: 700;
   }
   
-  /* Form Styles */
   .form-wrapper {
     background: white;
     padding: 0; /* Removed padding completely to let form fill space */

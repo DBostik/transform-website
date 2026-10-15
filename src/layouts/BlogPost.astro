@@ -52,12 +52,10 @@ const articleSchema = {
     ]
   })} />
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 </head>
@@ -67,7 +65,6 @@ const articleSchema = {
   <main>
   
   <article>
-    <!-- Post Header -->
     <header class="post-header">
       <div class="container">
         <a href="/blog/" class="back-link">← Back to Blog</a>
@@ -86,13 +83,11 @@ const articleSchema = {
       </div>
     </header>
 
-    <!-- Post Content -->
     <div class="container">
       <div class="post-content prose">
         <Content />
       </div>
       
-      <!-- Share/Subscribe (Optional) -->
       <div class="post-footer">
         <hr />
         <p>Ready to start your own transformation? Work with a <a href="/studio-services/">personal trainer in Chicago</a>, <a href="/online-training/">train online with a real coach</a> from anywhere in the US, or <a href="/contact/">book a free consultation today</a>.</p>
@@ -105,7 +100,6 @@ const articleSchema = {
   <PopupForm />
 
   <script>
-    // Links inside article content that lead off-site open in a new tab.
     document.querySelectorAll('.post-content a[href]').forEach((el) => {
       const a = el;
       if (a instanceof HTMLAnchorElement && a.hostname && a.hostname !== window.location.hostname) {
@@ -196,7 +190,6 @@ const articleSchema = {
     color: var(--color-black-800);
   }
   
-  /* Typography for Markdown Content */
   .prose :global(h2) {
     font-family: var(--font-heading);
     font-size: 1.875rem;
@@ -269,7 +262,6 @@ const articleSchema = {
     }
   }
 
-  /* Specific fix for "wall of text" look */
   .prose {
     line-height: 1.85;
     font-size: 1.125rem;
