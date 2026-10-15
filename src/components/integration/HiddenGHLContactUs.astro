@@ -1,12 +1,7 @@
 ---
 /**
- * HighLevel Contact Us Form Handler - CLEAN VERSION
- * 
  * No iframes, no embeds - just pure form submission to HighLevel.
  * This avoids all cross-origin issues and HighLevel JavaScript errors.
- * 
- * Used for: Contact page form
- * Fields: Name, Phone, Email, Message
  */
 ---
 
@@ -14,7 +9,6 @@
   (function() {
     'use strict';
     
-    // HighLevel form endpoint
     const FORM_ID = 'u8SRmwrjxnx9rWGuQGKb';
     const FORM_ENDPOINT = `https://api.leadconnectorhq.com/widget/form/${FORM_ID}`;
     
@@ -50,7 +44,6 @@
         const phone = phoneInput.value.trim();
         const message = messageInput ? messageInput.value.trim() : '';
 
-        // Validation
         if (!name || !email || !phone) {
           alert('Please fill out all required fields.');
           return;
@@ -63,7 +56,6 @@
 
         console.log('[GHL] Data validated, submitting...');
 
-        // Update button
         const btnText = submitBtn?.textContent;
         if (submitBtn) {
           submitBtn.disabled = true;
@@ -71,7 +63,6 @@
         }
 
         try {
-          // Create form data
           const formData = new FormData();
           formData.append('name', name);
           formData.append('email', email);
@@ -80,7 +71,6 @@
             formData.append('message', message);
           }
 
-          // Submit to HighLevel
           await fetch(FORM_ENDPOINT, {
             method: 'POST',
             body: formData,
@@ -104,7 +94,6 @@
       });
     }
 
-    // Initialize when ready
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', setupContactForm);
     } else {

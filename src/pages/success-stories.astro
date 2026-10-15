@@ -1,10 +1,4 @@
 ---
-/**
- * Transform Personal Training - Success Stories Page
- * 
- * Showcases client transformations with before/after photos and testimonials
- * Premium design matching the site aesthetic
- */
 
 import Button from '../components/ui/Button.astro';
 import Navigation from '../components/Navigation.astro';
@@ -16,14 +10,12 @@ import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Chicago Personal Training Success Stories | Transform";
 const pageDescription = "Real transformations from real clients in Lakeview, Chicago. See before/after photos and testimonials from people who reached their goals with Transform.";
 
-// Featured transformations for the hero grid
 const featuredTransformations = [
   { name: "Annette E.", image: "/images/transformations/Annette-E-29.6lbs-4.2bf.webp", result: "Lost 29.6 lbs & 4.2% Body Fat" },
   { name: "Andrew G.", image: "/images/transformations/Andrew-G-96lb-13bf-1.webp", result: "Lost 96 lbs & 13% Body Fat" },
   { name: "Beto M.", image: "/images/transformations/Beto-M-28.3lbs-and-6.1bf-in-6-weeks-copy.webp", result: "Lost 28.3 lbs in 6 Weeks" },
 ];
 
-// All transformations grid
 const transformations = [
   { name: "Kristin D.", image: "/images/transformations/Kristin-50lbs-copy.webp", result: "Lost 50 lbs" },
   { name: "Jesse K.", image: "/images/transformations/Jesse-K-43lbs-13.6bf-copy.webp", result: "Lost 43 lbs & 13.6% BF" },
@@ -61,16 +53,13 @@ const transformations = [
   <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 
-  <!-- Schema Markup -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -95,11 +84,9 @@ const transformations = [
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/success-stories" />
   <main>
   
-  <!-- ===== HERO SECTION ===== -->
   <section class="success-hero">
     <div class="success-hero__content container">
       <span class="success-hero__badge">Real Results</span>
@@ -111,7 +98,6 @@ const transformations = [
     </div>
   </section>
 
-  <!-- ===== FEATURED TRANSFORMATIONS ===== -->
   <section class="featured-section">
     <div class="container">
       <div class="section-header">
@@ -137,14 +123,12 @@ const transformations = [
     </div>
   </section>
 
-  <!-- ===== TESTIMONIAL CAROUSEL ===== -->
   <section class="quote-section">
     <div class="container">
       <div class="testimonial-carousel" id="testimonialCarousel">
         <div class="quote-icon">❝</div>
         
         <div class="testimonial-slides">
-          <!-- Slide 1: Arne W. -->
           <div class="testimonial-slide active">
             <blockquote class="quote-text">
               Dave has a confident and seasoned grasp of all of the technical aspects of high-level training. But, in addition and, perhaps more important for his clients, he possesses that critical instinct for those moments in a workout where effort meets resistance in the most productive way possible. Dave is keenly attuned to the "Zen" of the training session. To work with him is to experience intense focus – one's own and also his. Plus, I grew some better-than-average guns.
@@ -154,7 +138,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 2: Kristen L. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I worked with both Miriam and ET in preparation for my wedding. Both did an excellent job! They made sure my nutrition was on point and they pushed me hard at every training session. They clearly have been in the fitness industry for quite some time and know their stuff! In addition, ET and Miriam made the entire process fun, something I'd never experienced before when working out.
@@ -164,7 +147,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 3: Brittany -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I have been very fortunate to have had Eric-Todd as a personal trainer. I worked with Eric-Todd for well over a year, and I can truly say that without him I never would have achieved my weight loss goals, and have kept the weight off. Eric-Todd is so inspiring, and he truly cares about your goals. I have become a stronger person, physically and mentally, all because I was pushed to places I never knew I could go!
@@ -174,7 +156,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 4: Andrew W. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I once hired a trainer a couple years ago from another group and I quit after the first session. I figured I would fizzle out quickly here as well. I am happy to announce I was wrong. I was lucky to meet and work with Miriam. The workouts are challenging but Miriam makes the session fun and the time move quickly. I now actually look forward to coming in and doing my workout. I was hoping to tone my 47 year old body and I am happy to say its working!
@@ -184,7 +165,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 5: Steve B. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I have been training with Gerri Clark at Transform Personal Training for three and a half years. The photo shows me, at age 73, deadlifting 225 pounds — a direct result of Gerri's unfailing patience, enthusiasm, and encouragement. Whatever your goal may be, I can unhesitatingly recommend training with Gerri. She will work with you to figure out your goals, and then she will be with you every step of the way.
@@ -195,7 +175,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 6: Bart H. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               Eric Todd is a TOP notch trainer!! He takes the time with his clients and definitely makes sure you are getting the best workout possible!! He made me aware of my full potential with a workout and how to use my time wisely!! Definitely recommend him if you want to get fit!!
@@ -205,7 +184,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 7: Abha B. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I was at my highest weight last year during the pandemic and needed help. I reached out to Transform and they worked with me every step of the way. Coach Kristen did a phenomenal job. I felt satisfied with the meal plan and the overall results – lost 35 pounds over a 6 month period.
@@ -216,7 +194,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 8: Sally J. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I've been working with Gerri Clark at Transform for over a year, and her program designed for seniors has worked wonders for me. I'm much stronger and can now do many of the little things whose loss made me despair at the prospect of getting old. In fact between that and the slow weight loss I've been working on, a lot of people don't believe my chronological age. Thanks, Gerri!
@@ -226,7 +203,6 @@ const transformations = [
             </div>
           </div>
           
-          <!-- Slide 9: Katie K. -->
           <div class="testimonial-slide">
             <blockquote class="quote-text">
               I worked with Eric for 2-3 months on learning how to lift weights. He changed my whole outlook on weight training, I used to be afraid and embarrassed lifting weights but now I look forward to the challenge! I feel so much more confident and stronger! Thank you Eric and Transform!
@@ -237,7 +213,6 @@ const transformations = [
           </div>
         </div>
         
-        <!-- Navigation dots -->
         <div class="testimonial-dots">
           <button class="testimonial-dot active" data-slide="0" aria-label="View testimonial 1"></button>
           <button class="testimonial-dot" data-slide="1" aria-label="View testimonial 2"></button>
@@ -254,7 +229,6 @@ const transformations = [
   </section>
   
   <script>
-    // Testimonial Carousel Auto-rotation
     document.addEventListener('DOMContentLoaded', () => {
       const slides = document.querySelectorAll('.testimonial-slide');
       const dots = document.querySelectorAll('.testimonial-dot');
@@ -262,13 +236,11 @@ const transformations = [
       let autoPlayInterval;
       
       function showSlide(index) {
-        // Hide all slides
         slides.forEach((slide, i) => {
           slide.classList.remove('active');
           dots[i].classList.remove('active');
         });
         
-        // Show current slide
         slides[index].classList.add('active');
         dots[index].classList.add('active');
         currentSlide = index;
@@ -280,7 +252,7 @@ const transformations = [
       }
       
       function startAutoPlay() {
-        autoPlayInterval = setInterval(nextSlide, 8000); // Change every 8 seconds
+        autoPlayInterval = setInterval(nextSlide, 8000);
       }
       
       function resetAutoPlay() {
@@ -288,7 +260,6 @@ const transformations = [
         startAutoPlay();
       }
       
-      // Click handlers for dots
       dots.forEach((dot, index) => {
         dot.addEventListener('click', () => {
           showSlide(index);
@@ -296,12 +267,10 @@ const transformations = [
         });
       });
       
-      // Start auto-play
       startAutoPlay();
     });
   </script>
 
-  <!-- ===== ALL TRANSFORMATIONS GRID ===== -->
   <section class="transformations-section">
     <div class="container">
       <div class="section-header">
@@ -328,7 +297,6 @@ const transformations = [
     </div>
   </section>
 
-  <!-- ===== STATS SECTION ===== -->
   <section class="stats-section">
     <div class="container">
       <div class="stats-grid">
@@ -352,7 +320,6 @@ const transformations = [
     </div>
   </section>
 
-  <!-- ===== CTA SECTION ===== -->
   <section class="cta-section">
     <div class="container">
       <div class="cta-content">
@@ -369,7 +336,6 @@ const transformations = [
     </div>
   </section>
 
-  <!-- ===== CONSULTATION FORM ===== -->
   <section id="consultation" class="consultation-section">
     <div class="consultation-overlay"></div>
     <div class="container consultation-container">
@@ -391,8 +357,6 @@ const transformations = [
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 
@@ -401,7 +365,6 @@ const transformations = [
 </html>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .success-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -459,7 +422,6 @@ const transformations = [
     line-height: 1.7;
   }
 
-  /* ===== SECTION STYLES ===== */
   .featured-section {
     padding: 5rem 0;
     background: white;
@@ -490,7 +452,6 @@ const transformations = [
     line-height: 1.7;
   }
 
-  /* ===== FEATURED GRID ===== */
   .featured-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -503,7 +464,6 @@ const transformations = [
     }
   }
 
-  /* ===== TRANSFORMATION CARDS ===== */
   .transformation-card {
     background: white;
     border-radius: 1rem;
@@ -554,7 +514,6 @@ const transformations = [
     letter-spacing: 0.5px;
   }
 
-  /* ===== QUOTE SECTION & TESTIMONIAL CAROUSEL ===== */
   .quote-section {
     background: linear-gradient(135deg, #1e293b, #0f172a);
     padding: 5rem 0;
@@ -634,7 +593,6 @@ const transformations = [
     letter-spacing: 1px;
   }
   
-  /* Navigation Dots */
   .testimonial-dots {
     display: flex;
     justify-content: center;
@@ -662,7 +620,6 @@ const transformations = [
     border-color: var(--color-accent-500);
   }
 
-  /* ===== TRANSFORMATIONS GRID SECTION ===== */
   .transformations-section {
     padding: 5rem 0;
     background: var(--color-black-50);
@@ -687,7 +644,6 @@ const transformations = [
     }
   }
 
-  /* ===== STATS SECTION ===== */
   .stats-section {
     background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
     padding: 4rem 0;
@@ -725,7 +681,6 @@ const transformations = [
     letter-spacing: 1px;
   }
 
-  /* ===== CTA SECTION ===== */
   .cta-section {
     padding: 5rem 0;
     background: white;
@@ -790,7 +745,6 @@ const transformations = [
     font-size: 1.25rem;
   }
 
-  /* ===== CONSULTATION SECTION ===== */
   .consultation-section {
     position: relative;
     background-image: url('/images/form-background.webp');
@@ -878,7 +832,6 @@ const transformations = [
     margin-top: 0.5rem;
   }
 
-  /* ===== FOOTER ===== */
   .footer {
     background: #0f172a;
     padding: 4rem 0 2rem;

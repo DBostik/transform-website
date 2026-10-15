@@ -1,9 +1,5 @@
 ---
 /**
- * Transform Personal Training - Online Training Page
- *
- * Online coaching with a real coach: custom programs in Trainerize, daily
- * check-ins, 24/7 in-app messaging and a weekly 1-on-1 video call.
  * Uses the dedicated HighLevel "Online Lead Form - New Website".
  */
 
@@ -111,22 +107,18 @@ const faqs = [
   })} />
   <meta name="description" content={pageDescription}>
 
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
 
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/online-training" />
   <main>
 
-  <!-- ===== HERO SECTION ===== -->
   <section class="online-hero">
     <div class="online-hero__content container">
       <span class="online-hero__badge">Online Coaching</span>
@@ -146,7 +138,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== THE DIFFERENCE ===== -->
   <section class="feature-section feature-section--white">
     <div class="container container--narrow">
       <h2 class="section-title section-title--accent text-center">NO TEMPLATES. NO AI-GENERATED PLANS. A REAL COACH.</h2>
@@ -222,7 +213,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== WHAT YOU GET ===== -->
   <section class="feature-section feature-section--light">
     <div class="container">
       <div class="section-header">
@@ -272,7 +262,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== YOUR PROGRAM IN YOUR POCKET ===== -->
   <section class="feature-section feature-section--white">
     <div class="container">
       <div class="feature-grid feature-grid--reversed">
@@ -313,7 +302,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== YOUR COACH, EVERY DAY ===== -->
   <section class="feature-section feature-section--light">
     <div class="container">
       <div class="feature-grid">
@@ -349,7 +337,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== NUTRITION ===== -->
   <section class="feature-section feature-section--white">
     <div class="container">
       <div class="feature-grid feature-grid--reversed">
@@ -390,7 +377,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== PROVEN RESULTS ===== -->
   <section class="results-section">
     <div class="container">
       <div class="results-content">
@@ -449,7 +435,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== PRICING ===== -->
   <section class="feature-section feature-section--white">
     <div class="container container--narrow">
       <div class="section-header">
@@ -487,7 +472,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== WHY ONLINE ===== -->
   <section class="feature-section feature-section--light">
     <div class="container container--narrow">
       <div class="section-header">
@@ -531,7 +515,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== COACHES ===== -->
   <section class="feature-section feature-section--white">
     <div class="container">
       <div class="section-header">
@@ -572,7 +555,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== HOW IT WORKS ===== -->
   <section class="feature-section feature-section--light">
     <div class="container container--narrow">
       <div class="section-header">
@@ -611,7 +593,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== FAQ ===== -->
   <section class="feature-section feature-section--white">
     <div class="container container--narrow">
       <div class="section-header">
@@ -628,7 +609,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== CONSULTATION FORM ===== -->
   <section id="consultation" class="consultation-section">
     <div class="consultation-overlay"></div>
     <div class="container consultation-container">
@@ -650,7 +630,6 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== ALSO OFFERING: STUDIO TRAINING ===== -->
   <section class="alt-service-section">
     <div class="container">
       <div class="alt-service-card">
@@ -673,17 +652,14 @@ const faqs = [
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 
-  <!-- ===== POPUP FORM ===== -->
   <PopupForm />
 </body>
 </html>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .online-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -741,7 +717,6 @@ const faqs = [
     line-height: 1.7;
   }
   
-  /* ===== CTA BUTTON ===== */
   .btn-cta {
     display: inline-flex;
     flex-direction: column;
@@ -780,7 +755,6 @@ const faqs = [
     font-size: 1.25rem;
   }
   
-  /* ===== FEATURE SECTIONS ===== */
   .feature-section {
     padding: 5rem 0;
   }
@@ -869,7 +843,6 @@ const faqs = [
     flex-shrink: 0;
   }
   
-  /* ===== PHONE MOCKUP ===== */
   .feature-image {
     display: flex;
     justify-content: center;
@@ -913,7 +886,6 @@ const faqs = [
     max-width: 480px;
   }
   
-  /* ===== HIGHLIGHT SECTION ===== */
   .highlight-section {
     background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
     padding: 4rem 0;
@@ -943,7 +915,6 @@ const faqs = [
     color: var(--color-accent-400);
   }
   
-  /* ===== NUTRITION ROW ===== */
   .nutrition-row {
     display: grid;
     grid-template-columns: 1fr;
@@ -995,7 +966,6 @@ const faqs = [
     margin-top: 3rem;
   }
   
-  /* ===== COACH SUPPORT CARD ===== */
   .coach-support-card {
     display: flex;
     gap: 1.25rem;
@@ -1026,7 +996,6 @@ const faqs = [
     margin: 0;
   }
   
-  /* ===== RESULTS SECTION ===== */
   .results-section {
     background: linear-gradient(135deg, #1e293b, #0f172a);
     padding: 5rem 0;
@@ -1099,7 +1068,6 @@ const faqs = [
     letter-spacing: 1px;
   }
   
-  /* ===== ALT SERVICE SECTION ===== */
   .alt-service-section {
     background: var(--color-black-50);
     padding: 4rem 0;
@@ -1212,7 +1180,6 @@ const faqs = [
     opacity: 0.9;
   }
   
-  /* ===== CONSULTATION SECTION ===== */
   .consultation-section {
     position: relative;
     background-image: url('/images/form-background.webp');
@@ -1295,7 +1262,6 @@ const faqs = [
     margin-top: 1rem;
   }
   
-  /* ===== SECTION HEADER ===== */
   .section-header {
     text-align: center;
     margin-bottom: 3rem;
@@ -1317,10 +1283,7 @@ const faqs = [
     margin: 0 auto;
   }
   
-  /* ===== FOOTER ===== */
-  /* Footer styles moved to component */
   
-  /* ===== RESPONSIVE ADJUSTMENTS ===== */
   @media (max-width: 640px) {
     .online-hero {
       padding: 4rem 0 3rem;
@@ -1357,7 +1320,6 @@ const faqs = [
     }
   }
 
-  /* ===== V2 ADDITIONS (online page rewrite) ===== */
   .container--narrow {
     max-width: 860px;
   }
@@ -1400,7 +1362,6 @@ const faqs = [
 
   .lede a { color: var(--color-primary-700); }
 
-  /* Comparison table */
   .compare-wrap {
     overflow-x: auto;
     margin: 2.5rem 0 2rem;
@@ -1455,7 +1416,6 @@ const faqs = [
     border-bottom: none;
   }
 
-  /* Research callout */
   .research-note {
     background: var(--color-black-50);
     border-left: 4px solid var(--color-primary-500);
@@ -1477,7 +1437,6 @@ const faqs = [
     line-height: 1.8;
   }
 
-  /* What's included grid */
   .included-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -1513,7 +1472,6 @@ const faqs = [
     line-height: 1.7;
   }
 
-  /* Testimonials inside results section */
   .quote-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -1570,7 +1528,6 @@ const faqs = [
     text-decoration: underline;
   }
 
-  /* Price card */
   .price-card {
     background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
     border-radius: 1.5rem;
@@ -1651,7 +1608,6 @@ const faqs = [
 
   .price-footnote a { color: var(--color-primary-700); }
 
-  /* Why online list */
   .why-list {
     list-style: none;
     padding: 0;
@@ -1692,7 +1648,6 @@ const faqs = [
 
   .honest-box a { color: var(--color-primary-700); }
 
-  /* Coaches */
   .coach-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -1756,7 +1711,6 @@ const faqs = [
 
   .text-link:hover { text-decoration: underline; }
 
-  /* Steps */
   .steps-list {
     list-style: none;
     counter-reset: none;
@@ -1805,7 +1759,6 @@ const faqs = [
     font-size: 0.9375rem;
   }
 
-  /* FAQ */
   .faq-list {
     display: grid;
     gap: 1rem;

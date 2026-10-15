@@ -25,7 +25,6 @@ try {
     const files = getFiles(DIST_DIR);
 
     const urls = files.map(file => {
-        // Normalize path and remove 'dist' prefix
         let urlPath = file
             .replace(/\\/g, '/')
             .replace(/^dist\//, '/')
@@ -36,7 +35,6 @@ try {
         return `${SITE}${urlPath}`;
     });
 
-    // Unique URLs only
     const uniqueUrls = [...new Set(urls)].filter(url => !url.includes('/404'));
 
     const sitemapContent = `<?xml version="1.0" encoding="UTF-8"?>

@@ -1,10 +1,4 @@
 ---
-/**
- * Transform Personal Training - Contact Page
- * 
- * Contact information, map, and inquiry form
- * Premium design matching the site aesthetic
- */
 
 import Button from '../components/ui/Button.astro';
 import FormInput from '../components/ui/FormInput.astro';
@@ -27,15 +21,12 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
   <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
-  <!-- Structured Data: contact page referencing the business -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -66,11 +57,9 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/contact" />
   <main>
   
-  <!-- ===== HERO SECTION ===== -->
   <section class="contact-hero">
     <div class="contact-hero__content container">
       <span class="contact-hero__badge">Get In Touch</span>
@@ -82,15 +71,12 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     </div>
   </section>
 
-  <!-- ===== CONTACT CONTENT ===== -->
   <section class="contact-section">
     <div class="container">
       <div class="contact-grid">
         
-        <!-- INFO COLUMN -->
         <div class="contact-info">
           
-          <!-- Locations & Hours -->
           <div class="info-block">
             <h2 class="info-title">Location & Hours</h2>
             <div class="info-card">
@@ -123,7 +109,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
             </div>
           </div>
           
-          <!-- Contact Methods -->
           <div class="info-block">
             <h2 class="info-title">Reach Out</h2>
             <div class="info-card">
@@ -145,7 +130,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
             </div>
           </div>
           
-          <!-- Online Coaching -->
           <div class="info-block">
             <h2 class="info-title">Not Near Lakeview?</h2>
             <div class="info-card">
@@ -161,7 +145,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
           </div>
         </div>
         
-        <!-- FORM COLUMN -->
         <div class="contact-form-col">
           <div class="form-wrapper">
             <div class="form-header">
@@ -182,7 +165,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
               </div>
             </div>
             
-            <!-- HighLevel Contact Form -->
             <StyledGHLContactForm />
           </div>
         </div>
@@ -191,7 +173,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     </div>
   </section>
   
-  <!-- ===== MAP SECTION ===== -->
   <section class="map-section">
     <iframe 
       src="https://maps.google.com/maps?q=2900+N+Broadway+St,+Chicago,+IL+60657&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -203,14 +184,12 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     </iframe>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 </body>
 </html>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .contact-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -268,7 +247,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     line-height: 1.7;
   }
 
-  /* ===== CONTACT SECTION ===== */
   .contact-section {
     padding: 5rem 0;
     background: var(--color-black-50);
@@ -287,7 +265,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     }
   }
   
-  /* Info Column */
   .info-block {
     margin-bottom: 3rem;
   }
@@ -397,7 +374,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     color: var(--color-primary-800);
   }
   
-  /* Form Column */
   .contact-form-col {
     position: relative;
   }
@@ -487,7 +463,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     width: 100%;
   }
   
-  /* ===== MAP SECTION ===== */
   .map-section {
     height: 450px;
     filter: grayscale(100%);
@@ -498,8 +473,6 @@ const pageDescription = "Schedule your free consultation at Transform Personal T
     filter: grayscale(0%);
   }
   
-  /* ===== FOOTER ===== */
-  /* Footer styles moved to component */
   
   .text-sm {
     font-size: 0.875rem;

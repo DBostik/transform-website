@@ -1,11 +1,4 @@
 ---
-/**
- * Styled HighLevel Contact Us Form
- * 
- * Embeds the actual HighLevel form with custom CSS to match site design.
- * This is the most reliable approach - HighLevel handles submission,
- * we just make it look beautiful.
- */
 
 const formId = 'TTPaX8eoout8rttFXD1e';
 const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
@@ -77,7 +70,6 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
           return;
         }
 
-        // Inject custom styles
         const style = iframeDoc.createElement('style');
         style.textContent = `
           body {

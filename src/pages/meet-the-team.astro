@@ -1,10 +1,4 @@
 ---
-/**
- * Transform Personal Training - Meet the Team Page
- * 
- * Showcases the trainers and staff with professional profiles
- * Premium design matching the site aesthetic
- */
 
 import Button from '../components/ui/Button.astro';
 import Navigation from '../components/Navigation.astro';
@@ -14,7 +8,6 @@ import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Personal Trainers in Lakeview, Chicago | Meet Our Team";
 const pageDescription = "Meet the expert trainers at Transform Personal Training. Our certified coaches are dedicated to helping you achieve your fitness goals in Lakeview, Chicago.";
 
-// Team Members Data
 const teamMembers = [
   {
     name: "David Bostik",
@@ -82,16 +75,13 @@ const teamMembers = [
   <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 
-  <!-- Schema Markup -->
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -129,11 +119,9 @@ const teamMembers = [
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/meet-the-team" />
   <main>
   
-  <!-- ===== HERO SECTION ===== -->
   <section class="team-hero">
     <div class="team-hero__content container">
       <span class="team-hero__badge">Expert Guidance</span>
@@ -145,7 +133,6 @@ const teamMembers = [
     </div>
   </section>
 
-  <!-- ===== TEAM GRID SECTION ===== -->
   <section class="team-section">
     <div class="container">
       <div class="team-grid">
@@ -184,7 +171,6 @@ const teamMembers = [
     </div>
   </section>
 
-  <!-- ===== VALUES SECTION ===== -->
   <section class="values-section">
     <div class="container">
       <div class="section-header">
@@ -214,7 +200,6 @@ const teamMembers = [
     </div>
   </section>
 
-  <!-- ===== CTA SECTION ===== -->
   <section class="cta-section">
     <div class="container">
       <div class="cta-content">
@@ -230,14 +215,12 @@ const teamMembers = [
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 </body>
 </html>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .team-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -295,7 +278,6 @@ const teamMembers = [
     line-height: 1.7;
   }
 
-  /* ===== TEAM SECTION ===== */
   .team-section {
     padding: 5rem 0;
     background: var(--color-black-50);
@@ -307,7 +289,6 @@ const teamMembers = [
     gap: 4rem;
   }
   
-  /* Team Card */
   .team-card {
     display: grid;
     grid-template-columns: 1fr;
@@ -344,7 +325,6 @@ const teamMembers = [
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
   }
   
-  /* Image Column */
   .team-card__image-col {
     position: relative;
     height: 100%;
@@ -371,7 +351,6 @@ const teamMembers = [
     transform: scale(1.03);
   }
   
-  /* Content Column */
   .team-card__content-col {
     padding: 2rem;
   }
@@ -445,7 +424,6 @@ const teamMembers = [
     font-weight: 500;
   }
 
-  /* ===== VALUES SECTION ===== */
   .values-section {
     padding: 5rem 0;
     background: white;
@@ -489,12 +467,12 @@ const teamMembers = [
     background: var(--color-black-50);
     border-radius: 1rem;
     transition: transform 0.3s ease;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Added depth/shadow */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   }
   
   .value-card:hover {
     transform: translateY(-5px);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12); /* Enhanced hover shadow */
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.12);
   }
   
   .value-card__icon {
@@ -515,7 +493,6 @@ const teamMembers = [
     line-height: 1.6;
   }
 
-  /* ===== CTA SECTION ===== */
   .cta-section {
     padding: 5rem 0;
     /* Match hero text backdrop color */
@@ -574,6 +551,4 @@ const teamMembers = [
     letter-spacing: 0.5px;
   }
 
-  /* ===== FOOTER ===== */
-  /* Footer styles moved to component */
 </style>

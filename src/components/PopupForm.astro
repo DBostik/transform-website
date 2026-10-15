@@ -1,13 +1,7 @@
 ---
-/**
- * PopupForm Component
- * 
- * Integrates HighLevel popup form with custom styling
- * to match the Transform Personal Training design system.
- */
+
 ---
 
-<!-- Popup Form Container -->
 <div id="popup-form-overlay" class="popup-overlay">
   <div class="popup-container">
     <button id="close-popup" class="popup-close" aria-label="Close form">
@@ -119,7 +113,6 @@
 </style>
 
 <script>
-  // Popup form functionality
   const popupOverlay = document.getElementById('popup-form-overlay');
   const closeButton = document.getElementById('close-popup');
 
@@ -136,33 +129,25 @@
     popupOverlay?.classList.add('active');
   }
 
-  // Show popup after 5 seconds (DISABLED - uncomment to re-enable)
-  // setTimeout(() => {
-  //   activatePopup();
-  // }, 5000);
 
-  // Close popup when clicking close button
   closeButton?.addEventListener('click', () => {
     if (popupOverlay) {
       popupOverlay.classList.remove('active');
     }
   });
 
-  // Close popup when clicking outside
   popupOverlay?.addEventListener('click', (e) => {
     if (e.target === popupOverlay) {
       popupOverlay.classList.remove('active');
     }
   });
 
-  // Close popup on Escape key
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && popupOverlay?.classList.contains('active')) {
       popupOverlay.classList.remove('active');
     }
   });
 
-  // Handle all trigger buttons
   document.querySelectorAll('.js-trigger-popup').forEach(button => {
     button.addEventListener('click', (e) => {
       e.preventDefault();
@@ -171,4 +156,3 @@
   });
 </script>
 
-<!-- HighLevel's helper script now loads on demand inside activatePopup() above -->

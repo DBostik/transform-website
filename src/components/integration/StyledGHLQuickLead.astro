@@ -1,11 +1,4 @@
 ---
-/**
- * Styled HighLevel Quick Lead Form
- * 
- * Embeds the actual HighLevel form with custom CSS to match site design.
- * This is the most reliable approach - HighLevel handles submission,
- * we just make it look beautiful.
- */
 
 const formId = 'DePsF4xxRYG8Xte6IjhU';
 const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
@@ -50,7 +43,6 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
     background: transparent;
   }
 
-  /* Custom CSS to style HighLevel form fields */
   /* These styles will be injected via JavaScript to override HighLevel's defaults */
 </style>
 
@@ -60,7 +52,6 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
     
     console.log('[GHL Styled] Quick Lead form initializing...');
     
-    // Wait for iframe to load
     const iframe = document.getElementById('ghl-quick-lead-iframe');
     if (!iframe) {
       console.error('[GHL Styled] Iframe not found');
@@ -70,7 +61,6 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
     iframe.addEventListener('load', function() {
       console.log('[GHL Styled] Iframe loaded, attempting to style...');
       
-      // Try to inject custom styles into the iframe
       try {
         const iframeDoc = iframe.contentDocument || iframe.contentWindow.document;
         
@@ -79,10 +69,8 @@ const formUrl = `https://api.leadconnectorhq.com/widget/form/${formId}`;
           return;
         }
 
-        // If we can access it, inject our custom CSS
         const style = iframeDoc.createElement('style');
         style.textContent = `
-          /* Match your site's form styling */
           body {
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
             background: transparent !important;

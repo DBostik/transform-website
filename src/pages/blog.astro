@@ -1,9 +1,4 @@
 ---
-/**
- * Transform Personal Training - Blog Page
- * 
- * Listing of fitness articles, nutrition tips, and transformer stories.
- */
 
 import { getCollection } from 'astro:content';
 import Button from '../components/ui/Button.astro';
@@ -15,12 +10,9 @@ import BaseHead from '../components/BaseHead.astro';
 const pageTitle = "Chicago Fitness & Nutrition Blog | Transform Personal Training";
 const pageDescription = "Practical fitness advice, nutrition tips, and healthy recipes from Lakeview personal trainers. Real strategies for busy Chicago professionals.";
 
-// Fetch posts from content collection
 const allPosts = await getCollection('blog');
-// Sort by date (descending - newest first)
 const sortedPosts = allPosts.sort((a, b) => new Date(b.data.date).valueOf() - new Date(a.data.date).valueOf());
 
-// Extract unique categories for the filter
 const categories = ['All', ...new Set(allPosts.map(post => post.data.category))];
 ---
 
@@ -33,22 +25,18 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
   <BaseHead title={pageTitle} description={pageDescription} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/blog" />
   <main>
   
-  <!-- ===== HERO SECTION ===== -->
   <section class="blog-hero">
     <div class="blog-hero__content container">
       <span class="blog-hero__badge">Expert Advice</span>
@@ -59,11 +47,9 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     </div>
   </section>
 
-  <!-- ===== BLOG LISTING ===== -->
   <section class="section">
     <div class="container">
       
-      <!-- Categories Filter -->
       <div class="categories-nav" id="category-filters">
         {categories.map((category) => (
           <button 
@@ -75,7 +61,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
         ))}
       </div>
 
-      <!-- Posts Grid -->
       <div class="posts-grid" id="posts-grid">
         {sortedPosts.map((post) => (
           <article class="post-card" data-category={post.data.category}>
@@ -99,12 +84,10 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
         ))}
       </div>
       
-      <!-- No Results Message -->
       <div id="no-results" style="display: none; text-align: center; padding: 4rem 0;">
         <p style="font-size: 1.25rem; color: var(--color-black-600);">No posts found in this category.</p>
       </div>
 
-      <!-- Load More Button -->
       <div class="load-more-container" id="load-more-container">
         <Button variant="outline" id="load-more-btn">Load More Articles</Button>
       </div>
@@ -112,7 +95,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     </div>
   </section>
 
-  <!-- ===== NEWSLETTER ===== -->
   <section class="newsletter-section">
     <div class="container">
       <div class="newsletter-box">
@@ -128,7 +110,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
 
@@ -137,29 +118,24 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
   
 <script>
   document.addEventListener('DOMContentLoaded', () => {
-    // Selectors
     const categoryButtons = document.querySelectorAll('.cat-btn');
     const postCards = Array.from(document.querySelectorAll('.post-card'));
     const loadMoreBtn = document.getElementById('load-more-btn');
     const noPostsMessage = document.getElementById('no-results');
     const loadMoreContainer = document.getElementById('load-more-container');
     
-    // State
     let currentCategory = 'All';
-    let visibleCount = 12; // Initial showing
+    let visibleCount = 12;
     const LOAD_INCREMENT = 12;
 
     function filterAndShowPosts() {
-      // 1. Filter posts based on category
       const filteredPosts = postCards.filter(card => {
         const cardCategory = card.getAttribute('data-category');
         return currentCategory === 'All' || cardCategory === currentCategory;
       });
 
-      // 2. Hide ALL cards first
       postCards.forEach(card => card.style.display = 'none');
 
-      // 3. Show only the visible slice of FILTERED cards
       filteredPosts.forEach((card, index) => {
         if (index < visibleCount) {
           card.style.display = 'flex';
@@ -167,14 +143,12 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
         }
       });
 
-      // 4. Update UI Messages
       if (filteredPosts.length === 0) {
         if (noPostsMessage) noPostsMessage.style.display = 'block';
         if (loadMoreContainer) loadMoreContainer.style.display = 'none';
       } else {
         if (noPostsMessage) noPostsMessage.style.display = 'none';
         
-        // Show Load More ONLY if we have more to show than currently visible
         if (filteredPosts.length > visibleCount) {
           if (loadMoreContainer) loadMoreContainer.style.display = 'flex';
         } else {
@@ -183,10 +157,8 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
       }
     }
 
-    // Initial Render
     filterAndShowPosts();
 
-    // Event Listeners: Categories
     categoryButtons.forEach(button => {
       button.addEventListener('click', () => {
         categoryButtons.forEach(btn => btn.classList.remove('active'));
@@ -198,7 +170,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
       });
     });
 
-    // Event Listener: Load More
     if (loadMoreBtn) {
       loadMoreBtn.addEventListener('click', () => {
         visibleCount += LOAD_INCREMENT;
@@ -209,7 +180,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
 </script>
 
 <style>
-  /* ===== HERO SECTION ===== */
   .blog-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -267,7 +237,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     line-height: 1.7;
   }
   
-  /* ===== CATEGORIES ===== */
   .categories-nav {
     display: flex;
     justify-content: center;
@@ -299,7 +268,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     color: white;
   }
   
-  /* ===== POSTS GRID ===== */
   .posts-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
@@ -418,7 +386,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     gap: 0.25rem;
   }
   
-  /* ===== NEWSLETTER ===== */
   .newsletter-section {
     background: var(--color-black-50);
     padding: 4rem 0;
@@ -479,7 +446,6 @@ const categories = ['All', ...new Set(allPosts.map(post => post.data.category))]
     }
   }
 
-  /* Load More */
   .load-more-container {
     display: flex;
     justify-content: center;

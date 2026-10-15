@@ -1,9 +1,4 @@
 ---
-/**
- * Transform Personal Training - Studio Services Page
- * 
- * Showcases in-person training options with pricing tiers
- */
 
 import Button from '../components/ui/Button.astro';
 import PricingCard from '../components/ui/PricingCard.astro';
@@ -52,23 +47,18 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
   })} />
   <meta name="description" content={pageDescription}>
   
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
   
-  <!-- Design System Styles -->
   <link rel="stylesheet" href="/styles/design-tokens.css">
   <link rel="stylesheet" href="/styles/components.css">
 </head>
 
 <body>
-  <!-- ===== NAVIGATION ===== -->
   <Navigation currentPath="/studio-services" />
   <main>
   
-  <!-- ===== COMPACT HEADER ===== -->
-  <!-- ===== HERO SECTION ===== -->
   <section class="services-hero">
     <div class="services-hero__content container">
       <span class="services-hero__badge">Studio Training</span>
@@ -79,7 +69,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== PRICING SECTION ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -146,7 +135,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== KEY FEATURES ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -154,7 +142,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
       </div>
       
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem; margin-top: 3rem;">
-        <!-- Feature 1 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             ⏱️
@@ -167,7 +154,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
         
-        <!-- Feature 2 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             🎯
@@ -180,7 +166,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
         
-        <!-- Feature 3 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             🍎
@@ -193,7 +178,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
         
-        <!-- Feature 4 -->
         <div class="card" style="text-align: center;">
           <div style="width: 4rem; height: 4rem; margin: 0 auto 1.5rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 1rem; color: white; font-size: 1.5rem;">
             📍
@@ -209,7 +193,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== WHAT HAPPENS FIRST ===== -->
   <section class="section">
     <div class="container">
       <div class="section-header">
@@ -220,7 +203,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
       </div>
       
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-top: 3rem; max-width: 900px; margin-left: auto; margin-right: auto;">
-        <!-- Step 1 -->
         <div style="text-align: center;">
           <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
             1
@@ -233,7 +215,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
         
-        <!-- Step 2 -->
         <div style="text-align: center;">
           <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
             2
@@ -246,7 +227,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
         
-        <!-- Step 3 -->
         <div style="text-align: center;">
           <div style="width: 3rem; height: 3rem; margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center; background-color: var(--color-primary-500); color: white; border-radius: 50%; font-family: var(--font-heading); font-weight: 700; font-size: 1.25rem;">
             3
@@ -262,7 +242,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== ONLINE OPTION ===== -->
   <section class="section" style="padding-top: 0;">
     <div class="container">
       <div class="card" style="max-width: 900px; margin: 0 auto; text-align: center;">
@@ -277,7 +256,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== IMPORTANT DETAILS ===== -->
   <section class="section" style="background-color: var(--color-black-50);">
     <div class="container">
       <div class="section-header">
@@ -288,7 +266,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
       </div>
       
       <div style="max-width: 900px; margin: 3rem auto 0; display: flex; flex-direction: column; gap: 2rem;">
-        <!-- Payment Details -->
         <div class="card">
           <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
             <div style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 0.75rem; color: white; font-size: 1.5rem; flex-shrink: 0;">
@@ -303,7 +280,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
 
-        <!-- Training Details -->
         <div class="card">
           <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
             <div style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 0.75rem; color: white; font-size: 1.5rem; flex-shrink: 0;">
@@ -318,7 +294,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
           </p>
         </div>
 
-        <!-- Cancellation Policy -->
         <div class="card">
           <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
             <div style="width: 3rem; height: 3rem; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, var(--color-primary-400), var(--color-primary-500)); border-radius: 0.75rem; color: white; font-size: 1.5rem; flex-shrink: 0;">
@@ -343,7 +318,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== CONSULTATION FORM ===== -->
   <section id="consultation" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
     <div style="position: absolute; inset: 0; background: linear-gradient(135deg, rgba(14, 165, 233, 0.6), rgba(14, 165, 233, 0.55));"></div>
     <div class="container" style="position: relative; z-index: 1;">
@@ -369,16 +343,12 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     </div>
   </section>
 
-  <!-- ===== FOOTER ===== -->
-  <!-- ===== FOOTER ===== -->
   </main>
   <Footer />
   
-  <!-- ===== POPUP FORM ===== -->
   <PopupForm />
 </body>
 <style>
-  /* ===== HERO SECTION ===== */
   .services-hero {
     background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
     padding: var(--space-16) 0;
@@ -436,7 +406,6 @@ const pageDescription = "Private 30-minute personal training at our Lakeview, Ch
     line-height: 1.7;
   }
 
-  /* ===== SECTION STYLES ===== */
   .section {
     padding: 5rem 0;
   }

@@ -1,13 +1,5 @@
-/**
- * Transform Personal Training - Component Styles
- * 
- * Reusable component styles built on the design token foundation.
- * Uses CSS custom properties from design-tokens.css
- */
 
-/* ===== BUTTON COMPONENTS ===== */
 
-/* Primary Button - Blue (Main CTAs) */
 .btn-primary {
     display: inline-flex;
     align-items: center;
@@ -60,7 +52,6 @@
     transform: none;
 }
 
-/* Secondary Button - Orange (Secondary CTAs) */
 .btn-secondary {
     display: inline-flex;
     align-items: center;
@@ -106,7 +97,6 @@
     outline-offset: 2px;
 }
 
-/* Outline Button - Blue (Tertiary Actions) */
 .btn-outline {
     display: inline-flex;
     align-items: center;
@@ -149,7 +139,6 @@
     outline-offset: 2px;
 }
 
-/* Button Sizes */
 .btn-sm {
     padding: var(--space-2) var(--space-4);
     font-size: 0.875rem;
@@ -162,9 +151,7 @@
     min-height: 52px;
 }
 
-/* ===== CARD COMPONENTS ===== */
 
-/* Base Card */
 .card {
     background-color: white;
     border-radius: var(--radius-lg);
@@ -180,7 +167,6 @@
     border-color: var(--color-primary-200);
 }
 
-/* Service Card */
 .card-service {
     background-color: white;
     border-radius: var(--radius-lg);
@@ -275,7 +261,6 @@
     color: var(--color-primary-700);
 }
 
-/* Testimonial Card */
 .card-testimonial {
     background-color: white;
     border-left: 4px solid var(--color-primary-500);
@@ -326,7 +311,6 @@
     color: var(--color-black-500);
 }
 
-/* ===== FORM COMPONENTS ===== */
 
 .form-group {
     margin-bottom: var(--space-6);
@@ -393,7 +377,6 @@
     color: var(--color-black-500);
 }
 
-/* ===== BADGE COMPONENTS ===== */
 
 .badge {
     display: inline-flex;
@@ -423,7 +406,6 @@
     color: #065F46;
 }
 
-/* ===== SECTION COMPONENTS ===== */
 
 .section {
     padding-top: var(--space-8);
@@ -462,7 +444,6 @@
     margin: 0 auto;
 }
 
-/* ===== HERO COMPONENT ===== */
 
 .hero {
     position: relative;
