@@ -1,0 +1,723 @@
+---
+/**
+ * The faqs array renders both the visible FAQ and the FAQPage schema,
+ * so the two can never drift apart.
+ */
+
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Button from '../components/ui/Button.astro';
+
+const pageTitle = "Weight Loss Personal Training in Chicago | Transform";
+const pageDescription = "Lose weight with a personal trainer in Lakeview, Chicago. Private 30-minute 1-on-1 sessions, a meal plan built around you, daily check-ins. First session free.";
+const pageUrl = "https://transformpersonaltraining.com/weight-loss-personal-training/";
+
+const results = [
+  { name: "Andrew G.", result: "Lost 96 lbs and 13% body fat", image: "/images/transformations/Andrew-G-96lb-13bf-1.webp", width: 721, height: 802 },
+  { name: "Christine P.", result: "Lost 58.2 lbs and 6.7% body fat", image: "/images/transformations/Christine-P-58lb-7bf-copy.webp", width: 716, height: 856 },
+  { name: "Kristin D.", result: "Lost 50 lbs", image: "/images/transformations/Kristin-50lbs-copy.webp", width: 722, height: 750 },
+  { name: "Jesse K.", result: "Lost 43 lbs and 13.6% body fat", image: "/images/transformations/Jesse-K-43lbs-13.6bf-copy.webp", width: 726, height: 798 },
+  { name: "Rebecca H.", result: "Lost 38.2 lbs and 7.1% body fat", image: "/images/transformations/Rebecca-H-38.2lbs-7.1bf-copy.webp", width: 712, height: 870 },
+  { name: "Ozlem", result: "Lost 33.5 lbs and 7.2% body fat", image: "/images/transformations/Ozlem-33.5lbs-7.2bf-copy.webp", width: 708, height: 858 },
+  { name: "Lori K.", result: "Lost 30 lbs", image: "/images/transformations/Lori-K-30lbs-copy-1.webp", width: 768, height: 872 },
+  { name: "Derek B.", result: "Lost 30 lbs in 6 weeks", image: "/images/transformations/Derek-B-30lbs-3.3bf-in-6wks-copy.webp", width: 712, height: 838 }
+];
+
+const faqs = [
+  {
+    q: "How much weight will I lose?",
+    a: "It depends on where you start, your schedule and how closely you follow your plan, so we never promise a number. What you get is a plan built around you, a coach who checks in every day, and honest feedback on what's working."
+  },
+  {
+    q: "Is nutrition included?",
+    a: "Yes. Every plan includes a meal plan built around your goals and the food you actually eat, plus nutrition guidance from your trainer. No fad diets."
+  },
+  {
+    q: "How often should I train to lose weight?",
+    a: "Our plans are two, three or four 30-minute sessions a week. Your coach helps you choose what fits your schedule, and your meal plan and daily check-ins keep you on track between sessions."
+  },
+  {
+    q: "Are 30-minute sessions enough?",
+    a: "They're built to be, when they're paired with your meal plan and daily check-ins. Every minute is coached, so nothing is wasted."
+  },
+  {
+    q: "I have a lot of weight to lose. Is that OK?",
+    a: "Yes. Dave started at 346 pounds himself. Your coach starts with what you can do today and builds from there, in a private studio where no one is watching."
+  },
+  {
+    q: "What if I have an injury or a health condition?",
+    a: "Tell Dave on your first call. All of our trainers work with people recovering from injuries. If your doctor has limited your exercise, check with them before you start."
+  },
+  {
+    q: "Is there a contract?",
+    a: "No long contracts. Training is month to month, and cancelling a package takes 30 days' notice."
+  },
+  {
+    q: "Can I do this online instead?",
+    a: "Yes. Online coaching is for US clients and starts at $127 a week, with a custom program, daily check-ins and a weekly 1-on-1 video call."
+  }
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Personal Training",
+    "name": "Weight Loss Personal Training in Chicago",
+    "description": pageDescription,
+    "url": pageUrl,
+    "provider": {
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Transform Personal Training",
+      "@id": "https://transformpersonaltraining.com/#organization"
+    },
+    "areaServed": [
+      { "@type": "Place", "name": "Lakeview" },
+      { "@type": "Place", "name": "Lincoln Park" },
+      { "@type": "City", "name": "Chicago" }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://transformpersonaltraining.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Weight Loss Personal Training", "item": pageUrl }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  })} />
+  <meta name="description" content={pageDescription}>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+
+<body>
+  <Navigation currentPath="/weight-loss-personal-training" />
+  <main>
+
+  <section class="weight-loss-hero">
+    <div class="weight-loss-hero__content container">
+      <span class="weight-loss-hero__badge">Lakeview &middot; Chicago</span>
+      <h1 class="weight-loss-hero__title">Personal Training for Weight&nbsp;Loss in Chicago</h1>
+      <p class="weight-loss-hero__subtitle">
+        Private 30-minute sessions in Lakeview, a meal plan built around you, and a coach who checks
+        in every day.
+      </p>
+      <Button variant="secondary" size="lg" href="#consultation">Book your free first session</Button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="weight-loss-lead">
+        Transform Personal Training is a private, appointment-only personal training studio at
+        2900 N Broadway in Lakeview, Chicago. Weight loss clients get 30-minute one-on-one sessions,
+        a meal plan built around their goals and the food they actually eat, and daily check-ins
+        from their own trainer. There's no membership and no crowd, and your first session is free.
+      </p>
+      <div class="section-header">
+        <h2 class="section-title">This is for you if</h2>
+      </div>
+      <div class="weight-loss-copy">
+        <ul class="weight-loss-checklist">
+          <li>You've lost weight on your own before, and it keeps coming back.</li>
+          <li>You have a lot of weight to lose and don't want to start in a crowded gym.</li>
+          <li>You want someone keeping you accountable between workouts, not just during them.</li>
+          <li>You're busy and need workouts that fit a real Chicago schedule.</li>
+          <li>You'd rather lose weight alongside a friend or partner.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Three parts, one plan</h2>
+      </div>
+      <ol class="weight-loss-steps">
+        <li class="weight-loss-step">
+          <span class="weight-loss-step__number" aria-hidden="true">1</span>
+          <div>
+            <h3 class="weight-loss-step__title">Training.</h3>
+            <p>
+              Thirty-minute one-on-one sessions, two to four times a week, built around what you can
+              do today. Your coach is with you the whole time, so every minute counts.
+            </p>
+          </div>
+        </li>
+        <li class="weight-loss-step">
+          <span class="weight-loss-step__number" aria-hidden="true">2</span>
+          <div>
+            <h3 class="weight-loss-step__title">Nutrition.</h3>
+            <p>
+              Your trainer builds a meal plan around your goals and the food you actually eat, so
+              progress continues between sessions, restaurant dinners included. No fad diets.
+              Nutrition guidance is included in every plan, not sold as an add-on.
+            </p>
+          </div>
+        </li>
+        <li class="weight-loss-step">
+          <span class="weight-loss-step__number" aria-hidden="true">3</span>
+          <div>
+            <h3 class="weight-loss-step__title">Accountability.</h3>
+            <p>
+              Daily check-ins and messages from your own trainer, not just when you're in the studio.
+              Accountability is the part most people are missing.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why 30 minutes works for weight loss</h2>
+      </div>
+      <div class="weight-loss-copy">
+        <p>
+          Thirty focused minutes is long enough to work hard and short enough to fit two to four
+          times a week, even with a full schedule. A session you can keep showing up for beats a
+          longer one you skip.
+        </p>
+        <p>
+          <a href="/blog/30-minute-vs-60-minute-personal-training/">30-Minute vs 60-Minute Personal Training &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Dave knows where you're starting from</h2>
+      </div>
+      <div class="weight-loss-founder">
+        <figure class="weight-loss-founder__photo">
+          <img
+            src="/images/team/David-Bostik-before-after.webp"
+            alt="Dave Bostik, Transform's owner, before and after losing 150 pounds"
+            width="840"
+            height="582"
+            loading="lazy"
+          />
+          <figcaption>Dave Bostik, before and after losing 150 pounds</figcaption>
+        </figure>
+        <div class="weight-loss-copy">
+          <p>
+            Dave Bostik, Transform's owner, weighed 346 pounds when he started training in 2003. He
+            lost 150 pounds working with a personal trainer, and he opened Transform so other people
+            could get that same help in a private, non-judgmental studio. Today he talks with every
+            new client and matches them with the right coach.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Real client results</h2>
+        <p class="section-subtitle">
+          These clients appear on our success stories page. Individual results vary.
+        </p>
+      </div>
+      <div class="weight-loss-results" role="region" aria-label="Client results" tabindex="0">
+        {results.map((r) => (
+          <figure class="weight-loss-result">
+            <img
+              src={r.image}
+              alt={`${r.name} before and after: ${r.result} with Transform Personal Training in Chicago`}
+              width={r.width}
+              height={r.height}
+              loading="lazy"
+            />
+            <figcaption class="weight-loss-result__info">
+              <span class="weight-loss-result__name">{r.name}</span>
+              <span class="weight-loss-result__text">{r.result}</span>
+            </figcaption>
+          </figure>
+        ))}
+      </div>
+      <p class="weight-loss-more">
+        <a href="/success-stories/">See more success stories &rarr;</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Your coach</h2>
+        <p class="section-subtitle">
+          Tell Dave about your goals on your first call, and he'll match you with the coach who fits
+          you best.
+        </p>
+      </div>
+      <div class="weight-loss-coaches">
+        <div class="weight-loss-coach">
+          <p>
+            <a class="weight-loss-coach__name" href="/meet-the-team/">Gerri Bushkovski</a>: NASM
+            Certified Personal Trainer, Corrective Exercise Specialist, Apex Nutrition Certified.
+          </p>
+        </div>
+        <div class="weight-loss-coach">
+          <p>
+            <a class="weight-loss-coach__name" href="/meet-the-team/">Miriam Plotkin</a>: NASM
+            Certified Personal Trainer, training clients since 2001, Advanced Sports Nutrition.
+          </p>
+        </div>
+        <div class="weight-loss-coach">
+          <p>
+            <a class="weight-loss-coach__name" href="/meet-the-team/">Eric-Todd Rushing</a>: NASM
+            Certified Personal Trainer and iPEC Certified Professional Coach, focused on how you move
+            and the mental side of change.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Can't get to Lakeview?</h2>
+      </div>
+      <div class="weight-loss-copy">
+        <p>
+          Our <a href="/online-training/">online coaching</a> gives you a custom program, a meal plan,
+          daily check-ins and a weekly 1-on-1 video call through the Trainerize app, anywhere in the
+          US. It starts at $127 a week. Kristen, our accountability and nutrition coach, works with
+          online clients.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Price and hours</h2>
+      </div>
+      <div class="weight-loss-copy">
+        <ul class="weight-loss-facts">
+          <li><strong>One-on-one:</strong> $55 a session at twice a week, $50 at three times, $45 at four times. Every session is 30 minutes.</li>
+          <li><strong>With a friend (Group Max 3):</strong> $32.50 to $42.50 per person, depending on how often you train.</li>
+          <li><strong>Hours:</strong> by appointment, Monday to Thursday 5am to 9pm, Friday 5am to 8pm, Saturday 7am to 3pm.</li>
+          <li><strong>First session:</strong> free.</li>
+        </ul>
+        <p>
+          See every plan on our <a href="/studio-services/">studio services page</a>, or compare with
+          <a href="/blog/how-much-does-a-personal-trainer-cost-in-chicago/">what a personal trainer costs in Chicago</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">More reading</h2>
+      </div>
+      <div class="weight-loss-copy">
+        <ul class="weight-loss-reading">
+          <li><a href="/blog/how-to-choose-a-personal-trainer-for-weight-loss-in-chicago/">How to Choose a Personal Trainer for Weight Loss in Chicago</a></li>
+          <li><a href="/blog/do-online-weight-loss-coaches-work/">Do Online Weight Loss Coaches Work? An Honest Look</a></li>
+          <li><a href="/blog/weight-loss-plateau-3-unseen-factors/">Weight Loss Plateau? 3 Unseen Factors</a></li>
+          <li><a href="/blog/best-low-impact-workouts-for-weight-loss/">The Best Low Impact Workouts for Weight Loss</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Questions about weight loss training</h2>
+      </div>
+      <div class="weight-loss-faq">
+        {faqs.map((f) => (
+          <details class="weight-loss-faq__item">
+            <summary class="weight-loss-faq__q">{f.q}</summary>
+            <p class="weight-loss-faq__a">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="consultation" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
+    <div style="position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85);"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 640px; margin: 0 auto; text-align: center;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: white; margin-bottom: 0.75rem;">
+          Ready to start?
+        </h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem;">
+          Book your free first session below, and Dave will call you to set it up.
+        </p>
+        <StyledGHLQuickLead />
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <Footer />
+
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  .weight-loss-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .weight-loss-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .weight-loss-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .weight-loss-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .weight-loss-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    max-width: 1100px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.15;
+    text-wrap: balance;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .weight-loss-hero__subtitle {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+  }
+
+  .weight-loss-lead {
+    max-width: 760px;
+    margin: 0 auto var(--space-12);
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--color-black-800);
+  }
+
+  .weight-loss-copy {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .weight-loss-copy p {
+    color: var(--color-black-700);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+
+  .weight-loss-checklist,
+  .weight-loss-facts,
+  .weight-loss-reading {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.25rem;
+  }
+
+  .weight-loss-checklist li,
+  .weight-loss-facts li,
+  .weight-loss-reading li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-black-700);
+    line-height: 1.7;
+  }
+
+  .weight-loss-checklist li::before {
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    color: var(--color-accent-500);
+  }
+
+  .weight-loss-facts li::before,
+  .weight-loss-reading li::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0.7em;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--color-primary-500);
+  }
+
+  .weight-loss-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 760px;
+  }
+
+  .weight-loss-step {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .weight-loss-step__number {
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-500);
+    color: white;
+    border-radius: 50%;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .weight-loss-step__title {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-black-900);
+    margin: 0.6rem 0 0.5rem;
+  }
+
+  .weight-loss-step p {
+    color: var(--color-black-700);
+    line-height: 1.7;
+  }
+
+  .weight-loss-founder {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  @media (min-width: 768px) {
+    .weight-loss-founder {
+      grid-template-columns: minmax(0, 420px) 1fr;
+      gap: 2.5rem;
+    }
+  }
+
+  .weight-loss-founder__photo {
+    margin: 0;
+  }
+
+  .weight-loss-founder__photo img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .weight-loss-founder__photo figcaption {
+    margin-top: 0.75rem;
+    font-size: 0.875rem;
+    color: var(--color-black-600);
+    text-align: center;
+  }
+
+  .weight-loss-founder .weight-loss-copy p {
+    margin-bottom: 0;
+  }
+
+  .weight-loss-results {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    margin: 0 -16px;
+    padding: 0.5rem 16px 1.5rem;
+    scroll-padding-inline: 16px;
+  }
+
+  .weight-loss-result {
+    flex: 0 0 72%;
+    scroll-snap-align: start;
+  }
+
+  @media (min-width: 768px) {
+    .weight-loss-results {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0;
+      overflow: visible;
+    }
+  }
+
+  .weight-loss-result {
+    margin: 0;
+    background: white;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weight-loss-result img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .weight-loss-result__info {
+    flex-grow: 1;
+    padding: 1rem;
+    background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+    text-align: center;
+  }
+
+  .weight-loss-result__name {
+    display: block;
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 0.25rem;
+  }
+
+  .weight-loss-result__text {
+    display: block;
+    font-size: 0.8125rem;
+    color: var(--color-accent-400);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .weight-loss-more {
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .weight-loss-coaches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .weight-loss-coach {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .weight-loss-coach__name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-primary-600);
+    text-decoration: none;
+  }
+
+  .weight-loss-coach__name:hover {
+    text-decoration: underline;
+  }
+
+  .weight-loss-coach p {
+    color: var(--color-black-600);
+    line-height: 1.7;
+  }
+
+  .weight-loss-faq {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .weight-loss-faq__item {
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .weight-loss-faq__q {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-black-900);
+    cursor: pointer;
+  }
+
+  .weight-loss-faq__a {
+    color: var(--color-black-700);
+    line-height: 1.7;
+    margin-top: 0.75rem;
+  }
+</style>

@@ -70,3 +70,5 @@ Not in Chicago, or nowhere near a studio you would actually drive to? The seven 
 ## The trainer you keep showing up for
 
 After all the questions and red flags, the decision comes down to something simple. The best personal trainer for weight loss in Chicago is the one whose plan you will still be following in month four, because month four is where the results live. Choose the person who makes the plan fit your life, watches the details, and answers the phone on the hard weeks. That is the whole job.
+
+If you're in Chicago and ready to start, see how [weight loss personal training](/weight-loss-personal-training/) works at our private Lakeview studio.
