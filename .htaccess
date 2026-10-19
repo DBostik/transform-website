@@ -6,6 +6,17 @@
   RewriteCond %{HTTP_HOST} ^www\.transformpersonaltraining\.com [NC]
   RewriteRule ^(.*)$ https://transformpersonaltraining.com/$1 [R=301,L]
 
+  # Privacy: the server holds the whole repo, but only the built site in dist/ is public.
+  # Any other real file or folder (notes, drafts, source) is refused. .well-known stays
+  # open for SSL certificate renewal, and Google verification files stay open.
+  RewriteCond %{REQUEST_URI} !^/dist/
+  RewriteCond %{REQUEST_URI} !^/\.well-known/
+  RewriteCond %{REQUEST_URI} !^/google[0-9a-f]+\.html$
+  RewriteCond %{REQUEST_URI} !^/$
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [F,L]
+
   # SEO: rescue old URLs that still rank in Google but changed slug during the migration
   RewriteRule ^healthy-restaurants-in-chicago/?$ /blog/the-top-7-healthy-restaurants-in-chicago/ [R=301,L]
   RewriteRule ^stop-the-insanity/?$ /blog/ [R=301,L]
