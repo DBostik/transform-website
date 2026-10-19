@@ -1,0 +1,575 @@
+---
+/**
+ * The faqs array renders both the visible FAQ and the FAQPage schema,
+ * so the two can never drift apart.
+ */
+
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Button from '../components/ui/Button.astro';
+
+const pageTitle = "Personal Training for Beginners in Chicago | Transform";
+const pageDescription = "Nervous about gyms? Transform is a private, appointment-only studio in Lakeview. 30-minute 1-on-1 sessions, no membership, and your first session is free.";
+const pageUrl = "https://transformpersonaltraining.com/personal-training-for-beginners/";
+
+const faqs = [
+  {
+    q: "Do I need to be in shape before I start?",
+    a: "No. Your coach builds every session around what you can do today, and you progress from there."
+  },
+  {
+    q: "Will other people be watching me?",
+    a: "Almost never. We have two connected training rooms, and most of the week each trainer has a room with their client. Only for a few hours a week do three trainers share the space."
+  },
+  {
+    q: "Will the first session be hard?",
+    a: "No. It's mostly a conversation. A quick assessment is optional, and only if you want one."
+  },
+  {
+    q: "What should I wear or bring?",
+    a: "Workout clothes, a water bottle and your questions."
+  },
+  {
+    q: "Is the first session really free? Will I be pressured to sign up?",
+    a: "Yes, it's free. Our prices are on the website, and training is month to month with no long contracts or big packages, so there's nothing to push."
+  },
+  {
+    q: "How often should a beginner train?",
+    a: "Our plans are two, three or four 30-minute sessions a week. Your coach will help you choose what fits your schedule and goals."
+  },
+  {
+    q: "Can I bring a friend?",
+    a: "Yes. Group Max 3 lets you train with up to two people you know. We never put you with strangers."
+  },
+  {
+    q: "I'm older or have an old injury. Is that OK?",
+    a: "Yes. All of our trainers can work with seniors and people recovering from injuries. Tell Dave about any injuries on your first call, and he'll match you with the right coach. If your doctor has limited your exercise, check with them before you start."
+  }
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Personal Training",
+    "name": "Personal Training for Beginners in Chicago",
+    "description": pageDescription,
+    "url": pageUrl,
+    "provider": {
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Transform Personal Training",
+      "@id": "https://transformpersonaltraining.com/#organization"
+    },
+    "areaServed": [
+      { "@type": "Place", "name": "Lakeview" },
+      { "@type": "Place", "name": "Lincoln Park" },
+      { "@type": "City", "name": "Chicago" }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://transformpersonaltraining.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Personal Training for Beginners", "item": pageUrl }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  })} />
+  <meta name="description" content={pageDescription}>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+
+<body>
+  <Navigation currentPath="/personal-training-for-beginners" />
+  <main>
+
+  <section class="beginners-hero">
+    <div class="beginners-hero__content container">
+      <span class="beginners-hero__badge">Lakeview &middot; Chicago</span>
+      <h1 class="beginners-hero__title">Personal Training for Beginners and Anyone Nervous About Gyms</h1>
+      <p class="beginners-hero__subtitle">
+        A private studio in Lakeview, not a gym. Your first 30-minute session is free.
+      </p>
+      <Button variant="secondary" size="lg" href="#consultation">Book your free first session</Button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="beginners-lead">
+        Transform Personal Training is a private, appointment-only personal training studio at
+        2900 N Broadway in Lakeview, Chicago. It isn't a gym. There's no membership, no crowd and
+        nobody waiting for your bench. Most of the week it's just you and your trainer in a room of
+        your own. Sessions are 30 minutes, and your first one is free.
+      </p>
+      <div class="section-header">
+        <h2 class="section-title">This is for you if</h2>
+      </div>
+      <div class="beginners-copy">
+        <ul class="beginners-checklist">
+          <li>You've never worked with a trainer, or you've never really exercised.</li>
+          <li>Gym intimidation has kept you from starting: the crowds, the mirrors, the feeling of being watched.</li>
+          <li>You're coming back after years off, an injury or a big life change.</li>
+          <li>You're older and want to get stronger safely.</li>
+          <li>You'd rather start with a friend or partner than on your own.</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">A studio, not a gym</h2>
+      </div>
+      <div class="beginners-copy">
+        <p>
+          Our studio has two connected training rooms. Most of the week there's one trainer working
+          with one client, or two trainers who each have a room with their own client. Only for about
+          2 to 4 hours a week do three trainers and their clients share the space.
+        </p>
+        <p>
+          So no one is lifting next to you, no one is waiting for your equipment, and no one is
+          watching. Ask any question, try something twice, or take a breather without feeling on
+          display.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">How getting started works</h2>
+      </div>
+      <ol class="beginners-steps">
+        <li class="beginners-step">
+          <span class="beginners-step__number" aria-hidden="true">1</span>
+          <div>
+            <h3 class="beginners-step__title">A quick call with Dave.</h3>
+            <p>
+              Dave Bostik, Transform's owner, calls you for 5 to 10 minutes. You talk about your
+              goals, what you've done before, any injuries or limits, and when you can train. Then he
+              books your free first session with the coach who fits you best.
+            </p>
+          </div>
+        </li>
+        <li class="beginners-step">
+          <span class="beginners-step__number" aria-hidden="true">2</span>
+          <div>
+            <h3 class="beginners-step__title">Your free first session.</h3>
+            <p>
+              It's mostly a conversation. Your coach goes deeper on your goals and history and helps
+              you work out a schedule. If you'd like, they can walk you through a quick, easy
+              assessment. If you'd rather not, you won't do one.
+            </p>
+          </div>
+        </li>
+        <li class="beginners-step">
+          <span class="beginners-step__number" aria-hidden="true">3</span>
+          <div>
+            <h3 class="beginners-step__title">Start when you're ready.</h3>
+            <p>
+              Most people decide to start at that first session, because our prices are already on
+              the website and nothing is hidden. Training is month to month, with no long contracts
+              and no big packages to buy.
+            </p>
+          </div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What to bring</h2>
+      </div>
+      <div class="beginners-copy beginners-copy--center">
+        <p>Workout clothes, a water bottle and any questions you have. That's it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why 30 minutes is a good way to start</h2>
+      </div>
+      <div class="beginners-copy">
+        <p>
+          Thirty minutes is long enough to learn the basics properly and short enough that it never
+          feels like an ordeal. Your coach is with you the whole time, so you're never left wandering
+          around wondering what to do next.
+        </p>
+        <p>
+          <a href="/blog/30-minute-vs-60-minute-personal-training/">30-Minute vs 60-Minute Personal Training &rarr;</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Choosing a coach</h2>
+        <p class="section-subtitle">
+          Tell Dave on your call what you're nervous about, and he'll match you with the right coach.
+        </p>
+      </div>
+      <div class="beginners-coaches">
+        <div class="beginners-coach">
+          <p>
+            <a class="beginners-coach__name" href="/meet-the-team/">Miriam Plotkin</a> has trained
+            clients since 2001 and trained in comedy at Second City and iO. She keeps sessions fun,
+            which helps if you're worried training will feel like punishment.
+          </p>
+        </div>
+        <div class="beginners-coach">
+          <p>
+            <a class="beginners-coach__name" href="/meet-the-team/">Gerri Bushkovski</a> is a
+            Corrective Exercise Specialist, certified in Pilates Reformer, pre- and post-natal
+            training, and Apex Nutrition.
+          </p>
+        </div>
+        <div class="beginners-coach">
+          <p>
+            <a class="beginners-coach__name" href="/meet-the-team/">Eric-Todd Rushing</a> spent 25
+            years as a professional dancer and is a certified professional coach (iPEC). He focuses
+            on how you move and on getting past the mental side of starting.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Bring a friend</h2>
+      </div>
+      <div class="beginners-copy">
+        <p>
+          If you'd feel better starting with someone you know, our Group Max 3 option lets you train
+          together with a friend, roommate or partner, up to three people. There are no preset
+          classes or group times, and we never put you with strangers. Group sessions are $32.50 to
+          $42.50 per person, depending on how often you train.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Price and hours</h2>
+      </div>
+      <div class="beginners-copy">
+        <ul class="beginners-facts">
+          <li><strong>One-on-one:</strong> $55 a session at twice a week, $50 at three times, $45 at four times. Every session is 30 minutes.</li>
+          <li><strong>Hours:</strong> by appointment, Monday to Thursday 5am to 9pm, Friday 5am to 8pm, Saturday 7am to 3pm.</li>
+          <li><strong>First session:</strong> free.</li>
+        </ul>
+        <p>
+          See every plan on our <a href="/studio-services/">studio services page</a>, or compare with
+          <a href="/blog/how-much-does-a-personal-trainer-cost-in-chicago/">what a personal trainer costs in Chicago</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Why Transform works this way</h2>
+      </div>
+      <div class="beginners-copy">
+        <p>
+          Dave weighed 346 pounds when he started training in 2003 and lost 150 pounds working with a
+          personal trainer, so he knows firsthand what starting feels like. He opened Transform to be
+          a supportive, non-judgmental place where people feel comfortable getting started.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Questions beginners ask</h2>
+      </div>
+      <div class="beginners-faq">
+        {faqs.map((f) => (
+          <details class="beginners-faq__item">
+            <summary class="beginners-faq__q">{f.q}</summary>
+            <p class="beginners-faq__a">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="consultation" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
+    <div style="position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85);"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 640px; margin: 0 auto; text-align: center;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: white; margin-bottom: 0.75rem;">
+          Ready to start?
+        </h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem;">
+          Book your free first session below, and Dave will call you to set it up.
+        </p>
+        <StyledGHLQuickLead />
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <Footer />
+
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  .beginners-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .beginners-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .beginners-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .beginners-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .beginners-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    max-width: 1100px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.15;
+    text-wrap: balance;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .beginners-hero__subtitle {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+  }
+
+  .beginners-lead {
+    max-width: 760px;
+    margin: 0 auto var(--space-12);
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--color-black-800);
+  }
+
+  .beginners-copy {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .beginners-copy--center {
+    text-align: center;
+  }
+
+  .beginners-copy p {
+    color: var(--color-black-700);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+
+  .beginners-checklist,
+  .beginners-facts {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.25rem;
+  }
+
+  .beginners-checklist li,
+  .beginners-facts li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-black-700);
+    line-height: 1.7;
+  }
+
+  .beginners-checklist li::before {
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    color: var(--color-accent-500);
+  }
+
+  .beginners-facts li::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0.7em;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--color-primary-500);
+  }
+
+  .beginners-steps {
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 760px;
+  }
+
+  .beginners-step {
+    display: flex;
+    gap: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  .beginners-step__number {
+    flex-shrink: 0;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-500);
+    color: white;
+    border-radius: 50%;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1.25rem;
+  }
+
+  .beginners-step__title {
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: var(--color-black-900);
+    margin: 0.6rem 0 0.5rem;
+  }
+
+  .beginners-step p {
+    color: var(--color-black-700);
+    line-height: 1.7;
+  }
+
+  .beginners-coaches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .beginners-coach {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .beginners-coach__name {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    color: var(--color-black-900);
+    text-decoration: none;
+  }
+
+  .beginners-coach__name:hover {
+    color: var(--color-primary-600);
+    text-decoration: underline;
+  }
+
+  .beginners-coach p {
+    color: var(--color-black-600);
+    line-height: 1.7;
+  }
+
+  .beginners-faq {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .beginners-faq__item {
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .beginners-faq__q {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-black-900);
+    cursor: pointer;
+  }
+
+  .beginners-faq__a {
+    color: var(--color-black-700);
+    line-height: 1.7;
+    margin-top: 0.75rem;
+  }
+</style>

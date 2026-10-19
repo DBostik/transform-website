@@ -36,3 +36,5 @@ five
 Prepare to answer your trainers questions about your diet and current exercise routine. Your trainer will need to know what your eating habits are like and how much exercise you are getting to create a workout plan that works for you as an individual.  Review these things while you are driving or walking to your appointment to keep your mind off of the nerves.
 
 All in all, you should trust the trainer you hired to get your glutes into shape.  Ask questions and tell your trainer what you feel are your weak points.  He or she wants to help.
+
+If gyms make you nervous, read our page on [personal training for beginners](/personal-training-for-beginners/) to see how a first session at our private Lakeview studio works.
