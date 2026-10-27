@@ -7,9 +7,11 @@ image: "/images/blog/how-much-does-online-personal-training-cost.webp"
 author: "David Bostik"
 ---
 
-Almost nobody in this industry publishes their prices, which is why you are reading an article instead of a price page. So here is the straight answer, including what we charge.
+This guide is about online personal training: what remote coaching costs in 2026 wherever you live, and what we charge for ours. Almost nobody in this industry publishes their prices, which is why you are reading an article instead of a price page, so here is the straight answer.
 
 **The short version:** online training in 2026 runs anywhere from about $10 a month to over $1,000. That range sounds useless until you understand what actually separates the tiers, and it is not the workouts. It is how much of a real coach's time you are buying.
+
+Training in person in Chicago instead? That is priced per session rather than monthly, and we cover it in [what personal training costs in Chicago](/blog/how-much-does-a-personal-trainer-cost-in-chicago/), including our own studio rates.
 
 ## The four tiers, and what each one really is
 

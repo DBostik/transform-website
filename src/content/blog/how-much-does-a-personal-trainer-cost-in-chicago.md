@@ -7,11 +7,13 @@ image: "/images/blog/how-much-does-a-personal-trainer-cost-in-chicago.webp"
 author: "David Bostik"
 ---
 
-If you've started looking into hiring a personal trainer in Chicago, you've probably noticed that almost nobody puts their prices online. You have to fill out a form, sit through a sales pitch, and then hear a number.
+This guide covers in-person personal training in Chicago: what trainers charge at big-box gyms, private studios and in your home. If you've started looking, you've probably noticed that almost nobody puts their prices online. You have to fill out a form, sit through a sales pitch, and then hear a number.
 
 We think that's backwards. So here's the straight answer, including exactly what we charge at our Lakeview studio.
 
 **The short version:** in 2026, most Chicago personal trainers charge between $60 and $120 per one-hour session. Big-box gyms sit at the lower end but require a membership on top. Private studios and in-home trainers sit at the higher end. At Transform, private 1-on-1 sessions run $45 to $55, because we train in focused 30-minute sessions instead of padded hours. More on that below, because session length is the detail that changes everything.
+
+Looking for online coaching prices instead? We broke those down separately in [how much online personal training costs](/blog/how-much-does-online-personal-training-cost/), from $10 apps to premium 1-on-1 coaching.
 
 ## Chicago Personal Training Rates in 2026
 
