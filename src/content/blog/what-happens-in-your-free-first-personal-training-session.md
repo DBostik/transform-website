@@ -1,7 +1,7 @@
 ---
 title: "What Happens in Your Free First Personal Training Session (Chicago)"
 excerpt: "Nervous about a free first personal training session in Chicago? Here is what actually happens at our private Lakeview studio: a real conversation, a look at your goals and history, and a clear next step. No punishment workout, no day-one package."
-date: "SET AT PUBLISH"
+date: "October 28, 2026"
 category: "Fitness Advice"
 image: "/images/blog/what-happens-in-your-free-first-personal-training-session.webp"
 author: "David Bostik"
