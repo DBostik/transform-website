@@ -30,7 +30,7 @@ Each post: 1,200-2,000 words, 2-3 internal links to service pages, one NEW image
 1. Claude drafts to **docs/drafts/** (cannot accidentally go live from there).
 2. Dave reviews in plain language; requests changes.
 3. On approval: Claude moves file into src/content/blog/ with final frontmatter + image.
-4. Claude gives Dave a detailed handoff prompt for Google Antigravity (commit + push; husky pre-commit builds). Dave pastes it. Hostinger updates.
+4. Dave's Grok Bot publishes the staged post every other Wednesday (commit + push; husky pre-commit builds). Hostinger updates. (Changed Nov 10, 2026: Google Antigravity is no longer used.)
 5. Verify live, then start next post.
 
 ## Measurement
@@ -41,7 +41,7 @@ CORRECTION (Sept 17, 2026): an earlier version of this heading said Dave approve
 
 | # | Target publish | Working title | Goes after | Notes |
 |---|---|---|---|---|
-| 7 | Sep wk 2 | How Long Does It Take to See Results With a Personal Trainer? | evergreen pre-purchase question | Honest timelines; bridges to 12-week framing; free session CTA |
+| 7 | PUBLISHED November 11, 2026 | How Long Does It Take to See Results With a Personal Trainer? | evergreen pre-purchase question | Honest timelines; bridges to 12-week framing; free session CTA |
 | 8 | Sep wk 4 | Best Personal Training in Chicago: How to Compare Your Options | best personal training chicago (203 impr @ pos 5.3) | Editorial comparison guide; complements homepage, don't duplicate its content |
 | 9 | Oct wk 2 | What a 12-Week Transformation Actually Looks Like | 12 week personal training program cost near me (@ pos 1), transformation queries | Walk through the journey week by week; heavy success-stories linking |
 | 10 | Oct wk 4 | Personal Training Over 40: Why Joint-Friendly Beats No-Pain-No-Gain | the over-40 buyer behind the low impact cluster | Links to post 2 (low impact) and success stories |
@@ -53,7 +53,7 @@ CORRECTION (Sept 17, 2026): an earlier version of this heading said Dave approve
 | 17 | PUBLISHED October 28, 2026 | What Happens in Your Free First Personal Training Session (Chicago) | free first personal training session, what to expect | Drafted Sept 29, 2026 and approved by Dave Sept 29, image done. Scheduled Oct 28, 2026, not before. Walks through the free 30-minute visit, what we will not do, and how plans work after. Dates in this table are older targets; QUEUE.md holds the current order | Free first session + free coaching call for non-locals |
 
 ## Pre-written queue workflow (supersedes per-post drafting once queue exists)
-Approved drafts live in docs/drafts/queue/ as 02-<slug>.md ... 12-<slug>.md with QUEUE.md tracking status. Frontmatter date stays "SET AT PUBLISH" until staging. Every other Wednesday the scheduled task "biweekly-blog-draft-transform" (after it has been updated to staging mode) sets the date, moves the next approved file into src/content/blog/, marks it published here and in QUEUE.md, and hands Dave the Antigravity publishing prompt. Dave publishes; nothing goes live automatically.
+Approved drafts live in docs/drafts/queue/ as 02-<slug>.md ... 12-<slug>.md with QUEUE.md tracking status. Frontmatter date stays "SET AT PUBLISH" until staging. Every other Wednesday the scheduled task "biweekly-blog-draft-transform" (after it has been updated to staging mode) sets the date, moves the next approved file into src/content/blog/, marks it published here and in QUEUE.md, and notifies Dave. The scheduled task never publishes; Dave's Grok Bot publishes the staged post every other Wednesday.
 
 ## Cadence decision (Sept 17, 2026)
 One new post every other week, not weekly. Publishing frequency is not a Google ranking factor, and the blog already holds 93 posts, 85 of them pre-2026 with a median of 553 words. The off week goes to improving an existing page: refreshing a thin legacy post, adding internal links, or improving a service page. Revisit in about 90 days using Search Console.

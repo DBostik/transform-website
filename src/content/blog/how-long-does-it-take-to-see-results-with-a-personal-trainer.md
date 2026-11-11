@@ -1,7 +1,7 @@
 ---
 title: "How Long Does It Take to See Results With a Personal Trainer?"
 excerpt: "A realistic week-by-week timeline for strength, weight loss and visible change, what makes it faster or slower, and when a lack of results means something is wrong."
-date: "SET AT PUBLISH"
+date: "November 11, 2026"
 category: "Fitness Advice"
 image: "/images/blog/how-long-does-it-take-to-see-results-with-a-personal-trainer.webp"
 author: "David Bostik"

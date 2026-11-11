@@ -6,7 +6,7 @@ Companion to docs/PHASE5_EDITORIAL_CALENDAR.md. Approval status for every post l
 
 - Claude drafts each post here as `02-<slug>.md` through `12-<slug>.md` with frontmatter date set to the placeholder `SET AT PUBLISH`.
 - Dave reviews each draft in chat. When he approves it, its status below changes to **approved**.
-- Every other Wednesday at 9am the scheduled task `biweekly-blog-draft-transform` stages the lowest-numbered **approved** post: sets the real date (format like "July 8, 2026"), moves the file to `src/content/blog/<slug>.md` with the number prefix dropped, marks it published here and in the calendar doc, and hands Dave a ready-to-paste Google Antigravity publishing prompt. Dave publishes it himself. Nothing goes live automatically.
+- Every other Wednesday at 9am the scheduled task `biweekly-blog-draft-transform` stages the lowest-numbered **approved** post: sets the real date (format like "July 8, 2026"), moves the file to `src/content/blog/<slug>.md` with the number prefix dropped, marks it published here and in the calendar doc, and notifies Dave which post is waiting. It does not commit, push or publish anything. Dave's Grok Bot publishes whatever post is staged in src/content/blog/ every other Wednesday (changed Nov 10, 2026; Google Antigravity is no longer used for publishing).
 - The task skips its run if fewer than 12 days have passed since the most recent published date below. It never stages a post that is not approved, and it never stages a post whose image file is missing from `public/images/blog/`.
 - Images: every post gets a NEW image. Dave generates each one in Nano Banana from a prompt Claude provides with the draft; Claude converts it to webp under 150KB and saves it to `public/images/blog/`.
 
@@ -17,6 +17,8 @@ Every other Wednesday. These are planned dates only; the Published column below 
 - Wed Sept 30, 2026: post 6, Do Online Weight Loss Coaches Work?
 - Wed Oct 14, 2026: post 16, How Much Does Online Personal Training Cost?
 - Wed Oct 28, 2026: post 17, What Happens in Your Free First Personal Training Session (Chicago)
+- Wed Nov 11, 2026: post 7, How Long Does It Take to See Results With a Personal Trainer?
+- Wed Nov 25, 2026: post 18, In-Home Personal Trainer vs Private Studio in Chicago: Which Fits You? (approved by Dave Nov 10, 2026, image done. Must NOT ship before Wed Nov 25, 2026.)
 
 This replaces an earlier plan that put post 17 on Oct 7. These dates are the earliest each post may ship: the task must not stage post 16 before Wed Oct 14 or post 17 before Wed Oct 28, even though both are already approved. If a run happens early (a manual run, or the 12-day gap from the previous post allowing it), skip it and wait for the scheduled date.
 
@@ -32,7 +34,7 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 4 | 04-30-minute-vs-60-minute-personal-training.md | 30-Minute vs 60-Minute Personal Training: Which Actually Gets Results? | published | done | September 2, 2026 |
 | 5 | 05-personal-training-for-busy-professionals.md | Personal Training for Busy Professionals: Month-to-Month, In-Person or Virtual | published | done | September 16, 2026 |
 | 6 | 06-do-online-weight-loss-coaches-work.md | Do Online Weight Loss Coaches Work? An Honest Look | published | done | September 30, 2026 |
-| 7 | 07-how-long-does-it-take-to-see-results-with-a-personal-trainer.md | How Long Does It Take to See Results With a Personal Trainer? | drafted | done | |
+| 7 | 07-how-long-does-it-take-to-see-results-with-a-personal-trainer.md | How Long Does It Take to See Results With a Personal Trainer? | published | done | November 11, 2026 |
 | 8 | 08-best-personal-training-in-chicago.md | Best Personal Training in Chicago: How to Compare Your Options | not started | needed | |
 | 9 | 09-what-a-12-week-transformation-actually-looks-like.md | What a 12-Week Transformation Actually Looks Like | not started | needed | |
 | 10 | 10-personal-training-over-40.md | Personal Training Over 40: Why Joint-Friendly Beats No-Pain-No-Gain | not started | needed | |
@@ -43,10 +45,11 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 15 | 15-what-daily-check-ins-actually-mean.md | What Daily Check-Ins With a Coach Actually Mean | not started | needed | |
 | 16 | 16-how-much-does-online-personal-training-cost.md | How Much Does Online Personal Training Cost? (2026 Guide) | published | done | October 14, 2026 |
 | 17 | 17-what-happens-in-your-free-first-personal-training-session.md | What Happens in Your Free First Personal Training Session (Chicago) | published | done | October 28, 2026 |
+| 18 | 18-in-home-personal-trainer-vs-private-studio-chicago.md | In-Home Personal Trainer vs Private Studio in Chicago: Which Fits You? | approved | done | |
 
 ## Staging dates
 
-The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 17 on October 28, 2026.
+The scheduled task stages the lowest-numbered approved post on its next run, subject to the 12-day gap rule. Beyond the confirmed schedule above, there is no fixed per-post calendar. Most recent published post: post 7 on November 11, 2026.
 
 Cadence decision (Sept 17, 2026): one new post every other week. The off week goes to improving an existing page instead of publishing more.
 
