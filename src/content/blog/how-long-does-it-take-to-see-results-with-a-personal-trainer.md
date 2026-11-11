@@ -46,7 +46,7 @@ Five things move the needle, and they are not equally important.
 
 **Where you are starting from.** Someone who has never lifted will see faster early change than someone who has trained for years. More starting body fat also usually means faster early weight loss. Neither says anything about where you finish.
 
-**How consistent you actually are.** This is the big one, and it is not close. Two sessions a week every week beats four sessions a week for ten days followed by a month of nothing. A trial comparing coached training against a self-guided PDF plan found people with structure completed 81% of their workouts while the DIY group managed 52%. That gap is the whole ballgame over six months.
+**How consistent you actually are.** This is the big one, and it is not close. Two sessions a week every week beats four sessions a week for ten days followed by a month of nothing. In a [2025 randomized trial](https://pmc.ncbi.nlm.nih.gov/articles/PMC12529976/), people with an in-person coach were the most likely to stick with their program: 88% completed at least 26 of their 30 sessions. People coached through an app came close at 81%. People who were handed a PDF plan and left on their own? Just 52%. That gap is the whole ballgame over a few months.
 
 **Whether nutrition is part of the plan.** You train a few hours a week and eat for the other 165. Training with no nutrition changes still produces strength, better sleep and a more capable body. It usually does not produce the visible change people came for.
 
