@@ -74,6 +74,23 @@
   RewriteRule ^(?:blog/)?the-best-shakshuka/?$ /blog/five-different-frittatas/ [R=301,L]
   RewriteRule ^(?:blog/)?a-healthy-easy-meal-prep-guide-to-help-you-lose-weight/?$ /blog/fueling-your-ferrari/ [R=301,L]
 
+  # Posts merged into stronger posts in the Nov 2026 cleanup
+  RewriteRule ^(?:blog/)?macros/?$ /blog/what-are-macros/ [R=301,L]
+  RewriteRule ^(?:blog/)?calories-are-not-enough/?$ /blog/what-are-macros/ [R=301,L]
+  RewriteRule ^(?:blog/)?nutrient-timing-when-to-eat/?$ /blog/what-are-macros/ [R=301,L]
+  RewriteRule ^(?:blog/)?maximizing-nutrient-absorption/?$ /blog/what-are-macros/ [R=301,L]
+  RewriteRule ^(?:blog/)?how-filling-is-the-food-you-re-eating/?$ /blog/protein-basics/ [R=301,L]
+  RewriteRule ^(?:blog/)?experience-ultimate-weight-loss-with-these-simple-tips/?$ /blog/simple-changes-you-can-make-to-lose-weight/ [R=301,L]
+  RewriteRule ^(?:blog/)?weight-loss-friendly-foods/?$ /blog/simple-changes-you-can-make-to-lose-weight/ [R=301,L]
+  RewriteRule ^(?:blog/)?learn-how-to-get-a-nice-lean-body-for-summer/?$ /blog/simple-changes-you-can-make-to-lose-weight/ [R=301,L]
+  RewriteRule ^(?:blog/)?extra-bites-add-up/?$ /blog/simple-changes-you-can-make-to-lose-weight/ [R=301,L]
+  RewriteRule ^(?:blog/)?fix-how-you-fuel-your-body/?$ /blog/simple-changes-you-can-make-to-lose-weight/ [R=301,L]
+  RewriteRule ^(?:blog/)?drinking-and-dieting/?$ /blog/simple-changes-you-can-make-to-lose-weight/ [R=301,L]
+  RewriteRule ^(?:blog/)?how-to-avoid-food-cravings/?$ /blog/curb-those-junk-food-cravings/ [R=301,L]
+  RewriteRule ^(?:blog/)?its-not-your-fault/?$ /blog/curb-those-junk-food-cravings/ [R=301,L]
+  RewriteRule ^(?:blog/)?slow-cooker-firecracker-chicken-meatballs/?$ /blog/a-delicious-vegetarian-friendly-bowl/ [R=301,L]
+  RewriteRule ^(?:blog/)?it-s-not-your-fault/?$ /blog/curb-those-junk-food-cravings/ [R=301,L]
+
   # SEO: 301-redirect old root-level blog URLs to their new /blog/ location (only when that page actually exists)
   RewriteCond %{REQUEST_URI} !^/blog/
   RewriteCond %{REQUEST_URI} !^/dist/

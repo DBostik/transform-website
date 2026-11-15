@@ -190,13 +190,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"calories-are-not-enough.md": {
-	id: "calories-are-not-enough.md";
-  slug: "calories-are-not-enough";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "curb-those-junk-food-cravings.md": {
 	id: "curb-those-junk-food-cravings.md";
   slug: "curb-those-junk-food-cravings";
@@ -211,37 +204,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"drinking-and-dieting.md": {
-	id: "drinking-and-dieting.md";
-  slug: "drinking-and-dieting";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"experience-ultimate-weight-loss-with-these-simple-tips.md": {
-	id: "experience-ultimate-weight-loss-with-these-simple-tips.md";
-  slug: "experience-ultimate-weight-loss-with-these-simple-tips";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"extra-bites-add-up.md": {
-	id: "extra-bites-add-up.md";
-  slug: "extra-bites-add-up";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "five-different-frittatas.md": {
 	id: "five-different-frittatas.md";
   slug: "five-different-frittatas";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"fix-how-you-fuel-your-body.md": {
-	id: "fix-how-you-fuel-your-body.md";
-  slug: "fix-how-you-fuel-your-body";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -274,13 +239,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"how-filling-is-the-food-you-re-eating.md": {
-	id: "how-filling-is-the-food-you-re-eating.md";
-  slug: "how-filling-is-the-food-you-re-eating";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "how-long-does-it-take-to-see-results-with-a-personal-trainer.md": {
 	id: "how-long-does-it-take-to-see-results-with-a-personal-trainer.md";
   slug: "how-long-does-it-take-to-see-results-with-a-personal-trainer";
@@ -302,13 +260,6 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"how-to-avoid-food-cravings.md": {
-	id: "how-to-avoid-food-cravings.md";
-  slug: "how-to-avoid-food-cravings";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
 "how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.md": {
 	id: "how-to-choose-a-personal-trainer-for-weight-loss-in-chicago.md";
   slug: "how-to-choose-a-personal-trainer-for-weight-loss-in-chicago";
@@ -319,41 +270,6 @@ declare module 'astro:content' {
 "is-personal-training-worth-it-in-chicago.md": {
 	id: "is-personal-training-worth-it-in-chicago.md";
   slug: "is-personal-training-worth-it-in-chicago";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"its-not-your-fault.md": {
-	id: "its-not-your-fault.md";
-  slug: "its-not-your-fault";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"learn-how-to-get-a-nice-lean-body-for-summer.md": {
-	id: "learn-how-to-get-a-nice-lean-body-for-summer.md";
-  slug: "learn-how-to-get-a-nice-lean-body-for-summer";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"macros.md": {
-	id: "macros.md";
-  slug: "macros";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"maximizing-nutrient-absorption.md": {
-	id: "maximizing-nutrient-absorption.md";
-  slug: "maximizing-nutrient-absorption";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"nutrient-timing-when-to-eat.md": {
-	id: "nutrient-timing-when-to-eat.md";
-  slug: "nutrient-timing-when-to-eat";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -375,13 +291,6 @@ declare module 'astro:content' {
 "simple-changes-you-can-make-to-lose-weight.md": {
 	id: "simple-changes-you-can-make-to-lose-weight.md";
   slug: "simple-changes-you-can-make-to-lose-weight";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"slow-cooker-firecracker-chicken-meatballs.md": {
-	id: "slow-cooker-firecracker-chicken-meatballs.md";
-  slug: "slow-cooker-firecracker-chicken-meatballs";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
@@ -410,13 +319,6 @@ declare module 'astro:content' {
 "veggie-love.md": {
 	id: "veggie-love.md";
   slug: "veggie-love";
-  body: string;
-  collection: "blog";
-  data: InferEntrySchema<"blog">
-} & { render(): Render[".md"] };
-"weight-loss-friendly-foods.md": {
-	id: "weight-loss-friendly-foods.md";
-  slug: "weight-loss-friendly-foods";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">

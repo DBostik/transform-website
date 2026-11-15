@@ -1,54 +1,83 @@
 ---
-title: "Simple Changes You Can Make To Lose Weight"
-excerpt: "Making small changes to your diet can surprisingly add up quick to calorie reduction when trying to achieve and maintain a goal weight.  Preparation..."
-date: "November 18, 2022"
-category: "Fitness Advice"
+title: "Simple Changes You Can Make to Lose Weight"
+excerpt: "Everyday habits that make weight loss easier without a crash diet, from what you eat and drink to the small bites that quietly add up."
+date: "November 15, 2026"
+category: "Nutrition Tips"
 image: "/images/blog/blog_kettlebell_swing_1770429076780.webp"
 author: "Transform Team"
 ---
 
+Most people who struggle to lose weight are not short on effort. They are usually doing something hard that they cannot keep doing: cutting out whole food groups, skipping meals, or living on salads until Thursday and pizza by Saturday.
 
+The changes that actually work tend to be boring. They are small, they fit into a normal week, and they add up because you can keep them going for months. Here are the ones we see make the biggest difference for our clients.
 
+## Get ready at the start of the week
 
+Most bad food decisions happen when you are hungry and nothing good is ready. Spend half an hour on Sunday washing and cutting fruit and vegetables, cooking a batch of protein, and portioning a few lunches into containers.
 
-Making small changes to your diet can surprisingly add up quick to calorie reduction when trying to achieve and maintain a goal weight.
+Then put the good stuff where you can see it. A bowl of fruit on the counter gets eaten. The same fruit in the bottom drawer of the fridge goes soft. And if the snacks you tend to overeat live in a cabinet you open ten times a day, move them somewhere less convenient.
 
-Preparation is Key
+## Build meals around protein and vegetables
 
-One of the most important factors when trying to shed the pounds is being prepared for each day. At the beginning of the week, try to portion your fruit and veggies into small containers so you will be more likely to eat a healthy lunch and healthier snacks.
+Protein is the most filling of the three macronutrients, and it helps you hold on to muscle while you lose fat.
 
-By cutting your food up into convenient snack sized portions and storing them in the fridge, you will be saving yourself some time and also cutting back the calories.
+Good sources include eggs, chicken, fish, lean beef, Greek yogurt, cottage cheese, beans and lentils. Oatmeal and nuts are good foods, but they are not big protein sources on their own, so pair them with something that is. Our post on [protein basics](/blog/protein-basics/) has more ideas.
 
-Don’t Hide The Good Stuff
+A simple way to build a plate: fill about half of it with vegetables, then add a palm or two of protein and a sensible portion of starch. Vegetables bring fiber and volume, so you finish the meal satisfied without needing seconds.
 
-Keep fruit in a bowl on the kitchen table instead of hidden away in the bottom drawer of the fridge.  You want all of your fresh and healthy foods in plain sight for you to grab when you feel hungry.
+## Rethink breakfast
 
-Fill yourself with protein
+A big bowl of sweetened cereal or a pastry is mostly quick carbs with little protein or fiber. Plenty of people find they are starving again by mid-morning, then playing catch-up for the rest of the day.
 
-Protein is the most satisfying nutrient and will keep you fuller longer.  Oatmeal and nuts are great sources of protein and if you need to add a dose to your meals, try using one scoop of protein powder to your shakes and smoothies.
+For roughly the same calories, a veggie omelet, eggs with fruit, or Greek yogurt with berries will usually keep you full until lunch. Weight loss comes down to eating fewer calories than you burn, but what those calories are made of decides how hungry you are while you do it. If you want the longer version, read [what are macros](/blog/what-are-macros/).
 
-Remove the temptations from your pantry
+## Do not skip meals to save calories
 
-It’s time to throw out all of your high-calorie snacks that are poisoning your refrigerator and cabinets.
+Eating as little as possible feels productive. It usually backfires. Go all day on coffee and a small salad and you will be ravenous by evening, when the closest food is rarely the best choice.
 
-It may seem wasteful at first but it is important you keep sugary, fat filled food out of your sight so that you aren’t tempted to indulge. If you have lots of canned and dry goods that are unopened, consider donating them to a local food bank. Remember, food that is out of your sight with be out of your mind as well.
+Regular meals with enough protein make the whole day easier to manage. If cravings are the main thing tripping you up, our post on how to [curb junk food cravings](/blog/curb-those-junk-food-cravings/) covers why they happen and what helps.
 
-Don’t Scarf
+## Slow down at meals
 
-When you are eating, be sure you chew slowly and enjoy your food.  Take small bites and focus on the way the food tastes instead of how much you can get in your mouth.  It takes 20 or 30 minutes for your brain to recognize that the stomach is getting full.  By taking your time to eat you will ultimately be consuming way less.
+Fullness signals take a little time to catch up with what you have eaten. If you finish a plate in five minutes, you can easily eat past the point of being satisfied before your body has a chance to tell you.
 
-Use a Smaller Plate and Fill it with Veggies
+Put your fork down between bites, sit at a table instead of in front of a screen, and check in halfway through.
 
-To trick your brain that you are eating enough to be satisfied, try using a smaller sized plate and filling at least half of it up with vegetables at lunch and dinner.  You will feel full at the end of the meal without having consumed so many calories.
+## Watch what you drink
 
-Stay Away From High Calorie Beverages
+Drinks are the easiest calories to miss because they do not fill you up. Regular soda, juice, sweetened coffee drinks and alcohol can add hundreds of calories to a day without making you any less hungry.
 
-Alcoholic beverages, juice, sodas and sugary coffee drinks can really pack on the pounds if you aren’t careful.  Drink water with your meals instead, and if you have to have something with a little more flavor, try adding a slices of lemon and orange, or a sprig of mint.
+Water is the simplest swap. If plain water bores you, add a slice of lemon or orange or a sprig of mint. Sparkling water and unsweetened tea or coffee work too.
 
-Remember too that when you are shopping for groceries, the healthiest foods are located around the perimeter of the store. Pre-packaged, high calorie, and sugary foods are usually stocked on the middle shelves.
+## You can still drink alcohol, with a plan
 
-For help with creating a healthy eating plan, [find a personal trainer today](/studio-services/)!
+You do not have to give up alcohol to lose weight, but it helps to know what you are working with. A standard drink, like a 12 ounce regular beer, a 5 ounce glass of wine or a 1.5 ounce shot of liquor, carries about 100 calories from the alcohol alone, before any mixer.
 
-Boredom and stress can make you feel like eating also but avoid this, because it is emotional eating.
+Alcohol also lowers your guard around food and tends to make sleep worse, which makes the next day harder. A few things that help:
 
-[Chicago personal trainers](/personal-trainer-lakeview/) say, “Try going for a walk instead and see how you feel afterward.”
+- Decide how many drinks before you go out, and stick to it.
+- Choose drinks without sugary mixers, like a spirit with soda water and lime.
+- Have a glass of water between drinks.
+- Eat a proper meal beforehand so you are not snacking all night.
+
+The less often you drink, the easier the rest of this gets.
+
+## Be honest about the extra bites
+
+A spoonful of peanut butter while making the kids' lunches. A few fries off someone else's plate. The splash of oil in the pan you never measure. None of it feels like eating, but it counts. A tablespoon of peanut butter is close to 100 calories, and a tablespoon of olive oil is around 120.
+
+This is not about guilt. It is about knowing where your calories come from. If you track your food, track everything for a week or two, bites and sips included. It is often the missing piece when the scale stops moving. Our post on [weight loss plateaus](/blog/weight-loss-plateau-3-unseen-factors/) covers a few other common culprits.
+
+## Lift, move and sleep
+
+Food does most of the work for weight loss, but training decides what you look like at the end. Strength training at least two days a week, which is what the CDC recommends for adults, helps you keep muscle while you lose fat. If running is not your thing, there are plenty of [low-impact workouts](/blog/best-low-impact-workouts-for-weight-loss/) that work. A daily walk counts too, and it is one of the easiest ways to handle stress or boredom without heading to the kitchen.
+
+Sleep matters more than most people expect. The CDC recommends at least seven hours a night for adults. Short nights tend to make you hungrier and less patient the next day, which is a hard combination when you are trying to eat well.
+
+Training with a friend or a trainer helps too. It is harder to skip when someone is waiting for you.
+
+## Keep it simple
+
+Pick two or three of these to start, not all of them at once. Once they feel automatic, add another. If you have tried a lot of quick fixes before, our post on [diet myths](/blog/10-diet-myths-that-are-keeping-you-from-losing-weight/) is worth a read.
+
+If you want a plan and someone to keep you on it, take a look at our [weight loss personal training](/weight-loss-personal-training/).
