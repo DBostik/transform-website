@@ -29,7 +29,7 @@ Protein is the most satisfying nutrient and will keep you fuller longer.  Oatme
 
 Remove the temptations from your pantry
 
-It’s time to throw out all of your high-calorie snacks that are poisoning your refrigerator and cabinets. Setting up Replacement Water Filters for Kenmore Refrigerators helps to retain your food’s nutritious values and goodness.
+It’s time to throw out all of your high-calorie snacks that are poisoning your refrigerator and cabinets.
 
 It may seem wasteful at first but it is important you keep sugary, fat filled food out of your sight so that you aren’t tempted to indulge. If you have lots of canned and dry goods that are unopened, consider donating them to a local food bank. Remember, food that is out of your sight with be out of your mind as well.
 

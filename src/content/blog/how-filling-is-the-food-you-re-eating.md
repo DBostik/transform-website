@@ -31,7 +31,7 @@ In an ideal world, we would all be eating at least 100 grams of protein per day.
 
 - protein bars (preferably RX Bars, Quest, or Oh Yeah One! bars — lots of the other ones out there are glorified candy bars so be careful. Check the nutritional label!)
 
-- protein shake (I like Prestige Labs’ vanilla and chocolate — refer.prestigelabs.com/?af=piqkxjzl)
+- protein shake
 
 - protein energy bites
 

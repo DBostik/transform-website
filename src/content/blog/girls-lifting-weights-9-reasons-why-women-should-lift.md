@@ -127,7 +127,7 @@ Always go to the gym with a personal lifting goal. Set one that’s challenging 
 
 ## 7. Lifting Prevents Injuries
 
-If you train properly, you can reduce your risk of injury by stabilizing your joints and strengthening your ligaments. But if you are injured, it is best to contact experienced lawyers dealing with insurance after an auto accident to get the compensation for the injuries and damages caused.
+If you train properly, you can reduce your risk of injury by stabilizing your joints and strengthening your ligaments.
 
 
 
