@@ -75,7 +75,7 @@ Ascent Native Fuel Micellar Casein is a great brand of casein protein to conside
 
 ## Egg Albumin Protein Powder
 
-Both whey and casein come from milk, which can be an issue for people who are allergic or intolerant to milk. In fact, it’s estimated that 75% of the world population is lactose intolerant, meaning that digesting milk and milk proteins is difficult, or impossible, for them.
+Both whey and casein come from milk, which can be an issue for people who are allergic or intolerant to milk. In fact, it’s estimated that about two thirds of the world’s population has trouble digesting lactose, meaning that digesting milk and milk proteins is difficult, or impossible, for them.
 
 If this sounds like you, or if you’re on a dairy-free diet, you can try egg albumin as a protein source. Besides being a great protein source, albumin also contains essential vitamins. It’s also cholesterol-free, fat-free, and low-carb, which is great for women’s health.
 

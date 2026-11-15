@@ -1,7 +1,7 @@
 ---
-title: "The Top 7 Healthy Restaurants in Chicago"
-excerpt: "Loving to go out to eat doesn’t have to lead to unhealthy decisions. You can still enjoy fun meals out without the greasy temptations offered by som..."
-date: "February 25, 2021"
+title: "The Top 4 Healthy Restaurants in Chicago"
+excerpt: "Loving to go out to eat doesn’t have to lead to unhealthy decisions. Here are four Chicago spots where you can eat well without giving up a fun night out."
+date: "November 15, 2026"
 category: "Fitness Advice"
 image: "/images/blog/blog_medicine_ball_1770662409018.webp"
 author: "Transform Team"
@@ -19,57 +19,23 @@ Eating healthy isn’t just about your waistline, it’s also a huge factor in y
 
 Thankfully, eating healthy doesn’t mean eating a bland, dry salad, or something that might as well be bird seed anymore. You can get hearty, nutritious meals that leave you satisfied. You can get meals from healthy restaurants in Chicago that don’t break the bank. You can get a fine dining experience that wows your date or your favorite foodie with several courses.
 
-With all of these options, there’s no excuse to stay on track with your healthy diet while living in or visiting Chicago.
+With all of these options, there’s no excuse not to stay on track with your healthy diet while living in or visiting Chicago.
 
 
 
-## 7 Can’t Miss Healthy Restaurants in Chicago
+## 4 Can’t Miss Healthy Restaurants in Chicago
 
-We’ve broken down our top 7 healthy restaurants in Chicago into convenient categories for you to easily digest (pun intended). Price information (listed as How Much) based on Yelp.
-
-
-
-
-
-## 1. True Food Kitchen
-
-Where: 1 W Erie St Chicago, IL 60654 (Near North Side)
-
-When: Open daily for lunch and dinner, plus brunch on Saturday & Sunday
-
-How Much: $$
-
-Highlights: healthy food, brunch, cocktails, juice
-
-True Food Kitchen is a quickly growing chain that started in Phoenix, AZ. It is based on the anti-inflammatory diet principles of Dr. Andrew Weil. With delicious menu items like salads, pizzas, pastas, and healthy meat & fish dishes, this restaurant caters to healthy people of all diets.
-
-They offer plenty of vegetarian, vegan, gluten-free, and organic options that are delicious and filling. Even their desserts are committed to health with several anti-oxidant packed options.
+We’ve broken down our top 4 healthy restaurants in Chicago into convenient categories for you to easily digest (pun intended). We last checked that each one was open in November 2026. Prices (listed as How Much) are rough ranges.
 
 
 
 
 
-## 2. Green Zebra
-
-Where: 1460 W Chicago Ave Chicago, IL 60642 (North Square, West Town)
-
-When: Open for Dinner Tuesday-Sunday (closed Mondays)
-
-How Much: $$$
-
-Highlights: Vegetarian (with clearly marked vegan options as well), emphasis on local produce, chef’s tasting menu, cocktails
-
-Winner of Food Network’s Iron Chef, Shawn McClain is a force to be reckoned with. Green Zebra is not the place to come if you’re on a tight budget, but if you’re looking for a delicious dining experience worthy of dropping some cash, look no further than this small plates, veggie-loving restaurant.
-
-
-
-
-
-## 3. Sweetgreen
+## 1. Sweetgreen
 
 Where: 623 N State St Chicago, IL 60654 (River North)
 
-When: Open Daily 10:30am-10:00pm
+When: Open daily 10:00am-10:00pm
 
 How Much: $$
 
@@ -81,9 +47,9 @@ This expanding chain started in 2007 and has seen success in providing seasonal,
 
 
 
-## 4. Protein Bar
+## 2. Protein Bar & Kitchen
 
-Where: 13 locations all over Chicago! Check the website for location information.
+Where: Several locations around Chicago. Check their website for locations.
 
 When: Hours vary by location. Some are open daily, some are closed on Saturdays & Sundays.
 
@@ -97,39 +63,23 @@ This grab and go menu offers healthy and filling breakfast, bowls, soups, wraps,
 
 
 
-## 5. EMA
+## 3. Ema
 
 Where: 74 W Illinois St Chicago, IL 60654 (River North)
 
-When: Open Daily for Lunch and Dinner
+When: Lunch on weekdays, brunch on weekends, and dinner every night
 
-How Much: $$
+How Much: $$$
 
 Highlights: Several flavors of delicious hummus and other dips/spreads, cocktails, kids menu, gluten free menu
 
-Run by Top Chef Allstar’s winner Chef CJ Jacobsen, this Mediterranean meets California fresh restaurant brings a deliciously inventive set of dishes to Chicago. This restaurant is great for a special night out or a healthy business lunch. The well plated dishes and nutrition packed veggies incorporated into the dishes will leave you full without the guilt.
+Run by Top Chef alum and Top Chef Duels winner Chef CJ Jacobson, this Mediterranean meets California fresh restaurant brings a deliciously inventive set of dishes to Chicago. This restaurant is great for a special night out or a healthy business lunch. The well plated dishes and nutrition packed veggies incorporated into the dishes will leave you full without the guilt.
 
 
 
 
 
-## 6. LYFE Kitchen
-
-Where: Four locations across Chicago. Check them out here.
-
-When: Breakfast, Lunch, and Dinner. Hours vary by location but all are open daily.
-
-How Much: $$
-
-Highlights: Happy hour 4-6pm Monday-Friday, delicious alcoholic and non-alcoholic drink options, meat and vegetarian/vegan options, smoothies, well-sized portions.
-
-This chain emphasizes fresh ingredients, a Rewards program for frequent diners, and flavorful food and drinks. The casual dining experience and reasonable prices make this one of the most accessible healthy restaurants in Chicago. If you’re a meat eater, try the unfried chicken: juicy chicken breast pieces are breaded in panko and then seared. Healthy and delicious.
-
-
-
-
-
-## 7. Doc B’s Fresh Kitchen
+## 4. Doc B’s Restaurant + Bar
 
 Where: 100 E Walton St, Chicago, IL 60611 (Gold Coast) & 55 E Grand Ave, Chicago, IL 60611 (River North)
 
@@ -139,9 +89,9 @@ How Much: $$
 
 Highlights: healthy ingredient cocktails, vibrant salads, nice environment unique to each location, both with quick service.
 
-Founder and president Craig Bernstein’s named this growing chain after his late father, “Doctor B.” Doc B’s Fresh Kitchen offers a large menu with mostly healthy options, and a few indulgences in the mix as well.
+Founder and president Craig Bernstein’s named this growing chain after his late father, “Doctor B.” Doc B’s offers a large menu with mostly healthy options, and a few indulgences in the mix as well.
 
-Come here to exercise your everything in moderation clause and try a tuna salad with ginger dressing and avocado, a beet juice cocktail, or a kale and goat cheese pizza. You’ll leave full and satisfied, and as long as you can exercise some restraint against the fries, you’ll leave feeling proud of your healthy choices.
+Come here to exercise your everything in moderation clause and try one of the big salads or a Wok Out bowl. You’ll leave full and satisfied, and as long as you can exercise some restraint against the fries, you’ll leave feeling proud of your healthy choices.
 
 
 
@@ -151,8 +101,4 @@ Now let’s be clear, not everything on every one of these menus can be consider
 
 Of course, a huge part of staying healthy is balancing your nutritious diet with exercise.
 
-Transform Personal Training offers [one-on-one, small group, and couples training](/studio-services/) at affordable prices.
-
-Transform also offers a 30-day risk-free guarantee, so there’s no reason to hold back on getting the results you want.
-
-Schedule an appointment today.
+If you want help with that side of things, here’s [what happens in your free first personal training session](/blog/what-happens-in-your-free-first-personal-training-session/) at our studio.

@@ -13,7 +13,7 @@ author: "Transform Team"
 
 As I’ve mentioned in my previous posts, fueling your body with the right kind of food makes all the difference. As Jillian Kubala from Healthline outlines, “Research shows that dietary habits influence disease risk. While certain foods may trigger chronic health conditions, others offer strong medicinal and protective qualities… Food does much more than simply provide you with fuel.
 
-It may promote or worsen health, depending on what you eat,” (2). Plenty of other medical, health, and fitness professionals agree. Fueling your body with the right kinds of food can reverse the effects of chronic disease, such a diabetes, hypertension, and even cancer (1).
+It may promote or worsen health, depending on what you eat,” (2). Plenty of other medical, health, and fitness professionals agree. Fueling your body with the right kinds of food can help prevent and manage chronic conditions such as diabetes and high blood pressure (1).
 
 The recipe below for a hearty and healthy breakfast burrito is just one example of how we can use food as medicine to get your to your ultimate goal so you can live a happy, healthy lifestyle.
 

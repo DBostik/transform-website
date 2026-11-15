@@ -115,7 +115,7 @@ There are a variety of reasons why it’s important to gain muscle on your fitne
 
 For starters, muscle is actually metabolically active.
 
-You see, both muscle and fat burn calories in the course of a day. A pound of fat burns about two or three calories a day, while a pound of muscle burns between seven and ten.
+You see, both muscle and fat burn calories in the course of a day. At rest, a pound of fat burns about two calories a day, while a pound of muscle burns about six.
 
 So it’s not that many extra calories in the course of a day, but a slightly elevated metabolism (and a healthier body composition) works in favor of your overall wellbeing.
 

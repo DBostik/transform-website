@@ -15,7 +15,7 @@ In the [East Lakeview community](/personal-trainer-lakeview/), we are surrounded
 
 When we look at a cross-section of a 250 lb body versus a 120 lb body, we see more than just a difference in size. We see the physiological reality of how excess weight affects our vital systems:
 
-*   **Visceral Fat & Your Organs:** Notice the white areas surrounding the heart and lungs in the image on the left. This is visceral fat. Unlike the fat we can pinch, this fat is metabolically active and can wrap itself around your heart and brain, creating a "scary" environment for your long-term health.
+*   **Visceral Fat & Your Organs:** Notice the white areas surrounding the heart and lungs in the image on the left. This is visceral fat. Unlike the fat we can pinch, this fat is metabolically active and builds up around your heart, liver and other organs, creating a "scary" environment for your long-term health.
 *   **The Digestive Struggle:** Look closely at the compression around the stomach and internal organs. This physical crowding is a primary driver for GERD, acid reflux, and chronic indigestion. Weight loss isn't just about "slimming down"; it’s about giving your organs the space they need to function.
 *   **Joint Longevity:** Every extra pound of body weight adds significant pressure to your knee joints. Over time, these compressed joints ache and wear down faster than they should, limiting your ability to enjoy the active Chicago lifestyle you want.
 

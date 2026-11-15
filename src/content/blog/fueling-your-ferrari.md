@@ -13,13 +13,13 @@ author: "Transform Team"
 
 Food is fuel for our bodies. It gives us the energy we need to survive and perform daily activities. Think of your body like a Ferrari. Fueling your Ferrari properly is very important. Ferraris are high performance vehicles that require premium gas to function properly. Your body is no different.
 
-In order for your body to perform its best, you need to fuel it with health foods. You wouldn’t put junk fuel in a Ferrari’s tank so why do that to your body?
+In order for your body to perform its best, you need to fuel it with healthy foods. You wouldn’t put junk fuel in a Ferrari’s tank so why do that to your body?
 
 
 
 ## Proper Fueling
 
-With that said, have you been fueling your Ferrari with nutrition food? If not, time to start doing so. Health and fitness are 75% about what you eat and 25% about the movement/exercise piece. Doing both are clearly important, but if you have to start anywhere, I recommend to start with [getting your nutrition on track](/online-training/).
+With that said, have you been fueling your Ferrari with nutritious food? If not, it’s time to start. For most people trying to lose weight, what you eat moves the scale more than exercise does. Doing both is clearly important, but if you have to start anywhere, I recommend starting with [getting your nutrition on track](/online-training/).
 
 I had a client who broke her leg a couple weeks into her program. The cast and crutches (as well as eventually the boot) made even walking a challenge so applying pressure to the foot wasn’t an option and working out was limited. Therefore, we devoted lots of time and energy to her eating habits.
 
@@ -31,7 +31,7 @@ It wasn’t easy or fun. She grumbled about not being able to have Starbucks Fra
 
 ## Overnight Oats with Blueberry Jam
 
-Since nutrition is super important, I’ll make sure to keep posting healthy recipes for your to add to your arsenal. Kick off the day with this easy Vegan Breakfast for Overnight Oats with Blueberry Chia Jam from Jeanine Donofrio. It’s easy to make, tastes great and will keep you on track with your health and fitness goals.
+Since nutrition is super important, I’ll make sure to keep posting healthy recipes for you to add to your arsenal. Kick off the day with this easy Vegan Breakfast for Overnight Oats with Blueberry Chia Jam from Jeanine Donofrio. It’s easy to make, tastes great and will keep you on track with your health and fitness goals.
 
 
 

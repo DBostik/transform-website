@@ -93,7 +93,7 @@ Portion size is the key with pasta: try having it as a side rather than a main m
 
 Fasting for days on end will make you lose water weight, and because you’re not eating food you’ll also notice that you’re less bloated.
 
-It is not, however, a long-term solution to lose weight. You only lose water weight (and after time, muscle mass) if you’re fasting – not fat.
+It is not, however, a long-term solution to lose weight. A lot of the early drop on the scale is water, the longer you go the more muscle you lose along with fat, and the weight tends to come back once you eat normally again.
 
 Intermittent fasting has shown some benefits in aiding weight loss in some individuals, but this is often because of the natural calorie restriction. It’s harder to eat a full day’s calories in one small time period, so people on an intermittent fasting regimen are likely to be eating less overall.
 
@@ -139,9 +139,9 @@ With those diet myths busted, what about the surprising tips you’ve heard abou
 
 ## Zero Calorie Foods Exist
 
-Yes, there are foods that contain fewer calories than it takes to digest them, making them zero- or negative-calorie foods. These include celery, cucumber, and grapefruit.
+No food has fewer calories than it takes to digest it. Celery, cucumber and grapefruit are very low in calories, which makes them great for filling up, but your body still comes out ahead on calories when you eat them.
 
-However, these foods are often limited in nutrients too, so go easy on them and remember that a ‘rainbow diet’ with lots of different colors on your plate is the way to go.
+These foods are also fairly limited in nutrients, so don’t build meals around them alone and remember that a ‘rainbow diet’ with lots of different colors on your plate is the way to go.
 
 
 

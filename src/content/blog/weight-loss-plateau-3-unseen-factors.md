@@ -31,6 +31,6 @@ The Sleep Foundation states that lack of sleep spikes cortisol (the stress hormo
 
 ## 3. "Hidden" Calories
 
-Research shows that even when tracking potential, people underestimate their intake. That splash of heavy cream in your coffee? The handful of almonds you grabbed walking past the pantry? The sauce on your salad? These add up. You might be consuming an extra 200–500 calories a day than you realize. **Tip: Track EVERYTHING for a few days to get a baseline.**
+Research shows that even when they track carefully, people underestimate their intake. That splash of heavy cream in your coffee? The handful of almonds you grabbed walking past the pantry? The sauce on your salad? These add up. You might be eating 200 to 500 more calories a day than you realize. **Tip: Track EVERYTHING for a few days to get a baseline.**
 
 Break through that plateau by focusing on these unseen factors!
