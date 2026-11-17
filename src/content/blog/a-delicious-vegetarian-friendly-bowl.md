@@ -1,6 +1,6 @@
 ---
 title: "A Delicious Vegetarian-Friendly Bowl"
-excerpt: "## GRITS BOWL WITH AVOCADO AND BAKED TOFU STRIPS  Check out this yummy vegetarian-friendly bowl recipe for a Grits with Avocado and Baked Tofu Strips...."
+excerpt: "A vegetarian-friendly grits bowl with fresh avocado and eggy baked tofu strips. Healthy, tasty and easy to make, with plant-based protein."
 date: "January 19, 2021"
 category: "Fitness Advice"
 image: "/images/blog/blog_alarm_clock_1770394531654.webp"
@@ -67,47 +67,22 @@ Let me know your thoughts on this vegetarian recipe for Grits Bowl with Avocado 
 
 ## MORE HEALTHY RECIPES
 
-Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this healthy smoothie recipe, I have included below a couple other healthy recipes we’ve. They don’t require a ton of time or expertise to prepare.
+Let us know your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides this vegetarian-friendly bowl, I have included below a couple other healthy recipes we’ve shared. They don’t require a ton of time or expertise to prepare.
 
 Check back with our blog for more to come so you have a nice stockpile of healthy meal options readily available. That way you can stay on track to reaching your health and fitness goals.
 
-- Pesto Spaghetti Squash Salad
+- [Greek Chickpeas on Toast](/blog/greek-chickpeas-on-toast/)
+- [Sweet Potato & Apple Latkes](/blog/sweet-potato-apple-latkes/)
+- [Pesto Spaghetti Squash Salad](/blog/a-perfectly-refreshing-lunch-salad/)
+- [Five Different Frittatas](/blog/five-different-frittatas/)
 
-- Apple Cinnamon Crunch Overnight Oats
-
-- Overnight Oat Parfaits with Rhubarb Chia Jam
-
-- 2 Healthy Porridge Recipes
-
-- Slow Cooker Firecracker Chicken Meatballs
-
-- Five Different Frittatas
-
-- Hearty and Healthy Breakfast Burrito
-
-- Veggie Frittata Muffins
-
-- Italian Breakfast Panzanella
-
-- Butternut Squash Breakfast Hash
-
-- Strawberry Banana Smoothie
-
-- Creamy Avocado Smoothie
-
-- Cinnamon Coffee Smoothie
-
-- 5 Healthy Smoothie Recipes
-
-- Apple Buckwheat Pancakes with Coconut Caramel Apples
-
-If you liked this vegetarian-friendly bowl, stay tuned to the blog for additional recipes just like this and more. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
+If you liked this vegetarian-friendly bowl, stay tuned to the blog for additional recipes just like this and more.
 
 
 
 ## NEED HELP? WE’RE HERE FOR YOU
 
-If you’re really ready to take things to the next level and crush all of your health goals, book your free breakthrough coaching call. That’s where we’re going to get crystal clear on your vision, identify challenges, and motivate the heck out of you. Also, we’ll provide you a roadmap to achieve your goals. Simply follow this link to Contact us.
+If you’re really ready to take things to the next level and crush all of your health goals, [book your free first session](/contact/). We’ll talk through your goals and any challenges, and match you with the right coach.
 
 Our team of highly experienced coaches will help you get on track.
 

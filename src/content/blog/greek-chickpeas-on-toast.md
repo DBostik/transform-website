@@ -85,41 +85,16 @@ Check out this yummy Vegan Breakfast recipe name for Greek Chickpeas on Toast. I
 
 ## MORE HEALTHY RECIPES
 
-Let us your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides the above healthy recipe for Greek Chickpeas on Toast, I have included below a couple others you might like. They don’t require a ton of time or expertise to prepare.
+Let us know your thoughts on it and feel free to share this with your friends. Also, did you know that keeping variety in your meals and snacks is important? Besides the above healthy recipe for Greek Chickpeas on Toast, I have included below a couple others you might like. They don’t require a ton of time or expertise to prepare.
 
 Check back with our blog for more to come so you have a nice stockpile of healthy meal options readily available so you can stay on track to reaching your health and fitness goals.
 
-- Pesto Spaghetti Squash Salad
+- [Vegetarian-Friendly Grits Bowl](/blog/a-delicious-vegetarian-friendly-bowl/)
+- [Healthy Homemade Granola](/blog/healthy-homemade-granola/)
+- [Hearty and Healthy Breakfast Burrito](/blog/a-hearty-and-healthy-breakfast-burrito/)
+- [Five Different Frittatas](/blog/five-different-frittatas/)
 
-- Apple Cinnamon Crunch Overnight Oats
-
-- Overnight Oat Parfaits with Rhubarb Chia Jam
-
-- 2 Healthy Porridge Recipes
-
-- Slow Cooker Firecracker Chicken Meatballs
-
-- Five Different Frittatas
-
-- Hearty and Healthy Breakfast Burrito
-
-- Veggie Frittata Muffins
-
-- Italian Breakfast Panzanella
-
-- Butternut Squash Breakfast Hash
-
-- Strawberry Banana Smoothie
-
-- Creamy Avocado Smoothie
-
-- Cinnamon Coffee Smoothie
-
-- 5 Healthy Smoothie Recipes
-
-- Apple Buckwheat Pancakes with Coconut Caramel Apples
-
-Stay tuned to the blog for additional recipes. Also, check out our Facebook page and Instagram for more tips on eating well, working out, and other healthy lifestyle advice!
+Stay tuned to the blog for additional recipes.
 
 
 
@@ -128,6 +103,6 @@ Stay tuned to the blog for additional recipes. Also, check out our Facebook 
 
 ## NEED HELP? WE’RE HERE FOR YOU
 
-If you’re really ready to take things to the next level and crush all of your health goals, book a complimentary coaching call; that’s where we’re going to get crystal clear on your vision, identify challenges, motivate the heck out of you, and provide you a roadmap to your goals achieved. Simply follow this link to Contact us.
+If you’re really ready to take things to the next level and crush all of your health goals, [book your free first session](/contact/). We’ll talk through your goals and any challenges, and match you with the right coach.
 
 Our team of highly experienced coaches will help you get on track. Maybe you’ve been on a fitness journey and have hit a plateau. If so, our rockstar staff can help you push through that too. Regardless of where you are on your fitness journey, we want to see you happy and healthy so you can live the best life possible.

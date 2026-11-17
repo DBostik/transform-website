@@ -1,6 +1,6 @@
 ---
 title: "Fueling Your Ferrari"
-excerpt: "## A High Performance Machine  Food is fuel for our bodies. It gives us the energy we need to survive and perform daily activities. Think of your body..."
+excerpt: "Think of your body like a Ferrari: it needs premium fuel. Why what you eat matters, plus a healthy overnight oats recipe to start your day."
 date: "August 27, 2022"
 category: "Fitness Advice"
 image: "/images/blog/blog_alarm_clock_1770394531654.webp"
@@ -104,14 +104,8 @@ OPTIONAL: Add toasted sliced almonds for crunch (add a pinch of sea salt while 
 
 Since fueling your body with the right kinds of food is super important, build up a stock of healthy recipes. Check out these other healthy recipes that are great for fueling your Ferrari 😉
 
-- Pesto Spaghetti Squash Salad
+- [Healthy Homemade Granola](/blog/healthy-homemade-granola/)
+- [Hearty and Healthy Breakfast Burrito](/blog/a-hearty-and-healthy-breakfast-burrito/)
+- [Five Different Frittatas](/blog/five-different-frittatas/)
+- [Vegetarian-Friendly Grits Bowl](/blog/a-delicious-vegetarian-friendly-bowl/)
 
-- Apple Cinnamon Crunch Overnight Oats
-
-- Overnight Oat Parfaits with Rhubarb Chia Jam
-
-- 2 Healthy Porridge Recipes
-
-- Slow Cooker Firecracker Chicken Meatballs
-
-For additional tasty recipes, tips, and more, visit our website, Facebook page, and Instagram!

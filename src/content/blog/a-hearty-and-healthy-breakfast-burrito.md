@@ -1,6 +1,6 @@
 ---
 title: "A Hearty and Healthy Breakfast Burrito"
-excerpt: "## Food as Fuel and Medicine  As I’ve mentioned in my previous posts, fueling your body with the right kind of food makes all the difference. As Jilli..."
+excerpt: "A hearty and healthy breakfast burrito recipe, plus why fueling your body with the right kind of food makes all the difference."
 date: "May 1, 2023"
 category: "Fitness Advice"
 image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
@@ -100,25 +100,16 @@ COOK TIME: 30 mins
 
 Keeping variety in your meals and snacks is important. Besides this hearty and healthy breakfast burrito, I’ve included below a couple other healthy recipes I’ve shared. Check back with our blog for more to come. That way you have a nice stockpile of healthy meal options readily available so you can stay on track to reaching your health and fitness goals.
 
-- Pesto Spaghetti Squash Salad
-
-- Apple Cinnamon Crunch Overnight Oats
-
-- Overnight Oat Parfaits with Rhubarb Chia Jam
-
-- 2 Healthy Porridge Recipes
-
-- Slow Cooker Firecracker Chicken Meatballs
-
-- Five Different Frittatas
-
-For additional tasty recipes, tips, and more, visit our website, Facebook page, and Instagram!
+- [Five Different Frittatas](/blog/five-different-frittatas/)
+- [Greek Chickpeas on Toast](/blog/greek-chickpeas-on-toast/)
+- [Healthy Homemade Granola](/blog/healthy-homemade-granola/)
+- [Sweet Potato & Apple Latkes](/blog/sweet-potato-apple-latkes/)
 
 
 
 ## NEED HELP?
 
-Also, if you’re struggling and need some help making progress on your fitness journey, contact us. Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!
+Also, if you’re struggling and need some help making progress on your fitness journey, [contact us](/contact/). Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!
 
 
 
@@ -126,9 +117,6 @@ Also, if you’re struggling and need some help making progress on your fitness 
 
 ### SOURCES
 
-1. Gorn, David . (1/17/2017). Food As Medicine: It’s Not Just a Fringe Idea Anymore. https://www.npr.org/sections/thesalt/2017/01/17/509520895/food-as-medicine-it-s-not-just-a-fringe-idea-anymore
+1. Gorn, David. (1/17/2017). [Food As Medicine: It’s Not Just a Fringe Idea Anymore](https://www.npr.org/sections/thesalt/2017/01/17/509520895/food-as-medicine-it-s-not-just-a-fringe-idea-anymore).
 
-2. Kubala, Jillian. (8/9/2019). Can Food Act as Medicine? All You Need to Know. //www.healthline.com/nutrition/food-as-medicine
-
-
-#disease-risk
+2. Kubala, Jillian. (8/9/2019). [Can Food Act as Medicine? All You Need to Know](https://www.healthline.com/nutrition/food-as-medicine).

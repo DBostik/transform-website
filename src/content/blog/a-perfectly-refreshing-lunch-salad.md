@@ -1,6 +1,6 @@
 ---
 title: "A Perfectly Refreshing Lunch Salad"
-excerpt: "##   ## A Secret to Success on A Fitness Journey  Listen carefully. I’m going to share with you one of the secrets to success on a fitness journey tow..."
+excerpt: "A perfectly refreshing Pesto Spaghetti Squash Salad for lunch. This vegetarian recipe is easy to make, packs great flavor and can be served hot or cold."
 date: "November 17, 2023"
 category: "Fitness Advice"
 image: "/images/blog/blog_boxing_bag_1770429127510.webp"
@@ -100,12 +100,8 @@ Feel free to add an additional Tablespoon of whole pine nuts at the end, then mi
 
 Here are a few other healthy recipes to add to your repertoire:
 
-- Apple Cinnamon Crunch Overnight Oats
+- [Vegetarian-Friendly Grits Bowl](/blog/a-delicious-vegetarian-friendly-bowl/)
+- [Sweet Potato & Apple Latkes](/blog/sweet-potato-apple-latkes/)
+- [Greek Chickpeas on Toast](/blog/greek-chickpeas-on-toast/)
+- [Five Different Frittatas](/blog/five-different-frittatas/)
 
-- Overnight Oat Parfaits
-
-- 2 Healthy Porridge
-
-- Slower Cooker Firecracker Chicken Meatballs
-
-Follow us on Facebook, Instagram, and our website for more crowd pleasing healthy recipes loaded with flavor without excessive calories.

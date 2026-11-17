@@ -263,17 +263,10 @@ Make the five different frittatas and let us know which one is your favorite of 
 
 As mentioned above, keeping variety in your meals and snacks is important. Besides the five different frittatas listed above, below are a couple other healthy recipes I’ve shared. Check back with our blog for more to come. That way you have a nice stockpile of healthy meal options readily available so you can stay on track to reaching your health and fitness goals.
 
-- Pesto Spaghetti Squash Salad
-
-- Apple Cinnamon Crunch Overnight Oats
-
-- Overnight Oat Parfaits with Rhubarb Chia Jam
-
-- 2 Healthy Porridge Recipes
-
-- Slow Cooker Firecracker Chicken Meatballs
-
-For additional tasty recipes, tips, and more, visit our website, Facebook page, and Instagram!
+- [Hearty and Healthy Breakfast Burrito](/blog/a-hearty-and-healthy-breakfast-burrito/)
+- [Greek Chickpeas on Toast](/blog/greek-chickpeas-on-toast/)
+- [Healthy Homemade Granola](/blog/healthy-homemade-granola/)
+- [Pesto Spaghetti Squash Salad](/blog/a-perfectly-refreshing-lunch-salad/)
 
 
 
@@ -281,4 +274,4 @@ For additional tasty recipes, tips, and more, visit our website, Facebook pag
 
 ## NEED HELP?
 
-Also, if you’re struggling and need some help making progress on your fitness journey, contact us. Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!
+Also, if you’re struggling and need some help making progress on your fitness journey, [contact us](/contact/). Our team of rockstars will help you get on track or push you past your plateau and get you rolling again. We’re happy to assist. We want to see you live a happy and healthy lifestyle!

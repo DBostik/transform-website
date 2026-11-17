@@ -1,6 +1,6 @@
 ---
 title: "Healthy Homemade Granola"
-excerpt: "##   ## A Tasty Vegan Breakfast Recipe  As promised in previous posts, I will continue to send healthy recipes your direction. Building up a library f..."
+excerpt: "A healthy homemade granola recipe that’s easy to make, vegan, and a nice way to switch up your breakfast."
 date: "December 5, 2021"
 category: "Fitness Advice"
 image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
@@ -70,20 +70,13 @@ I have a feeling that this one will go over well. Let me know your thoughts on i
 
 Having lots of options is super important. People tend to fall off the wagon when they get bored with eating the same food. With that said, it’s important to rotate your healthy recipes to keep things fresh to keep you on track so you can get results and ultimately reach your goals. Besides today’s healthy homemade granola recipe, here are a few other healthy recipes to add to your repertoire:
 
-- Apple Cinnamon Crunch Overnight Oats
-
-- Overnight Oat Parfaits
-
-- 2 Healthy Porridge
-
-- Slower Cooker Firecracker Chicken Meatballs
-
-- Pesto Spaghetti Squash Salad
-
-For additional healthy recipes, fitness tips, and more, follow us on Facebook, Instagram, and check out our website.
+- [Greek Chickpeas on Toast](/blog/greek-chickpeas-on-toast/)
+- [Hearty and Healthy Breakfast Burrito](/blog/a-hearty-and-healthy-breakfast-burrito/)
+- [Five Different Frittatas](/blog/five-different-frittatas/)
+- [Vegetarian-Friendly Grits Bowl](/blog/a-delicious-vegetarian-friendly-bowl/)
 
 
 
 ## Feeling Stuck?
 
-It’s totally okay if you are. There is so much conflicting information out there about exercise and eating right. If you are struggling to make progress on your fitness goals, reach out. Where you need help with the exercise piece or the nutrition or both, we’re here for you.
+It’s totally okay if you are. There is so much conflicting information out there about exercise and eating right. If you are struggling to make progress on your fitness goals, [reach out](/contact/). Where you need help with the exercise piece or the nutrition or both, we’re here for you.
