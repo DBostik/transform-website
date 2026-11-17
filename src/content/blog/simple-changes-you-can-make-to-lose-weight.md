@@ -80,4 +80,6 @@ Training with a friend or a trainer helps too. It is harder to skip when someone
 
 Pick two or three of these to start, not all of them at once. Once they feel automatic, add another. If you have tried a lot of quick fixes before, our post on [diet myths](/blog/10-diet-myths-that-are-keeping-you-from-losing-weight/) is worth a read.
 
+Every Transform plan includes nutrition guidance from a trainer certified in nutrition, and our [online coaching](/online-training/) adds a meal plan. See how our [nutrition coaching](/nutrition-coaching/) works.
+
 If you want a plan and someone to keep you on it, take a look at our [weight loss personal training](/weight-loss-personal-training/).

@@ -67,4 +67,6 @@ Most of us were never really taught what makes a filling snack, and the food aro
 
 Cravings never disappear completely. The goal is for them to stop being the thing that decides how your week goes. For more everyday habits that make this easier, see our post on [simple changes you can make to lose weight](/blog/simple-changes-you-can-make-to-lose-weight/). And if eating ever feels out of your control, it is worth talking with your doctor.
 
+Every Transform trainer is certified in nutrition and can help you plan around cravings, and our [online coaching](/online-training/) includes a meal plan built around the food you actually like. See how our [nutrition coaching](/nutrition-coaching/) works.
+
 If you want a coach to help you build a plan around the food you actually like, take a look at our [weight loss personal training](/weight-loss-personal-training/).

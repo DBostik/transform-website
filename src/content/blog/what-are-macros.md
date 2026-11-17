@@ -83,4 +83,6 @@ If you have a medical condition or take medication that affects what you can eat
 
 Calories decide the direction. Macros decide what you lose and how you feel doing it. Start with protein at each meal, plenty of plants and sensible portions, and worry about timing and pairings later.
 
+Every Transform trainer is certified in nutrition, and nutrition guidance is part of every plan. Our [online coaching](/online-training/) also includes a meal plan with macro tracking in the app. See how our [nutrition coaching](/nutrition-coaching/) works.
+
 If you want a coach to help you put this into practice, take a look at our [weight loss personal training](/weight-loss-personal-training/).

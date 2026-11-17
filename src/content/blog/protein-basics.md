@@ -94,4 +94,6 @@ You do not need to overhaul everything. Pick one meal, usually breakfast, and bu
 
 If you have heard that eggs are bad for you or that shakes melt weight off, our post on [diet myths that keep you from losing weight](/blog/10-diet-myths-that-are-keeping-you-from-losing-weight/) clears up a few of the usual suspects.
 
+Nutrition guidance from your trainer, protein included, is part of every Transform plan, and our [online coaching](/online-training/) adds a meal plan built around the food you actually eat. See how our [nutrition coaching](/nutrition-coaching/) works.
+
 And if you want help turning this into a plan with training and nutrition built around your goal, that is what our [weight loss personal training](/weight-loss-personal-training/) is for.
