@@ -168,3 +168,5 @@ Drinking water also means you’re not taking in excess calories in the form of 
 ## Lose Weight the Right Way
 
 Now those diet myths have been busted it’s time to discover how you can actually lose weight. Check out our ultimate guide to getting that summer body and start seeing results!
+
+Want help putting this into practice? See how [nutrition coaching](/nutrition-coaching/) works at our private Lakeview studio.

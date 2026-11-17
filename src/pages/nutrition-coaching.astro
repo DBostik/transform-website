@@ -1,0 +1,538 @@
+---
+/**
+ * The faqs array renders both the visible FAQ and the FAQPage schema,
+ * so the two can never drift apart.
+ */
+
+import Navigation from '../components/Navigation.astro';
+import PopupForm from '../components/PopupForm.astro';
+import Footer from '../components/Footer.astro';
+import StyledGHLQuickLead from '../components/integration/StyledGHLQuickLead.astro';
+import BaseHead from '../components/BaseHead.astro';
+import Button from '../components/ui/Button.astro';
+
+const pageTitle = "Nutrition Coaching in Chicago | Transform Personal Training";
+const pageDescription = "Nutrition guidance from certified trainers at our private Lakeview studio, included with every plan. Online coaching adds a meal plan. First session free.";
+const pageUrl = "https://transformpersonaltraining.com/nutrition-coaching/";
+
+const coaches = [
+  { name: "Gerri Bushkovski", photo: "/images/team/Gerri-coach-thumb.webp", credentials: "NASM Certified Personal Trainer, Corrective Exercise Specialist, Apex Nutrition Certified." },
+  { name: "Miriam Plotkin", photo: "/images/team/Miriam-coach-thumb.webp", credentials: "NASM Certified Personal Trainer, Advanced Sports Nutrition, training clients since 2001." },
+  { name: "Eric-Todd Rushing", photo: "/images/team/Eric-Todd-Coach-thumb.webp", credentials: "NASM Certified Personal Trainer and iPEC Certified Professional Coach, focused on the mental side of change." },
+  { name: "Kristen", photo: "/images/team/Kristen-coach-thumb.webp", credentials: "Nutrition Coach, Behavior Change Specialist, Accountability Specialist. Coaches online." }
+];
+
+const faqs = [
+  {
+    q: "Does nutrition coaching cost extra?",
+    a: "No. Nutrition guidance is included with every training plan, in the studio and online."
+  },
+  {
+    q: "Do you provide meal plans?",
+    a: "Online coaching includes a meal plan built around your goals and the food you actually eat. In the studio, your trainer gives you nutrition guidance, and can put together a meal plan if you ask."
+  },
+  {
+    q: "Are your trainers certified in nutrition?",
+    a: "Yes. Every Transform trainer is certified in nutrition, with credentials that include Apex Nutrition, Advanced Sports Nutrition and Nutrition Coach."
+  },
+  {
+    q: "Will I have to give up foods I like?",
+    a: "No. There are no fad diets. Your trainer works with the food you actually eat, restaurant dinners included."
+  },
+  {
+    q: "Can I get nutrition coaching without training?",
+    a: "Nutrition coaching comes with our studio training and our online coaching programs."
+  },
+  {
+    q: "Can you help if I have a medical condition?",
+    a: "Our guidance is for everyday eating and fitness goals, not medical treatment. If your doctor has you on a specific diet, follow their advice, and tell us so your trainer can work around it."
+  },
+  {
+    q: "How do the daily check-ins work?",
+    a: "Your trainer checks in with you every day by message, so you can ask questions and stay on track between sessions. Online clients do it through the Trainerize app."
+  },
+  {
+    q: "Where are you located?",
+    a: "Our studio is at 2900 N Broadway in Lakeview, Chicago. Online coaching is available anywhere in the US."
+  }
+];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{pageTitle}</title>
+  <BaseHead title={pageTitle} description={pageDescription} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Nutrition Coaching",
+    "name": "Nutrition Coaching in Chicago",
+    "description": pageDescription,
+    "url": pageUrl,
+    "provider": {
+      "@type": "HealthAndBeautyBusiness",
+      "name": "Transform Personal Training",
+      "@id": "https://transformpersonaltraining.com/#organization"
+    },
+    "areaServed": [
+      { "@type": "Place", "name": "Lakeview" },
+      { "@type": "Place", "name": "Lincoln Park" },
+      { "@type": "City", "name": "Chicago" }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://transformpersonaltraining.com/" },
+      { "@type": "ListItem", "position": 2, "name": "Nutrition Coaching", "item": pageUrl }
+    ]
+  })} />
+  <script type="application/ld+json" set:html={JSON.stringify({
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": faqs.map((f) => ({
+      "@type": "Question",
+      "name": f.q,
+      "acceptedAnswer": { "@type": "Answer", "text": f.a }
+    }))
+  })} />
+  <meta name="description" content={pageDescription}>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/styles/design-tokens.css">
+  <link rel="stylesheet" href="/styles/components.css">
+</head>
+
+<body>
+  <Navigation currentPath="/nutrition-coaching" />
+  <main>
+
+  <section class="nutrition-hero">
+    <div class="nutrition-hero__content container">
+      <span class="nutrition-hero__badge">Lakeview &middot; Chicago</span>
+      <h1 class="nutrition-hero__title">Nutrition Coaching in Chicago</h1>
+      <p class="nutrition-hero__subtitle">
+        Guidance from certified trainers on what and how to eat, included with every plan at our
+        private Lakeview studio.
+      </p>
+      <Button variant="secondary" size="lg" href="#consultation">Book your free first session</Button>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p class="nutrition-lead">
+        Transform Personal Training is a private, appointment-only personal training studio at
+        2900 N Broadway in Lakeview, Chicago. Every Transform trainer is certified in nutrition, and
+        nutrition guidance is included with every training plan, not sold as an add-on. Online
+        coaching clients also get a meal plan built around their goals and the food they actually eat.
+      </p>
+      <div class="section-header">
+        <h2 class="section-title">Why nutrition is part of every plan</h2>
+      </div>
+      <div class="nutrition-copy">
+        <p>
+          You train a few hours a week. You eat, sleep, sit and stress for the other 165. That's where
+          most of your progress is won or lost, and you can't out-train a kitchen. So your trainer
+          coaches you on both.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What nutrition coaching includes in the studio</h2>
+      </div>
+      <div class="nutrition-split">
+        <ul class="nutrition-checklist">
+          <li><strong>Guidance from your trainer</strong> on what and how much to eat for your goals, whether that's losing weight, building strength or having more energy.</li>
+          <li><strong>Better choices with the food you already like,</strong> restaurant dinners included. No fad diets.</li>
+          <li><strong>Daily check-ins</strong> from your own trainer, so you get answers between sessions, not just during them.</li>
+          <li><strong>A meal plan if you'd like one.</strong> Most studio clients do well with guidance alone, but just ask and your trainer will put one together.</li>
+        </ul>
+        <img
+          class="nutrition-split__photo"
+          src="/images/blog/blog_grilled_chicken_salad_1770342114405.webp"
+          alt="A grilled chicken salad with avocado, tomatoes and cucumber"
+          width="640"
+          height="640"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Online coaching: meal plans included</h2>
+      </div>
+      <div class="nutrition-split nutrition-split--app">
+        <div class="nutrition-copy">
+          <p>
+            Our <a href="/online-training/">online coaching</a> includes a meal plan built around your
+            goals and the food you actually eat, with tracking in the Trainerize app, plus a custom
+            training program, daily check-ins and a weekly 1-on-1 video call. It's for US clients and
+            starts at $127 a week. Kristen, our accountability and nutrition coach, focuses on the small
+            daily habits that actually last.
+          </p>
+        </div>
+        <img
+          class="nutrition-split__app"
+          src="/images/trainerize-features-nutrition-tracking.webp"
+          alt="Nutrition tracking in the Trainerize app showing macros and calories"
+          width="392"
+          height="448"
+          loading="lazy"
+        />
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Who guides you</h2>
+        <p class="section-subtitle">
+          Every Transform trainer is certified in nutrition. Meet the coaches:
+        </p>
+      </div>
+      <div class="nutrition-coaches">
+        {coaches.map((c) => (
+          <div class="nutrition-coach">
+            <img class="nutrition-coach__photo" src={c.photo} alt={`${c.name}, Transform Personal Training coach`} width="240" height="240" loading="lazy" />
+            <a class="nutrition-coach__name" href="/meet-the-team/">{c.name}</a>
+            <p>{c.credentials}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">What nutrition coaching isn't</h2>
+      </div>
+      <div class="nutrition-copy">
+        <p>
+          We're personal trainers, not medical providers. Our nutrition guidance is for everyday
+          eating and fitness goals. If you have a medical condition that affects what you eat, or a
+          doctor has you on a specific diet, follow your doctor's advice.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Price</h2>
+        <p class="section-subtitle">Nutrition guidance costs nothing extra. It's part of every plan.</p>
+      </div>
+      <div class="nutrition-copy">
+        <ul class="nutrition-facts">
+          <li><strong>One-on-one training:</strong> $55 a session at twice a week, $50 at three times, $45 at four times. Every session is 30 minutes.</li>
+          <li><strong>Online coaching, with a meal plan:</strong> from $127 a week.</li>
+          <li><strong>First session:</strong> free.</li>
+        </ul>
+        <p>
+          See every plan on our <a href="/studio-services/">studio services page</a>.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">More reading</h2>
+      </div>
+      <div class="nutrition-copy">
+        <ul class="nutrition-reading">
+          <li><a href="/blog/10-diet-myths-that-are-keeping-you-from-losing-weight/">10 Diet Myths That Are Keeping You From Losing Weight</a></li>
+          <li><a href="/blog/protein-basics/">Protein Basics: How Much You Need and Easy Ways to Get It</a></li>
+          <li><a href="/blog/what-are-macros/">What Are Macros? Protein, Carbs and Fat Explained</a></li>
+          <li><a href="/blog/the-top-7-healthy-restaurants-in-chicago/">The Top 4 Healthy Restaurants in Chicago</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background-color: var(--color-black-50);">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Questions about nutrition coaching</h2>
+      </div>
+      <div class="nutrition-faq">
+        {faqs.map((f) => (
+          <details class="nutrition-faq__item">
+            <summary class="nutrition-faq__q">{f.q}</summary>
+            <p class="nutrition-faq__a">{f.a}</p>
+          </details>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section id="consultation" style="position: relative; background-image: url('/images/form-background.webp'); background-size: cover; background-position: center; padding: 3rem 0;">
+    <div style="position: absolute; inset: 0; background: rgba(15, 23, 42, 0.85);"></div>
+    <div class="container" style="position: relative; z-index: 1;">
+      <div style="max-width: 640px; margin: 0 auto; text-align: center;">
+        <h2 style="font-family: var(--font-heading); font-size: 1.875rem; font-weight: 700; color: white; margin-bottom: 0.75rem;">
+          Ready to start?
+        </h2>
+        <p style="color: rgba(255,255,255,0.9); margin-bottom: 2rem;">
+          Book your free first session below, and Dave will call you to set it up.
+        </p>
+        <StyledGHLQuickLead />
+      </div>
+    </div>
+  </section>
+
+  </main>
+  <Footer />
+
+  <PopupForm />
+</body>
+</html>
+
+<style>
+  .nutrition-hero {
+    background: linear-gradient(135deg, #0284c7 0%, #1e293b 100%);
+    padding: var(--space-16) 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .nutrition-hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -20%;
+    width: 60%;
+    height: 200%;
+    background: radial-gradient(ellipse, rgba(255,255,255,0.05) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .nutrition-hero__content {
+    text-align: center;
+    position: relative;
+    z-index: 1;
+  }
+
+  .nutrition-hero__badge {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    color: white;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .nutrition-hero__title {
+    font-family: var(--font-heading);
+    font-size: clamp(2rem, 5vw, 3rem);
+    font-weight: 800;
+    color: var(--color-accent-500);
+    max-width: 1100px;
+    margin: 0 auto 1.5rem;
+    line-height: 1.15;
+    text-wrap: balance;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .nutrition-hero__subtitle {
+    font-size: 1.125rem;
+    color: rgba(255, 255, 255, 0.95);
+    max-width: 720px;
+    margin: 0 auto 2rem;
+    line-height: 1.7;
+  }
+
+  .nutrition-lead {
+    max-width: 760px;
+    margin: 0 auto var(--space-12);
+    font-size: 1.25rem;
+    line-height: 1.7;
+    color: var(--color-black-800);
+  }
+
+  .nutrition-copy {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .nutrition-copy p {
+    color: var(--color-black-700);
+    line-height: 1.8;
+    margin-bottom: 1.25rem;
+  }
+
+  .nutrition-checklist,
+  .nutrition-facts,
+  .nutrition-reading {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.25rem;
+  }
+
+  .nutrition-checklist li,
+  .nutrition-facts li,
+  .nutrition-reading li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+    color: var(--color-black-700);
+    line-height: 1.7;
+  }
+
+  .nutrition-checklist li::before {
+    content: '\2713';
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    color: var(--color-accent-500);
+  }
+
+  .nutrition-facts li::before,
+  .nutrition-reading li::before {
+    content: '';
+    position: absolute;
+    left: 0.5rem;
+    top: 0.7em;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background: var(--color-primary-500);
+  }
+
+  .nutrition-split {
+    display: grid;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  @media (min-width: 900px) {
+    .nutrition-split {
+      grid-template-columns: 1.3fr 1fr;
+      gap: 3rem;
+    }
+  }
+
+  .nutrition-split .nutrition-checklist {
+    margin-bottom: 0;
+  }
+
+  .nutrition-split .nutrition-copy {
+    max-width: none;
+    margin: 0;
+  }
+
+  .nutrition-split__photo {
+    width: 100%;
+    max-width: 420px;
+    height: auto;
+    justify-self: center;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+
+  .nutrition-split__app {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    justify-self: center;
+    border-radius: 1.5rem;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  }
+
+  .nutrition-coaches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .nutrition-coach {
+    background: white;
+    border-radius: 12px;
+    padding: 1.75rem 1.5rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    text-align: center;
+  }
+
+  .nutrition-coach__photo {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+
+  .nutrition-coach__name {
+    display: inline-block;
+    font-family: var(--font-heading);
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: var(--color-primary-600);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+  }
+
+  .nutrition-coach__name:hover {
+    text-decoration: underline;
+  }
+
+  .nutrition-coach p {
+    color: var(--color-black-600);
+    line-height: 1.7;
+  }
+
+  .nutrition-faq {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .nutrition-faq__item {
+    background: white;
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  }
+
+  .nutrition-faq__q {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: var(--color-black-900);
+    cursor: pointer;
+  }
+
+  .nutrition-faq__a {
+    color: var(--color-black-700);
+    line-height: 1.7;
+    margin-top: 0.75rem;
+  }
+</style>
