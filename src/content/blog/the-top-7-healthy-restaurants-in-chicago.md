@@ -1,7 +1,7 @@
 ---
 title: "The Top 4 Healthy Restaurants in Chicago"
 excerpt: "Loving to go out to eat doesn’t have to lead to unhealthy decisions. Here are four Chicago spots where you can eat well without giving up a fun night out."
-date: "November 15, 2026"
+date: "February 25, 2021"
 category: "Fitness Advice"
 image: "/images/blog/blog_medicine_ball_1770662409018.webp"
 author: "Transform Team"
