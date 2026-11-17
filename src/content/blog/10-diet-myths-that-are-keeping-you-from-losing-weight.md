@@ -129,7 +129,7 @@ Exercise causes micro-tears in the muscles. This makes your body deploy its resp
 
 
 
-## Three Surprising Diet Myths That Are Actually True
+## Three Surprising Diet Claims, Checked
 
 With those diet myths busted, what about the surprising tips you’ve heard about but don’t think are true?
 
@@ -137,7 +137,7 @@ With those diet myths busted, what about the surprising tips you’ve heard abou
 
 
 
-## Zero Calorie Foods Exist
+## Zero Calorie Foods Don’t Exist, but Low Calorie Foods Help
 
 No food has fewer calories than it takes to digest it. Celery, cucumber and grapefruit are very low in calories, which makes them great for filling up, but your body still comes out ahead on calories when you eat them.
 
@@ -167,6 +167,6 @@ Drinking water also means you’re not taking in excess calories in the form of 
 
 ## Lose Weight the Right Way
 
-Now those diet myths have been busted it’s time to discover how you can actually lose weight. Check out our ultimate guide to getting that summer body and start seeing results!
+Now that those diet myths have been busted, it’s time to focus on what actually works. Our post on [simple changes you can make to lose weight](/blog/simple-changes-you-can-make-to-lose-weight/) is a good place to start.
 
 Want help putting this into practice? See how [nutrition coaching](/nutrition-coaching/) works at our private Lakeview studio.
