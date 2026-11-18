@@ -50,4 +50,5 @@ ${uniqueUrls.map(url => `  <url>
     console.log(`Found ${uniqueUrls.length} pages.`);
 } catch (error) {
     console.error('❌ Error generating sitemap:', error);
+    process.exit(1);
 }
