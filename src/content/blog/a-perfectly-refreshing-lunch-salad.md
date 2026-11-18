@@ -2,7 +2,7 @@
 title: "A Perfectly Refreshing Lunch Salad"
 excerpt: "A perfectly refreshing Pesto Spaghetti Squash Salad for lunch. This vegetarian recipe is easy to make, packs great flavor and can be served hot or cold."
 date: "November 17, 2023"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_boxing_bag_1770429127510.webp"
 author: "Transform Team"
 ---

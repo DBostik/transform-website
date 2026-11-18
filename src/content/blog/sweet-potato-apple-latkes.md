@@ -1,8 +1,8 @@
 ---
 title: "Sweet Potato & Apple Latkes"
-excerpt: "Did you know eating healthy doesn’t have to be complicated or require tons of ingredients? Check out this yummy recipe for Sweet Potato & Apple Latkes..."
+excerpt: "Sweet potato and apple latkes with a tahini lemon drizzle. A healthy recipe that’s easy to make vegan and needs just a handful of ingredients."
 date: "October 24, 2021"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_dark_chocolate_1770429064831.webp"
 author: "Transform Team"
 ---

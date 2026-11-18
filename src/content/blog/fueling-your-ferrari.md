@@ -2,7 +2,7 @@
 title: "Fueling Your Ferrari"
 excerpt: "Think of your body like a Ferrari: it needs premium fuel. Why what you eat matters, plus a healthy overnight oats recipe to start your day."
 date: "August 27, 2022"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_alarm_clock_1770394531654.webp"
 author: "Transform Team"
 ---

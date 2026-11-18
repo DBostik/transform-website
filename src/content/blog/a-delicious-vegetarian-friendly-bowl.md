@@ -2,7 +2,7 @@
 title: "A Delicious Vegetarian-Friendly Bowl"
 excerpt: "A vegetarian-friendly grits bowl with fresh avocado and eggy baked tofu strips. Healthy, tasty and easy to make, with plant-based protein."
 date: "January 19, 2021"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_alarm_clock_1770394531654.webp"
 author: "Transform Team"
 ---

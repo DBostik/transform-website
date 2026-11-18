@@ -1,8 +1,8 @@
 ---
 title: "GREEK CHICKPEAS ON TOAST"
-excerpt: "Check out this yummy Vegan Breakfast recipe name for Greek Chickpeas on Toast. It tastes so yummy! We had these the other day. It was super easy to..."
+excerpt: "A simple vegan breakfast: Greek chickpeas on toast, simmered in a tomato sauce with smoked paprika and cinnamon. Easy to make with just a few ingredients."
 date: "February 1, 2021"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_fresh_fruit_platter_1770342130993.webp"
 author: "Transform Team"
 ---

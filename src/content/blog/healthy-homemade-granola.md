@@ -2,7 +2,7 @@
 title: "Healthy Homemade Granola"
 excerpt: "A healthy homemade granola recipe that’s easy to make, vegan, and a nice way to switch up your breakfast."
 date: "December 5, 2021"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
 author: "Transform Team"
 ---

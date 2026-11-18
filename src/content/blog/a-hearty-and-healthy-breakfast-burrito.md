@@ -2,7 +2,7 @@
 title: "A Hearty and Healthy Breakfast Burrito"
 excerpt: "A hearty and healthy breakfast burrito recipe, plus why fueling your body with the right kind of food makes all the difference."
 date: "May 1, 2023"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_protein_pancakes_1770342147430.webp"
 author: "Transform Team"
 ---

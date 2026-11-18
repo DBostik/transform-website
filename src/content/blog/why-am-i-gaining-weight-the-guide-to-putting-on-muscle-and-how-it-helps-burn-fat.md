@@ -1,6 +1,6 @@
 ---
 title: "Why Am I Gaining Weight? The Guide to Putting on Muscle and How it Helps Burn Fat"
-excerpt: "Maybe you’ve just started your fitness journey. And you’ve been good about it–you’ve maintained a routine, you’re eating well, and you’re doing what y..."
+excerpt: "Gaining weight after starting a workout routine? Here’s why it happens, how your metabolism works, and why gaining muscle helps you burn fat."
 date: "February 26, 2023"
 category: "Fitness Advice"
 image: "/images/blog/blog_dumbbell_row_1770342065458.webp"

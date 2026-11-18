@@ -1,8 +1,8 @@
 ---
 title: "Five Different Frittatas"
-excerpt: "As you’ve heard me tell you in posts prior to this, fueling your body with healthy, nutritious food is crucial and so is keeping what you eat varied..."
+excerpt: "Five easy frittata recipes, from broccoli feta to roasted red pepper and spinach. Each one packs protein and a morning serving of veggies."
 date: "January 17, 2023"
-category: "Fitness Advice"
+category: "Recipes"
 image: "/images/blog/blog_sweet_potato_fries_1770394632528.webp"
 author: "Transform Team"
 ---
