@@ -3,6 +3,24 @@
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-ZEZSZKQ9T7');
+
+  // HighLevel's form posts this 'embedded_iframe_' message to the page only after a successful submit.
+  // Its other 'set-sticky-contacts' message carries the visitor's contact details, so it is ignored.
+  window.addEventListener('message', function (e) {
+    var d = e.data;
+    if (e.origin !== 'https://api.leadconnectorhq.com' || !Array.isArray(d) || d[0] !== 'set-sticky-contacts' ||
+        typeof d[1] !== 'string' || d[1].indexOf('embedded_iframe_') !== 0) return;
+    var frame = Array.prototype.find.call(document.getElementsByTagName('iframe'), function (f) {
+      return f.contentWindow === e.source;
+    });
+    var formId = frame && frame.getAttribute('data-form-id');
+    var trainerApplicationFormId = 'jMe8mTMQ9KAzjuVH570a';
+    if (formId === trainerApplicationFormId) return;
+    gtag('event', 'generate_lead', {
+      form_name: (frame && frame.getAttribute('data-form-name')) || 'unknown',
+      form_id: formId || 'unknown'
+    });
+  });
 </script> <link rel="canonical" href="https://transformpersonaltraining.com/contact/"><link rel="icon" href="/favicon.ico" sizes="48x48"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><meta property="og:type" content="website"><meta property="og:title" content="Contact Transform Personal Training | Lakeview Chicago"><meta property="og:description" content="Schedule your free consultation at Transform Personal Training. Located at 2900 N Broadway St, Chicago, IL 60657. Call (312) 635-5139 or fill out our contact form."><meta property="og:url" content="https://transformpersonaltraining.com/contact/"><meta property="og:image" content="https://transformpersonaltraining.com/images/hero-background.webp"><meta property="og:site_name" content="Transform Personal Training"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Contact Transform Personal Training | Lakeview Chicago"><meta name="twitter:description" content="Schedule your free consultation at Transform Personal Training. Located at 2900 N Broadway St, Chicago, IL 60657. Call (312) 635-5139 or fill out our contact form."><meta name="twitter:image" content="https://transformpersonaltraining.com/images/hero-background.webp"><meta name="description" content="Schedule your free consultation at Transform Personal Training. Located at 2900 N Broadway St, Chicago, IL 60657. Call (312) 635-5139 or fill out our contact form."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="/styles/design-tokens.css"><link rel="stylesheet" href="/styles/components.css"><script type="application/ld+json">
     {
       "@context": "https://schema.org",

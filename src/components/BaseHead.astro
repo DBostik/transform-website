@@ -28,6 +28,24 @@ const ogImage = new URL(image, SITE).href;
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config', 'G-ZEZSZKQ9T7');
+
+  // HighLevel's form posts this 'embedded_iframe_' message to the page only after a successful submit.
+  // Its other 'set-sticky-contacts' message carries the visitor's contact details, so it is ignored.
+  window.addEventListener('message', function (e) {
+    var d = e.data;
+    if (e.origin !== 'https://api.leadconnectorhq.com' || !Array.isArray(d) || d[0] !== 'set-sticky-contacts' ||
+        typeof d[1] !== 'string' || d[1].indexOf('embedded_iframe_') !== 0) return;
+    var frame = Array.prototype.find.call(document.getElementsByTagName('iframe'), function (f) {
+      return f.contentWindow === e.source;
+    });
+    var formId = frame && frame.getAttribute('data-form-id');
+    var trainerApplicationFormId = 'jMe8mTMQ9KAzjuVH570a';
+    if (formId === trainerApplicationFormId) return;
+    gtag('event', 'generate_lead', {
+      form_name: (frame && frame.getAttribute('data-form-name')) || 'unknown',
+      form_id: formId || 'unknown'
+    });
+  });
 </script>
 
 <link rel="canonical" href={canonical} />
