@@ -1,7 +1,7 @@
 ---
 title: "What Are Macros? Protein, Carbs and Fat Explained"
 excerpt: "A plain-English guide to protein, carbs and fat: what each one does, how many calories it carries, and a simple way to start paying attention to them without weighing every bite."
-date: "November 15, 2026"
+date: "January 10, 2023"
 category: "Nutrition Tips"
 image: "/images/blog/blog_sweet_potato_fries_1770394632528.webp"
 author: "Transform Team"

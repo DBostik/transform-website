@@ -1,7 +1,7 @@
 ---
 title: "Protein Basics: How Much You Need and Easy Ways to Get It"
 excerpt: "What protein actually does for your body, roughly how much active adults need, and simple foods and snacks that make it easier to get there."
-date: "November 15, 2026"
+date: "May 7, 2022"
 category: "Nutrition Tips"
 image: "/images/blog/blog_jump_rope_1770342200549.webp"
 author: "Transform Team"

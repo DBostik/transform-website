@@ -1,7 +1,7 @@
 ---
 title: "Curb Those Junk Food Cravings"
 excerpt: "Why cravings for sweet and salty snacks happen, and simple, realistic ways to make them quieter without banning the foods you love."
-date: "November 15, 2026"
+date: "May 13, 2023"
 category: "Nutrition Tips"
 image: "/images/blog/blog_healthy_snacks_1770342052534.webp"
 author: "Transform Team"

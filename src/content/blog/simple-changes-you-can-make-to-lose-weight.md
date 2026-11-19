@@ -1,7 +1,7 @@
 ---
 title: "Simple Changes You Can Make to Lose Weight"
 excerpt: "Everyday habits that make weight loss easier without a crash diet, from what you eat and drink to the small bites that quietly add up."
-date: "November 15, 2026"
+date: "November 18, 2022"
 category: "Nutrition Tips"
 image: "/images/blog/blog_kettlebell_swing_1770429076780.webp"
 author: "Transform Team"
