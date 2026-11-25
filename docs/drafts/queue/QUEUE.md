@@ -19,6 +19,7 @@ Every other Wednesday. These are planned dates only; the Published column below 
 - Wed Oct 28, 2026: post 17, What Happens in Your Free First Personal Training Session (Chicago)
 - Wed Nov 11, 2026: post 7, How Long Does It Take to See Results With a Personal Trainer?
 - Wed Nov 25, 2026: post 18, In-Home Personal Trainer vs Private Studio in Chicago: Which Fits You? (approved by Dave Nov 10, 2026, image done. Must NOT ship before Wed Nov 25, 2026.)
+- Wed Dec 9, 2026: post 19, Training With a Partner in Chicago: 1-on-1 vs Semi-Private Sessions (approved by David Nov 24, 2026, image done. Must NOT ship before Wed Dec 9, 2026.)
 
 This replaces an earlier plan that put post 17 on Oct 7. These dates are the earliest each post may ship: the task must not stage post 16 before Wed Oct 14 or post 17 before Wed Oct 28, even though both are already approved. If a run happens early (a manual run, or the 12-day gap from the previous post allowing it), skip it and wait for the scheduled date.
 
@@ -45,7 +46,8 @@ Statuses: not started / drafted / approved / published. Image: needed / done.
 | 15 | 15-what-daily-check-ins-actually-mean.md | What Daily Check-Ins With a Coach Actually Mean | not started | needed | |
 | 16 | 16-how-much-does-online-personal-training-cost.md | How Much Does Online Personal Training Cost? (2026 Guide) | published | done | October 14, 2026 |
 | 17 | 17-what-happens-in-your-free-first-personal-training-session.md | What Happens in Your Free First Personal Training Session (Chicago) | published | done | October 28, 2026 |
-| 18 | 18-in-home-personal-trainer-vs-private-studio-chicago.md | In-Home Personal Trainer vs Private Studio in Chicago: Which Fits You? | approved | done | |
+| 18 | 18-in-home-personal-trainer-vs-private-studio-chicago.md | In-Home Personal Trainer vs Private Studio in Chicago: Which Fits You? | published | done | November 25, 2026 |
+| 19 | 19-training-with-a-partner-in-chicago-1on1-vs-semi-private.md | Training With a Partner in Chicago: 1-on-1 vs Semi-Private Sessions | approved | done | |
 
 ## Staging dates
 
@@ -66,6 +68,8 @@ Posts 14 and 15 come from the Querywright briefs pack and support the online tra
 7. Post 14, online vs in-person - Dec 23
 8. Post 15, daily check-ins - Jan 6
 9. Posts 8, 9, 10 after that
+
+Updated Nov 24, 2026: David picked a new brief for the Wed Dec 9, 2026 slot and approved the draft the same day, with image done. That slot is post 19, Training With a Partner in Chicago: 1-on-1 vs Semi-Private Sessions. Approved by David Nov 24, 2026. Must NOT ship before Wed Dec 9, 2026. Posts 11 and 12 remain not started and seasonal.
 
 Order updated Sept 29, 2026: post 17 added at Oct 28 (confirmed by Dave; this replaces an earlier Oct 7 plan), everything after it moved back one slot, and the Nov 11 double booking removed. Dates for posts 6, 16 and 17 are confirmed; dates from Nov 11 on are tentative. Posts 16 and 17 were approved by Dave Sept 29, 2026, so the not-before dates above (16 no earlier than Oct 14, 17 no earlier than Oct 28) are what hold them back. Because the task stages the lowest-numbered approved post, post 7 should not be approved until after post 17 is staged on Oct 28, or it would jump ahead of 16 and 17.
 
